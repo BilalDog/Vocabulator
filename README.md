@@ -28,6 +28,12 @@ usage/literal note). You judge yourself:
 
 Cards are grouped into categories (Greetings, Directions, Food, Shopping) —
 filter which ones show up in your study queue via the chips at the top.
+
+Want to see or drill words that aren't due yet? Tap any of the 5 box tiles
+(Daily / 2 Days / 1 Week / 2 Weeks / 1 Month) to practice exactly the cards
+sitting in that box right now — judging them in this mode doesn't move them
+between boxes or change their due date, it's just extra practice. Tap the
+box again (or "Exit" in the banner) to go back to your normal due queue.
 Phrases tagged **"verify"** haven't been confirmed by a fluent speaker yet —
 double-check them before relying on them.
 

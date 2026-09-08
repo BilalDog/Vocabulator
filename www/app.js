@@ -91,6 +91,7 @@ let queue = [];
 let currentIndex = 0;
 let activeCats = new Set(CATEGORIES.map((c) => c.key));
 let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-rw"; // "en-rw" or "rw-en"
+let practiceBoxIndex = null; // null = normal due-based study; 0-4 = practicing that box early
 
 function setDirection(newDirection) {
   direction = newDirection;
@@ -157,7 +158,12 @@ function saveProgress() {
   localStorage.setItem(STORAGE_PROGRESS, JSON.stringify(progress));
 }
 
-function getDueQueue() {
+function getStudyQueue() {
+  if (practiceBoxIndex !== null) {
+    return cards.filter(
+      (c) => activeCats.has(c.cat || "greetings") && progress[c.id].box === practiceBoxIndex
+    );
+  }
   const today = todayStr();
   return cards
     .filter((c) => activeCats.has(c.cat || "greetings"))
@@ -194,11 +200,25 @@ function renderBoxesOverview() {
   const el = document.getElementById("boxesOverview");
   el.innerHTML = BOX_LABELS.map(
     (label, i) => `
-      <div class="box-tile">
+      <button class="box-tile${practiceBoxIndex === i ? " practicing" : ""}" data-box="${i}" type="button">
         <div class="box-count">${counts[i]}</div>
         <div class="box-name">${label}</div>
-      </div>`
+      </button>`
   ).join("");
+}
+
+function renderPracticeBanner() {
+  const el = document.getElementById("practiceBanner");
+  if (practiceBoxIndex === null) {
+    el.hidden = true;
+    el.innerHTML = "";
+    return;
+  }
+  el.hidden = false;
+  el.innerHTML = `
+    <span>Practicing <b>${BOX_LABELS[practiceBoxIndex]}</b> — answers here don't change the schedule.</span>
+    <button id="exitPracticeBtn" class="btn secondary" type="button">Exit</button>
+  `;
 }
 
 function renderCatFilter() {
@@ -218,7 +238,8 @@ function renderDirectionToggle() {
 
 function renderStudy() {
   renderBoxesOverview();
-  queue = getDueQueue();
+  renderPracticeBanner();
+  queue = getStudyQueue();
   currentIndex = 0;
   renderCurrentCard();
 }
@@ -230,6 +251,10 @@ function renderCurrentCard() {
   if (currentIndex >= queue.length) {
     noCardsEl.hidden = false;
     cardEl.hidden = true;
+    document.getElementById("noCardsText").textContent =
+      practiceBoxIndex !== null
+        ? `No cards in "${BOX_LABELS[practiceBoxIndex]}" right now.`
+        : "🎉 No cards due right now. Come back later, or add more cards.";
     return;
   }
 
@@ -366,7 +391,7 @@ document.getElementById("showAnswerBtn").addEventListener("click", () => {
 
 document.getElementById("correctBtn").addEventListener("click", () => {
   const card = queue[currentIndex];
-  markCorrect(card.id);
+  if (practiceBoxIndex === null) markCorrect(card.id);
   currentIndex++;
   renderBoxesOverview();
   renderCurrentCard();
@@ -374,10 +399,24 @@ document.getElementById("correctBtn").addEventListener("click", () => {
 
 document.getElementById("wrongBtn").addEventListener("click", () => {
   const card = queue[currentIndex];
-  markWrong(card.id);
+  if (practiceBoxIndex === null) markWrong(card.id);
   currentIndex++;
   renderBoxesOverview();
   renderCurrentCard();
+});
+
+document.getElementById("boxesOverview").addEventListener("click", (e) => {
+  const tile = e.target.closest(".box-tile");
+  if (!tile) return;
+  const boxIndex = Number(tile.dataset.box);
+  practiceBoxIndex = practiceBoxIndex === boxIndex ? null : boxIndex;
+  renderStudy();
+});
+
+document.getElementById("practiceBanner").addEventListener("click", (e) => {
+  if (e.target.id !== "exitPracticeBtn") return;
+  practiceBoxIndex = null;
+  renderStudy();
 });
 
 document.getElementById("addCardForm").addEventListener("submit", (e) => {

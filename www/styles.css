@@ -141,6 +141,35 @@ main {
   border-radius: var(--radius);
   padding: 10px 6px;
   text-align: center;
+  font: inherit;
+  width: 100%;
+  cursor: pointer;
+}
+
+.box-tile.practicing {
+  border-color: var(--accent);
+  background: var(--accent-soft, #f1ece3);
+}
+
+.boxes-hint {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin: -12px 0 16px;
+}
+
+.practice-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: #f1ece3;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+  color: var(--accent-dark);
 }
 
 .box-tile .box-count {
