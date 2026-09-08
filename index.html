@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vocabulator — Kinyarwanda Flashcards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Vocabulator</h1>
+    <p class="subtitle">Kinyarwanda everyday phrases — Leitner box system</p>
+    <nav class="tabs">
+      <button class="tab-btn active" data-view="study">Study</button>
+      <button class="tab-btn" data-view="manage">Manage Cards</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="view-study" class="view active">
+      <div class="boxes-overview" id="boxesOverview"></div>
+
+      <div id="studyArea">
+        <div id="noCards" class="empty-state" hidden>
+          <p>🎉 No cards due right now. Come back later, or add more cards.</p>
+        </div>
+
+        <div id="card" class="flashcard" hidden>
+          <div class="card-meta">
+            <span id="cardBoxLabel" class="badge"></span>
+            <span id="cardCounter"></span>
+          </div>
+          <div class="card-front">
+            <p id="cardFront"></p>
+          </div>
+          <div class="card-back" id="cardBackWrap" hidden>
+            <p id="cardBack"></p>
+          </div>
+
+          <div class="card-actions">
+            <button id="showAnswerBtn" class="btn primary">Show answer</button>
+            <div id="judgeButtons" class="judge-buttons" hidden>
+              <button id="wrongBtn" class="btn danger">✗ Didn't know it</button>
+              <button id="correctBtn" class="btn success">✓ Knew it</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-manage" class="view">
+      <form id="addCardForm" class="add-card-form">
+        <input type="text" id="inputFront" placeholder="Kinyarwanda phrase" required />
+        <input type="text" id="inputBack" placeholder="English meaning" required />
+        <button type="submit" class="btn primary">Add card</button>
+      </form>
+      <div id="cardList" class="card-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
