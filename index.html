@@ -4,6 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vocabulator — Kinyarwanda Flashcards</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#3f7d5a" />
+  <meta name="description" content="Learn everyday Kinyarwanda phrases with the 5-box Leitner spaced-repetition system." />
+
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Vocabulator" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -18,6 +29,13 @@
 
   <main>
     <section id="view-study" class="view active">
+      <div class="notice">
+        ⚠️ <b>Check before you trust.</b> Phrases marked <b>“verify”</b> haven't been confirmed by a
+        fluent Kinyarwanda speaker yet — double check them before relying on them.
+      </div>
+
+      <div class="cats" id="catFilter"></div>
+
       <div class="boxes-overview" id="boxesOverview"></div>
 
       <div id="studyArea">
@@ -27,14 +45,18 @@
 
         <div id="card" class="flashcard" hidden>
           <div class="card-meta">
+            <span id="cardCat" class="cat-tag"></span>
             <span id="cardBoxLabel" class="badge"></span>
-            <span id="cardCounter"></span>
+            <span id="cardVerify" class="flag-tag" hidden>verify</span>
           </div>
           <div class="card-front">
             <p id="cardFront"></p>
           </div>
           <div class="card-back" id="cardBackWrap" hidden>
             <p id="cardBack"></p>
+            <p id="cardPron" class="pron"></p>
+            <button id="speakBtn" class="speak" title="Listen">🔊</button>
+            <p id="cardLit" class="literal"></p>
           </div>
 
           <div class="card-actions">
@@ -44,14 +66,16 @@
               <button id="correctBtn" class="btn success">✓ Knew it</button>
             </div>
           </div>
+
+          <div class="card-counter" id="cardCounter"></div>
         </div>
       </div>
     </section>
 
     <section id="view-manage" class="view">
       <form id="addCardForm" class="add-card-form">
-        <input type="text" id="inputFront" placeholder="Kinyarwanda phrase" required />
-        <input type="text" id="inputBack" placeholder="English meaning" required />
+        <input type="text" id="inputFront" placeholder="English phrase" required />
+        <input type="text" id="inputBack" placeholder="Kinyarwanda phrase" required />
         <button type="submit" class="btn primary">Add card</button>
       </form>
       <div id="cardList" class="card-list"></div>
