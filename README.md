@@ -17,9 +17,11 @@ Cards live in one of 5 boxes, each with a review interval:
 | 5   | Every month |
 
 Every card starts in Box 1. Each study session shows the cards that are due
-today, prompting you in **English**. You try to recall the Kinyarwanda, then
-tap "Show answer" to reveal it (with a rough pronunciation guide, a 🔊
-listen button, and a usage/literal note). You judge yourself:
+today. A toggle above the card lets you pick the direction: **English →
+Kinyarwanda** (default — recall the Kinyarwanda phrase) or **Kinyarwanda →
+English** (recognize the meaning instead); your choice is remembered. Tap
+"Show answer" to reveal it (with a rough pronunciation guide and a
+usage/literal note). You judge yourself:
 
 - **✓ Knew it** — the card advances to the next box (a longer interval).
 - **✗ Didn't know it** — the card goes back to Box 1 (daily review).

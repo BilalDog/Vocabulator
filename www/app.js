@@ -5,6 +5,7 @@ const BOX_INTERVAL_DAYS = [1, 2, 7, 14, 30];
 
 const STORAGE_CARDS = "vocabulator_cards";
 const STORAGE_PROGRESS = "vocabulator_progress";
+const STORAGE_DIRECTION = "vocabulator_direction";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
 const SEED_VERSION = 2; // bump when SEED_CARDS content changes, to merge in new cards
 
@@ -89,6 +90,12 @@ let progress = {};
 let queue = [];
 let currentIndex = 0;
 let activeCats = new Set(CATEGORIES.map((c) => c.key));
+let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-rw"; // "en-rw" or "rw-en"
+
+function setDirection(newDirection) {
+  direction = newDirection;
+  localStorage.setItem(STORAGE_DIRECTION, direction);
+}
 
 function todayStr() {
   return new Date().toISOString().slice(0, 10);
@@ -201,6 +208,14 @@ function renderCatFilter() {
   ).join("");
 }
 
+function renderDirectionToggle() {
+  const el = document.getElementById("directionToggle");
+  el.innerHTML = `
+    <button class="direction-btn${direction === "en-rw" ? " on" : ""}" data-direction="en-rw">English → Kinyarwanda</button>
+    <button class="direction-btn${direction === "rw-en" ? " on" : ""}" data-direction="rw-en">Kinyarwanda → English</button>
+  `;
+}
+
 function renderStudy() {
   renderBoxesOverview();
   queue = getDueQueue();
@@ -224,14 +239,25 @@ function renderCurrentCard() {
   const card = queue[currentIndex];
   const p = progress[card.id];
 
+  const rwIsPrompt = direction === "rw-en";
+  const promptText = rwIsPrompt ? card.rw : card.en;
+  const answerText = rwIsPrompt ? card.en : card.rw;
+  const pronText = card.pron ? `[${card.pron}]` : "";
+
   document.getElementById("cardBoxLabel").textContent = BOX_LABELS[p.box];
   document.getElementById("cardCounter").textContent = `${currentIndex + 1} / ${queue.length}`;
   document.getElementById("cardCat").textContent = catLabel(card.cat);
   document.getElementById("cardVerify").hidden = !card.verify;
-  document.getElementById("cardFront").textContent = card.en;
-  document.getElementById("cardBack").textContent = card.rw;
-  document.getElementById("cardPron").textContent = card.pron ? `[${card.pron}]` : "";
+  document.getElementById("cardFront").textContent = promptText;
+  document.getElementById("cardBack").textContent = answerText;
   document.getElementById("cardLit").textContent = card.lit || "";
+
+  // The pronunciation guide belongs to the Kinyarwanda text specifically —
+  // show it wherever that text is, but the literal/usage note often gives
+  // the answer away outright, so it always stays behind "Show answer".
+  document.getElementById("cardFrontPron").textContent = rwIsPrompt ? pronText : "";
+  document.getElementById("cardFrontPron").hidden = !rwIsPrompt;
+  document.getElementById("cardPron").textContent = rwIsPrompt ? "" : pronText;
 
   document.getElementById("cardBackWrap").hidden = true;
   document.getElementById("showAnswerBtn").hidden = false;
@@ -324,6 +350,14 @@ document.getElementById("catFilter").addEventListener("click", (e) => {
   renderStudy();
 });
 
+document.getElementById("directionToggle").addEventListener("click", (e) => {
+  const newDirection = e.target.dataset.direction;
+  if (!newDirection || newDirection === direction) return;
+  setDirection(newDirection);
+  renderDirectionToggle();
+  renderCurrentCard();
+});
+
 document.getElementById("showAnswerBtn").addEventListener("click", () => {
   document.getElementById("cardBackWrap").hidden = false;
   document.getElementById("showAnswerBtn").hidden = true;
@@ -408,4 +442,5 @@ if ("serviceWorker" in navigator && !window.Capacitor) {
 // --- Init ---
 loadState();
 renderCatFilter();
+renderDirectionToggle();
 renderStudy();
