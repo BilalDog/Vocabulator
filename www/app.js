@@ -366,7 +366,7 @@ if ("speechSynthesis" in window) {
   window.speechSynthesis.onvoiceschanged = () => {};
 }
 
-if ("serviceWorker" in navigator) {
+if ("serviceWorker" in navigator && !window.Capacitor) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   });

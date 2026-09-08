@@ -1,0 +1,8 @@
+{
+  "appId": "com.vocabulator.app",
+  "appName": "Vocabulator",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

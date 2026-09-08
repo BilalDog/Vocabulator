@@ -1,8 +1,8 @@
 # Vocabulator
 
 A flashcard app for learning everyday Kinyarwanda phrases, using the
-**"5 Fächer" (5-box) Leitner system**. Installable as a PWA on Android (and
-other platforms).
+**"5 Fächer" (5-box) Leitner system**. Packaged as a real installable
+Android app (no hosting required) via [Capacitor](https://capacitorjs.com/).
 
 ## How it works
 
@@ -29,44 +29,67 @@ filter which ones show up in your study queue via the chips at the top.
 Phrases tagged **"verify"** haven't been confirmed by a fluent speaker yet —
 double-check them before relying on them.
 
-Progress is stored in the browser's `localStorage`, so it persists between
-visits on the same device/browser.
+Progress is stored on-device (`localStorage` inside the app's WebView), so
+it persists between launches.
 
-## Installing on Android
+## Get the Android APK
 
-The app is a Progressive Web App (manifest + service worker + icons), so
-Chrome on Android can install it like a native app — but this only works
-when the site is served over **HTTPS** (or `localhost`); it will **not**
-offer to install when opened directly from a `file://` path.
+The web app (in `www/`) is bundled directly into a native Android app with
+Capacitor — everything runs locally on the device, offline, with **no
+hosting needed**. A GitHub Actions workflow builds the actual `.apk` file
+(this repo's sandboxed dev environment can't reach the Android SDK's
+download servers, but GitHub's own CI runners can):
 
-Easiest way to get an HTTPS URL for this repo:
+1. Push to this repo (already done for this branch) — this triggers the
+   **Build Android APK** workflow automatically. You can also trigger it
+   manually from the **Actions** tab (`workflow_dispatch`).
+2. Open the repo on GitHub → **Actions** tab → the latest **Build Android
+   APK** run → download the **vocabulator-debug-apk** artifact (a `.zip`
+   containing `app-debug.apk`).
+3. Transfer `app-debug.apk` to your Android phone (or open the Actions page
+   directly in your phone's browser and download it there).
+4. Tap the file to install. Android will ask you to allow installs from
+   that source (Settings → apps → "Install unknown apps") the first time —
+   allow it, then install.
+5. Launch "Vocabulator" from your app drawer. It works fully offline from
+   then on.
 
-1. On GitHub: **Settings → Pages** → set source to the `main` branch (root),
-   save. GitHub gives you a URL like
-   `https://<your-username>.github.io/Vocabulator/`.
-2. Open that URL in Chrome on your Android phone.
-3. Tap the **⋮** menu → **"Install app"** (or you'll see an automatic
-   "Add to Home screen" banner). Confirm.
-4. The app now launches full-screen from your home screen like any other
-   installed app, and works offline after the first load.
+This is a debug build (unsigned for the Play Store, fine for installing
+directly on your own device). Building it again after editing phrases in
+`www/app.js` just means pushing — the workflow re-runs and produces a fresh
+APK.
 
-(Any other static host — Netlify, Vercel, Cloudflare Pages, etc. — works the
-same way, since there's no backend/build step required.)
+### Building the APK yourself instead
 
-## Running locally
+If you have Android Studio (or just the Android SDK + a JDK) on your own
+machine, you don't need GitHub Actions at all:
 
-No build step required. To test PWA features (install prompt, offline
-support) you need to serve it over HTTP rather than opening the file
+```bash
+npm install
+npx cap sync android
+cd android
+./gradlew assembleDebug
+# output: android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+## Running the web version locally
+
+No build step required for the plain web app. To test PWA features (install
+prompt, offline support) serve it over HTTP rather than opening the file
 directly, e.g.:
 
 ```bash
+cd www
 python3 -m http.server 8080
 ```
 
-then open `http://localhost:8080` in your browser.
+then open `http://localhost:8080` in your browser. On Android Chrome this
+can also be "installed" as a PWA (⋮ menu → "Install app") if you host it
+somewhere over HTTPS — but the APK above is the no-hosting option.
 
 ## Managing cards
 
-Use the "Manage Cards" tab to add your own phrases or delete existing ones.
-The built-in seed list has ~55 everyday Kinyarwanda phrases across
-greetings, directions, food, and shopping.
+Use the "Manage Cards" tab in the app to add your own phrases or delete
+existing ones. The built-in seed list has ~55 everyday Kinyarwanda phrases
+across greetings, directions, food, and shopping. Edit `www/app.js`
+directly to change the seed list (`SEED_CARDS`).
