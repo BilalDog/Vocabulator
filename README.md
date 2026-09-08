@@ -57,7 +57,16 @@ download servers, but GitHub's own CI runners can):
 This is a debug build (unsigned for the Play Store, fine for installing
 directly on your own device). Building it again after editing phrases in
 `www/app.js` just means pushing — the workflow re-runs and produces a fresh
-APK.
+APK, always signed with the same committed debug key
+(`android/app/debug.keystore`) so future installs update in place instead of
+conflicting.
+
+> **One-time step:** if you already installed an APK built *before* this
+> fixed keystore was added, Android will refuse to install the new one over
+> it ("app not installed as package conflicts with an existing package") —
+> that older build was signed with a random, throwaway key. Uninstall the
+> old Vocabulator app once, then install the new APK. Every build from here
+> on shares the same signing key, so this only needs doing once.
 
 ### Building the APK yourself instead
 
