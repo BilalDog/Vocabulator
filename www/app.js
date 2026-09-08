@@ -238,24 +238,40 @@ function renderCurrentCard() {
   document.getElementById("judgeButtons").hidden = true;
 }
 
-function speak(text) {
-  if (!("speechSynthesis" in window)) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  const voices = window.speechSynthesis.getVoices();
-  const pick =
-    voices.find((v) => /rw|kiny/i.test(v.lang)) ||
-    voices.find((v) => /sw/i.test(v.lang)) ||
-    voices.find((v) => /en/i.test(v.lang));
-  if (pick) u.voice = pick;
-  u.rate = 0.85;
-  window.speechSynthesis.speak(u);
+let editingId = null;
+
+function catOptions(selected) {
+  return CATEGORIES.map(
+    (c) => `<option value="${c.key}"${c.key === selected ? " selected" : ""}>${c.label}</option>`
+  ).join("");
+}
+
+function renderEditForm(card) {
+  return `
+    <div class="card-row editing" data-id="${card.id}">
+      <div class="edit-form">
+        <input class="edit-en" type="text" placeholder="English phrase" value="${escapeHtml(card.en)}" />
+        <input class="edit-rw" type="text" placeholder="Kinyarwanda phrase" value="${escapeHtml(card.rw)}" />
+        <input class="edit-pron" type="text" placeholder="Pronunciation (optional)" value="${escapeHtml(card.pron || "")}" />
+        <input class="edit-lit" type="text" placeholder="Note / literal meaning (optional)" value="${escapeHtml(card.lit || "")}" />
+        <select class="edit-cat">${catOptions(card.cat)}</select>
+        <label class="edit-verify-row">
+          <input class="edit-verify" type="checkbox" ${card.verify ? "checked" : ""} />
+          Needs verification by a fluent speaker
+        </label>
+        <div class="edit-actions">
+          <button class="btn secondary edit-cancel" type="button">Cancel</button>
+          <button class="btn primary edit-save" type="button">Save</button>
+        </div>
+      </div>
+    </div>`;
 }
 
 function renderManage() {
   const listEl = document.getElementById("cardList");
   listEl.innerHTML = cards
     .map((card) => {
+      if (card.id === editingId) return renderEditForm(card);
       const p = progress[card.id];
       return `
         <div class="card-row" data-id="${card.id}">
@@ -264,7 +280,10 @@ function renderManage() {
             <div class="row-back">${escapeHtml(card.rw)}${card.pron ? " &middot; [" + escapeHtml(card.pron) + "]" : ""}</div>
           </div>
           <span class="row-box">${BOX_LABELS[p.box]}</span>
-          <button class="row-delete" title="Delete">✕</button>
+          <div class="row-actions">
+            <button class="row-edit" title="Edit">✎</button>
+            <button class="row-delete" title="Delete">✕</button>
+          </div>
         </div>`;
     })
     .join("");
@@ -311,11 +330,6 @@ document.getElementById("showAnswerBtn").addEventListener("click", () => {
   document.getElementById("judgeButtons").hidden = false;
 });
 
-document.getElementById("speakBtn").addEventListener("click", () => {
-  const card = queue[currentIndex];
-  if (card) speak(card.rw);
-});
-
 document.getElementById("correctBtn").addEventListener("click", () => {
   const card = queue[currentIndex];
   markCorrect(card.id);
@@ -352,19 +366,38 @@ document.getElementById("addCardForm").addEventListener("submit", (e) => {
 });
 
 document.getElementById("cardList").addEventListener("click", (e) => {
-  if (!e.target.classList.contains("row-delete")) return;
   const row = e.target.closest(".card-row");
+  if (!row) return;
   const id = row.dataset.id;
-  cards = cards.filter((c) => c.id !== id);
-  delete progress[id];
-  saveCards();
-  saveProgress();
-  renderManage();
-});
 
-if ("speechSynthesis" in window) {
-  window.speechSynthesis.onvoiceschanged = () => {};
-}
+  if (e.target.classList.contains("row-delete")) {
+    cards = cards.filter((c) => c.id !== id);
+    delete progress[id];
+    saveCards();
+    saveProgress();
+    renderManage();
+  } else if (e.target.classList.contains("row-edit")) {
+    editingId = id;
+    renderManage();
+  } else if (e.target.classList.contains("edit-cancel")) {
+    editingId = null;
+    renderManage();
+  } else if (e.target.classList.contains("edit-save")) {
+    const card = cards.find((c) => c.id === id);
+    const en = row.querySelector(".edit-en").value.trim();
+    const rw = row.querySelector(".edit-rw").value.trim();
+    if (!en || !rw) return;
+    card.en = en;
+    card.rw = rw;
+    card.pron = row.querySelector(".edit-pron").value.trim();
+    card.lit = row.querySelector(".edit-lit").value.trim();
+    card.cat = row.querySelector(".edit-cat").value;
+    card.verify = row.querySelector(".edit-verify").checked;
+    saveCards();
+    editingId = null;
+    renderManage();
+  }
+});
 
 if ("serviceWorker" in navigator && !window.Capacitor) {
   window.addEventListener("load", () => {

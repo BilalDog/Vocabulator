@@ -13,6 +13,8 @@
 
 * { box-sizing: border-box; }
 
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -210,20 +212,6 @@ main {
   margin-top: 14px !important;
 }
 
-.speak {
-  margin-top: 14px;
-  background: #f1ece3;
-  color: var(--accent-dark);
-  border: none;
-  border-radius: 999px;
-  width: 48px;
-  height: 48px;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-.speak:active { transform: scale(0.94); }
-
 .card-actions {
   margin-top: 24px;
 }
@@ -312,10 +300,59 @@ main {
   border-radius: 999px;
 }
 
+.card-row .row-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.card-row .row-edit,
 .card-row .row-delete {
   background: none;
   border: none;
-  color: var(--danger);
   cursor: pointer;
   font-size: 1rem;
+  padding: 4px 6px;
+}
+
+.card-row .row-edit { color: var(--accent-dark); }
+.card-row .row-delete { color: var(--danger); }
+
+.card-row.editing {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.edit-form .edit-verify-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.edit-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.btn.secondary {
+  background: var(--border);
+  color: var(--text);
 }
