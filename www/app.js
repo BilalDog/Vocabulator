@@ -91,7 +91,7 @@ let queue = [];
 let currentIndex = 0;
 let activeCats = new Set(CATEGORIES.map((c) => c.key));
 let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-rw"; // "en-rw" or "rw-en"
-let practiceBoxIndex = null; // null = normal due-based study; 0-4 = practicing that box early
+let activeBoxFilter = null; // null = all boxes; 0-4 = only cards currently in that box
 
 function setDirection(newDirection) {
   direction = newDirection;
@@ -159,16 +159,13 @@ function saveProgress() {
 }
 
 function getStudyQueue() {
-  if (practiceBoxIndex !== null) {
-    return cards.filter(
-      (c) => activeCats.has(c.cat || "greetings") && progress[c.id].box === practiceBoxIndex
-    );
-  }
-  const today = todayStr();
+  // Boxes are progress labels, not an access gate — every card is always
+  // studyable. Sort weaker (lower-box) cards first as a helpful default,
+  // but never hide anything based on due date.
   return cards
     .filter((c) => activeCats.has(c.cat || "greetings"))
-    .filter((c) => progress[c.id] && progress[c.id].due <= today)
-    .sort((a, b) => progress[a.id].box - progress[b.id].box);
+    .filter((c) => activeBoxFilter === null || progress[c.id].box === activeBoxFilter)
+    .sort((a, b) => progress[a.id].box - progress[b.id].box || (progress[a.id].due < progress[b.id].due ? -1 : 1));
 }
 
 function markCorrect(cardId) {
@@ -200,25 +197,11 @@ function renderBoxesOverview() {
   const el = document.getElementById("boxesOverview");
   el.innerHTML = BOX_LABELS.map(
     (label, i) => `
-      <button class="box-tile${practiceBoxIndex === i ? " practicing" : ""}" data-box="${i}" type="button">
+      <button class="box-tile${activeBoxFilter === i ? " active" : ""}" data-box="${i}" type="button">
         <div class="box-count">${counts[i]}</div>
         <div class="box-name">${label}</div>
       </button>`
   ).join("");
-}
-
-function renderPracticeBanner() {
-  const el = document.getElementById("practiceBanner");
-  if (practiceBoxIndex === null) {
-    el.hidden = true;
-    el.innerHTML = "";
-    return;
-  }
-  el.hidden = false;
-  el.innerHTML = `
-    <span>Practicing <b>${BOX_LABELS[practiceBoxIndex]}</b> — answers here don't change the schedule.</span>
-    <button id="exitPracticeBtn" class="btn secondary" type="button">Exit</button>
-  `;
 }
 
 function renderCatFilter() {
@@ -238,7 +221,6 @@ function renderDirectionToggle() {
 
 function renderStudy() {
   renderBoxesOverview();
-  renderPracticeBanner();
   queue = getStudyQueue();
   currentIndex = 0;
   renderCurrentCard();
@@ -252,9 +234,9 @@ function renderCurrentCard() {
     noCardsEl.hidden = false;
     cardEl.hidden = true;
     document.getElementById("noCardsText").textContent =
-      practiceBoxIndex !== null
-        ? `No cards in "${BOX_LABELS[practiceBoxIndex]}" right now.`
-        : "🎉 No cards due right now. Come back later, or add more cards.";
+      activeBoxFilter !== null
+        ? `No cards in "${BOX_LABELS[activeBoxFilter]}" right now.`
+        : "No cards match the current filters. Add more cards, or adjust the category filter.";
     return;
   }
 
@@ -391,7 +373,7 @@ document.getElementById("showAnswerBtn").addEventListener("click", () => {
 
 document.getElementById("correctBtn").addEventListener("click", () => {
   const card = queue[currentIndex];
-  if (practiceBoxIndex === null) markCorrect(card.id);
+  markCorrect(card.id);
   currentIndex++;
   renderBoxesOverview();
   renderCurrentCard();
@@ -399,7 +381,7 @@ document.getElementById("correctBtn").addEventListener("click", () => {
 
 document.getElementById("wrongBtn").addEventListener("click", () => {
   const card = queue[currentIndex];
-  if (practiceBoxIndex === null) markWrong(card.id);
+  markWrong(card.id);
   currentIndex++;
   renderBoxesOverview();
   renderCurrentCard();
@@ -409,13 +391,7 @@ document.getElementById("boxesOverview").addEventListener("click", (e) => {
   const tile = e.target.closest(".box-tile");
   if (!tile) return;
   const boxIndex = Number(tile.dataset.box);
-  practiceBoxIndex = practiceBoxIndex === boxIndex ? null : boxIndex;
-  renderStudy();
-});
-
-document.getElementById("practiceBanner").addEventListener("click", (e) => {
-  if (e.target.id !== "exitPracticeBtn") return;
-  practiceBoxIndex = null;
+  activeBoxFilter = activeBoxFilter === boxIndex ? null : boxIndex;
   renderStudy();
 });
 

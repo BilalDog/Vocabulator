@@ -16,26 +16,24 @@ Cards live in one of 5 boxes, each with a review interval:
 | 4   | Every 2 weeks |
 | 5   | Every month |
 
-Every card starts in Box 1. Each study session shows the cards that are due
-today. A toggle above the card lets you pick the direction: **English →
-Kinyarwanda** (default — recall the Kinyarwanda phrase) or **Kinyarwanda →
-English** (recognize the meaning instead); your choice is remembered. Tap
-"Show answer" to reveal it (with a rough pronunciation guide and a
-usage/literal note). You judge yourself:
+Every card starts in Box 1. The boxes are progress labels, not a lock —
+every card is always available to study, any time, like a real stack of
+flashcards in your hand. A toggle above the card lets you pick the
+direction: **English → Kinyarwanda** (default — recall the Kinyarwanda
+phrase) or **Kinyarwanda → English** (recognize the meaning instead); your
+choice is remembered. Tap "Show answer" to reveal it (with a rough
+pronunciation guide and a usage/literal note). You judge yourself:
 
-- **✓ Knew it** — the card advances to the next box (a longer interval).
-- **✗ Didn't know it** — the card goes back to Box 1 (daily review).
+- **✓ Knew it** — the card advances to the next box.
+- **✗ Didn't know it** — the card goes back to Box 1.
 
 Cards are grouped into categories (Greetings, Directions, Food, Shopping) —
-filter which ones show up in your study queue via the chips at the top.
-
-Want to see or drill words that aren't due yet? Tap any of the 5 box tiles
-(Daily / 2 Days / 1 Week / 2 Weeks / 1 Month) to practice exactly the cards
-sitting in that box right now — judging them in this mode doesn't move them
-between boxes or change their due date, it's just extra practice. Tap the
-box again (or "Exit" in the banner) to go back to your normal due queue.
-Phrases tagged **"verify"** haven't been confirmed by a fluent speaker yet —
-double-check them before relying on them.
+filter which ones show up in your study queue via the chips at the top. Tap
+any of the 5 box tiles (Daily / 2 Days / 1 Week / 2 Weeks / 1 Month) to
+narrow the queue to just the cards currently sitting in that box; tap it
+again to go back to studying everything. Phrases tagged **"verify"**
+haven't been confirmed by a fluent speaker yet — double-check them before
+relying on them.
 
 Progress is stored on-device (`localStorage` inside the app's WebView), so
 it persists between launches.

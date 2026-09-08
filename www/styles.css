@@ -146,7 +146,7 @@ main {
   cursor: pointer;
 }
 
-.box-tile.practicing {
+.box-tile.active {
   border-color: var(--accent);
   background: var(--accent-soft, #f1ece3);
 }
@@ -156,20 +156,6 @@ main {
   color: var(--muted);
   font-size: 0.78rem;
   margin: -12px 0 16px;
-}
-
-.practice-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  background: #f1ece3;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 10px 14px;
-  margin-bottom: 16px;
-  font-size: 0.85rem;
-  color: var(--accent-dark);
 }
 
 .box-tile .box-count {
