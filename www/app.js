@@ -11,7 +11,7 @@ const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 2; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 3; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -55,9 +55,43 @@ function seedKey(seed) {
   return lang + ":" + seed.translations[lang].text + "|" + seed.en;
 }
 
+// Some German entries were originally seeded as bare dictionary "stems"
+// (e.g. "ander-") that are never actually used uninflected -- replaced
+// with a natural, usable word form (and a clearer English gloss). Since
+// that changes the seedKey (text+en), an already-saved entry needs
+// patching in place before the normal seedKey-based merge below, or it'd
+// just get a duplicate added alongside the old broken one instead of
+// being fixed.
+const LEGACY_DE_FIXES = {
+  "all-": ["alle", "all"],
+  "ander-": ["andere", "other"],
+  "best-": ["beste", "best"],
+  "dein-": ["dein", "your (informal, singular)"],
+  "dies-": ["dieser", "this; this one"],
+  "ein-": ["ein", "a; one"],
+  "Feier-": ["der Feiertag", "the (public) holiday"],
+  "jed-": ["jeder", "each; every"],
+  "letzt-": ["letzte", "last"],
+  "lieb-": ["lieb", "dear; nice"],
+  "Lieblings-": ["der Lieblingsfilm", "(the) favorite movie"],
+  "meist-": ["die meisten", "most (of them/people)"],
+  "nächst-": ["nächste", "next"],
+  "unser-": ["unser", "our"],
+  "welch-": ["welcher", "which"],
+};
+
 function loadState() {
   const storedEntries = localStorage.getItem(STORAGE_ENTRIES);
   entries = storedEntries ? JSON.parse(storedEntries) : [];
+
+  for (const e of entries) {
+    const t = e.translations.de;
+    const fix = t && LEGACY_DE_FIXES[t.text];
+    if (fix) {
+      t.text = fix[0];
+      e.en = fix[1];
+    }
+  }
 
   const seedVersion = Number(localStorage.getItem(SEED_VERSION_KEY) || 0);
   if (seedVersion < SEED_VERSION) {

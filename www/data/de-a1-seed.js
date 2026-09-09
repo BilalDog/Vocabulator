@@ -6,6 +6,10 @@
 // study on-ramp instead of one 685-word bucket. A smaller set of standard
 // items (numbers, weekdays, months, seasons, colors, compass directions)
 // comes from its supplementary word-group list and keeps its own category.
+//
+// A few source entries are dictionary "stems" (e.g. "ander-", "jed-") that
+// always take an ending and are never used bare -- those were replaced with
+// a natural, actually-usable inflected form (e.g. "andere", "jeder").
 window.DE_A1_SEED_ENTRIES = 
 [
   {
@@ -117,11 +121,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "all (stem: alles, alle, aller)",
-    "cat": "Tier 2 (Common)",
+    "en": "all",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "all-",
+        "text": "alle",
         "pron": "",
         "lit": "Alles Gute! Das ist alles. Sind alle da? Alle Freunde kommen. Hast du alles?",
         "verify": false
@@ -213,11 +217,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "other (stem: andere, anderer)",
+    "en": "other",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "ander-",
+        "text": "andere",
         "pron": "",
         "lit": "WiIlst du diese Jacke? – Nein, ich möchte die andere.",
         "verify": false
@@ -1257,11 +1261,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "best (stem)",
+    "en": "best",
     "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
-        "text": "best-",
+        "text": "beste",
         "pron": "",
         "lit": "Am besten treffen wir uns morgen.",
         "verify": false
@@ -1833,11 +1837,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "your (stem)",
+    "en": "your (informal, singular)",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "dein-",
+        "text": "dein",
         "pron": "",
         "lit": "Ist das dein Auto? Ist das deins?",
         "verify": false
@@ -1881,11 +1885,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "this (stem)",
+    "en": "this; this one",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "dies-",
+        "text": "dieser",
         "pron": "",
         "lit": "Ich nehme lieber diesen Kuchen.",
         "verify": false
@@ -2145,11 +2149,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "one; a (stem)",
+    "en": "a; one",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "ein-",
+        "text": "ein",
         "pron": "",
         "lit": "Ich nehme ein Bier. Willst du auch eins? Ist hier einer, der das kann?",
         "verify": false
@@ -2601,11 +2605,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "celebration (stem)",
+    "en": "the (public) holiday",
     "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
-        "text": "Feier-",
+        "text": "der Feiertag",
         "pron": "",
         "lit": "z. B. Feierabend, Feiertag Am Montag ist Feiertag.",
         "verify": false
@@ -4101,11 +4105,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "each; every (stem)",
+    "en": "each; every",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "jed-",
+        "text": "jeder",
         "pron": "",
         "lit": "Blumen kannst du in jedem Bahnhof kaufen.",
         "verify": false
@@ -4845,11 +4849,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "last (stem)",
+    "en": "last",
     "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
-        "text": "letzt-",
+        "text": "letzte",
         "pron": "",
         "lit": "Morgen ist der letzte Kurstag.",
         "verify": false
@@ -4881,11 +4885,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "dear; nice (stem)",
+    "en": "dear; nice",
     "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
-        "text": "lieb-",
+        "text": "lieb",
         "pron": "",
         "lit": "Liebe Susanne, lieber Hans,",
         "verify": false
@@ -4917,11 +4921,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "favorite (prefix)",
+    "en": "(the) favorite movie",
     "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
-        "text": "Lieblings-",
+        "text": "der Lieblingsfilm",
         "pron": "",
         "lit": "Mein Lieblingsfilm ist „Schwarze Augen“.",
         "verify": false
@@ -5121,11 +5125,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "most (stem)",
+    "en": "most (of them/people)",
     "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
-        "text": "meist-",
+        "text": "die meisten",
         "pron": "",
         "lit": "Die meisten Norddeutschen sind sehr groß.",
         "verify": false
@@ -5385,11 +5389,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "next (stem)",
+    "en": "next",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "nächst-",
+        "text": "nächste",
         "pron": "",
         "lit": "Sehen wir uns nächste Woche?",
         "verify": false
@@ -7317,11 +7321,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "our (stem)",
+    "en": "our",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "unser-",
+        "text": "unser",
         "pron": "",
         "lit": "Das ist unsere Lehrerin.",
         "verify": false
@@ -7785,11 +7789,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "which (stem)",
+    "en": "which",
     "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
-        "text": "welch-",
+        "text": "welcher",
         "pron": "",
         "lit": "Welches Buch möchtest du?",
         "verify": false
