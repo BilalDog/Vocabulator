@@ -57,7 +57,13 @@ A toggle above the card lets you pick the direction: **English → target
 language** (default — recall the translation) or **target language →
 English** (recognize the meaning instead); your choice is remembered. Tap
 "Show answer" to reveal it (with a pronunciation guide where available,
-and a usage/example note). You judge yourself:
+and a usage/example note). A small 🔊 button sits next to each side's text
+and plays it out loud when that side's language can actually be spoken —
+English and German use the device's built-in text-to-speech voices;
+Kinyarwanda has no reliable TTS voice on any platform, so it only plays
+from a real recording bundled with an entry (`translations.rw.audio`) and
+the button stays hidden until one exists for that word. You judge
+yourself:
 
 - **✓ Knew it** — the card advances to the next box.
 - **✗ Didn't know it** — the card goes back to Box 1.

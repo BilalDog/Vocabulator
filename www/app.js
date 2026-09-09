@@ -302,6 +302,41 @@ function renderStudy() {
   renderCurrentCard();
 }
 
+// --- Pronunciation playback ---
+// English/German use the device's built-in speech synthesis voices, which
+// are near-universal for those languages. Kinyarwanda has no reliable TTS
+// voice on any mainstream platform, so it can only ever be played from a
+// pre-recorded audio file (translations.<lang>.audio, see rw-seed.js) --
+// there's no in-between "best effort" here, since a wrong-language voice
+// mangling Kinyarwanda is worse than no button at all.
+const SPEECH_LANG_TAGS = { en: "en-US", de: "de-DE" };
+
+function speakText(text, langCode) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  const bcp47 = SPEECH_LANG_TAGS[langCode];
+  if (bcp47) u.lang = bcp47;
+  const voices = window.speechSynthesis.getVoices();
+  const pick = voices.find((v) => v.lang.toLowerCase().startsWith(langCode));
+  if (pick) u.voice = pick;
+  u.rate = 0.9;
+  window.speechSynthesis.speak(u);
+}
+
+function playAudioFile(path) {
+  new Audio(path).play().catch(() => {});
+}
+
+// Returns a click handler for this side of the card, or null if it can't
+// be spoken at all (so the caller can hide the button instead of showing
+// one that does nothing).
+function speakHandlerFor(langCode, text, audioPath) {
+  if (SPEECH_LANG_TAGS[langCode]) return () => speakText(text, langCode);
+  if (audioPath) return () => playAudioFile(audioPath);
+  return null;
+}
+
 function renderCurrentCard() {
   const noCardsEl = document.getElementById("noCards");
   const cardEl = document.getElementById("card");
@@ -338,6 +373,21 @@ function renderCurrentCard() {
   document.getElementById("cardFront").textContent = promptText;
   document.getElementById("cardBack").textContent = answerText;
   document.getElementById("cardLit").textContent = t.lit || "";
+
+  const frontLang = targetIsPrompt ? activeLanguage : "en";
+  const backLang = targetIsPrompt ? "en" : activeLanguage;
+  const frontAudio = targetIsPrompt ? t.audio : null;
+  const backAudio = targetIsPrompt ? null : t.audio;
+
+  const speakFrontBtn = document.getElementById("speakFrontBtn");
+  const frontHandler = speakHandlerFor(frontLang, promptText, frontAudio);
+  speakFrontBtn.hidden = !frontHandler;
+  speakFrontBtn.onclick = frontHandler;
+
+  const speakBackBtn = document.getElementById("speakBackBtn");
+  const backHandler = speakHandlerFor(backLang, answerText, backAudio);
+  speakBackBtn.hidden = !backHandler;
+  speakBackBtn.onclick = backHandler;
 
   // The pronunciation guide belongs to the target-language text -- show it
   // wherever that text is, but the note often gives the answer away

@@ -307,10 +307,27 @@ main {
   color: #d4a017;
 }
 
+.text-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 .card-front p {
   font-size: 1.6rem;
   font-weight: 600;
   margin: 10px 0;
+}
+
+.speak-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--muted);
+  padding: 0;
 }
 
 .card-back {

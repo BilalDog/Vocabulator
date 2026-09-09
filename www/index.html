@@ -58,11 +58,17 @@
             <button id="markBtn" class="mark-btn" type="button" aria-label="Mark word">☆</button>
           </div>
           <div class="card-front">
-            <p id="cardFront"></p>
+            <div class="text-row">
+              <p id="cardFront"></p>
+              <button id="speakFrontBtn" class="speak-btn" type="button" aria-label="Play pronunciation" hidden>🔊</button>
+            </div>
             <p id="cardFrontPron" class="pron" hidden></p>
           </div>
           <div class="card-back" id="cardBackWrap" hidden>
-            <p id="cardBack"></p>
+            <div class="text-row">
+              <p id="cardBack"></p>
+              <button id="speakBackBtn" class="speak-btn" type="button" aria-label="Play pronunciation" hidden>🔊</button>
+            </div>
             <p id="cardPron" class="pron"></p>
             <p id="cardLit" class="literal"></p>
           </div>

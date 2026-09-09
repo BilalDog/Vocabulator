@@ -1,5 +1,13 @@
 // Everyday Kinyarwanda phrases (curated, not from an official list --
 // translations best-effort).
+//
+// No mainstream text-to-speech engine has a Kinyarwanda voice, so unlike
+// English/German (spoken live via the browser's speech synthesis), a
+// Kinyarwanda entry can only be played back from a real recording. An
+// entry can optionally add `"audio": "audio/rw/<file>.mp3"` next to its
+// "text"/"pron"/"lit" fields, pointing at a file under www/audio/rw/ --
+// until such a file exists for it, the speak button for that word simply
+// stays hidden. None of the entries below have one yet.
 window.RW_SEED_ENTRIES = 
 [
   {
