@@ -15,15 +15,19 @@ menu in the top right:
   them.
 - **German (A1)** — the official [Goethe-Zertifikat A1 "Start Deutsch
   1"](https://www.goethe.de/) Wortliste (the certification word list),
-  ~775 entries, extracted directly from the source document with each
+  ~800 entries, extracted directly from the source document with each
   official example sentence kept as a usage note, plus a couple dozen
   common words found missing after cross-checking three real exam papers
   (the Modellsatz and two Übungssätze). Its general-vocab entries are
   split into three category chips — **Level 1**, **Level 2**, **Level 3**
   — by everyday frequency, so you're not facing the whole list at once;
-  work through Level 1 first, then expand. The other categories (Zahlen,
-  Wochentage, Monate, ...) are the document's own small supplementary word
-  groups. A **Sätze** category holds ~44 short, simple sentences for the
+  work through Level 1 first, then expand. **Zahlen**, **Farben**, and
+  **Himmelsrichtungen** are the document's own small supplementary word
+  groups; **Zeit** collects that same list's other time-related words —
+  weekdays, months, seasons, seconds/minutes/days/weeks/years, and parts
+  of the day; **Maße & Gewichte** and **Land** cover its measurement units
+  and country/nationality words. A **Sätze** category holds ~44 short,
+  simple sentences for the
   exam's **Sprechen** (speaking) part — self-introduction lines, sample
   information questions, and polite requests — modeled on the actual
   Kandidatenblätter cue cards (topics and pictures) from those same three

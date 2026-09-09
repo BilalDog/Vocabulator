@@ -11,7 +11,7 @@ const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 7; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 8; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries

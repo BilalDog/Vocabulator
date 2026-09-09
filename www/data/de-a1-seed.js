@@ -4,8 +4,14 @@
 // official example sentence kept as a usage note), split into three
 // frequency tiers (1 = essential, 2 = common, 3 = extended/specific) as a
 // study on-ramp instead of one 685-word bucket. A smaller set of standard
-// items (numbers, weekdays, months, seasons, colors, compass directions)
-// comes from its supplementary word-group list and keeps its own category.
+// items (numbers, colors, compass directions) comes from its supplementary
+// word-group list and keeps its own category. A "Zeit" category collects
+// that same list's time-related words -- weekdays, months, seasons, and
+// the smaller Zeitmaße/Tageszeiten groups (second, minute, day, week,
+// year, morning, noon, afternoon, evening, night) -- into one place
+// rather than a chip per sub-group. "Maße & Gewichte" and "Land" cover
+// that list's measurement units (meter, kilo, degree, ...) and country/
+// nationality words (Deutschland, deutsch, Europa, europäisch, ...).
 //
 // A few source entries are dictionary "stems" (e.g. "ander-", "jed-") that
 // always take an ending and are never used bare -- those were replaced with
@@ -6955,7 +6961,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hour",
-    "cat": "Level 1",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "die Stunde, -n",
@@ -8659,7 +8665,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Sunday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Sonntag",
@@ -8671,7 +8677,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Monday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Montag",
@@ -8683,7 +8689,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Tuesday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Dienstag",
@@ -8695,7 +8701,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Wednesday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Mittwoch",
@@ -8707,7 +8713,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Thursday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Donnerstag",
@@ -8719,7 +8725,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Friday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Freitag",
@@ -8731,7 +8737,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Saturday",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Samstag/Sonnabend",
@@ -8743,7 +8749,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the weekend",
-    "cat": "Wochentage",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "das Wochenende",
@@ -8755,7 +8761,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "January",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Januar",
@@ -8767,7 +8773,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "February",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Februar",
@@ -8779,7 +8785,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "March",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der März",
@@ -8791,7 +8797,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "April",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der April",
@@ -8803,7 +8809,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "May",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Mai",
@@ -8815,7 +8821,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "June",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Juni",
@@ -8827,7 +8833,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "July",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Juli",
@@ -8839,7 +8845,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "August",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der August",
@@ -8851,7 +8857,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "September",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der September",
@@ -8863,7 +8869,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "October",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Oktober",
@@ -8875,7 +8881,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "November",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der November",
@@ -8887,7 +8893,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "December",
-    "cat": "Monate",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Dezember",
@@ -8899,7 +8905,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "spring",
-    "cat": "Jahreszeiten",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Frühling/das Frühjahr",
@@ -8911,7 +8917,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "summer",
-    "cat": "Jahreszeiten",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Sommer",
@@ -8923,7 +8929,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "autumn; fall",
-    "cat": "Jahreszeiten",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Herbst",
@@ -8935,7 +8941,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "winter",
-    "cat": "Jahreszeiten",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Winter",
@@ -9295,7 +9301,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the morning; forenoon",
-    "cat": "Level 2",
+    "cat": "Zeit",
     "translations": {
       "de": {
         "text": "der Vormittag",
@@ -9875,6 +9881,318 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Kann ich bitte diese Schuhe anprobieren?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the second",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "die Sekunde, -n",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the minute",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "die Minute, -n",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the day",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Tag, -e",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the week",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "die Woche, -n",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the year",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "das Jahr, -e",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the morning",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Morgen",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "noon; midday",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Mittag",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the afternoon",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Nachmittag, -e",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the evening",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Abend, -e",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the night",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "die Nacht, -ä, e",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a meter",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Meter",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a centimeter",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Zentimeter",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a kilometer",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Kilometer",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a square meter",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Quadratmeter",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a degree",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Grad",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a percent",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Prozent",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a liter",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Liter",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a gram",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Gramm",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a pound (500g)",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Pfund",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a kilo(gram)",
+    "cat": "Maße & Gewichte",
+    "translations": {
+      "de": {
+        "text": "ein Kilo(gramm)",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Germany",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "Deutschland",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the German (person)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "der/die Deutsche, -n",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "German (adjective)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "deutsch",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Europe",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "Europa",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the European (person)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "der Europäer",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "European (adjective)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "europäisch",
         "pron": "",
         "lit": "",
         "verify": false
