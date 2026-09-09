@@ -31,7 +31,7 @@ let progress = {};
 // under its own category and under the synthetic MARKED_CATEGORY chip, so
 // selecting either one is enough to bring it into the queue.
 let marked = {};
-const MARKED_CATEGORY = "★ Marked";
+const MARKED_CATEGORY = "★ Markiert";
 let queue = [];
 let currentIndex = 0;
 let activeCats = new Set();

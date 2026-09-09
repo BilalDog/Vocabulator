@@ -64,7 +64,7 @@ and a usage/example note). You judge yourself:
 
 Tap the **☆** star in the top-right of the card to mark it — it fills in
 (**★**) and the word also becomes available under a synthetic
-**"★ Marked"** category chip, alongside its normal category (selecting
+**"★ Markiert"** category chip, alongside its normal category (selecting
 either one is enough to bring it into the queue, not both at once), so
 you can pull together a personal study set of tricky words regardless of
 which category they're actually in.
