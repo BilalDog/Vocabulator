@@ -1,9 +1,11 @@
-const CACHE_NAME = "vocabulator-v2";
+const CACHE_NAME = "vocabulator-v3";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./data/rw-seed.js",
+  "./data/de-a1-seed.js",
   "./manifest.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

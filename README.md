@@ -1,8 +1,26 @@
 # Vocabulator
 
-A flashcard app for learning everyday Kinyarwanda phrases, using the
-**"5 Fächer" (5-box) Leitner system**. Packaged as a real installable
-Android app (no hosting required) via [Capacitor](https://capacitorjs.com/).
+A flashcard app for learning vocabulary, using the **"5 Fächer" (5-box)
+Leitner system**. Packaged as a real installable Android app (no hosting
+required) via [Capacitor](https://capacitorjs.com/).
+
+## Languages
+
+English is always the known language; pick a target language from the ☰
+menu in the top right:
+
+- **Kinyarwanda** — ~55 everyday phrases (greetings, directions, food,
+  shopping), curated by hand. Entries tagged **"verify"** haven't been
+  confirmed by a fluent speaker yet — double-check them before relying on
+  them.
+- **German (A1)** — the official [Goethe-Zertifikat A1 "Start Deutsch
+  1"](https://www.goethe.de/) Wortliste (the certification word list),
+  ~750 entries, extracted directly from the source document with each
+  official example sentence kept as a usage note.
+
+Vocabulary is stored as one list of English entries, each optionally
+carrying a translation per language — adding a third language later is
+just new translation data, not a new app structure.
 
 ## How it works
 
@@ -18,25 +36,37 @@ Cards live in one of 5 boxes, each with a review interval:
 
 Every card starts in Box 1. The boxes are progress labels, not a lock —
 every card is always available to study, any time, like a real stack of
-flashcards in your hand. A toggle above the card lets you pick the
-direction: **English → Kinyarwanda** (default — recall the Kinyarwanda
-phrase) or **Kinyarwanda → English** (recognize the meaning instead); your
-choice is remembered. Tap "Show answer" to reveal it (with a rough
-pronunciation guide and a usage/literal note). You judge yourself:
+flashcards in your hand. Progress is tracked separately per language, so
+knowing a word in Kinyarwanda doesn't affect its German box.
+
+A toggle above the card lets you pick the direction: **English → target
+language** (default — recall the translation) or **target language →
+English** (recognize the meaning instead); your choice is remembered. Tap
+"Show answer" to reveal it (with a pronunciation guide where available,
+and a usage/example note). You judge yourself:
 
 - **✓ Knew it** — the card advances to the next box.
 - **✗ Didn't know it** — the card goes back to Box 1.
 
-Cards are grouped into categories (Greetings, Directions, Food, Shopping) —
-filter which ones show up in your study queue via the chips at the top. Tap
-any of the 5 box tiles (Daily / 2 Days / 1 Week / 2 Weeks / 1 Month) to
-narrow the queue to just the cards currently sitting in that box; tap it
-again to go back to studying everything. Phrases tagged **"verify"**
-haven't been confirmed by a fluent speaker yet — double-check them before
-relying on them.
+Cards are grouped into categories — filter which ones show up in your
+study queue via the chips at the top (categories are specific to whichever
+language you're studying). Tap any of the 5 box tiles (Daily / 2 Days / 1
+Week / 2 Weeks / 1 Month) to narrow the queue to just the cards currently
+sitting in that box; tap it again to go back to studying everything.
 
 Progress is stored on-device (`localStorage` inside the app's WebView), so
 it persists between launches.
+
+## Managing cards
+
+Open **Manage Cards** from the ☰ menu to add, edit, or delete entries. The
+list shows every entry (regardless of which language you're currently
+studying) with a badge for each language it already has a translation for.
+Tapping the edit (✎) icon on a row shows one section per language — fill
+in a section that's empty to add that language's translation to an
+existing entry, which is the way to backfill entries when a new language
+is added later. Adding a new card via the form at the top adds it for
+whichever language is currently active.
 
 ## Get the Android APK
 
@@ -61,18 +91,11 @@ download servers, but GitHub's own CI runners can):
    then on.
 
 This is a debug build (unsigned for the Play Store, fine for installing
-directly on your own device). Building it again after editing phrases in
-`www/app.js` just means pushing — the workflow re-runs and produces a fresh
-APK, always signed with the same committed debug key
-(`android/app/debug.keystore`) so future installs update in place instead of
-conflicting.
-
-> **One-time step:** if you already installed an APK built *before* this
-> fixed keystore was added, Android will refuse to install the new one over
-> it ("app not installed as package conflicts with an existing package") —
-> that older build was signed with a random, throwaway key. Uninstall the
-> old Vocabulator app once, then install the new APK. Every build from here
-> on shares the same signing key, so this only needs doing once.
+directly on your own device). Building it again after editing the seed
+data just means pushing — the workflow re-runs and produces a fresh APK,
+always signed with the same committed debug key
+(`android/app/debug.keystore`) so future installs update in place instead
+of conflicting.
 
 ### Building the APK yourself instead
 
@@ -102,9 +125,12 @@ then open `http://localhost:8080` in your browser. On Android Chrome this
 can also be "installed" as a PWA (⋮ menu → "Install app") if you host it
 somewhere over HTTPS — but the APK above is the no-hosting option.
 
-## Managing cards
+## Project structure
 
-Use the "Manage Cards" tab in the app to add your own phrases or delete
-existing ones. The built-in seed list has ~55 everyday Kinyarwanda phrases
-across greetings, directions, food, and shopping. Edit `www/app.js`
-directly to change the seed list (`SEED_CARDS`).
+- `www/app.js` — app logic (Leitner boxes, menu/navigation, rendering).
+- `www/data/rw-seed.js`, `www/data/de-a1-seed.js` — seed vocabulary per
+  language, each `window.<X>_SEED_ENTRIES`, merged into the entry list on
+  first load (bump `SEED_VERSION` in `app.js` after editing a seed file so
+  existing installs pick up the changes).
+- `android/`, `capacitor.config.json`, `package.json` — the Capacitor
+  Android wrapper (see "Get the Android APK" above).

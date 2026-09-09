@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vocabulator — Kinyarwanda Flashcards</title>
+  <title>Vocabulator — Flashcards</title>
 
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#3f7d5a" />
-  <meta name="description" content="Learn everyday Kinyarwanda phrases with the 5-box Leitner spaced-repetition system." />
+  <meta name="description" content="Learn vocabulary with the 5-box Leitner spaced-repetition system." />
 
   <link rel="icon" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
@@ -19,31 +19,33 @@
 </head>
 <body>
   <header class="app-header">
-    <h1>Vocabulator</h1>
-    <p class="subtitle">Kinyarwanda everyday phrases — Leitner box system</p>
-    <nav class="tabs">
-      <button class="tab-btn active" data-view="study">Study</button>
-      <button class="tab-btn" data-view="manage">Manage Cards</button>
-    </nav>
+    <div class="header-top">
+      <h1>Vocabulator</h1>
+      <button id="menuBtn" class="menu-btn" type="button" aria-label="Menu">☰</button>
+    </div>
+    <p class="subtitle" id="subtitle"></p>
   </header>
+
+  <div id="menuPanel" class="menu-panel" hidden>
+    <div class="menu-section">
+      <div class="menu-label">Language</div>
+      <div id="languageMenuItems" class="menu-lang-list"></div>
+    </div>
+    <div class="menu-section">
+      <button id="menuStudyBtn" class="menu-item" type="button">Study</button>
+      <button id="menuManageBtn" class="menu-item" type="button">Manage Cards</button>
+    </div>
+  </div>
 
   <main>
     <section id="view-study" class="view active">
-      <div class="notice">
-        ⚠️ <b>Check before you trust.</b> Phrases marked <b>“verify”</b> haven't been confirmed by a
-        fluent Kinyarwanda speaker yet — double check them before relying on them.
-      </div>
-
       <div class="cats" id="catFilter"></div>
-
-      <div class="direction-toggle" id="directionToggle"></div>
-
       <div class="boxes-overview" id="boxesOverview"></div>
-      <p class="boxes-hint">Tap a box to focus on just those cards.</p>
+      <div class="direction-toggle" id="directionToggle"></div>
 
       <div id="studyArea">
         <div id="noCards" class="empty-state" hidden>
-          <p id="noCardsText">🎉 No cards due right now. Come back later, or add more cards.</p>
+          <p id="noCardsText"></p>
         </div>
 
         <div id="card" class="flashcard" hidden>
@@ -76,15 +78,18 @@
     </section>
 
     <section id="view-manage" class="view">
+      <button id="backToStudyLink" class="back-link" type="button">← Study</button>
       <form id="addCardForm" class="add-card-form">
         <input type="text" id="inputFront" placeholder="English phrase" required />
-        <input type="text" id="inputBack" placeholder="Kinyarwanda phrase" required />
+        <input type="text" id="inputBack" placeholder="Translation" required />
         <button type="submit" class="btn primary">Add card</button>
       </form>
       <div id="cardList" class="card-list"></div>
     </section>
   </main>
 
+  <script src="data/rw-seed.js"></script>
+  <script src="data/de-a1-seed.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
