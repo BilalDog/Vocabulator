@@ -163,6 +163,32 @@ cd android
 # output: android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
+## Install as a PWA (auto-updating, no APK download)
+
+The APK above is fully offline but has to be manually re-downloaded and
+reinstalled every time it changes. As an alternative, the same `www/`
+folder is also deployed as a Progressive Web App via GitHub Pages on
+every push (`.github/workflows/deploy-pages.yml`), free static hosting
+with no server to maintain:
+
+1. On your Android phone, open the deployed URL in Chrome (shown as the
+   `github-pages` deployment's URL on this repo's **Actions** tab, or
+   under **Settings → Pages** once enabled — looks like
+   `https://<username>.github.io/<repo>/`).
+2. Chrome will offer **"Add to Home Screen" / "Install app"** (⋮ menu if
+   it doesn't prompt automatically). This adds a real home-screen icon
+   that opens full-screen, indistinguishable from a native app.
+3. From then on, it works fully offline (`sw.js` caches everything), and
+   updates itself automatically in the background — reopening it after a
+   change quietly picks up the new version, no download or reinstall.
+
+The first time, GitHub Pages needs to be turned on once for this repo:
+**Settings → Pages → Build and deployment → Source → "GitHub Actions"**.
+
+This does mean the PWA depends on that hosting being up (unlike the APK,
+which needs nothing once installed) — the two are independent, install
+whichever fits, or both.
+
 ## Running the web version locally
 
 No build step required for the plain web app. To test PWA features (install

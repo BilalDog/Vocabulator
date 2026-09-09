@@ -1,7 +1,7 @@
 {
-  "name": "Vocabulator — Kinyarwanda Flashcards",
+  "name": "Vocabulator — Flashcards",
   "short_name": "Vocabulator",
-  "description": "Learn everyday Kinyarwanda phrases with the 5-box Leitner spaced-repetition system.",
+  "description": "Learn Kinyarwanda or German (A1) vocabulary with the 5-box Leitner spaced-repetition system.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
