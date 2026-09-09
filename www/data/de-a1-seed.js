@@ -10,6 +10,11 @@
 // A few source entries are dictionary "stems" (e.g. "ander-", "jed-") that
 // always take an ending and are never used bare -- those were replaced with
 // a natural, actually-usable inflected form (e.g. "andere", "jeder").
+//
+// A further ~22 entries were added after cross-checking the word list
+// against three real Goethe "Start Deutsch 1" exam papers (Modellsatz +
+// two Übungssätze) and finding a handful of common, general-purpose words
+// that weren't yet covered (e.g. die Person, natürlich, die Telefonnummer).
 window.DE_A1_SEED_ENTRIES = 
 [
   {
@@ -9066,6 +9071,270 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "der Osten",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "a person",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "die Person",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "of course; naturally",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "natürlich",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "full",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "voll",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "half",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "halb",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "now",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "nun",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "again",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "wieder",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "thereupon; on it",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "darauf",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "first; at first",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "zuerst",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "to that; in addition",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "dazu",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "after that; afterward",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "danach",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "to wish",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "wünschen",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "to pass (an exam); to consist of",
+    "cat": "Tier 1 (Essential)",
+    "translations": {
+      "de": {
+        "text": "bestehen",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the phone number",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "die Telefonnummer",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the date of birth",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "das Geburtsdatum",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the passenger",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Fahrgast",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the sweater",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Pullover",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the dictionary",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "das Wörterbuch",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the morning; forenoon",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Vormittag",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the flight",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Flug",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "to sit down",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "sich setzen",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "the waiter",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Kellner",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "everyday life",
+    "cat": "Tier 2 (Common)",
+    "translations": {
+      "de": {
+        "text": "der Alltag",
         "pron": "",
         "lit": "",
         "verify": false
