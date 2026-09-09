@@ -19,12 +19,12 @@ menu in the top right:
   official example sentence kept as a usage note, plus a couple dozen
   common words found missing after cross-checking three real exam papers
   (the Modellsatz and two Übungssätze). Its general-vocab entries are
-  split into three category chips — **Tier 1 (Essential)**, **Tier 2
-  (Common)**, **Tier 3 (Extended)** — by everyday frequency, so you're not
-  facing the whole list at once; work through Tier 1 first, then expand.
-  The other categories (Zahlen, Wochentage, Monate, ...) are the
-  document's own small supplementary word groups. A **Sentences** category
-  holds ~44 complete, natural sentences (not single words) pulled directly
+  split into three category chips — **Level 1**, **Level 2**, **Level 3**
+  — by everyday frequency, so you're not facing the whole list at once;
+  work through Level 1 first, then expand. The other categories (Zahlen,
+  Wochentage, Monate, ...) are the document's own small supplementary word
+  groups. A **Sätze** category holds ~44 complete, natural sentences (not
+  single words) pulled directly
   from those same three exam papers' dialogues, phone messages, and
   personal letters — realistic things to actually say or write, not just
   vocabulary in isolation.

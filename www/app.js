@@ -11,7 +11,7 @@ const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 5; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 6; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -372,7 +372,9 @@ function switchView(view) {
 
 document.getElementById("menuBtn").addEventListener("click", () => {
   const panel = document.getElementById("menuPanel");
+  const opening = panel.hidden;
   panel.hidden = !panel.hidden;
+  if (opening) switchView("study");
 });
 
 document.addEventListener("click", (e) => {
@@ -387,11 +389,6 @@ document.getElementById("languageMenuItems").addEventListener("click", (e) => {
   const code = e.target.dataset.lang;
   if (!code) return;
   switchLanguage(code);
-  document.getElementById("menuPanel").hidden = true;
-});
-
-document.getElementById("menuStudyBtn").addEventListener("click", () => {
-  switchView("study");
   document.getElementById("menuPanel").hidden = true;
 });
 

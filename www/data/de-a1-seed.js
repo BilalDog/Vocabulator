@@ -16,7 +16,7 @@
 // two Übungssätze) and finding a handful of common, general-purpose words
 // that weren't yet covered (e.g. die Person, natürlich, die Telefonnummer).
 //
-// The "Sentences" category is a further ~44 complete, natural sentences
+// The "Sätze" category is a further ~44 complete, natural sentences
 // (not single words) drawn directly from those same three exam papers --
 // their dialogue transcripts, phone messages, and personal letters -- so
 // they're realistic, exam-grounded things to actually say or write.
@@ -24,7 +24,7 @@ window.DE_A1_SEED_ENTRIES =
 [
   {
     "en": "from; starting from",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ab",
@@ -36,7 +36,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "but",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "aber",
@@ -48,7 +48,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to depart",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "abfahren",
@@ -60,7 +60,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the departure",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Abfahrt",
@@ -72,7 +72,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hand in; to drop off",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "abgeben",
@@ -84,7 +84,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pick up; to collect",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "abholen",
@@ -96,7 +96,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sender",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Absender",
@@ -108,7 +108,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "attention!; watch out!",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "Achtung",
@@ -120,7 +120,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the address",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Adresse,-en",
@@ -132,7 +132,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "all",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "alle",
@@ -144,7 +144,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "alone",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "allein",
@@ -156,7 +156,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "so; thus",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "also",
@@ -168,7 +168,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "old",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "alt",
@@ -180,7 +180,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the age",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Alter",
@@ -192,7 +192,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at; on",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "an",
@@ -204,7 +204,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to offer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "anbieten",
@@ -216,7 +216,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the offer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Angebot, -e",
@@ -228,7 +228,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "other",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "andere",
@@ -240,7 +240,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to begin; to start",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "anfangen",
@@ -252,7 +252,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the beginning",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Anfang",
@@ -264,7 +264,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to click (on)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "anklicken",
@@ -276,7 +276,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to arrive",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ankommen",
@@ -288,7 +288,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the arrival",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Ankunft",
@@ -300,7 +300,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to mark with a cross/tick",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "ankreuzen",
@@ -312,7 +312,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to turn on",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "anmachen",
@@ -324,7 +324,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to register; to sign up",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) anmelden",
@@ -336,7 +336,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the registration",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Anmeldung",
@@ -348,7 +348,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the form of address; salutation",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Anrede",
@@ -360,7 +360,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to call (phone)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "anrufen",
@@ -372,7 +372,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the phone call",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Anruf, -e",
@@ -384,7 +384,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the answering machine",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Anrufbeantworter",
@@ -396,7 +396,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the announcement",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Ansage, -n",
@@ -408,7 +408,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the connection",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Anschluss",
@@ -420,7 +420,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be on (light/device)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "an sein",
@@ -432,7 +432,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to answer",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "antworten",
@@ -444,7 +444,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the answer",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Antwort, -en",
@@ -456,7 +456,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the advertisement; notice",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Anzeige, -n",
@@ -468,7 +468,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get dressed",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) anziehen",
@@ -480,7 +480,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apartment",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Apartment, -s",
@@ -492,7 +492,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apple",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Apfel, -Ä",
@@ -504,7 +504,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the appetite",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Appetit",
@@ -516,7 +516,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to work",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "arbeiten",
@@ -528,7 +528,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the work; job",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Arbeit, -en",
@@ -540,7 +540,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "unemployed",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "arbeitslos",
@@ -552,7 +552,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the workplace",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Arbeitsplatz, -ä, e",
@@ -564,7 +564,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the arm",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Arm, -e",
@@ -576,7 +576,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the doctor",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Arzt, -Ä, e",
@@ -588,7 +588,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "also; too",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "auch",
@@ -600,7 +600,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "on; onto",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "auf",
@@ -612,7 +612,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the task; assignment",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Aufgabe, -n",
@@ -624,7 +624,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stop",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "aufhören",
@@ -636,7 +636,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be open",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "auf sein",
@@ -648,7 +648,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get up; to stand up",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "aufstehen",
@@ -660,7 +660,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the elevator; lift",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Aufzug, -ü, e",
@@ -672,7 +672,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the eye",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Auge, -n",
@@ -684,7 +684,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "from; out of",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "aus",
@@ -696,7 +696,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the excursion; trip",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Ausflug",
@@ -708,7 +708,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fill out",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "ausfüllen",
@@ -720,7 +720,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the exit",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Ausgang",
@@ -732,7 +732,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the information",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Auskunft, -ü, e",
@@ -744,7 +744,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "abroad; foreign countries",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Ausland",
@@ -756,7 +756,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the foreigner",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Ausländer, -",
@@ -768,7 +768,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "foreign",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "ausländisch",
@@ -780,7 +780,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to turn off",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "ausmachen",
@@ -792,7 +792,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the statement",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Aussage, -n",
@@ -804,7 +804,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to look; to appear",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "aussehen",
@@ -816,7 +816,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be off; to be over",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "aus sein",
@@ -828,7 +828,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get off/out (vehicle)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "aussteigen",
@@ -840,7 +840,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ID card",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Ausweis",
@@ -852,7 +852,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get undressed",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) ausziehen",
@@ -864,7 +864,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the car",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Auto, -s",
@@ -876,7 +876,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the highway; motorway",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Autobahn, -en",
@@ -888,7 +888,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vending machine",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Automat",
@@ -900,7 +900,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "automatic",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "automatisch",
@@ -912,7 +912,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the baby",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Baby, -s",
@@ -924,7 +924,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bakery",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Bäckerei",
@@ -936,7 +936,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bathroom; bath",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Bad",
@@ -948,7 +948,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bathe",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "baden",
@@ -960,7 +960,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train; railway",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Bahn",
@@ -972,7 +972,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train station",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Bahnhof",
@@ -984,7 +984,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the platform",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Bahnsteig",
@@ -996,7 +996,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "soon",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bald",
@@ -1008,7 +1008,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the balcony",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Balkon",
@@ -1020,7 +1020,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the banana",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Banane, -n",
@@ -1032,7 +1032,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bank; the bench",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Bank",
@@ -1044,7 +1044,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "in cash",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bar",
@@ -1056,7 +1056,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the belly; stomach",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Bauch",
@@ -1068,7 +1068,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tree",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Baum, -ä, e",
@@ -1080,7 +1080,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the official; civil servant",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Beamte, -n",
@@ -1092,7 +1092,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to mean",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bedeuten",
@@ -1104,7 +1104,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to begin",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "beginnen",
@@ -1116,7 +1116,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at; near; with",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bei",
@@ -1128,7 +1128,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "both",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "beide",
@@ -1140,7 +1140,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the leg",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Bein, -e",
@@ -1152,7 +1152,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the example",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Beispiel, -e",
@@ -1164,7 +1164,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for example",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zum Beispiel/z. B.",
@@ -1176,7 +1176,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "known; well-known",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bekannt",
@@ -1188,7 +1188,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the acquaintance",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der/die Bekannte, -n",
@@ -1200,7 +1200,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get; to receive",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bekommen",
@@ -1212,7 +1212,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to use",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "benutzen",
@@ -1224,7 +1224,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the profession; job",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Beruf, -e",
@@ -1236,7 +1236,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "occupied; busy",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "besetzt",
@@ -1248,7 +1248,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to visit; to view",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "besichtigen",
@@ -1260,7 +1260,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "better",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "besser",
@@ -1272,7 +1272,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "best",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "beste",
@@ -1284,7 +1284,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to order",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bestellen",
@@ -1296,7 +1296,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to visit",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "besuchen",
@@ -1308,7 +1308,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bed",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Bett, -en",
@@ -1320,7 +1320,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pay",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bezahlen",
@@ -1332,7 +1332,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the beer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Bier",
@@ -1344,7 +1344,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the picture",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Bild, -er",
@@ -1356,7 +1356,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "cheap",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "billig",
@@ -1368,7 +1368,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the pear",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Birne, -n",
@@ -1380,7 +1380,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "until",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bis",
@@ -1392,7 +1392,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "a little; a bit",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bisschen",
@@ -1404,7 +1404,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "please",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bitte",
@@ -1416,7 +1416,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the request",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Bitte, -n",
@@ -1428,7 +1428,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ask; to request",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "bitten",
@@ -1440,7 +1440,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bitter",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "bitter",
@@ -1452,7 +1452,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stay; to remain",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bleiben",
@@ -1464,7 +1464,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the pencil",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Bleistift, -e",
@@ -1476,7 +1476,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the view; glance",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Blick",
@@ -1488,7 +1488,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the flower",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Blume, -n",
@@ -1500,7 +1500,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sheet (of paper); arch",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Bogen",
@@ -1512,7 +1512,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "angry; bad",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "böse",
@@ -1524,7 +1524,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to need",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "brauchen",
@@ -1536,7 +1536,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wide",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "breit",
@@ -1548,7 +1548,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the letter",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Brief, -e",
@@ -1560,7 +1560,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stamp",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Briefmarke, -n",
@@ -1572,7 +1572,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bring",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bringen",
@@ -1584,7 +1584,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bread",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Brot, -e",
@@ -1596,7 +1596,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bread roll",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Brötchen, –",
@@ -1608,7 +1608,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the brother",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Bruder, -ü",
@@ -1620,7 +1620,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the book",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Buch, -ü, er",
@@ -1632,7 +1632,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the letter (alphabet)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Buchstabe, -n",
@@ -1644,7 +1644,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to spell",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "buchstabieren",
@@ -1656,7 +1656,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bus",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Bus, -se",
@@ -1668,7 +1668,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the butter",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Butter",
@@ -1680,7 +1680,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the café",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Café, -s",
@@ -1692,7 +1692,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the CD",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die CD, -s",
@@ -1704,7 +1704,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the boss",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Chef",
@@ -1716,7 +1716,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "approximately; about",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "circa/ca.",
@@ -1728,7 +1728,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the computer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Computer, –",
@@ -1740,7 +1740,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "there; since",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "da",
@@ -1752,7 +1752,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lady",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Dame, -n",
@@ -1764,7 +1764,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "next to it; beside it",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "daneben",
@@ -1776,7 +1776,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to thank",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "danken",
@@ -1788,7 +1788,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "thanks; gratitude",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Dank",
@@ -1800,7 +1800,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "thank you",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "danke",
@@ -1812,7 +1812,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "then",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dann",
@@ -1824,7 +1824,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the date",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Datum",
@@ -1836,7 +1836,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to last; to take (time)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "dauern",
@@ -1848,7 +1848,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "your (informal, singular)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dein",
@@ -1860,7 +1860,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "because; for",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "denn",
@@ -1872,7 +1872,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (definite article)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der, die, das",
@@ -1884,7 +1884,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (accusative)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dich",
@@ -1896,7 +1896,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "this; this one",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dieser",
@@ -1908,7 +1908,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (dative)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dir",
@@ -1920,7 +1920,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the disco",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Disco",
@@ -1932,7 +1932,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the doctor",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Doktor",
@@ -1944,7 +1944,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the double room",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Doppelzimmer",
@@ -1956,7 +1956,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the village",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Dorf, -ö, er",
@@ -1968,7 +1968,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "there; from there; to there",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dort, -her, -hin",
@@ -1980,7 +1980,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "outside",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "draußen",
@@ -1992,7 +1992,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to print",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "drucken",
@@ -2004,7 +2004,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the printer",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Drucker, –",
@@ -2016,7 +2016,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to press; to push",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "drücken",
@@ -2028,7 +2028,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "through",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "durch",
@@ -2040,7 +2040,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the announcement",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Durchsage, -n",
@@ -2052,7 +2052,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be allowed to; may",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dürfen",
@@ -2064,7 +2064,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the thirst",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Durst",
@@ -2076,7 +2076,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to shower",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) duschen",
@@ -2088,7 +2088,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shower",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Dusche",
@@ -2100,7 +2100,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the corner",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Ecke, -n",
@@ -2112,7 +2112,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wife",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Ehefrau, -en/",
@@ -2124,7 +2124,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the husband",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Ehemann, ä, er",
@@ -2136,7 +2136,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the egg",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Ei, -er",
@@ -2148,7 +2148,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "hurried; urgent",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "eilig",
@@ -2160,7 +2160,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "a; one",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ein",
@@ -2172,7 +2172,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "simple; easy",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "einfach",
@@ -2184,7 +2184,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the entrance",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Eingang",
@@ -2196,7 +2196,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to shop; to buy",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "einkaufen",
@@ -2208,7 +2208,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to invite",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "einladen",
@@ -2220,7 +2220,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the invitation",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Einladung",
@@ -2232,7 +2232,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "once",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "einmal",
@@ -2244,7 +2244,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get on/in (vehicle)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "einsteigen",
@@ -2256,7 +2256,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the entry; admission",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Eintritt",
@@ -2268,7 +2268,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the single room",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Einzelzimmer",
@@ -2280,7 +2280,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the parents",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Eltern (pl.)",
@@ -2292,7 +2292,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the email",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die E-Mail, -s",
@@ -2304,7 +2304,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the recipient",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Empfänger, –",
@@ -2316,7 +2316,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to recommend",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "empfehlen",
@@ -2328,7 +2328,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to end",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "enden",
@@ -2340,7 +2340,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the end",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Ende",
@@ -2352,7 +2352,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to excuse; to forgive",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "entschuldigen",
@@ -2364,7 +2364,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apology; excuse me",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Entschuldigung",
@@ -2376,7 +2376,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "he",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "er",
@@ -2388,7 +2388,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the result",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Ergebnis, -se",
@@ -2400,7 +2400,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to explain",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "erklären",
@@ -2412,7 +2412,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to allow; to permit",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "erlauben",
@@ -2424,7 +2424,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the adult",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Erwachsene, -n",
@@ -2436,7 +2436,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to tell; to narrate",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "erzählen",
@@ -2448,7 +2448,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "it",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "es",
@@ -2460,7 +2460,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to eat",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "essen",
@@ -2472,7 +2472,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the food; meal",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Essen",
@@ -2484,7 +2484,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "your (plural)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "euer",
@@ -2496,7 +2496,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to drive; to go (by vehicle)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "fahren",
@@ -2508,7 +2508,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the driver",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fahrer",
@@ -2520,7 +2520,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (travel) ticket",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Fahrkarte, -n",
@@ -2532,7 +2532,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bicycle",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Fahrrad, -ä, er",
@@ -2544,7 +2544,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wrong; false",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "falsch",
@@ -2556,7 +2556,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the family",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Familie, -n",
@@ -2568,7 +2568,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the surname; last name",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Familienname",
@@ -2580,7 +2580,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the marital status",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Familienstand",
@@ -2592,7 +2592,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the color",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Farbe, -n",
@@ -2604,7 +2604,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fax",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Fax, -e",
@@ -2616,7 +2616,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (public) holiday",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Feiertag",
@@ -2628,7 +2628,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to celebrate",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "feiern",
@@ -2640,7 +2640,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be missing; to be lacking",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "fehlen",
@@ -2652,7 +2652,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mistake",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fehler, –",
@@ -2664,7 +2664,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to watch TV",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "fernsehen",
@@ -2676,7 +2676,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "finished; ready",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "fertig",
@@ -2688,7 +2688,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fire",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Feuer",
@@ -2700,7 +2700,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fever",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Fieber",
@@ -2712,7 +2712,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the film; movie",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Film, -e",
@@ -2724,7 +2724,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to find",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "finden",
@@ -2736,7 +2736,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the company; firm",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Firma",
@@ -2748,7 +2748,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fish",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fisch, -e",
@@ -2760,7 +2760,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bottle",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Flasche, -n",
@@ -2772,7 +2772,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the meat",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Fleisch",
@@ -2784,7 +2784,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fly",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "fliegen",
@@ -2796,7 +2796,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to depart (by plane)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "abfliegen",
@@ -2808,7 +2808,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the departure (flight)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Abflug",
@@ -2820,7 +2820,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the airport",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Flughafen",
@@ -2832,7 +2832,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the airplane",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Flugzeug",
@@ -2844,7 +2844,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the form (document)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Formular, -e",
@@ -2856,7 +2856,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the photo",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Foto, -s",
@@ -2868,7 +2868,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ask",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "fragen",
@@ -2880,7 +2880,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the question",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Frage, -n",
@@ -2892,7 +2892,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the woman; Mrs.",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Frau, -en",
@@ -2904,7 +2904,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "free",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "frei",
@@ -2916,7 +2916,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the free time; leisure",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Freizeit",
@@ -2928,7 +2928,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "foreign; strange",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "fremd",
@@ -2940,7 +2940,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be happy; glad",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) freuen",
@@ -2952,7 +2952,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the friend",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Freund, -e",
@@ -2964,7 +2964,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "earlier; formerly",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "früher",
@@ -2976,7 +2976,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to have breakfast",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "frühstücken",
@@ -2988,7 +2988,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the breakfast",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Frühstück",
@@ -3000,7 +3000,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the guided tour",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Führung",
@@ -3012,7 +3012,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "für",
@@ -3024,7 +3024,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the foot",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fuß, -ü, e",
@@ -3036,7 +3036,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "football; soccer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fußball",
@@ -3048,7 +3048,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the garden",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Garten",
@@ -3060,7 +3060,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the guest",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Gast, -ä, e",
@@ -3072,7 +3072,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to give",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "geben",
@@ -3084,7 +3084,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "born",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "geboren",
@@ -3096,7 +3096,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birth year",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Geburtsjahr",
@@ -3108,7 +3108,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birthplace",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Geburtsort",
@@ -3120,7 +3120,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birthday",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Geburtstag",
@@ -3132,7 +3132,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to please; to like",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "gefallen",
@@ -3144,7 +3144,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "against; around (time)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "gegen",
@@ -3156,7 +3156,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to go; to walk",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gehen",
@@ -3168,7 +3168,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to belong to",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "gehören",
@@ -3180,7 +3180,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the money",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Geld",
@@ -3192,7 +3192,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vegetables",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Gemüse",
@@ -3204,7 +3204,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the luggage",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Gepäck",
@@ -3216,7 +3216,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "just; straight",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gerade",
@@ -3228,7 +3228,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "straight ahead",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "geradeaus",
@@ -3240,7 +3240,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "gladly; willingly",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gern(e)",
@@ -3252,7 +3252,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shop; business",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Geschäft, -e",
@@ -3264,7 +3264,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the gift; present",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Geschenk, -e",
@@ -3276,7 +3276,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the siblings",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Geschwister (pl.)",
@@ -3288,7 +3288,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the conversation",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Gespräch, -e",
@@ -3300,7 +3300,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "yesterday",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gestern",
@@ -3312,7 +3312,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "died",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "gestorben",
@@ -3324,7 +3324,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the drink; beverage",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Getränk, -e",
@@ -3336,7 +3336,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the weight",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Gewicht",
@@ -3348,7 +3348,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to win",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "gewinnen",
@@ -3360,7 +3360,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the glass",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Glas, -ä, er",
@@ -3372,7 +3372,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to believe; to think",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "glauben",
@@ -3384,7 +3384,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "same; right away",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gleich",
@@ -3396,7 +3396,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (railway) track; platform",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Gleis, -e",
@@ -3408,7 +3408,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "luck; happiness",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Glück",
@@ -3420,7 +3420,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "happy",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "glücklich",
@@ -3432,7 +3432,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "congratulations",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Glückwunsch",
@@ -3444,7 +3444,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "degree(s) (Celsius)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "Grad (Celsius)",
@@ -3456,7 +3456,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to congratulate",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "gratulieren",
@@ -3468,7 +3468,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to grill; to barbecue",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "grillen",
@@ -3480,7 +3480,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "big; tall",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "groß",
@@ -3492,7 +3492,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the size",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Größe",
@@ -3504,7 +3504,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandparents",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Großeltern (pl.)",
@@ -3516,7 +3516,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandmother",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Großmutter",
@@ -3528,7 +3528,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandfather",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Großvater",
@@ -3540,7 +3540,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the group",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Gruppe, -n",
@@ -3552,7 +3552,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the greeting",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Gruß, -ü, e",
@@ -3564,7 +3564,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "valid",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "gültig",
@@ -3576,7 +3576,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "affordable; favorable",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "günstig",
@@ -3588,7 +3588,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "good",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "gut",
@@ -3600,7 +3600,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hair",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Haar, -e",
@@ -3612,7 +3612,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to have",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "haben",
@@ -3624,7 +3624,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the chicken",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Hähnchen, -",
@@ -3636,7 +3636,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "half board (hotel meal plan)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Halbpension",
@@ -3648,7 +3648,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hall",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Halle",
@@ -3660,7 +3660,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "hello",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "hallo",
@@ -3672,7 +3672,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hold; to stop",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "halten",
@@ -3684,7 +3684,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (bus/tram) stop",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Haltestelle",
@@ -3696,7 +3696,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hand",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Hand, -ä, e",
@@ -3708,7 +3708,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mobile phone",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Handy, -s",
@@ -3720,7 +3720,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the house",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Haus, -ä, er",
@@ -3732,7 +3732,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the homework",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Hausaufgabe,-n",
@@ -3744,7 +3744,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the housewife",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Hausfrau, -en/",
@@ -3756,7 +3756,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the house-husband",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Hausmann",
@@ -3768,7 +3768,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the home(land)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Heimat",
@@ -3780,7 +3780,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to marry",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "heiraten",
@@ -3792,7 +3792,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be called; named",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "heißen",
@@ -3804,7 +3804,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to help",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "helfen",
@@ -3816,7 +3816,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bright; light",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "hell",
@@ -3828,7 +3828,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stove",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Herd",
@@ -3840,7 +3840,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the gentleman; Mr.",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Herr, -en",
@@ -3852,7 +3852,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "warm; cordial",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "herzlich",
@@ -3864,7 +3864,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "today",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "heute",
@@ -3876,7 +3876,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "here",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "hier",
@@ -3888,7 +3888,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the help",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Hilfe",
@@ -3900,7 +3900,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at the back; behind",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "hinten",
@@ -3912,7 +3912,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hobby",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Hobby, -s",
@@ -3924,7 +3924,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "high; tall",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "hoch",
@@ -3936,7 +3936,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wedding",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Hochzeit",
@@ -3948,7 +3948,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fetch; to get",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "holen",
@@ -3960,7 +3960,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hear; to listen",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "hören",
@@ -3972,7 +3972,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hotel",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Hotel, -s",
@@ -3984,7 +3984,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the dog",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Hund, -e",
@@ -3996,7 +3996,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hunger",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Hunger",
@@ -4008,7 +4008,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ich",
@@ -4020,7 +4020,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "her; him",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ihr/ihm/ihn",
@@ -4032,7 +4032,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "always",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "immer",
@@ -4044,7 +4044,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "in",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "in",
@@ -4056,7 +4056,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the information",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Information, -en",
@@ -4068,7 +4068,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "international",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "international",
@@ -4080,7 +4080,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the internet",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Internet",
@@ -4092,7 +4092,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "yes",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ja",
@@ -4104,7 +4104,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the jacket",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Jacke, -n",
@@ -4116,7 +4116,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "each; every",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "jeder",
@@ -4128,7 +4128,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "now",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "jetzt",
@@ -4140,7 +4140,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the job",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Job, -s",
@@ -4152,7 +4152,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the young person; teenager",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Jugendliche, -n",
@@ -4164,7 +4164,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "young",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "jung",
@@ -4176,7 +4176,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the boy",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Junge, -n",
@@ -4188,7 +4188,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the coffee",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Kaffee",
@@ -4200,7 +4200,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "broken",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "kaputt",
@@ -4212,7 +4212,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the card; ticket; map",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Karte, -n",
@@ -4224,7 +4224,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "(credit) card",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(Kredit)-Karte, -n",
@@ -4236,7 +4236,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the potato",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Kartoffel, -n",
@@ -4248,7 +4248,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cash register; checkout",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Kasse",
@@ -4260,7 +4260,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to buy",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kaufen",
@@ -4272,7 +4272,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "no; not any",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kein",
@@ -4284,7 +4284,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to know (a person/thing)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kennen",
@@ -4296,7 +4296,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get to know; to meet",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "kennenlernen",
@@ -4308,7 +4308,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the child",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Kind, -er",
@@ -4320,7 +4320,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kindergarten",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kindergarten",
@@ -4332,7 +4332,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cinema",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Kino, -s",
@@ -4344,7 +4344,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kiosk",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Kiosk",
@@ -4356,7 +4356,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "clear; of course",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "klar",
@@ -4368,7 +4368,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the class",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Klasse",
@@ -4380,7 +4380,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the clothing",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Kleidung",
@@ -4392,7 +4392,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "small",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "klein",
@@ -4404,7 +4404,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to cook",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kochen",
@@ -4416,7 +4416,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the suitcase",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Koffer, –",
@@ -4428,7 +4428,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the colleague",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kollege, -n",
@@ -4440,7 +4440,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to come",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kommen",
@@ -4452,7 +4452,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be able to; can",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "können",
@@ -4464,7 +4464,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (bank) account",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Konto",
@@ -4476,7 +4476,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the head",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kopf",
@@ -4488,7 +4488,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to cost",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kosten",
@@ -4500,7 +4500,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "sick; ill",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "krank",
@@ -4512,7 +4512,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get; to receive (informal)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "kriegen",
@@ -4524,7 +4524,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kitchen",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Küche",
@@ -4536,7 +4536,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cake",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kuchen",
@@ -4548,7 +4548,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ballpoint pen",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Kugelschreiber",
@@ -4560,7 +4560,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the refrigerator",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kühlschrank",
@@ -4572,7 +4572,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "cultural",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "kulturell",
@@ -4584,7 +4584,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take care of; to look after",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "sich kümmern",
@@ -4596,7 +4596,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the customer",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kunde, -n",
@@ -4608,7 +4608,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the course",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kurs, -e",
@@ -4620,7 +4620,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "short",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "kurz",
@@ -4632,7 +4632,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to laugh",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "lachen",
@@ -4644,7 +4644,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shop; store",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Laden, -ä",
@@ -4656,7 +4656,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the country",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Land, -ä, er",
@@ -4668,7 +4668,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "long",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lang",
@@ -4680,7 +4680,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for a long time",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lange",
@@ -4692,7 +4692,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "slowly",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "langsam",
@@ -4704,7 +4704,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to run; to walk",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "laufen",
@@ -4716,7 +4716,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "loud",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "laut",
@@ -4728,7 +4728,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to live",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "leben",
@@ -4740,7 +4740,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the life",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Leben",
@@ -4752,7 +4752,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the groceries; food",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Lebensmittel (pl.)",
@@ -4764,7 +4764,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "single; unmarried",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "ledig",
@@ -4776,7 +4776,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to lay; to put down",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "legen",
@@ -4788,7 +4788,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the teacher",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Lehrer, –",
@@ -4800,7 +4800,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "easy; light",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "leicht",
@@ -4812,7 +4812,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "unfortunately",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "leider",
@@ -4824,7 +4824,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "quiet; soft",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "leise",
@@ -4836,7 +4836,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to learn",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lernen",
@@ -4848,7 +4848,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to read",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lesen",
@@ -4860,7 +4860,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "last",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "letzte",
@@ -4872,7 +4872,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the people",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Leute (pl.)",
@@ -4884,7 +4884,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the light",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Licht",
@@ -4896,7 +4896,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "dear; nice",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "lieb",
@@ -4908,7 +4908,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to love",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lieben",
@@ -4920,7 +4920,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "rather; preferably",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "lieber",
@@ -4932,7 +4932,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "(the) favorite movie",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Lieblingsfilm",
@@ -4944,7 +4944,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the song",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Lied, -er",
@@ -4956,7 +4956,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to lie; to be located",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "liegen",
@@ -4968,7 +4968,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "left",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "links",
@@ -4980,7 +4980,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the truck",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Lkw, -s",
@@ -4992,7 +4992,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the restaurant; pub",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Lokal",
@@ -5004,7 +5004,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the solution",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Lösung, -en",
@@ -5016,7 +5016,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "funny",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "lustig",
@@ -5028,7 +5028,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to do; to make",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "machen",
@@ -5040,7 +5040,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the girl",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Mädchen, –",
@@ -5052,7 +5052,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "one; you (impersonal)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "man",
@@ -5064,7 +5064,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the man",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Mann, -ä, er",
@@ -5076,7 +5076,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "male",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "männlich",
@@ -5088,7 +5088,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the machine",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Maschine, -n",
@@ -5100,7 +5100,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sea",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Meer",
@@ -5112,7 +5112,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "more",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "mehr",
@@ -5124,7 +5124,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "my",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "mein",
@@ -5136,7 +5136,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "most (of them/people)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die meisten",
@@ -5148,7 +5148,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the person; human",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Mensch, -en",
@@ -5160,7 +5160,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rent",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "mieten",
@@ -5172,7 +5172,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rent",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Miete",
@@ -5184,7 +5184,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the milk",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Milch",
@@ -5196,7 +5196,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "with",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "mit",
@@ -5208,7 +5208,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bring along",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "mitbringen",
@@ -5220,7 +5220,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to come along",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "mitkommen",
@@ -5232,7 +5232,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take part; to join in",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "mitmachen",
@@ -5244,7 +5244,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take along",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "mitnehmen",
@@ -5256,7 +5256,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the middle",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Mitte",
@@ -5268,7 +5268,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the furniture",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Möbel (pl.)",
@@ -5280,7 +5280,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "would like",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "möchten",
@@ -5292,7 +5292,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to like",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "mögen",
@@ -5304,7 +5304,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "possible",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "möglich",
@@ -5316,7 +5316,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the moment",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Moment",
@@ -5328,7 +5328,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "tomorrow",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "morgen",
@@ -5340,7 +5340,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "tired",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "müde",
@@ -5352,7 +5352,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mouth",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Mund",
@@ -5364,7 +5364,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "must; to have to",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "müssen",
@@ -5376,7 +5376,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mother",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Mutter, -ü",
@@ -5388,7 +5388,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "after; to (a place)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nach",
@@ -5400,7 +5400,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "next",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nächste",
@@ -5412,7 +5412,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the name",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Name, -n",
@@ -5424,7 +5424,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nehmen",
@@ -5436,7 +5436,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "no",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nein",
@@ -5448,7 +5448,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "new",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "neu",
@@ -5460,7 +5460,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "not",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nicht",
@@ -5472,7 +5472,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "nothing",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nichts",
@@ -5484,7 +5484,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "never",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nie",
@@ -5496,7 +5496,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "still; yet",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "noch",
@@ -5508,7 +5508,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "normal",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "normal",
@@ -5520,7 +5520,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the number",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Nummer, -n",
@@ -5532,7 +5532,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "only",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nur",
@@ -5544,7 +5544,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "above; upstairs",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "oben",
@@ -5556,7 +5556,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fruit",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Obst",
@@ -5568,7 +5568,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "or",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "oder",
@@ -5580,7 +5580,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to open",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "öffnen",
@@ -5592,7 +5592,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "open(ed)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "geöffnet",
@@ -5604,7 +5604,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "often",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "oft",
@@ -5616,7 +5616,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "without",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "ohne",
@@ -5628,7 +5628,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the oil",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Öl",
@@ -5640,7 +5640,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandma",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Oma, -s",
@@ -5652,7 +5652,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandpa",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Opa, -s",
@@ -5664,7 +5664,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "order",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Ordnung",
@@ -5676,7 +5676,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; location",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Ort, -e",
@@ -5688,7 +5688,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the paper",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Papier",
@@ -5700,7 +5700,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the papers; documents",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Papiere (pl.)",
@@ -5712,7 +5712,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the partner (male)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Partner, -/",
@@ -5724,7 +5724,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the partner (female)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Partnerin, -nen",
@@ -5736,7 +5736,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the party",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Party",
@@ -5748,7 +5748,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the passport",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Pass, -ä, e",
@@ -5760,7 +5760,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the break; pause",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Pause, -n",
@@ -5772,7 +5772,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the plan",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Plan, -ä, e",
@@ -5784,7 +5784,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; seat; square",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Platz, -ä, e",
@@ -5796,7 +5796,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the police",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Polizei",
@@ -5808,7 +5808,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the French fries",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Pommes frites (pl.)",
@@ -5820,7 +5820,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the post office; mail",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Post",
@@ -5832,7 +5832,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the postal code; zip code",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Postleitzahl",
@@ -5844,7 +5844,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the internship",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Praktikum",
@@ -5856,7 +5856,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (doctor's) practice",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Praxis",
@@ -5868,7 +5868,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the price",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Preis, -e",
@@ -5880,7 +5880,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the problem",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Problem, -e",
@@ -5892,7 +5892,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the brochure",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Prospekt, -e",
@@ -5904,7 +5904,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the exam; test",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Prüfung",
@@ -5916,7 +5916,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "punctual; on time",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "pünktlich",
@@ -5928,7 +5928,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ride a bike",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "Rad fahren",
@@ -5940,7 +5940,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to smoke",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "rauchen",
@@ -5952,7 +5952,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the room; space",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Raum, -ä, e",
@@ -5964,7 +5964,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the invoice; bill",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Rechnung, -en",
@@ -5976,7 +5976,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "right",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "rechts",
@@ -5988,7 +5988,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rain",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "regnen",
@@ -6000,7 +6000,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rain",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Regen",
@@ -6012,7 +6012,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rice",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Reis",
@@ -6024,7 +6024,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to travel",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "reisen",
@@ -6036,7 +6036,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the trip; journey",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Reise",
@@ -6048,7 +6048,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the travel agency",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Reisebüro, -s",
@@ -6060,7 +6060,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the travel guide",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Reiseführer",
@@ -6072,7 +6072,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to repair",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "reparieren",
@@ -6084,7 +6084,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the repair",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Reparatur",
@@ -6096,7 +6096,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the restaurant",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Restaurant, -s",
@@ -6108,7 +6108,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the reception (desk)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Rezeption",
@@ -6120,7 +6120,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "correct; right",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "richtig",
@@ -6132,7 +6132,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to smell",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "riechen",
@@ -6144,7 +6144,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "quiet; calm",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "ruhig",
@@ -6156,7 +6156,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the juice",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Saft",
@@ -6168,7 +6168,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to say",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sagen",
@@ -6180,7 +6180,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salad",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Salat",
@@ -6192,7 +6192,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salt",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Salz",
@@ -6204,7 +6204,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sentence",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "Satz, -ä, e",
@@ -6216,7 +6216,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (suburban) train",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die S-Bahn",
@@ -6228,7 +6228,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the counter; switch",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Schalter",
@@ -6240,7 +6240,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to seem; to shine",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "scheinen",
@@ -6252,7 +6252,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to send",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "schicken",
@@ -6264,7 +6264,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sign",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Schild, -er",
@@ -6276,7 +6276,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ham",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Schinken, –",
@@ -6288,7 +6288,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sleep",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schlafen",
@@ -6300,7 +6300,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bad",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schlecht",
@@ -6312,7 +6312,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to close",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "schließen",
@@ -6324,7 +6324,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "closed",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "geschlossen",
@@ -6336,7 +6336,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the end",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Schluss",
@@ -6348,7 +6348,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the key",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Schlüssel, –",
@@ -6360,7 +6360,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to taste",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "schmecken",
@@ -6372,7 +6372,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "fast; quick",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schnell",
@@ -6384,7 +6384,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "already",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schon",
@@ -6396,7 +6396,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "beautiful; nice",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schön",
@@ -6408,7 +6408,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cupboard; wardrobe",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Schrank, -ä, e",
@@ -6420,7 +6420,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to write",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "schreiben",
@@ -6432,7 +6432,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shoe",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Schuh, -e",
@@ -6444,7 +6444,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the school",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Schule",
@@ -6456,7 +6456,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (school) student; pupil",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Schüler, –",
@@ -6468,7 +6468,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "heavy; difficult",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "schwer",
@@ -6480,7 +6480,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sister",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Schwester, -n",
@@ -6492,7 +6492,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to swim",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "schwimmen",
@@ -6504,7 +6504,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the swimming pool",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Schwimmbad",
@@ -6516,7 +6516,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lake",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der See",
@@ -6528,7 +6528,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to see",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sehen",
@@ -6540,7 +6540,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sight; tourist attraction",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Sehenswürdigkeit,",
@@ -6552,7 +6552,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "very",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sehr",
@@ -6564,7 +6564,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sein",
@@ -6576,7 +6576,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be gone; away",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "weg sein",
@@ -6588,7 +6588,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be closed",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "zu sein",
@@ -6600,7 +6600,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "since (time)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "seit",
@@ -6612,7 +6612,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "independent; self-employed",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "selbstständig",
@@ -6624,7 +6624,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "oneself",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sich",
@@ -6636,7 +6636,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "she; they",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sie",
@@ -6648,7 +6648,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (formal)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "Sie",
@@ -6660,7 +6660,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sit",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "sitzen",
@@ -6672,7 +6672,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "so; like this",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "so",
@@ -6684,7 +6684,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sofa",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Sofa",
@@ -6696,7 +6696,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "immediately",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "sofort",
@@ -6708,7 +6708,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the son",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Sohn, -ö, e",
@@ -6720,7 +6720,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "should; to be supposed to",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sollen",
@@ -6732,7 +6732,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sun",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Sonne",
@@ -6744,7 +6744,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "late",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "spät",
@@ -6756,7 +6756,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "later",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "später",
@@ -6768,7 +6768,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the menu",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Speisekarte",
@@ -6780,7 +6780,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to play",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "spielen",
@@ -6792,7 +6792,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "sports",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Sport",
@@ -6804,7 +6804,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the language",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Sprache, -n",
@@ -6816,7 +6816,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to speak",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "sprechen",
@@ -6828,7 +6828,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the city",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Stadt, -ä, e",
@@ -6840,7 +6840,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stand",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "stehen",
@@ -6852,7 +6852,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; position; job",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Stelle, -n",
@@ -6864,7 +6864,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to put; to place",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "stellen",
@@ -6876,7 +6876,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the floor; story (of a building)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Stock",
@@ -6888,7 +6888,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the street",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Straße, -n",
@@ -6900,7 +6900,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tram",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Straßenbahn",
@@ -6912,7 +6912,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to study (university)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "studieren",
@@ -6924,7 +6924,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (university) studies",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "das Studium",
@@ -6936,7 +6936,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (university) student",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Student, -en",
@@ -6948,7 +6948,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hour",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Stunde, -n",
@@ -6960,7 +6960,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to look for; to search",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "suchen",
@@ -6972,7 +6972,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to dance",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "tanzen",
@@ -6984,7 +6984,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bag; pocket",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Tasche, -n",
@@ -6996,7 +6996,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the taxi",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Taxi, -s",
@@ -7008,7 +7008,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tea",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Tee",
@@ -7020,7 +7020,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the part",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Teil, -e",
@@ -7032,7 +7032,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to phone; to call",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "telefonieren",
@@ -7044,7 +7044,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the telephone",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Telefon",
@@ -7056,7 +7056,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the appointment",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Termin, -e",
@@ -7068,7 +7068,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the test",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Test",
@@ -7080,7 +7080,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "expensive",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "teuer",
@@ -7092,7 +7092,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the text",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Text, -e",
@@ -7104,7 +7104,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the topic; theme",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Thema",
@@ -7116,7 +7116,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ticket",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Ticket, -s",
@@ -7128,7 +7128,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the table",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Tisch, -e",
@@ -7140,7 +7140,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the daughter",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Tochter, -ö",
@@ -7152,7 +7152,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the toilet",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Toilette, -en",
@@ -7164,7 +7164,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tomato",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Tomate, -n",
@@ -7176,7 +7176,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "dead",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "tot",
@@ -7188,7 +7188,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to meet",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "(sich) treffen",
@@ -7200,7 +7200,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stairs",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Treppe, -n",
@@ -7212,7 +7212,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to drink",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "trinken",
@@ -7224,7 +7224,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bye",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "tschüss",
@@ -7236,7 +7236,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to do",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "tun",
@@ -7248,7 +7248,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "over; about",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "über",
@@ -7260,7 +7260,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stay overnight",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "übernachten",
@@ -7272,7 +7272,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to transfer (money)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "überweisen",
@@ -7284,7 +7284,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the clock; watch; o'clock",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Uhr",
@@ -7296,7 +7296,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "around; at (time)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "um",
@@ -7308,7 +7308,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to move (house)",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "umziehen",
@@ -7320,7 +7320,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "and",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "und",
@@ -7332,7 +7332,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "our",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "unser",
@@ -7344,7 +7344,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "below; downstairs",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "unten",
@@ -7356,7 +7356,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "under",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "unter",
@@ -7368,7 +7368,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lesson; class",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Unterricht",
@@ -7380,7 +7380,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sign",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "unterschreiben",
@@ -7392,7 +7392,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the signature",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Unterschrift",
@@ -7404,7 +7404,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vacation; holiday",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Urlaub",
@@ -7416,7 +7416,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the father",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Vater, -ä",
@@ -7428,7 +7428,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "forbidden",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "verboten",
@@ -7440,7 +7440,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to earn",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "verdienen",
@@ -7452,7 +7452,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the club; association",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Verein",
@@ -7464,7 +7464,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "married",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "verheiratet",
@@ -7476,7 +7476,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sell",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "verkaufen",
@@ -7488,7 +7488,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salesperson",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Verkäufer, –",
@@ -7500,7 +7500,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rent out",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "vermieten",
@@ -7512,7 +7512,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the landlord",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Vermieter",
@@ -7524,7 +7524,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to understand",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "verstehen",
@@ -7536,7 +7536,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the relative",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Verwandte, -n",
@@ -7548,7 +7548,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "much; a lot",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "viel",
@@ -7560,7 +7560,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "maybe; perhaps",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "vielleicht",
@@ -7572,7 +7572,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "from; of",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "von",
@@ -7584,7 +7584,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "before; in front of",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "vor",
@@ -7596,7 +7596,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the first name",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Vorname, -n",
@@ -7608,7 +7608,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "caution",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Vorsicht",
@@ -7620,7 +7620,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to introduce (oneself); to imagine",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) vorstellen",
@@ -7632,7 +7632,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the area code",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Vorwahl",
@@ -7644,7 +7644,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hike",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "wandern",
@@ -7656,7 +7656,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "when",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wann",
@@ -7668,7 +7668,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to wait",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "warten",
@@ -7680,7 +7680,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "why",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "warum",
@@ -7692,7 +7692,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "what",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "was",
@@ -7704,7 +7704,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "what kind of",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "was für ein",
@@ -7716,7 +7716,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to wash (oneself)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "(sich) waschen",
@@ -7728,7 +7728,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the water",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Wasser",
@@ -7740,7 +7740,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hurt",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "weh tun",
@@ -7752,7 +7752,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "female",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "weiblich",
@@ -7764,7 +7764,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wine",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Wein",
@@ -7776,7 +7776,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "far",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "weit",
@@ -7788,7 +7788,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "further; continue",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "weiter",
@@ -7800,7 +7800,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "which",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "welcher",
@@ -7812,7 +7812,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the world",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Welt",
@@ -7824,7 +7824,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "little; few",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wenig",
@@ -7836,7 +7836,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "who",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wer",
@@ -7848,7 +7848,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to become",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "werden",
@@ -7860,7 +7860,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the weather",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Wetter",
@@ -7872,7 +7872,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "important",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wichtig",
@@ -7884,7 +7884,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "how",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wie",
@@ -7896,7 +7896,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to repeat",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wiederholen",
@@ -7908,7 +7908,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "goodbye (on the phone)",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Wiederhören",
@@ -7920,7 +7920,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "goodbye",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Wiedersehen",
@@ -7932,7 +7932,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "how much",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wie viel",
@@ -7944,7 +7944,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "welcome",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "willkommen",
@@ -7956,7 +7956,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wind",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Wind",
@@ -7968,7 +7968,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "we",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wir",
@@ -7980,7 +7980,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to know (a fact)",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wissen",
@@ -7992,7 +7992,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wo",
@@ -8004,7 +8004,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where from",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "woher",
@@ -8016,7 +8016,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where to",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wohin",
@@ -8028,7 +8028,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to live; to reside",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wohnen",
@@ -8040,7 +8040,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apartment; flat",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Wohnung, -en",
@@ -8052,7 +8052,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to want",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wollen",
@@ -8064,7 +8064,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the word",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Wort, -ö, er/-e",
@@ -8076,7 +8076,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wonderful",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "wunderbar",
@@ -8088,7 +8088,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pay",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zahlen",
@@ -8100,7 +8100,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the time",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Zeit",
@@ -8112,7 +8112,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "currently; at the moment",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "zurzeit",
@@ -8124,7 +8124,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the newspaper",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Zeitung, -en",
@@ -8136,7 +8136,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cigarette",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "die Zigarette, -n",
@@ -8148,7 +8148,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the room",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "das Zimmer, –",
@@ -8160,7 +8160,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "customs",
-    "cat": "Tier 3 (Extended)",
+    "cat": "Level 3",
     "translations": {
       "de": {
         "text": "der Zoll",
@@ -8172,7 +8172,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to; too",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zu",
@@ -8184,7 +8184,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "satisfied",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "zufrieden",
@@ -8196,7 +8196,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "der Zug, -ü, e",
@@ -8208,7 +8208,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "back",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zurück",
@@ -8220,7 +8220,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "together",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zusammen",
@@ -8232,7 +8232,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "between",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zwischen",
@@ -9084,7 +9084,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "a person",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "die Person",
@@ -9096,7 +9096,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "of course; naturally",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "natürlich",
@@ -9108,7 +9108,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "full",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "voll",
@@ -9120,7 +9120,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "half",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "halb",
@@ -9132,7 +9132,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "now",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "nun",
@@ -9144,7 +9144,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "again",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wieder",
@@ -9156,7 +9156,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "thereupon; on it",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "darauf",
@@ -9168,7 +9168,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "first; at first",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "zuerst",
@@ -9180,7 +9180,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to that; in addition",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "dazu",
@@ -9192,7 +9192,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "after that; afterward",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "danach",
@@ -9204,7 +9204,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to wish",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "wünschen",
@@ -9216,7 +9216,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pass (an exam); to consist of",
-    "cat": "Tier 1 (Essential)",
+    "cat": "Level 1",
     "translations": {
       "de": {
         "text": "bestehen",
@@ -9228,7 +9228,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the phone number",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "die Telefonnummer",
@@ -9240,7 +9240,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the date of birth",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Geburtsdatum",
@@ -9252,7 +9252,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the passenger",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Fahrgast",
@@ -9264,7 +9264,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sweater",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Pullover",
@@ -9276,7 +9276,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the dictionary",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "das Wörterbuch",
@@ -9288,7 +9288,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the morning; forenoon",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Vormittag",
@@ -9300,7 +9300,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the flight",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Flug",
@@ -9312,7 +9312,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sit down",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "sich setzen",
@@ -9324,7 +9324,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the waiter",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Kellner",
@@ -9336,7 +9336,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "everyday life",
-    "cat": "Tier 2 (Common)",
+    "cat": "Level 2",
     "translations": {
       "de": {
         "text": "der Alltag",
@@ -9348,7 +9348,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "How do I get to the second floor from here?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wie komme ich denn hier in den zweiten Stock?",
@@ -9360,7 +9360,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Go around the corner to the right here and take the elevator.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Gehen Sie hier rechts um die Ecke und nehmen Sie den Aufzug.",
@@ -9372,7 +9372,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I still have a lot to do.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich habe noch viel zu tun.",
@@ -9384,7 +9384,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Where are you going, then?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wohin fahren Sie denn?",
@@ -9396,7 +9396,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please call me on my cell phone.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Rufen Sie mich bitte auf dem Handy an.",
@@ -9408,7 +9408,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Can you come over quickly?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Kannst du schnell mal rüberkommen?",
@@ -9420,7 +9420,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "My computer has a problem.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Mein Computer hat einen Fehler.",
@@ -9432,7 +9432,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I can't print anything.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich kann nichts drucken.",
@@ -9444,7 +9444,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please get in touch as soon as you get home.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Melde dich bitte gleich, wenn du nach Hause kommst.",
@@ -9456,7 +9456,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Unfortunately, we can't come to you on Saturday.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wir können am Samstag leider nicht zu Ihnen kommen.",
@@ -9468,7 +9468,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "But we have time on Sunday.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Am Sonntag haben wir aber Zeit.",
@@ -9480,7 +9480,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please call us back to say if that works for you.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Rufen Sie uns bitte zurück, ob Ihnen das passt.",
@@ -9492,7 +9492,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I'm still on the train.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich bin noch im Zug.",
@@ -9504,7 +9504,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "You're picking me up from the station, right?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Du holst mich doch vom Bahnhof ab?",
@@ -9516,7 +9516,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I'll wait for you at the information desk.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich warte an der Information auf dich.",
@@ -9528,7 +9528,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I've already been waiting for you for over 20 minutes.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich warte schon über 20 Minuten auf dich.",
@@ -9540,7 +9540,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Then I'll take a taxi.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Dann nehme ich ein Taxi.",
@@ -9552,7 +9552,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "How much does this sweater cost now?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Was kostet dieser Pullover jetzt?",
@@ -9564,7 +9564,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I'll take it.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Den nehme ich.",
@@ -9576,7 +9576,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "What time is it, please?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wie spät ist es bitte?",
@@ -9588,7 +9588,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "What would you like?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Was wünschen Sie bitte?",
@@ -9600,7 +9600,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I would like the salad plate.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich hätte gern die Salatplatte.",
@@ -9612,7 +9612,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I don't eat meat.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich esse kein Fleisch.",
@@ -9624,7 +9624,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Is there something without meat?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Gibt es etwas ohne Fleisch?",
@@ -9636,7 +9636,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Where do I find Mr. Schneider?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wo finde ich Herrn Schneider?",
@@ -9648,7 +9648,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Wait a moment.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Warten Sie mal.",
@@ -9660,7 +9660,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Thanks for your email.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Danke für deine Mail.",
@@ -9672,7 +9672,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I'll wait for you in front of the information desk.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich warte auf dich vor der Auskunft.",
@@ -9684,7 +9684,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "You can reach me on my cell phone all morning.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Du kannst mich den ganzen Vormittag auf meinem Handy erreichen.",
@@ -9696,7 +9696,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I would like to celebrate with you.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich möchte gerne mit dir feiern.",
@@ -9708,7 +9708,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Could you maybe bring a salad?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Kannst du vielleicht einen Salat mitbringen?",
@@ -9720,7 +9720,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please don't forget a sweater or a jacket!",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Vergiss bitte nicht einen Pullover oder eine Jacke!",
@@ -9732,7 +9732,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I'm really looking forward to seeing you!",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ich freue mich sehr auf dich!",
@@ -9744,7 +9744,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Do you know where to find children's clothing here?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Weißt du, wo es hier Kleidung für Kinder gibt?",
@@ -9756,7 +9756,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "The museum closes in half an hour.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Das Museum schließt in einer halben Stunde.",
@@ -9768,7 +9768,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "My doctor says I should exercise more.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Mein Arzt sagt, ich soll mehr Sport machen.",
@@ -9780,7 +9780,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Are you going on vacation at the seaside again this year?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Machen Sie dieses Jahr wieder Urlaub am Meer?",
@@ -9792,7 +9792,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please don't get off!",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Bitte steigen Sie nicht aus!",
@@ -9804,7 +9804,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "We'll continue in a moment.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wir fahren gleich weiter.",
@@ -9816,7 +9816,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please come to the bus on time.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Bitte kommen Sie pünktlich zum Bus.",
@@ -9828,7 +9828,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Is my dictionary maybe at your place?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Ist mein Wörterbuch vielleicht bei dir?",
@@ -9840,7 +9840,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please bring it to class right away.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Bring es bitte gleich in den Kurs mit.",
@@ -9852,7 +9852,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Shall we meet at 1 pm?",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Wollen wir uns um 13 Uhr treffen?",
@@ -9864,7 +9864,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "Please call me back by 6 pm.",
-    "cat": "Sentences",
+    "cat": "Sätze",
     "translations": {
       "de": {
         "text": "Rufen Sie mich bitte bis 18 Uhr zurück.",
