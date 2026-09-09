@@ -39,6 +39,7 @@ let activeBoxFilter = null; // null = all boxes, else 0-4
 let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-target"; // "en-target" or "target-en"
 let activeLanguage = localStorage.getItem(STORAGE_ACTIVE_LANGUAGE) || "rw";
 let editingId = null;
+const NEW_ENTRY_ID = "__new__";
 let currentView = "study";
 let filtersVisible = localStorage.getItem(STORAGE_FILTERS_VISIBLE) !== "false";
 
@@ -351,8 +352,22 @@ function renderCurrentCard() {
 }
 
 function renderEditForm(entry) {
+  const isNew = entry === null;
+  const id = isNew ? NEW_ENTRY_ID : entry.id;
+  const en = isNew ? "" : entry.en;
+  const translations = isNew ? {} : entry.translations;
+
+  // The category dropdown only offers existing categories to pick from --
+  // real ones, not the synthetic "marked" pseudo-category, which isn't a
+  // storable cat value. If the entry's current cat isn't among them (a
+  // stale/legacy value), keep it as an extra option so saving the form
+  // without touching the dropdown doesn't silently change it.
+  const knownCats = categoriesForActiveLanguage().filter((c) => c !== MARKED_CATEGORY);
+  const currentCat = isNew ? knownCats[0] || "General" : entry.cat;
+  const catOptions = knownCats.includes(currentCat) ? knownCats : [currentCat, ...knownCats];
+
   const langSections = LANGUAGES.map((l) => {
-    const t = entry.translations[l.code] || { text: "", pron: "", lit: "" };
+    const t = translations[l.code] || { text: "", pron: "", lit: "" };
     return `
       <div class="edit-lang-section">
         <div class="edit-lang-label">${l.label}</div>
@@ -363,43 +378,43 @@ function renderEditForm(entry) {
   }).join("");
 
   return `
-    <div class="card-row editing" data-id="${entry.id}">
+    <div class="card-row editing" data-id="${id}">
       <div class="edit-form">
-        <input class="edit-en" type="text" placeholder="English phrase" value="${escapeHtml(entry.en)}" />
-        <input class="edit-cat" type="text" placeholder="Category" value="${escapeHtml(entry.cat)}" />
+        <input class="edit-en" type="text" placeholder="English phrase" value="${escapeHtml(en)}" />
+        <select class="edit-cat">
+          ${catOptions.map((c) => `<option value="${escapeHtml(c)}"${c === currentCat ? " selected" : ""}>${escapeHtml(c)}</option>`).join("")}
+        </select>
         ${langSections}
         <div class="edit-actions">
           <button class="btn secondary edit-cancel" type="button">Cancel</button>
-          <button class="btn primary edit-save" type="button">Save</button>
+          <button class="btn primary edit-save" type="button">${isNew ? "Add" : "Save"}</button>
         </div>
       </div>
     </div>`;
 }
 
 function renderManage() {
-  document.getElementById("inputBack").placeholder = currentLanguage().label + " translation";
-
   const listEl = document.getElementById("cardList");
-  listEl.innerHTML = entries
-    .map((entry) => {
-      if (entry.id === editingId) return renderEditForm(entry);
-      const langBadges = LANGUAGES.filter((l) => entry.translations[l.code])
-        .map((l) => `<span class="lang-badge">${l.code.toUpperCase()}</span>`)
-        .join("");
-      return `
-        <div class="card-row" data-id="${entry.id}">
-          <div class="row-text">
-            <div class="row-front">${escapeHtml(entry.en)}</div>
-            <div class="row-back">${escapeHtml(entry.cat)}</div>
-          </div>
-          <div class="row-langs">${langBadges}</div>
-          <div class="row-actions">
-            <button class="row-edit" title="Edit">✎</button>
-            <button class="row-delete" title="Delete">✕</button>
-          </div>
-        </div>`;
-    })
-    .join("");
+  const rows = entries.map((entry) => {
+    if (entry.id === editingId) return renderEditForm(entry);
+    const langBadges = LANGUAGES.filter((l) => entry.translations[l.code])
+      .map((l) => `<span class="lang-badge">${l.code.toUpperCase()}</span>`)
+      .join("");
+    return `
+      <div class="card-row" data-id="${entry.id}">
+        <div class="row-text">
+          <div class="row-front">${escapeHtml(entry.en)}</div>
+          <div class="row-back">${escapeHtml(entry.cat)}</div>
+        </div>
+        <div class="row-langs">${langBadges}</div>
+        <div class="row-actions">
+          <button class="row-edit" title="Edit">✎</button>
+          <button class="row-delete" title="Delete">✕</button>
+        </div>
+      </div>`;
+  });
+  if (editingId === NEW_ENTRY_ID) rows.unshift(renderEditForm(null));
+  listEl.innerHTML = rows.join("");
 }
 
 function escapeHtml(str) {
@@ -513,26 +528,8 @@ document.getElementById("wrongBtn").addEventListener("click", () => {
   renderCurrentCard();
 });
 
-document.getElementById("addCardForm").addEventListener("submit", (e) => {
-  e.preventDefault();
-  const enInput = document.getElementById("inputFront");
-  const targetInput = document.getElementById("inputBack");
-  const en = enInput.value.trim();
-  const target = targetInput.value.trim();
-  if (!en || !target) return;
-
-  const id = uid();
-  const cats = categoriesForActiveLanguage();
-  entries.push({
-    id,
-    en,
-    cat: cats[0] || "General",
-    translations: { [activeLanguage]: { text: target, pron: "", lit: "" } },
-  });
-  saveEntries();
-
-  enInput.value = "";
-  targetInput.value = "";
+document.getElementById("addCardBtn").addEventListener("click", () => {
+  editingId = NEW_ENTRY_ID;
   renderManage();
 });
 
@@ -556,11 +553,12 @@ document.getElementById("cardList").addEventListener("click", (e) => {
     editingId = null;
     renderManage();
   } else if (e.target.classList.contains("edit-save")) {
-    const entry = entries.find((x) => x.id === id);
+    const isNew = id === NEW_ENTRY_ID;
     const en = row.querySelector(".edit-en").value.trim();
     if (!en) return;
+    const entry = isNew ? { id: uid(), en: "", cat: "", translations: {} } : entries.find((x) => x.id === id);
     entry.en = en;
-    entry.cat = row.querySelector(".edit-cat").value.trim() || "General";
+    entry.cat = row.querySelector(".edit-cat").value || "General";
     for (const l of LANGUAGES) {
       const text = row.querySelector(`.edit-text[data-lang="${l.code}"]`).value.trim();
       if (!text) {
@@ -572,6 +570,10 @@ document.getElementById("cardList").addEventListener("click", (e) => {
         pron: row.querySelector(`.edit-pron[data-lang="${l.code}"]`).value.trim(),
         lit: row.querySelector(`.edit-lit[data-lang="${l.code}"]`).value.trim(),
       };
+    }
+    if (isNew) {
+      if (Object.keys(entry.translations).length === 0) return;
+      entries.push(entry);
     }
     saveEntries();
     editingId = null;
