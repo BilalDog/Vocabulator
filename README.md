@@ -10,9 +10,7 @@ English is always the known language; pick a target language from the ☰
 menu in the top right:
 
 - **Kinyarwanda** — ~55 everyday phrases (greetings, directions, food,
-  shopping), curated by hand. Entries tagged **"verify"** haven't been
-  confirmed by a fluent speaker yet — double-check them before relying on
-  them.
+  shopping), curated by hand.
 - **German (A1)** — the official [Goethe-Zertifikat A1 "Start Deutsch
   1"](https://www.goethe.de/) Wortliste (the certification word list),
   ~800 entries, extracted directly from the source document with each
@@ -63,6 +61,13 @@ and a usage/example note). You judge yourself:
 
 - **✓ Knew it** — the card advances to the next box.
 - **✗ Didn't know it** — the card goes back to Box 1.
+
+Tap the **☆** star in the top-right of the card to mark it — it fills in
+(**★**) and the word also becomes available under a synthetic
+**"★ Marked"** category chip, alongside its normal category (selecting
+either one is enough to bring it into the queue, not both at once), so
+you can pull together a personal study set of tricky words regardless of
+which category they're actually in.
 
 Cards are grouped into categories — filter which ones show up in your
 study queue via the chips at the top (categories are specific to whichever

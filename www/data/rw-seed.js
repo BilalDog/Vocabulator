@@ -1,6 +1,5 @@
 // Everyday Kinyarwanda phrases (curated, not from an official list --
-// translations best-effort; entries flagged verify:true haven't been
-// confirmed by a fluent speaker yet).
+// translations best-effort).
 window.RW_SEED_ENTRIES = 
 [
   {
@@ -10,8 +9,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Muraho",
         "pron": "moo-RAH-ho",
-        "lit": "General greeting, any time of day.",
-        "verify": false
+        "lit": "General greeting, any time of day."
       }
     }
   },
@@ -22,8 +20,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mwaramutse",
         "pron": "mwah-rah-MOOT-seh",
-        "lit": "Said in the morning.",
-        "verify": false
+        "lit": "Said in the morning."
       }
     }
   },
@@ -34,8 +31,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mwiriwe",
         "pron": "mwee-REE-weh",
-        "lit": "Said in the afternoon/evening.",
-        "verify": false
+        "lit": "Said in the afternoon/evening."
       }
     }
   },
@@ -46,8 +42,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Amakuru?",
         "pron": "ah-mah-KOO-roo",
-        "lit": "Literally: “(any) news?” — the standard ‘how are you’.",
-        "verify": false
+        "lit": "Literally: “(any) news?” — the standard ‘how are you’."
       }
     }
   },
@@ -58,8 +53,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ni meza",
         "pron": "nee MEH-zah",
-        "lit": "Reply to “Amakuru?”. Literally “(it is) good”.",
-        "verify": false
+        "lit": "Reply to “Amakuru?”. Literally “(it is) good”."
       }
     }
   },
@@ -70,8 +64,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Murakoze",
         "pron": "moo-rah-KOH-zeh",
-        "lit": "Polite ‘thank you’ (to one or more people).",
-        "verify": false
+        "lit": "Polite ‘thank you’ (to one or more people)."
       }
     }
   },
@@ -82,8 +75,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Murakoze cyane",
         "pron": "moo-rah-KOH-zeh CHAH-neh",
-        "lit": "‘cyane’ = very much.",
-        "verify": false
+        "lit": "‘cyane’ = very much."
       }
     }
   },
@@ -94,8 +86,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nyabuneka",
         "pron": "nyah-boo-NEH-kah",
-        "lit": "Used to say ‘please’.",
-        "verify": false
+        "lit": "Used to say ‘please’."
       }
     }
   },
@@ -106,8 +97,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Yego",
         "pron": "YEH-go",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -118,8 +108,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Oya",
         "pron": "OH-yah",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -130,8 +119,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mbabarira",
         "pron": "mbah-bah-REE-rah",
-        "lit": "‘Forgive me’ — to get attention or apologise.",
-        "verify": true
+        "lit": "‘Forgive me’ — to get attention or apologise."
       }
     }
   },
@@ -142,8 +130,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Murabeho",
         "pron": "moo-rah-BEH-ho",
-        "lit": "Said to someone staying/leaving.",
-        "verify": false
+        "lit": "Said to someone staying/leaving."
       }
     }
   },
@@ -154,8 +141,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Turabonana",
         "pron": "too-rah-boh-NAH-nah",
-        "lit": "‘We'll see each other’.",
-        "verify": true
+        "lit": "‘We'll see each other’."
       }
     }
   },
@@ -166,8 +152,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Witwa nde?",
         "pron": "WEET-wah n-DEH",
-        "lit": "Literally: ‘You are called who?’",
-        "verify": false
+        "lit": "Literally: ‘You are called who?’"
       }
     }
   },
@@ -178,8 +163,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nitwa ___",
         "pron": "NEET-wah ___",
-        "lit": "‘I am called ___’.",
-        "verify": false
+        "lit": "‘I am called ___’."
       }
     }
   },
@@ -190,8 +174,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Sinumva",
         "pron": "see-NOOM-vah",
-        "lit": "‘I don't hear/understand’.",
-        "verify": false
+        "lit": "‘I don't hear/understand’."
       }
     }
   },
@@ -202,8 +185,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Uvuga Icyongereza?",
         "pron": "oo-VOO-gah ee-chon-geh-REH-zah",
-        "lit": "‘Do you speak English?’",
-        "verify": true
+        "lit": "‘Do you speak English?’"
       }
     }
   },
@@ -214,8 +196,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mvuga Ikinyarwanda gicye",
         "pron": "m-VOO-gah ee-kin-yar-WAN-dah GEE-cheh",
-        "lit": "‘gicye’ = a little.",
-        "verify": true
+        "lit": "‘gicye’ = a little."
       }
     }
   },
@@ -226,8 +207,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nta kibazo",
         "pron": "n-tah kee-BAH-zoh",
-        "lit": "Literally ‘no problem/question’.",
-        "verify": false
+        "lit": "Literally ‘no problem/question’."
       }
     }
   },
@@ -238,8 +218,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "___ iri he?",
         "pron": "___ EE-ree heh",
-        "lit": "‘iri he’ = is where. Word order: [thing] iri he?",
-        "verify": true
+        "lit": "‘iri he’ = is where. Word order: [thing] iri he?"
       }
     }
   },
@@ -250,8 +229,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ubwiherero buri he?",
         "pron": "oo-bwee-heh-REH-roh BOO-ree heh",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -262,8 +240,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Isoko riri he?",
         "pron": "ee-SOH-koh REE-ree heh",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -274,8 +251,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Kujya ___ ni angahe?",
         "pron": "koo-JYAH ___ nee an-GAH-heh",
-        "lit": "‘Going to ___ is how much?’",
-        "verify": true
+        "lit": "‘Going to ___ is how much?’"
       }
     }
   },
@@ -286,8 +262,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nshaka kujya ___",
         "pron": "n-SHAH-kah koo-JYAH ___",
-        "lit": "‘I want to go (to) ___’.",
-        "verify": true
+        "lit": "‘I want to go (to) ___’."
       }
     }
   },
@@ -298,8 +273,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Hagarara hano, nyabuneka",
         "pron": "hah-gah-RAH-rah HAH-no, nyah-boo-NEH-kah",
-        "lit": "Useful in a taxi/moto.",
-        "verify": true
+        "lit": "Useful in a taxi/moto."
       }
     }
   },
@@ -310,8 +284,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ibumoso",
         "pron": "ee-boo-MOH-so",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -322,8 +295,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Iburyo",
         "pron": "ee-BOO-ryo",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -334,8 +306,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Imbere",
         "pron": "eem-BEH-reh",
-        "lit": "‘Forward / ahead’.",
-        "verify": true
+        "lit": "‘Forward / ahead’."
       }
     }
   },
@@ -346,8 +317,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Hano",
         "pron": "HAH-no",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -358,8 +328,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Hariya",
         "pron": "hah-REE-yah",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -370,8 +339,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ni kure?",
         "pron": "nee KOO-reh",
-        "lit": "‘kure’ = far.",
-        "verify": false
+        "lit": "‘kure’ = far."
       }
     }
   },
@@ -382,8 +350,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ni hafi",
         "pron": "nee HAH-fee",
-        "lit": "‘hafi’ = near.",
-        "verify": false
+        "lit": "‘hafi’ = near."
       }
     }
   },
@@ -394,8 +361,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ndashonje",
         "pron": "n-dah-SHOHN-jeh",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -406,8 +372,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mfite inyota",
         "pron": "m-FEE-teh een-YOH-tah",
-        "lit": "Literally ‘I have thirst’.",
-        "verify": true
+        "lit": "Literally ‘I have thirst’."
       }
     }
   },
@@ -418,8 +383,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Amazi, nyabuneka",
         "pron": "ah-MAH-zee, nyah-boo-NEH-kah",
-        "lit": "‘amazi’ = water.",
-        "verify": false
+        "lit": "‘amazi’ = water."
       }
     }
   },
@@ -430,8 +394,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nifuza ___",
         "pron": "nee-FOO-zah ___",
-        "lit": "‘I would like ___’.",
-        "verify": true
+        "lit": "‘I would like ___’."
       }
     }
   },
@@ -442,8 +405,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Fagitire, nyabuneka",
         "pron": "fah-gee-TEE-reh, nyah-boo-NEH-kah",
-        "lit": "‘fagitire’ = bill (from French ‘facture’).",
-        "verify": true
+        "lit": "‘fagitire’ = bill (from French ‘facture’)."
       }
     }
   },
@@ -454,8 +416,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Biraryoshye",
         "pron": "bee-rah-RYOH-shyeh",
-        "lit": "‘It is tasty’.",
-        "verify": true
+        "lit": "‘It is tasty’."
       }
     }
   },
@@ -466,8 +427,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Narahaze",
         "pron": "nah-rah-HAH-zeh",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -478,8 +438,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Icyayi",
         "pron": "ee-CHAH-yee",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -490,8 +449,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ikawa",
         "pron": "ee-KAH-wah",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -502,8 +460,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Amata",
         "pron": "ah-MAH-tah",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -514,8 +471,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Umugati",
         "pron": "oo-moo-GAH-tee",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -526,8 +482,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Inyama",
         "pron": "een-YAH-mah",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -538,8 +493,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Sinya inyama",
         "pron": "seen-YAH een-YAH-mah",
-        "lit": "‘I don't eat meat’.",
-        "verify": true
+        "lit": "‘I don't eat meat’."
       }
     }
   },
@@ -550,8 +504,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ni angahe?",
         "pron": "nee an-GAH-heh",
-        "lit": "The key shopping phrase.",
-        "verify": false
+        "lit": "The key shopping phrase."
       }
     }
   },
@@ -562,8 +515,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Birahenze",
         "pron": "bee-rah-HEN-zeh",
-        "lit": "‘It is expensive’.",
-        "verify": true
+        "lit": "‘It is expensive’."
       }
     }
   },
@@ -574,8 +526,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Gabanya gato",
         "pron": "gah-BAHN-yah GAH-toh",
-        "lit": "For bargaining. ‘Reduce a little’.",
-        "verify": true
+        "lit": "For bargaining. ‘Reduce a little’."
       }
     }
   },
@@ -586,8 +537,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Nshaka kugura iki",
         "pron": "n-SHAH-kah koo-GOO-rah EE-kee",
-        "lit": "",
-        "verify": true
+        "lit": ""
       }
     }
   },
@@ -598,8 +548,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Sinshaka",
         "pron": "seen-SHAH-kah",
-        "lit": "‘I don't want (it)’.",
-        "verify": false
+        "lit": "‘I don't want (it)’."
       }
     }
   },
@@ -610,8 +559,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Ufite ___?",
         "pron": "oo-FEE-teh ___",
-        "lit": "‘Do you have ___?’",
-        "verify": false
+        "lit": "‘Do you have ___?’"
       }
     }
   },
@@ -622,8 +570,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Amafaranga",
         "pron": "ah-mah-fah-RAN-gah",
-        "lit": "Also the word for Rwandan francs.",
-        "verify": false
+        "lit": "Also the word for Rwandan francs."
       }
     }
   },
@@ -634,8 +581,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Mpa amasaranga asigaye, nyabuneka",
         "pron": "m-PAH ah-mah-sah-RAN-gah ah-see-GAH-yeh",
-        "lit": "Rough; ‘give me the remaining money’.",
-        "verify": true
+        "lit": "Rough; ‘give me the remaining money’."
       }
     }
   },
@@ -646,8 +592,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Rimwe",
         "pron": "REEM-weh",
-        "lit": "Counting (1).",
-        "verify": false
+        "lit": "Counting (1)."
       }
     }
   },
@@ -658,8 +603,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Kabiri",
         "pron": "kah-BEE-ree",
-        "lit": "Counting (2).",
-        "verify": false
+        "lit": "Counting (2)."
       }
     }
   },
@@ -670,8 +614,7 @@ window.RW_SEED_ENTRIES =
       "rw": {
         "text": "Gatatu",
         "pron": "gah-TAH-too",
-        "lit": "Counting (3).",
-        "verify": false
+        "lit": "Counting (3)."
       }
     }
   }

@@ -293,13 +293,18 @@ main {
   font-size: 0.72rem;
 }
 
-.flag-tag {
-  font-size: 0.7rem;
-  color: #b45309;
-  background: #fdf1e0;
-  border: 1px solid #f0d9b5;
-  padding: 2px 8px;
-  border-radius: 999px;
+.mark-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--muted);
+  padding: 0;
+}
+
+.mark-btn.on {
+  color: #d4a017;
 }
 
 .card-front p {
@@ -487,14 +492,6 @@ main {
   border-radius: var(--radius);
   font-size: 0.9rem;
   width: 100%;
-}
-
-.edit-form .edit-verify-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.85rem;
-  color: var(--muted);
 }
 
 .edit-actions {

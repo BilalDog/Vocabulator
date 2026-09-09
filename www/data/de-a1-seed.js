@@ -42,8 +42,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ab",
         "pron": "",
-        "lit": "Ab morgen muss ich arbeiten.",
-        "verify": false
+        "lit": "Ab morgen muss ich arbeiten."
       }
     }
   },
@@ -54,8 +53,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aber",
         "pron": "",
-        "lit": "Ich bin oft im Büro, aber nur für wenige Stunden.",
-        "verify": false
+        "lit": "Ich bin oft im Büro, aber nur für wenige Stunden."
       }
     }
   },
@@ -66,8 +64,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "abfahren",
         "pron": "",
-        "lit": "Wir fahren um zwölf Uhr ab.",
-        "verify": false
+        "lit": "Wir fahren um zwölf Uhr ab."
       }
     }
   },
@@ -78,8 +75,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Abfahrt",
         "pron": "",
-        "lit": "Vor der Abfahrt rufe ich an.",
-        "verify": false
+        "lit": "Vor der Abfahrt rufe ich an."
       }
     }
   },
@@ -90,8 +86,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "abgeben",
         "pron": "",
-        "lit": "Ich muss meine Schlüssel abgeben.",
-        "verify": false
+        "lit": "Ich muss meine Schlüssel abgeben."
       }
     }
   },
@@ -102,8 +97,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "abholen",
         "pron": "",
-        "lit": "Wann kann ich den Schrank bei dir abholen? Wir müssen noch meinen Bruder abholen.",
-        "verify": false
+        "lit": "Wann kann ich den Schrank bei dir abholen? Wir müssen noch meinen Bruder abholen."
       }
     }
   },
@@ -114,8 +108,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Absender",
         "pron": "",
-        "lit": "Da ist ein Brief für dich ohne Absender.",
-        "verify": false
+        "lit": "Da ist ein Brief für dich ohne Absender."
       }
     }
   },
@@ -126,8 +119,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Achtung",
         "pron": "",
-        "lit": "Achtung! Das dürfen Sie nicht tun.",
-        "verify": false
+        "lit": "Achtung! Das dürfen Sie nicht tun."
       }
     }
   },
@@ -138,8 +130,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Adresse,-en",
         "pron": "",
-        "lit": "Können Sie mir seine Adresse sagen?",
-        "verify": false
+        "lit": "Können Sie mir seine Adresse sagen?"
       }
     }
   },
@@ -150,8 +141,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "alle",
         "pron": "",
-        "lit": "Alles Gute! Das ist alles. Sind alle da? Alle Freunde kommen. Hast du alles?",
-        "verify": false
+        "lit": "Alles Gute! Das ist alles. Sind alle da? Alle Freunde kommen. Hast du alles?"
       }
     }
   },
@@ -162,8 +152,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "allein",
         "pron": "",
-        "lit": "Er kommt allein.",
-        "verify": false
+        "lit": "Er kommt allein."
       }
     }
   },
@@ -174,8 +163,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "also",
         "pron": "",
-        "lit": "Also, es ist so: ... Er hat Zeit, also muss er uns helfen.",
-        "verify": false
+        "lit": "Also, es ist so: ... Er hat Zeit, also muss er uns helfen."
       }
     }
   },
@@ -186,8 +174,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "alt",
         "pron": "",
-        "lit": "Wie alt sind Sie? Sie sehen aber nicht so alt aus. Mein Auto ist schon sehr alt. Wir wohnen in einem sehr alten Haus. Köln ist eine alte Stadt.",
-        "verify": false
+        "lit": "Wie alt sind Sie? Sie sehen aber nicht so alt aus. Mein Auto ist schon sehr alt. Wir wohnen in einem sehr alten Haus. Köln ist eine alte Stadt."
       }
     }
   },
@@ -198,8 +185,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Alter",
         "pron": "",
-        "lit": "Alter: 26 Jahre.",
-        "verify": false
+        "lit": "Alter: 26 Jahre."
       }
     }
   },
@@ -210,8 +196,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "an",
         "pron": "",
-        "lit": "Fahren Sie an der nächsten Straße nach rechts. Wir treffen uns am Bahnhof. Am nächsten Montag geht es leider nicht.",
-        "verify": false
+        "lit": "Fahren Sie an der nächsten Straße nach rechts. Wir treffen uns am Bahnhof. Am nächsten Montag geht es leider nicht."
       }
     }
   },
@@ -222,8 +207,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "anbieten",
         "pron": "",
-        "lit": "Was darf ich dir anbieten?",
-        "verify": false
+        "lit": "Was darf ich dir anbieten?"
       }
     }
   },
@@ -234,8 +218,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Angebot, -e",
         "pron": "",
-        "lit": "Heute sind Sportschuhe im Angebot.",
-        "verify": false
+        "lit": "Heute sind Sportschuhe im Angebot."
       }
     }
   },
@@ -246,8 +229,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "andere",
         "pron": "",
-        "lit": "WiIlst du diese Jacke? – Nein, ich möchte die andere.",
-        "verify": false
+        "lit": "WiIlst du diese Jacke? – Nein, ich möchte die andere."
       }
     }
   },
@@ -258,8 +240,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "anfangen",
         "pron": "",
-        "lit": "Hier fängt die Bahnhofstraße an. Der Unterricht fängt gleich an.",
-        "verify": false
+        "lit": "Hier fängt die Bahnhofstraße an. Der Unterricht fängt gleich an."
       }
     }
   },
@@ -270,8 +251,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Anfang",
         "pron": "",
-        "lit": "Sie wohnt am Anfang der Straße. Wir machen Anfang Juli Urlaub.",
-        "verify": false
+        "lit": "Sie wohnt am Anfang der Straße. Wir machen Anfang Juli Urlaub."
       }
     }
   },
@@ -282,8 +262,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "anklicken",
         "pron": "",
-        "lit": "Da musst du dieses Wort anklicken.",
-        "verify": false
+        "lit": "Da musst du dieses Wort anklicken."
       }
     }
   },
@@ -294,8 +273,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ankommen",
         "pron": "",
-        "lit": "Wann kommt dieser Zug in Hamburg an?",
-        "verify": false
+        "lit": "Wann kommt dieser Zug in Hamburg an?"
       }
     }
   },
@@ -306,8 +284,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Ankunft",
         "pron": "",
-        "lit": "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.",
-        "verify": false
+        "lit": "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge."
       }
     }
   },
@@ -318,8 +295,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ankreuzen",
         "pron": "",
-        "lit": "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.",
-        "verify": false
+        "lit": "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen."
       }
     }
   },
@@ -330,8 +306,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "anmachen",
         "pron": "",
-        "lit": "Mach bitte das Licht an!",
-        "verify": false
+        "lit": "Mach bitte das Licht an!"
       }
     }
   },
@@ -342,8 +317,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) anmelden",
         "pron": "",
-        "lit": "Wo kann ich mich anmelden?",
-        "verify": false
+        "lit": "Wo kann ich mich anmelden?"
       }
     }
   },
@@ -354,8 +328,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Anmeldung",
         "pron": "",
-        "lit": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
-        "verify": false
+        "lit": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich."
       }
     }
   },
@@ -366,8 +339,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Anrede",
         "pron": "",
-        "lit": "Schreiben Sie auch eine Anrede und einen Gruß.",
-        "verify": false
+        "lit": "Schreiben Sie auch eine Anrede und einen Gruß."
       }
     }
   },
@@ -378,8 +350,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "anrufen",
         "pron": "",
-        "lit": "Kann man Sie anrufen? Peter ruft kurz seine Freundin an.",
-        "verify": false
+        "lit": "Kann man Sie anrufen? Peter ruft kurz seine Freundin an."
       }
     }
   },
@@ -390,8 +361,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Anruf, -e",
         "pron": "",
-        "lit": "Sie bekommt viele Anrufe auf ihrem Handy.",
-        "verify": false
+        "lit": "Sie bekommt viele Anrufe auf ihrem Handy."
       }
     }
   },
@@ -402,8 +372,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Anrufbeantworter",
         "pron": "",
-        "lit": "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.",
-        "verify": false
+        "lit": "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter."
       }
     }
   },
@@ -414,8 +383,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Ansage, -n",
         "pron": "",
-        "lit": "Hören Sie die Ansagen.",
-        "verify": false
+        "lit": "Hören Sie die Ansagen."
       }
     }
   },
@@ -426,8 +394,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Anschluss",
         "pron": "",
-        "lit": "In Mannheim haben Sie Anschluss nach Saarbrücken. Ist das die Anmeldung für einen Telefonanschluss?",
-        "verify": false
+        "lit": "In Mannheim haben Sie Anschluss nach Saarbrücken. Ist das die Anmeldung für einen Telefonanschluss?"
       }
     }
   },
@@ -438,8 +405,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "an sein",
         "pron": "",
-        "lit": "Heute Nacht war das Licht an. Das Licht ist noch an.",
-        "verify": false
+        "lit": "Heute Nacht war das Licht an. Das Licht ist noch an."
       }
     }
   },
@@ -450,8 +416,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "antworten",
         "pron": "",
-        "lit": "Er antwortet nicht.",
-        "verify": false
+        "lit": "Er antwortet nicht."
       }
     }
   },
@@ -462,8 +427,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Antwort, -en",
         "pron": "",
-        "lit": "Er gibt leider keine Antwort.",
-        "verify": false
+        "lit": "Er gibt leider keine Antwort."
       }
     }
   },
@@ -474,8 +438,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Anzeige, -n",
         "pron": "",
-        "lit": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
-        "verify": false
+        "lit": "Ich habe Ihre Anzeige in der Zeitung gelesen."
       }
     }
   },
@@ -486,8 +449,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) anziehen",
         "pron": "",
-        "lit": "Ich muss mich noch anziehen.",
-        "verify": false
+        "lit": "Ich muss mich noch anziehen."
       }
     }
   },
@@ -498,8 +460,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Apartment, -s",
         "pron": "",
-        "lit": "Wir haben ein Apartment gemietet.",
-        "verify": false
+        "lit": "Wir haben ein Apartment gemietet."
       }
     }
   },
@@ -510,8 +471,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Apfel, -Ä",
         "pron": "",
-        "lit": "Ein Pfund Äpfel bitte.",
-        "verify": false
+        "lit": "Ein Pfund Äpfel bitte."
       }
     }
   },
@@ -522,8 +482,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Appetit",
         "pron": "",
-        "lit": "Guten Appetit!",
-        "verify": false
+        "lit": "Guten Appetit!"
       }
     }
   },
@@ -534,8 +493,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "arbeiten",
         "pron": "",
-        "lit": "Wo arbeiten Sie?",
-        "verify": false
+        "lit": "Wo arbeiten Sie?"
       }
     }
   },
@@ -546,8 +504,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Arbeit, -en",
         "pron": "",
-        "lit": "Mein Bruder sucht Arbeit.",
-        "verify": false
+        "lit": "Mein Bruder sucht Arbeit."
       }
     }
   },
@@ -558,8 +515,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "arbeitslos",
         "pron": "",
-        "lit": "Es gibt bei uns viele Leute, die schon lange arbeitslos sind.",
-        "verify": false
+        "lit": "Es gibt bei uns viele Leute, die schon lange arbeitslos sind."
       }
     }
   },
@@ -570,8 +526,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Arbeitsplatz, -ä, e",
         "pron": "",
-        "lit": "An meinem Arbeitsplatz fehlt ein Drucker.",
-        "verify": false
+        "lit": "An meinem Arbeitsplatz fehlt ein Drucker."
       }
     }
   },
@@ -582,8 +537,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Arm, -e",
         "pron": "",
-        "lit": "Mein Arm tut weh.",
-        "verify": false
+        "lit": "Mein Arm tut weh."
       }
     }
   },
@@ -594,8 +548,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Arzt, -Ä, e",
         "pron": "",
-        "lit": "Morgen habe ich einen Termin bei meiner Ärztin.",
-        "verify": false
+        "lit": "Morgen habe ich einen Termin bei meiner Ärztin."
       }
     }
   },
@@ -606,8 +559,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "auch",
         "pron": "",
-        "lit": "Ich bin auch Spanier.",
-        "verify": false
+        "lit": "Ich bin auch Spanier."
       }
     }
   },
@@ -618,8 +570,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "auf",
         "pron": "",
-        "lit": "Die Kinder spielen auf der Straße. Auf Wiedersehen. Wie heißt das auf Deutsch?",
-        "verify": false
+        "lit": "Die Kinder spielen auf der Straße. Auf Wiedersehen. Wie heißt das auf Deutsch?"
       }
     }
   },
@@ -630,8 +581,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Aufgabe, -n",
         "pron": "",
-        "lit": "Das ist eine schwere Aufgabe.",
-        "verify": false
+        "lit": "Das ist eine schwere Aufgabe."
       }
     }
   },
@@ -642,8 +592,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aufhören",
         "pron": "",
-        "lit": "Der Kurs hört in einer Woche auf. Hier hört die Bahnhofstraße auf.",
-        "verify": false
+        "lit": "Der Kurs hört in einer Woche auf. Hier hört die Bahnhofstraße auf."
       }
     }
   },
@@ -654,8 +603,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "auf sein",
         "pron": "",
-        "lit": "Du brauchst den Schlüssel nicht. Die Wohnung ist auf. Das Fenster ist noch auf.",
-        "verify": false
+        "lit": "Du brauchst den Schlüssel nicht. Die Wohnung ist auf. Das Fenster ist noch auf."
       }
     }
   },
@@ -666,8 +614,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aufstehen",
         "pron": "",
-        "lit": "Ich muss immer um vier Uhr aufstehen. Soll ich aufstehen?",
-        "verify": false
+        "lit": "Ich muss immer um vier Uhr aufstehen. Soll ich aufstehen?"
       }
     }
   },
@@ -678,8 +625,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Aufzug, -ü, e",
         "pron": "",
-        "lit": "In diesem Haus gibt es keinen Aufzug.",
-        "verify": false
+        "lit": "In diesem Haus gibt es keinen Aufzug."
       }
     }
   },
@@ -690,8 +636,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Auge, -n",
         "pron": "",
-        "lit": "Er hat blaue Augen.",
-        "verify": false
+        "lit": "Er hat blaue Augen."
       }
     }
   },
@@ -702,8 +647,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aus",
         "pron": "",
-        "lit": "Er kommt aus Brasilien.",
-        "verify": false
+        "lit": "Er kommt aus Brasilien."
       }
     }
   },
@@ -714,8 +658,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ausflug",
         "pron": "",
-        "lit": "Morgen machen wir einen Ausflug nach Heidelberg.",
-        "verify": false
+        "lit": "Morgen machen wir einen Ausflug nach Heidelberg."
       }
     }
   },
@@ -726,8 +669,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ausfüllen",
         "pron": "",
-        "lit": "Füllen Sie bitte dieses Formular aus.",
-        "verify": false
+        "lit": "Füllen Sie bitte dieses Formular aus."
       }
     }
   },
@@ -738,8 +680,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ausgang",
         "pron": "",
-        "lit": "Wo ist der Ausgang?",
-        "verify": false
+        "lit": "Wo ist der Ausgang?"
       }
     }
   },
@@ -750,8 +691,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Auskunft, -ü, e",
         "pron": "",
-        "lit": "Können Sie mir eine Auskunft geben?",
-        "verify": false
+        "lit": "Können Sie mir eine Auskunft geben?"
       }
     }
   },
@@ -762,8 +702,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Ausland",
         "pron": "",
-        "lit": "Fahren Sie ins Ausland?",
-        "verify": false
+        "lit": "Fahren Sie ins Ausland?"
       }
     }
   },
@@ -774,8 +713,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ausländer, -",
         "pron": "",
-        "lit": "SInd Sie Ausländerin?",
-        "verify": false
+        "lit": "SInd Sie Ausländerin?"
       }
     }
   },
@@ -786,8 +724,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ausländisch",
         "pron": "",
-        "lit": "Leider habe ich nur ausländisches Geld.",
-        "verify": false
+        "lit": "Leider habe ich nur ausländisches Geld."
       }
     }
   },
@@ -798,8 +735,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ausmachen",
         "pron": "",
-        "lit": "Mach bitte das Licht aus!",
-        "verify": false
+        "lit": "Mach bitte das Licht aus!"
       }
     }
   },
@@ -810,8 +746,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Aussage, -n",
         "pron": "",
-        "lit": "Ist die Aussage richtig oder falsch?",
-        "verify": false
+        "lit": "Ist die Aussage richtig oder falsch?"
       }
     }
   },
@@ -822,8 +757,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aussehen",
         "pron": "",
-        "lit": "Das sieht schön aus.",
-        "verify": false
+        "lit": "Das sieht schön aus."
       }
     }
   },
@@ -834,8 +768,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aus sein",
         "pron": "",
-        "lit": "Das Licht ist aus. Die Schule ist aus.",
-        "verify": false
+        "lit": "Das Licht ist aus. Die Schule ist aus."
       }
     }
   },
@@ -846,8 +779,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "aussteigen",
         "pron": "",
-        "lit": "Wo muss ich aussteigen?",
-        "verify": false
+        "lit": "Wo muss ich aussteigen?"
       }
     }
   },
@@ -858,8 +790,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ausweis",
         "pron": "",
-        "lit": "Hier ist mein Ausweis.",
-        "verify": false
+        "lit": "Hier ist mein Ausweis."
       }
     }
   },
@@ -870,8 +801,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) ausziehen",
         "pron": "",
-        "lit": "Zieh die Schuhe aus, bitte!",
-        "verify": false
+        "lit": "Zieh die Schuhe aus, bitte!"
       }
     }
   },
@@ -882,8 +812,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Auto, -s",
         "pron": "",
-        "lit": "Er kommt mit dem Auto.",
-        "verify": false
+        "lit": "Er kommt mit dem Auto."
       }
     }
   },
@@ -894,8 +823,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Autobahn, -en",
         "pron": "",
-        "lit": "Wo geht‘s hier bitte zur Autobahn?",
-        "verify": false
+        "lit": "Wo geht‘s hier bitte zur Autobahn?"
       }
     }
   },
@@ -906,8 +834,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Automat",
         "pron": "",
-        "lit": "Die Fahrkarten gibt es nur am Automaten.",
-        "verify": false
+        "lit": "Die Fahrkarten gibt es nur am Automaten."
       }
     }
   },
@@ -918,8 +845,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "automatisch",
         "pron": "",
-        "lit": "Du musst nichts machen. Das geht automatisch.",
-        "verify": false
+        "lit": "Du musst nichts machen. Das geht automatisch."
       }
     }
   },
@@ -930,8 +856,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Baby, -s",
         "pron": "",
-        "lit": "Mein Kind ist noch ein Baby.",
-        "verify": false
+        "lit": "Mein Kind ist noch ein Baby."
       }
     }
   },
@@ -942,8 +867,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Bäckerei",
         "pron": "",
-        "lit": "Ich geh mal schnell zur Bäckerei.",
-        "verify": false
+        "lit": "Ich geh mal schnell zur Bäckerei."
       }
     }
   },
@@ -954,8 +878,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Bad",
         "pron": "",
-        "lit": "Wir haben kein großes Bad.",
-        "verify": false
+        "lit": "Wir haben kein großes Bad."
       }
     }
   },
@@ -966,8 +889,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "baden",
         "pron": "",
-        "lit": "Ich bade nicht so gern, ich dusche lieber.",
-        "verify": false
+        "lit": "Ich bade nicht so gern, ich dusche lieber."
       }
     }
   },
@@ -978,8 +900,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Bahn",
         "pron": "",
-        "lit": "Wir fahren lieber mit der Bahn. Ich nehme die nächste Bahn.",
-        "verify": false
+        "lit": "Wir fahren lieber mit der Bahn. Ich nehme die nächste Bahn."
       }
     }
   },
@@ -990,8 +911,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bahnhof",
         "pron": "",
-        "lit": "Komme ich hier zum Bahnhof?",
-        "verify": false
+        "lit": "Komme ich hier zum Bahnhof?"
       }
     }
   },
@@ -1002,8 +922,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bahnsteig",
         "pron": "",
-        "lit": "Auf welchem Bahnsteig fährt der Zug?",
-        "verify": false
+        "lit": "Auf welchem Bahnsteig fährt der Zug?"
       }
     }
   },
@@ -1014,8 +933,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bald",
         "pron": "",
-        "lit": "Ich komme bald.",
-        "verify": false
+        "lit": "Ich komme bald."
       }
     }
   },
@@ -1026,8 +944,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Balkon",
         "pron": "",
-        "lit": "Die Wohnung hat auch einen kleinen Balkon.",
-        "verify": false
+        "lit": "Die Wohnung hat auch einen kleinen Balkon."
       }
     }
   },
@@ -1038,8 +955,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Banane, -n",
         "pron": "",
-        "lit": "Drei Bananen, bitte!",
-        "verify": false
+        "lit": "Drei Bananen, bitte!"
       }
     }
   },
@@ -1050,8 +966,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Bank",
         "pron": "",
-        "lit": "Die Bank schließt schon um vier Uhr. Er sitzt im Park auf einer Bank und liest.",
-        "verify": false
+        "lit": "Die Bank schließt schon um vier Uhr. Er sitzt im Park auf einer Bank und liest."
       }
     }
   },
@@ -1062,8 +977,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bar",
         "pron": "",
-        "lit": "Muss ich bar zahlen oder geht‘s auch mit Karte?",
-        "verify": false
+        "lit": "Muss ich bar zahlen oder geht‘s auch mit Karte?"
       }
     }
   },
@@ -1074,8 +988,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bauch",
         "pron": "",
-        "lit": "Seit gestern tut mir der Bauch weh.",
-        "verify": false
+        "lit": "Seit gestern tut mir der Bauch weh."
       }
     }
   },
@@ -1086,8 +999,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Baum, -ä, e",
         "pron": "",
-        "lit": "Vorsicht, fahr nicht an den Baum!",
-        "verify": false
+        "lit": "Vorsicht, fahr nicht an den Baum!"
       }
     }
   },
@@ -1098,8 +1010,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Beamte, -n",
         "pron": "",
-        "lit": "Fragen Sie die Beamtin an Schalter acht!",
-        "verify": false
+        "lit": "Fragen Sie die Beamtin an Schalter acht!"
       }
     }
   },
@@ -1110,8 +1021,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bedeuten",
         "pron": "",
-        "lit": "Was bedeutet das Wort?",
-        "verify": false
+        "lit": "Was bedeutet das Wort?"
       }
     }
   },
@@ -1122,8 +1032,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "beginnen",
         "pron": "",
-        "lit": "Das Spiel beginnt um 15.30 Uhr.",
-        "verify": false
+        "lit": "Das Spiel beginnt um 15.30 Uhr."
       }
     }
   },
@@ -1134,8 +1043,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bei",
         "pron": "",
-        "lit": "Offenbach liegt bei Frankfurt. Ich wohne bei meinen Eltern. Bei uns regnet es heute. Er arbeitet bei der Polizei.",
-        "verify": false
+        "lit": "Offenbach liegt bei Frankfurt. Ich wohne bei meinen Eltern. Bei uns regnet es heute. Er arbeitet bei der Polizei."
       }
     }
   },
@@ -1146,8 +1054,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "beide",
         "pron": "",
-        "lit": "Beide Eltern arbeiten. Wir kommen beide.",
-        "verify": false
+        "lit": "Beide Eltern arbeiten. Wir kommen beide."
       }
     }
   },
@@ -1158,8 +1065,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Bein, -e",
         "pron": "",
-        "lit": "Mein rechtes Bein tut weh.",
-        "verify": false
+        "lit": "Mein rechtes Bein tut weh."
       }
     }
   },
@@ -1170,8 +1076,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Beispiel, -e",
         "pron": "",
-        "lit": "Kannst du mir ein Beispiel sagen?",
-        "verify": false
+        "lit": "Kannst du mir ein Beispiel sagen?"
       }
     }
   },
@@ -1182,8 +1087,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zum Beispiel/z. B.",
         "pron": "",
-        "lit": "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier.",
-        "verify": false
+        "lit": "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier."
       }
     }
   },
@@ -1194,8 +1098,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bekannt",
         "pron": "",
-        "lit": "Picasso ist sehr bekannt.",
-        "verify": false
+        "lit": "Picasso ist sehr bekannt."
       }
     }
   },
@@ -1206,8 +1109,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der/die Bekannte, -n",
         "pron": "",
-        "lit": "Ein Bekannter von mir heißt Klaus.",
-        "verify": false
+        "lit": "Ein Bekannter von mir heißt Klaus."
       }
     }
   },
@@ -1218,8 +1120,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bekommen",
         "pron": "",
-        "lit": "Haben Sie meinen Brief bekommen? Was bekommen Sie? Dieses Medikament bekommen Sie in der Apotheke.",
-        "verify": false
+        "lit": "Haben Sie meinen Brief bekommen? Was bekommen Sie? Dieses Medikament bekommen Sie in der Apotheke."
       }
     }
   },
@@ -1230,8 +1131,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "benutzen",
         "pron": "",
-        "lit": "Die Aufzüge bitte nicht benutzen!",
-        "verify": false
+        "lit": "Die Aufzüge bitte nicht benutzen!"
       }
     }
   },
@@ -1242,8 +1142,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Beruf, -e",
         "pron": "",
-        "lit": "Was sind Sie von Beruf? Was ist Ihr Beruf?",
-        "verify": false
+        "lit": "Was sind Sie von Beruf? Was ist Ihr Beruf?"
       }
     }
   },
@@ -1254,8 +1153,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "besetzt",
         "pron": "",
-        "lit": "Die Nummer ist immer besetzt. Der Platz ist besetzt.",
-        "verify": false
+        "lit": "Die Nummer ist immer besetzt. Der Platz ist besetzt."
       }
     }
   },
@@ -1266,8 +1164,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "besichtigen",
         "pron": "",
-        "lit": "Ich möchte gern den Dom besichtigen.",
-        "verify": false
+        "lit": "Ich möchte gern den Dom besichtigen."
       }
     }
   },
@@ -1278,8 +1175,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "besser",
         "pron": "",
-        "lit": "Es geht mir schon besser.",
-        "verify": false
+        "lit": "Es geht mir schon besser."
       }
     }
   },
@@ -1290,8 +1186,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "beste",
         "pron": "",
-        "lit": "Am besten treffen wir uns morgen.",
-        "verify": false
+        "lit": "Am besten treffen wir uns morgen."
       }
     }
   },
@@ -1302,8 +1197,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bestellen",
         "pron": "",
-        "lit": "Wir möchten bestellen, bitte. Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?",
-        "verify": false
+        "lit": "Wir möchten bestellen, bitte. Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?"
       }
     }
   },
@@ -1314,8 +1208,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "besuchen",
         "pron": "",
-        "lit": "Darf ich dich besuchen?",
-        "verify": false
+        "lit": "Darf ich dich besuchen?"
       }
     }
   },
@@ -1326,8 +1219,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Bett, -en",
         "pron": "",
-        "lit": "Wir brauchen noch ein Kinderbett.",
-        "verify": false
+        "lit": "Wir brauchen noch ein Kinderbett."
       }
     }
   },
@@ -1338,8 +1230,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bezahlen",
         "pron": "",
-        "lit": "Wo muss ich bezahlen?",
-        "verify": false
+        "lit": "Wo muss ich bezahlen?"
       }
     }
   },
@@ -1350,8 +1241,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Bier",
         "pron": "",
-        "lit": "Noch ein Bier bitte.",
-        "verify": false
+        "lit": "Noch ein Bier bitte."
       }
     }
   },
@@ -1362,8 +1252,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Bild, -er",
         "pron": "",
-        "lit": "Hast du ein Bild von deinem Sohn?",
-        "verify": false
+        "lit": "Hast du ein Bild von deinem Sohn?"
       }
     }
   },
@@ -1374,8 +1263,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "billig",
         "pron": "",
-        "lit": "Die Jacke kostet nur 10 Euro! Die ist aber billig!",
-        "verify": false
+        "lit": "Die Jacke kostet nur 10 Euro! Die ist aber billig!"
       }
     }
   },
@@ -1386,8 +1274,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Birne, -n",
         "pron": "",
-        "lit": "Ein Kilo Birnen, bitte!",
-        "verify": false
+        "lit": "Ein Kilo Birnen, bitte!"
       }
     }
   },
@@ -1398,8 +1285,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bis",
         "pron": "",
-        "lit": "Ich fahre nur bis Stuttgart. Ich warte bis morgen.",
-        "verify": false
+        "lit": "Ich fahre nur bis Stuttgart. Ich warte bis morgen."
       }
     }
   },
@@ -1410,8 +1296,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bisschen",
         "pron": "",
-        "lit": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
-        "verify": false
+        "lit": "Ich spreche Englisch, Französisch und ein bisschen Deutsch."
       }
     }
   },
@@ -1422,8 +1307,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bitte",
         "pron": "",
-        "lit": "Eine Tasse Kaffee, bitte! Sprechen Sie bitte leise!",
-        "verify": false
+        "lit": "Eine Tasse Kaffee, bitte! Sprechen Sie bitte leise!"
       }
     }
   },
@@ -1434,8 +1318,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Bitte, -n",
         "pron": "",
-        "lit": "Ich habe noch eine Bitte.",
-        "verify": false
+        "lit": "Ich habe noch eine Bitte."
       }
     }
   },
@@ -1446,8 +1329,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bitten",
         "pron": "",
-        "lit": "Darf ich Sie um etwas bitten?",
-        "verify": false
+        "lit": "Darf ich Sie um etwas bitten?"
       }
     }
   },
@@ -1458,8 +1340,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bitter",
         "pron": "",
-        "lit": "Der Kaffee schmeckt bitter.",
-        "verify": false
+        "lit": "Der Kaffee schmeckt bitter."
       }
     }
   },
@@ -1470,8 +1351,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bleiben",
         "pron": "",
-        "lit": "Ich bleibe heute zu Hause. Wir bleiben nur bis morgen.",
-        "verify": false
+        "lit": "Ich bleibe heute zu Hause. Wir bleiben nur bis morgen."
       }
     }
   },
@@ -1482,8 +1362,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bleistift, -e",
         "pron": "",
-        "lit": "Hast du einen Bleistift?",
-        "verify": false
+        "lit": "Hast du einen Bleistift?"
       }
     }
   },
@@ -1494,8 +1373,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Blick",
         "pron": "",
-        "lit": "Von diesem Hotel hat man einen guten Blick auf den Rhein.",
-        "verify": false
+        "lit": "Von diesem Hotel hat man einen guten Blick auf den Rhein."
       }
     }
   },
@@ -1506,8 +1384,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Blume, -n",
         "pron": "",
-        "lit": "Gefallen dir die Blumen?",
-        "verify": false
+        "lit": "Gefallen dir die Blumen?"
       }
     }
   },
@@ -1518,8 +1395,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bogen",
         "pron": "",
-        "lit": "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.",
-        "verify": false
+        "lit": "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen."
       }
     }
   },
@@ -1530,8 +1406,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "böse",
         "pron": "",
-        "lit": "Sie ist böse auf mich.",
-        "verify": false
+        "lit": "Sie ist böse auf mich."
       }
     }
   },
@@ -1542,8 +1417,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "brauchen",
         "pron": "",
-        "lit": "Brauchst du die Zeitung noch?",
-        "verify": false
+        "lit": "Brauchst du die Zeitung noch?"
       }
     }
   },
@@ -1554,8 +1428,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "breit",
         "pron": "",
-        "lit": "Wie breit ist der Schrank?",
-        "verify": false
+        "lit": "Wie breit ist der Schrank?"
       }
     }
   },
@@ -1566,8 +1439,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Brief, -e",
         "pron": "",
-        "lit": "Haben Sie einen Brief für mich?",
-        "verify": false
+        "lit": "Haben Sie einen Brief für mich?"
       }
     }
   },
@@ -1578,8 +1450,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Briefmarke, -n",
         "pron": "",
-        "lit": "Kaufst du bitte Briefmarken bei der Post.",
-        "verify": false
+        "lit": "Kaufst du bitte Briefmarken bei der Post."
       }
     }
   },
@@ -1590,8 +1461,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bringen",
         "pron": "",
-        "lit": "Bringen Sie mir bitte noch einen Kaffee! Wir müssen ihn zum Arzt bringen.",
-        "verify": false
+        "lit": "Bringen Sie mir bitte noch einen Kaffee! Wir müssen ihn zum Arzt bringen."
       }
     }
   },
@@ -1602,8 +1472,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Brot, -e",
         "pron": "",
-        "lit": "Haben Sie auch Weißbrot? Nimm noch ein paar Brote für die Fahrt mit.",
-        "verify": false
+        "lit": "Haben Sie auch Weißbrot? Nimm noch ein paar Brote für die Fahrt mit."
       }
     }
   },
@@ -1614,8 +1483,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Brötchen, –",
         "pron": "",
-        "lit": "Möchtest du Brötchen zum Frühstück?",
-        "verify": false
+        "lit": "Möchtest du Brötchen zum Frühstück?"
       }
     }
   },
@@ -1626,8 +1494,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bruder, -ü",
         "pron": "",
-        "lit": "Sein Bruder arbeitet auch hier.",
-        "verify": false
+        "lit": "Sein Bruder arbeitet auch hier."
       }
     }
   },
@@ -1638,8 +1505,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Buch, -ü, er",
         "pron": "",
-        "lit": "Gute Bücher sind oft sehr teuer. In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.",
-        "verify": false
+        "lit": "Gute Bücher sind oft sehr teuer. In diesem Wörterbuch finden Sie mehr als 20.000 Wörter."
       }
     }
   },
@@ -1650,8 +1516,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Buchstabe, -n",
         "pron": "",
-        "lit": "Diesen Buchstaben gibt es in meiner Sprache nicht.",
-        "verify": false
+        "lit": "Diesen Buchstaben gibt es in meiner Sprache nicht."
       }
     }
   },
@@ -1662,8 +1527,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "buchstabieren",
         "pron": "",
-        "lit": "Bitte buchstabieren Sie Ihren Namen.",
-        "verify": false
+        "lit": "Bitte buchstabieren Sie Ihren Namen."
       }
     }
   },
@@ -1674,8 +1538,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Bus, -se",
         "pron": "",
-        "lit": "Wann kommt der nächste Bus?",
-        "verify": false
+        "lit": "Wann kommt der nächste Bus?"
       }
     }
   },
@@ -1686,8 +1549,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Butter",
         "pron": "",
-        "lit": "Für mich bitte ein Brötchen mit Butter und Käse.",
-        "verify": false
+        "lit": "Für mich bitte ein Brötchen mit Butter und Käse."
       }
     }
   },
@@ -1698,8 +1560,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Café, -s",
         "pron": "",
-        "lit": "Sollen wir uns im Café treffen?",
-        "verify": false
+        "lit": "Sollen wir uns im Café treffen?"
       }
     }
   },
@@ -1710,8 +1571,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die CD, -s",
         "pron": "",
-        "lit": "Bring bitte deine Lieblings-CD mit.",
-        "verify": false
+        "lit": "Bring bitte deine Lieblings-CD mit."
       }
     }
   },
@@ -1722,8 +1582,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Chef",
         "pron": "",
-        "lit": "Wir haben eine neue Chefin.",
-        "verify": false
+        "lit": "Wir haben eine neue Chefin."
       }
     }
   },
@@ -1734,8 +1593,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "circa/ca.",
         "pron": "",
-        "lit": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
-        "verify": false
+        "lit": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer."
       }
     }
   },
@@ -1746,8 +1604,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Computer, –",
         "pron": "",
-        "lit": "Wann bekommst du deinen neuen Computer?",
-        "verify": false
+        "lit": "Wann bekommst du deinen neuen Computer?"
       }
     }
   },
@@ -1758,8 +1615,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "da",
         "pron": "",
-        "lit": "Da hinten ist er ja. Wir sprechen gerade über Paul. Da kommt er ja gerade. Ich nehme das da. Ist Herr Klein schon da?",
-        "verify": false
+        "lit": "Da hinten ist er ja. Wir sprechen gerade über Paul. Da kommt er ja gerade. Ich nehme das da. Ist Herr Klein schon da?"
       }
     }
   },
@@ -1770,8 +1626,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Dame, -n",
         "pron": "",
-        "lit": "Damen (an der Toilette) Sehr geehrte Damen und Herren!",
-        "verify": false
+        "lit": "Damen (an der Toilette) Sehr geehrte Damen und Herren!"
       }
     }
   },
@@ -1782,8 +1637,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "daneben",
         "pron": "",
-        "lit": "Du kennst doch die Post. Daneben ist die Bank.",
-        "verify": false
+        "lit": "Du kennst doch die Post. Daneben ist die Bank."
       }
     }
   },
@@ -1794,8 +1648,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "danken",
         "pron": "",
-        "lit": "Ich danke Ihnen für die Einladung.",
-        "verify": false
+        "lit": "Ich danke Ihnen für die Einladung."
       }
     }
   },
@@ -1806,8 +1659,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Dank",
         "pron": "",
-        "lit": "Vielen Dank! Herzlichen Dank!",
-        "verify": false
+        "lit": "Vielen Dank! Herzlichen Dank!"
       }
     }
   },
@@ -1818,8 +1670,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "danke",
         "pron": "",
-        "lit": "Soll ich Ihnen helfen? - Nein, danke!",
-        "verify": false
+        "lit": "Soll ich Ihnen helfen? - Nein, danke!"
       }
     }
   },
@@ -1830,8 +1681,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dann",
         "pron": "",
-        "lit": "Ich muss noch schnell zur Post, dann komme ich.",
-        "verify": false
+        "lit": "Ich muss noch schnell zur Post, dann komme ich."
       }
     }
   },
@@ -1842,8 +1692,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Datum",
         "pron": "",
-        "lit": "Bitte schreiben Sie noch das Datum auf das Formular.",
-        "verify": false
+        "lit": "Bitte schreiben Sie noch das Datum auf das Formular."
       }
     }
   },
@@ -1854,8 +1703,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dauern",
         "pron": "",
-        "lit": "Wie lange dauert der Film?",
-        "verify": false
+        "lit": "Wie lange dauert der Film?"
       }
     }
   },
@@ -1866,8 +1714,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dein",
         "pron": "",
-        "lit": "Ist das dein Auto? Ist das deins?",
-        "verify": false
+        "lit": "Ist das dein Auto? Ist das deins?"
       }
     }
   },
@@ -1878,8 +1725,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "denn",
         "pron": "",
-        "lit": "Ich kann nicht kommen, denn ich bin krank.",
-        "verify": false
+        "lit": "Ich kann nicht kommen, denn ich bin krank."
       }
     }
   },
@@ -1890,8 +1736,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der, die, das",
         "pron": "",
-        "lit": "Ich nehme das da. Hier ist der Brief, den du suchst. Die Fahrkarte bekommst du am Bahnhof.",
-        "verify": false
+        "lit": "Ich nehme das da. Hier ist der Brief, den du suchst. Die Fahrkarte bekommst du am Bahnhof."
       }
     }
   },
@@ -1902,8 +1747,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dich",
         "pron": "",
-        "lit": "Die Blumen sind für dich.",
-        "verify": false
+        "lit": "Die Blumen sind für dich."
       }
     }
   },
@@ -1914,8 +1758,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dieser",
         "pron": "",
-        "lit": "Ich nehme lieber diesen Kuchen.",
-        "verify": false
+        "lit": "Ich nehme lieber diesen Kuchen."
       }
     }
   },
@@ -1926,8 +1769,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dir",
         "pron": "",
-        "lit": "Gefallen dir die Blumen?",
-        "verify": false
+        "lit": "Gefallen dir die Blumen?"
       }
     }
   },
@@ -1938,8 +1780,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Disco",
         "pron": "",
-        "lit": "Heute abend gehen wir in die Disco tanzen.",
-        "verify": false
+        "lit": "Heute abend gehen wir in die Disco tanzen."
       }
     }
   },
@@ -1950,8 +1791,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Doktor",
         "pron": "",
-        "lit": "Meine Tochter ist krank. Wir gehen zum Doktor.",
-        "verify": false
+        "lit": "Meine Tochter ist krank. Wir gehen zum Doktor."
       }
     }
   },
@@ -1962,8 +1802,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Doppelzimmer",
         "pron": "",
-        "lit": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?",
-        "verify": false
+        "lit": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?"
       }
     }
   },
@@ -1974,8 +1813,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Dorf, -ö, er",
         "pron": "",
-        "lit": "Meine Familie lebt in einem Dorf.",
-        "verify": false
+        "lit": "Meine Familie lebt in einem Dorf."
       }
     }
   },
@@ -1986,8 +1824,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dort, -her, -hin",
         "pron": "",
-        "lit": "Deine Tasche kannst du dorthin stellen. Dort ist unser Haus.",
-        "verify": false
+        "lit": "Deine Tasche kannst du dorthin stellen. Dort ist unser Haus."
       }
     }
   },
@@ -1998,8 +1835,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "draußen",
         "pron": "",
-        "lit": "Wollen wir draußen sitzen?",
-        "verify": false
+        "lit": "Wollen wir draußen sitzen?"
       }
     }
   },
@@ -2010,8 +1846,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "drucken",
         "pron": "",
-        "lit": "Bitte drucke das Formular für mich.",
-        "verify": false
+        "lit": "Bitte drucke das Formular für mich."
       }
     }
   },
@@ -2022,8 +1857,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Drucker, –",
         "pron": "",
-        "lit": "Mein Drucker ist kaputt.",
-        "verify": false
+        "lit": "Mein Drucker ist kaputt."
       }
     }
   },
@@ -2034,8 +1868,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "drücken",
         "pron": "",
-        "lit": "Drück hier, dann geht der Computer an.",
-        "verify": false
+        "lit": "Drück hier, dann geht der Computer an."
       }
     }
   },
@@ -2046,8 +1879,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "durch",
         "pron": "",
-        "lit": "Am besten gehen Sie durch die Breite Straße.",
-        "verify": false
+        "lit": "Am besten gehen Sie durch die Breite Straße."
       }
     }
   },
@@ -2058,8 +1890,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Durchsage, -n",
         "pron": "",
-        "lit": "Ich habe die Durchsage nicht verstanden.",
-        "verify": false
+        "lit": "Ich habe die Durchsage nicht verstanden."
       }
     }
   },
@@ -2070,8 +1901,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dürfen",
         "pron": "",
-        "lit": "Sie dürfen hier nicht rauchen. Darf ich Sie zu einem Kaffee einladen? Es darf nicht mehr als 15 Euro kosten.",
-        "verify": false
+        "lit": "Sie dürfen hier nicht rauchen. Darf ich Sie zu einem Kaffee einladen? Es darf nicht mehr als 15 Euro kosten."
       }
     }
   },
@@ -2082,8 +1912,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Durst",
         "pron": "",
-        "lit": "Hast du etwas zu trinken? Ich habe großen Durst.",
-        "verify": false
+        "lit": "Hast du etwas zu trinken? Ich habe großen Durst."
       }
     }
   },
@@ -2094,8 +1923,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) duschen",
         "pron": "",
-        "lit": "Ich bade nicht so gern, ich dusche lieber.",
-        "verify": false
+        "lit": "Ich bade nicht so gern, ich dusche lieber."
       }
     }
   },
@@ -2106,8 +1934,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Dusche",
         "pron": "",
-        "lit": "Unsere Wohnung hat nur eine Dusche.",
-        "verify": false
+        "lit": "Unsere Wohnung hat nur eine Dusche."
       }
     }
   },
@@ -2118,8 +1945,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Ecke, -n",
         "pron": "",
-        "lit": "An der nächsten Ecke links.",
-        "verify": false
+        "lit": "An der nächsten Ecke links."
       }
     }
   },
@@ -2130,8 +1956,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Ehefrau, -en/",
         "pron": "",
-        "lit": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau.",
-        "verify": false
+        "lit": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
       }
     }
   },
@@ -2142,8 +1967,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ehemann, ä, er",
         "pron": "",
-        "lit": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau.",
-        "verify": false
+        "lit": "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
       }
     }
   },
@@ -2154,8 +1978,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Ei, -er",
         "pron": "",
-        "lit": "Möchtest du ein Ei zum Frühstück?",
-        "verify": false
+        "lit": "Möchtest du ein Ei zum Frühstück?"
       }
     }
   },
@@ -2166,8 +1989,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "eilig",
         "pron": "",
-        "lit": "Hast du es eilig?",
-        "verify": false
+        "lit": "Hast du es eilig?"
       }
     }
   },
@@ -2178,8 +2000,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein",
         "pron": "",
-        "lit": "Ich nehme ein Bier. Willst du auch eins? Ist hier einer, der das kann?",
-        "verify": false
+        "lit": "Ich nehme ein Bier. Willst du auch eins? Ist hier einer, der das kann?"
       }
     }
   },
@@ -2190,8 +2011,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "einfach",
         "pron": "",
-        "lit": "Die Prüfung ist ganz einfach. Hin und zurück? – Nein, bitte nur einfach. Ich brauche nur ein einfaches Zimmer.",
-        "verify": false
+        "lit": "Die Prüfung ist ganz einfach. Hin und zurück? – Nein, bitte nur einfach. Ich brauche nur ein einfaches Zimmer."
       }
     }
   },
@@ -2202,8 +2022,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Eingang",
         "pron": "",
-        "lit": "Der Eingang ist um die Ecke.",
-        "verify": false
+        "lit": "Der Eingang ist um die Ecke."
       }
     }
   },
@@ -2214,8 +2033,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "einkaufen",
         "pron": "",
-        "lit": "Ich muss noch für morgen einkaufen.",
-        "verify": false
+        "lit": "Ich muss noch für morgen einkaufen."
       }
     }
   },
@@ -2226,8 +2044,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "einladen",
         "pron": "",
-        "lit": "Darf ich Sie zu einem Kaffee einladen?",
-        "verify": false
+        "lit": "Darf ich Sie zu einem Kaffee einladen?"
       }
     }
   },
@@ -2238,8 +2055,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Einladung",
         "pron": "",
-        "lit": "Danke für die Einladung!",
-        "verify": false
+        "lit": "Danke für die Einladung!"
       }
     }
   },
@@ -2250,8 +2066,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "einmal",
         "pron": "",
-        "lit": "Diese Prüfung mache ich nicht noch einmal.",
-        "verify": false
+        "lit": "Diese Prüfung mache ich nicht noch einmal."
       }
     }
   },
@@ -2262,8 +2077,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "einsteigen",
         "pron": "",
-        "lit": "Schnell, steig ein, der Zug fährt gleich.",
-        "verify": false
+        "lit": "Schnell, steig ein, der Zug fährt gleich."
       }
     }
   },
@@ -2274,8 +2088,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Eintritt",
         "pron": "",
-        "lit": "Der Preis für den Eintritt ist 5 Euro.",
-        "verify": false
+        "lit": "Der Preis für den Eintritt ist 5 Euro."
       }
     }
   },
@@ -2286,8 +2099,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Einzelzimmer",
         "pron": "",
-        "lit": "Haben Sie noch ein Einzelzimmer?",
-        "verify": false
+        "lit": "Haben Sie noch ein Einzelzimmer?"
       }
     }
   },
@@ -2298,8 +2110,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Eltern (pl.)",
         "pron": "",
-        "lit": "Meine Eltern leben in Spanien.",
-        "verify": false
+        "lit": "Meine Eltern leben in Spanien."
       }
     }
   },
@@ -2310,8 +2121,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die E-Mail, -s",
         "pron": "",
-        "lit": "Ich habe Ihre E-Mail nicht bekommen.",
-        "verify": false
+        "lit": "Ich habe Ihre E-Mail nicht bekommen."
       }
     }
   },
@@ -2322,8 +2132,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Empfänger, –",
         "pron": "",
-        "lit": "Auf dem Brief steht dein Name, also bist du der Empfänger.",
-        "verify": false
+        "lit": "Auf dem Brief steht dein Name, also bist du der Empfänger."
       }
     }
   },
@@ -2334,8 +2143,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "empfehlen",
         "pron": "",
-        "lit": "Welchen Wein können Sie mir empfehlen?",
-        "verify": false
+        "lit": "Welchen Wein können Sie mir empfehlen?"
       }
     }
   },
@@ -2346,8 +2154,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "enden",
         "pron": "",
-        "lit": "Die Straße endet hier.",
-        "verify": false
+        "lit": "Die Straße endet hier."
       }
     }
   },
@@ -2358,8 +2165,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Ende",
         "pron": "",
-        "lit": "Sie wohnt am Ende der Straße. Er bekommt sein Geld am Ende des Monats.",
-        "verify": false
+        "lit": "Sie wohnt am Ende der Straße. Er bekommt sein Geld am Ende des Monats."
       }
     }
   },
@@ -2370,8 +2176,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "entschuldigen",
         "pron": "",
-        "lit": "Entschuldigen Sie bitte!",
-        "verify": false
+        "lit": "Entschuldigen Sie bitte!"
       }
     }
   },
@@ -2382,8 +2187,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Entschuldigung",
         "pron": "",
-        "lit": "Entschuldigung! – Bitte.",
-        "verify": false
+        "lit": "Entschuldigung! – Bitte."
       }
     }
   },
@@ -2394,8 +2198,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "er",
         "pron": "",
-        "lit": "Er heißt Ali.",
-        "verify": false
+        "lit": "Er heißt Ali."
       }
     }
   },
@@ -2406,8 +2209,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Ergebnis, -se",
         "pron": "",
-        "lit": "Das Ergebnis des Tests bekommen Sie in zwei Wochen.",
-        "verify": false
+        "lit": "Das Ergebnis des Tests bekommen Sie in zwei Wochen."
       }
     }
   },
@@ -2418,8 +2220,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "erklären",
         "pron": "",
-        "lit": "Kannst du mir das erklären?",
-        "verify": false
+        "lit": "Kannst du mir das erklären?"
       }
     }
   },
@@ -2430,8 +2231,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "erlauben",
         "pron": "",
-        "lit": "Rauchen ist hier nicht erlaubt.",
-        "verify": false
+        "lit": "Rauchen ist hier nicht erlaubt."
       }
     }
   },
@@ -2442,8 +2242,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Erwachsene, -n",
         "pron": "",
-        "lit": "Dieser Film ist nur für Erwachsene.",
-        "verify": false
+        "lit": "Dieser Film ist nur für Erwachsene."
       }
     }
   },
@@ -2454,8 +2253,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "erzählen",
         "pron": "",
-        "lit": "Wir müssen euch etwas erzählen!",
-        "verify": false
+        "lit": "Wir müssen euch etwas erzählen!"
       }
     }
   },
@@ -2466,8 +2264,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "es",
         "pron": "",
-        "lit": "Es regnet.",
-        "verify": false
+        "lit": "Es regnet."
       }
     }
   },
@@ -2478,8 +2275,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "essen",
         "pron": "",
-        "lit": "Was gibt es zu essen?",
-        "verify": false
+        "lit": "Was gibt es zu essen?"
       }
     }
   },
@@ -2490,8 +2286,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Essen",
         "pron": "",
-        "lit": "Das Essen ist heute sehr gut.",
-        "verify": false
+        "lit": "Das Essen ist heute sehr gut."
       }
     }
   },
@@ -2502,8 +2297,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "euer",
         "pron": "",
-        "lit": "Euer Kurs beginnt heute.",
-        "verify": false
+        "lit": "Euer Kurs beginnt heute."
       }
     }
   },
@@ -2514,8 +2308,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fahren",
         "pron": "",
-        "lit": "Ich fahre mit dem Auto zur Arbeit.",
-        "verify": false
+        "lit": "Ich fahre mit dem Auto zur Arbeit."
       }
     }
   },
@@ -2526,8 +2319,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fahrer",
         "pron": "",
-        "lit": "Bitte nicht mit dem Fahrer sprechen!",
-        "verify": false
+        "lit": "Bitte nicht mit dem Fahrer sprechen!"
       }
     }
   },
@@ -2538,8 +2330,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Fahrkarte, -n",
         "pron": "",
-        "lit": "Hast du schon eine Fahrkarte?",
-        "verify": false
+        "lit": "Hast du schon eine Fahrkarte?"
       }
     }
   },
@@ -2550,8 +2341,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Fahrrad, -ä, er",
         "pron": "",
-        "lit": "Fährst du mit dem Fahrrad oder mit dem Auto?",
-        "verify": false
+        "lit": "Fährst du mit dem Fahrrad oder mit dem Auto?"
       }
     }
   },
@@ -2562,8 +2352,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "falsch",
         "pron": "",
-        "lit": "Das ist falsch.",
-        "verify": false
+        "lit": "Das ist falsch."
       }
     }
   },
@@ -2574,8 +2363,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Familie, -n",
         "pron": "",
-        "lit": "Meine Familie lebt in Spanien.",
-        "verify": false
+        "lit": "Meine Familie lebt in Spanien."
       }
     }
   },
@@ -2586,8 +2374,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Familienname",
         "pron": "",
-        "lit": "Meine Familiennamen sind García González.",
-        "verify": false
+        "lit": "Meine Familiennamen sind García González."
       }
     }
   },
@@ -2598,8 +2385,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Familienstand",
         "pron": "",
-        "lit": "Bei „Familienstand“ musst du „ledig“ ankreuzen.",
-        "verify": false
+        "lit": "Bei „Familienstand“ musst du „ledig“ ankreuzen."
       }
     }
   },
@@ -2610,8 +2396,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Farbe, -n",
         "pron": "",
-        "lit": "Die Farbe gefällt mir gut.",
-        "verify": false
+        "lit": "Die Farbe gefällt mir gut."
       }
     }
   },
@@ -2622,8 +2407,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Fax, -e",
         "pron": "",
-        "lit": "Schicken Sie uns einfach ein Fax!",
-        "verify": false
+        "lit": "Schicken Sie uns einfach ein Fax!"
       }
     }
   },
@@ -2634,8 +2418,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Feiertag",
         "pron": "",
-        "lit": "z. B. Feierabend, Feiertag Am Montag ist Feiertag.",
-        "verify": false
+        "lit": "z. B. Feierabend, Feiertag Am Montag ist Feiertag."
       }
     }
   },
@@ -2646,8 +2429,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "feiern",
         "pron": "",
-        "lit": "Wir feiern heute meinen Geburtstag.",
-        "verify": false
+        "lit": "Wir feiern heute meinen Geburtstag."
       }
     }
   },
@@ -2658,8 +2440,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fehlen",
         "pron": "",
-        "lit": "Herr Müller ist nicht da, er fehlt schon seit drei Tagen. Was fehlt Ihnen?",
-        "verify": false
+        "lit": "Herr Müller ist nicht da, er fehlt schon seit drei Tagen. Was fehlt Ihnen?"
       }
     }
   },
@@ -2670,8 +2451,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fehler, –",
         "pron": "",
-        "lit": "Diesen Fehler mache ich immer.",
-        "verify": false
+        "lit": "Diesen Fehler mache ich immer."
       }
     }
   },
@@ -2682,8 +2462,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fernsehen",
         "pron": "",
-        "lit": "Wollen wir heute Abend mal fernsehen?",
-        "verify": false
+        "lit": "Wollen wir heute Abend mal fernsehen?"
       }
     }
   },
@@ -2694,8 +2473,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fertig",
         "pron": "",
-        "lit": "Bist du fertig? Ist mein Auto schon fertig?",
-        "verify": false
+        "lit": "Bist du fertig? Ist mein Auto schon fertig?"
       }
     }
   },
@@ -2706,8 +2484,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Feuer",
         "pron": "",
-        "lit": "Haben Sie Feuer?",
-        "verify": false
+        "lit": "Haben Sie Feuer?"
       }
     }
   },
@@ -2718,8 +2495,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Fieber",
         "pron": "",
-        "lit": "Mein Mann hat noch immer Fieber.",
-        "verify": false
+        "lit": "Mein Mann hat noch immer Fieber."
       }
     }
   },
@@ -2730,8 +2506,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Film, -e",
         "pron": "",
-        "lit": "Ich möchte gern diesen Film sehen.",
-        "verify": false
+        "lit": "Ich möchte gern diesen Film sehen."
       }
     }
   },
@@ -2742,8 +2517,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "finden",
         "pron": "",
-        "lit": "Wir müssen den Schlüssel finden.",
-        "verify": false
+        "lit": "Wir müssen den Schlüssel finden."
       }
     }
   },
@@ -2754,8 +2528,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Firma",
         "pron": "",
-        "lit": "Er arbeitet jetzt bei einer anderen Firma.",
-        "verify": false
+        "lit": "Er arbeitet jetzt bei einer anderen Firma."
       }
     }
   },
@@ -2766,8 +2539,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fisch, -e",
         "pron": "",
-        "lit": "Ich esse gern Fisch. Fleisch mag ich nicht.",
-        "verify": false
+        "lit": "Ich esse gern Fisch. Fleisch mag ich nicht."
       }
     }
   },
@@ -2778,8 +2550,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Flasche, -n",
         "pron": "",
-        "lit": "Eine Flasche Bier, bitte.",
-        "verify": false
+        "lit": "Eine Flasche Bier, bitte."
       }
     }
   },
@@ -2790,8 +2561,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Fleisch",
         "pron": "",
-        "lit": "Fleisch mag ich nicht.",
-        "verify": false
+        "lit": "Fleisch mag ich nicht."
       }
     }
   },
@@ -2802,8 +2572,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fliegen",
         "pron": "",
-        "lit": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.",
-        "verify": false
+        "lit": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug."
       }
     }
   },
@@ -2814,8 +2583,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "abfliegen",
         "pron": "",
-        "lit": "Wann fliegst du ab?",
-        "verify": false
+        "lit": "Wann fliegst du ab?"
       }
     }
   },
@@ -2826,8 +2594,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Abflug",
         "pron": "",
-        "lit": "Der Abflug ist um 11.20 Uhr.",
-        "verify": false
+        "lit": "Der Abflug ist um 11.20 Uhr."
       }
     }
   },
@@ -2838,8 +2605,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Flughafen",
         "pron": "",
-        "lit": "Kannst du mich zum Flughafen bringen?",
-        "verify": false
+        "lit": "Kannst du mich zum Flughafen bringen?"
       }
     }
   },
@@ -2850,8 +2616,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Flugzeug",
         "pron": "",
-        "lit": "Das Flugzeug aus Berlin kommt heute später an.",
-        "verify": false
+        "lit": "Das Flugzeug aus Berlin kommt heute später an."
       }
     }
   },
@@ -2862,8 +2627,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Formular, -e",
         "pron": "",
-        "lit": "Sie müssen dieses Formular ausfüllen.",
-        "verify": false
+        "lit": "Sie müssen dieses Formular ausfüllen."
       }
     }
   },
@@ -2874,8 +2638,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Foto, -s",
         "pron": "",
-        "lit": "Darf ich ein Foto machen?",
-        "verify": false
+        "lit": "Darf ich ein Foto machen?"
       }
     }
   },
@@ -2886,8 +2649,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fragen",
         "pron": "",
-        "lit": "Er möchte Sie etwas fragen. Wann kommen Sie?",
-        "verify": false
+        "lit": "Er möchte Sie etwas fragen. Wann kommen Sie?"
       }
     }
   },
@@ -2898,8 +2660,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Frage, -n",
         "pron": "",
-        "lit": "Ich habe eine Frage.",
-        "verify": false
+        "lit": "Ich habe eine Frage."
       }
     }
   },
@@ -2910,8 +2671,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Frau, -en",
         "pron": "",
-        "lit": "Das ist Frau Becker. Guten Tag, Frau Schmitt! Hier arbeiten mehr Frauen als Männer.",
-        "verify": false
+        "lit": "Das ist Frau Becker. Guten Tag, Frau Schmitt! Hier arbeiten mehr Frauen als Männer."
       }
     }
   },
@@ -2922,8 +2682,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "frei",
         "pron": "",
-        "lit": "Ist der Platz noch frei?",
-        "verify": false
+        "lit": "Ist der Platz noch frei?"
       }
     }
   },
@@ -2934,8 +2693,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Freizeit",
         "pron": "",
-        "lit": "In meiner Freizeit spiele ich oft Fußball.",
-        "verify": false
+        "lit": "In meiner Freizeit spiele ich oft Fußball."
       }
     }
   },
@@ -2946,8 +2704,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fremd",
         "pron": "",
-        "lit": "Das weiß ich nicht; ich bin fremd hier.",
-        "verify": false
+        "lit": "Das weiß ich nicht; ich bin fremd hier."
       }
     }
   },
@@ -2958,8 +2715,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) freuen",
         "pron": "",
-        "lit": "Ich freue mich auf den Urlaub.",
-        "verify": false
+        "lit": "Ich freue mich auf den Urlaub."
       }
     }
   },
@@ -2970,8 +2726,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Freund, -e",
         "pron": "",
-        "lit": "Das ist ein Freund von mir. Das ist meine Freundin.",
-        "verify": false
+        "lit": "Das ist ein Freund von mir. Das ist meine Freundin."
       }
     }
   },
@@ -2982,8 +2737,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "früher",
         "pron": "",
-        "lit": "Früher waren wir oft zusammen im Kino.",
-        "verify": false
+        "lit": "Früher waren wir oft zusammen im Kino."
       }
     }
   },
@@ -2994,8 +2748,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "frühstücken",
         "pron": "",
-        "lit": "Am Sonntag frühstücke ich gern im Bett.",
-        "verify": false
+        "lit": "Am Sonntag frühstücke ich gern im Bett."
       }
     }
   },
@@ -3006,8 +2759,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Frühstück",
         "pron": "",
-        "lit": "Möchtest du ein Ei zum Frühstück?",
-        "verify": false
+        "lit": "Möchtest du ein Ei zum Frühstück?"
       }
     }
   },
@@ -3018,8 +2770,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Führung",
         "pron": "",
-        "lit": "Die Führung durch das Haus beginnt in 3 Minuten.",
-        "verify": false
+        "lit": "Die Führung durch das Haus beginnt in 3 Minuten."
       }
     }
   },
@@ -3030,8 +2781,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "für",
         "pron": "",
-        "lit": "Das ist für Sie. Das ist der Schlüssel für die Haustür. Das ist das Brot für morgen.",
-        "verify": false
+        "lit": "Das ist für Sie. Das ist der Schlüssel für die Haustür. Das ist das Brot für morgen."
       }
     }
   },
@@ -3042,8 +2792,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fuß, -ü, e",
         "pron": "",
-        "lit": "Der linke Fuß tut mir weh.",
-        "verify": false
+        "lit": "Der linke Fuß tut mir weh."
       }
     }
   },
@@ -3054,8 +2803,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fußball",
         "pron": "",
-        "lit": "Spielt ihr gerne Fußball?",
-        "verify": false
+        "lit": "Spielt ihr gerne Fußball?"
       }
     }
   },
@@ -3066,8 +2814,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Garten",
         "pron": "",
-        "lit": "Wir haben leider keinen Garten.",
-        "verify": false
+        "lit": "Wir haben leider keinen Garten."
       }
     }
   },
@@ -3078,8 +2825,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Gast, -ä, e",
         "pron": "",
-        "lit": "Am Wochenende haben wir mehrere Gäste.",
-        "verify": false
+        "lit": "Am Wochenende haben wir mehrere Gäste."
       }
     }
   },
@@ -3090,8 +2836,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "geben",
         "pron": "",
-        "lit": "Kannst du mir bitte deinen Kugelschreiber geben? Es gibt keine Karten mehr.",
-        "verify": false
+        "lit": "Kannst du mir bitte deinen Kugelschreiber geben? Es gibt keine Karten mehr."
       }
     }
   },
@@ -3102,8 +2847,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "geboren",
         "pron": "",
-        "lit": "Ich bin in Zagreb geboren.",
-        "verify": false
+        "lit": "Ich bin in Zagreb geboren."
       }
     }
   },
@@ -3114,8 +2858,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Geburtsjahr",
         "pron": "",
-        "lit": "Das Geburtsjahr Ihres Sohnes, bitte?",
-        "verify": false
+        "lit": "Das Geburtsjahr Ihres Sohnes, bitte?"
       }
     }
   },
@@ -3126,8 +2869,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Geburtsort",
         "pron": "",
-        "lit": "Bitte schreiben Sie Ihren Geburtsort auf das Formular.",
-        "verify": false
+        "lit": "Bitte schreiben Sie Ihren Geburtsort auf das Formular."
       }
     }
   },
@@ -3138,8 +2880,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Geburtstag",
         "pron": "",
-        "lit": "Herzlichen Glückwunsch zum Geburtstag!",
-        "verify": false
+        "lit": "Herzlichen Glückwunsch zum Geburtstag!"
       }
     }
   },
@@ -3150,8 +2891,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gefallen",
         "pron": "",
-        "lit": "Das gefällt mir.",
-        "verify": false
+        "lit": "Das gefällt mir."
       }
     }
   },
@@ -3162,8 +2902,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gegen",
         "pron": "",
-        "lit": "Fahr nicht gegen den Baum! Ich bin gegen diese Lösung. Wer spielt gegen wen?",
-        "verify": false
+        "lit": "Fahr nicht gegen den Baum! Ich bin gegen diese Lösung. Wer spielt gegen wen?"
       }
     }
   },
@@ -3174,8 +2913,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gehen",
         "pron": "",
-        "lit": "Ich weiß nicht, wie das geht. Wie geht‘s? Jetzt muss ich (aber) leider gehen. Ich muss zum Arzt gehen. Das geht nicht!",
-        "verify": false
+        "lit": "Ich weiß nicht, wie das geht. Wie geht‘s? Jetzt muss ich (aber) leider gehen. Ich muss zum Arzt gehen. Das geht nicht!"
       }
     }
   },
@@ -3186,8 +2924,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gehören",
         "pron": "",
-        "lit": "Wem gehört das?",
-        "verify": false
+        "lit": "Wem gehört das?"
       }
     }
   },
@@ -3198,8 +2935,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Geld",
         "pron": "",
-        "lit": "Hast du noch Geld?",
-        "verify": false
+        "lit": "Hast du noch Geld?"
       }
     }
   },
@@ -3210,8 +2946,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Gemüse",
         "pron": "",
-        "lit": "Gemüse brauchen wir auch noch.",
-        "verify": false
+        "lit": "Gemüse brauchen wir auch noch."
       }
     }
   },
@@ -3222,8 +2957,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Gepäck",
         "pron": "",
-        "lit": "Wollen Sie Ihr Gepäck mitnehmen?",
-        "verify": false
+        "lit": "Wollen Sie Ihr Gepäck mitnehmen?"
       }
     }
   },
@@ -3234,8 +2968,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gerade",
         "pron": "",
-        "lit": "Da kommt er ja gerade.",
-        "verify": false
+        "lit": "Da kommt er ja gerade."
       }
     }
   },
@@ -3246,8 +2979,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "geradeaus",
         "pron": "",
-        "lit": "Gehen Sie immer geradeaus!",
-        "verify": false
+        "lit": "Gehen Sie immer geradeaus!"
       }
     }
   },
@@ -3258,8 +2990,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gern(e)",
         "pron": "",
-        "lit": "Ich gehe gerne einkaufen.",
-        "verify": false
+        "lit": "Ich gehe gerne einkaufen."
       }
     }
   },
@@ -3270,8 +3001,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Geschäft, -e",
         "pron": "",
-        "lit": "Die Geschäfte schließen um 18.30 Uhr.",
-        "verify": false
+        "lit": "Die Geschäfte schließen um 18.30 Uhr."
       }
     }
   },
@@ -3282,8 +3012,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Geschenk, -e",
         "pron": "",
-        "lit": "Danke für das schöne Geschenk.",
-        "verify": false
+        "lit": "Danke für das schöne Geschenk."
       }
     }
   },
@@ -3294,8 +3023,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Geschwister (pl.)",
         "pron": "",
-        "lit": "Ich habe leider keine Geschwister.",
-        "verify": false
+        "lit": "Ich habe leider keine Geschwister."
       }
     }
   },
@@ -3306,8 +3034,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Gespräch, -e",
         "pron": "",
-        "lit": "Das Gespräch mit Frau Kunz ist um 14 Uhr.",
-        "verify": false
+        "lit": "Das Gespräch mit Frau Kunz ist um 14 Uhr."
       }
     }
   },
@@ -3318,8 +3045,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gestern",
         "pron": "",
-        "lit": "Gestern war ich krank.",
-        "verify": false
+        "lit": "Gestern war ich krank."
       }
     }
   },
@@ -3330,8 +3056,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gestorben",
         "pron": "",
-        "lit": "Meine Frau ist gestern gestorben.",
-        "verify": false
+        "lit": "Meine Frau ist gestern gestorben."
       }
     }
   },
@@ -3342,8 +3067,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Getränk, -e",
         "pron": "",
-        "lit": "Mein Lieblingsgetränk ist Tomatensaft.",
-        "verify": false
+        "lit": "Mein Lieblingsgetränk ist Tomatensaft."
       }
     }
   },
@@ -3354,8 +3078,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Gewicht",
         "pron": "",
-        "lit": "Bei „Gewicht“ schreibst du: 62 Kilo.",
-        "verify": false
+        "lit": "Bei „Gewicht“ schreibst du: 62 Kilo."
       }
     }
   },
@@ -3366,8 +3089,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gewinnen",
         "pron": "",
-        "lit": "Wer gewinnt das Spiel?",
-        "verify": false
+        "lit": "Wer gewinnt das Spiel?"
       }
     }
   },
@@ -3378,8 +3100,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Glas, -ä, er",
         "pron": "",
-        "lit": "Bitte noch ein Glas Wein! Wir brauchen noch drei Gläser.",
-        "verify": false
+        "lit": "Bitte noch ein Glas Wein! Wir brauchen noch drei Gläser."
       }
     }
   },
@@ -3390,8 +3111,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "glauben",
         "pron": "",
-        "lit": "Sie können mir glauben, es ist so. Ich glaube, er kommt gleich.",
-        "verify": false
+        "lit": "Sie können mir glauben, es ist so. Ich glaube, er kommt gleich."
       }
     }
   },
@@ -3402,8 +3122,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gleich",
         "pron": "",
-        "lit": "Das ist mir gleich. Das ist der gleiche Preis. Ich komme gleich.",
-        "verify": false
+        "lit": "Das ist mir gleich. Das ist der gleiche Preis. Ich komme gleich."
       }
     }
   },
@@ -3414,8 +3133,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Gleis, -e",
         "pron": "",
-        "lit": "Der ICE nach Berlin hält heute an Gleis 12.",
-        "verify": false
+        "lit": "Der ICE nach Berlin hält heute an Gleis 12."
       }
     }
   },
@@ -3426,8 +3144,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Glück",
         "pron": "",
-        "lit": "Viel Glück!",
-        "verify": false
+        "lit": "Viel Glück!"
       }
     }
   },
@@ -3438,8 +3155,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "glücklich",
         "pron": "",
-        "lit": "Meine Kinder sind glücklich verheiratet.",
-        "verify": false
+        "lit": "Meine Kinder sind glücklich verheiratet."
       }
     }
   },
@@ -3450,8 +3166,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Glückwunsch",
         "pron": "",
-        "lit": "Herzlichen Glückwunsch zum Geburtstag.",
-        "verify": false
+        "lit": "Herzlichen Glückwunsch zum Geburtstag."
       }
     }
   },
@@ -3462,8 +3177,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Grad (Celsius)",
         "pron": "",
-        "lit": "Heute haben wir dreißig Grad.",
-        "verify": false
+        "lit": "Heute haben wir dreißig Grad."
       }
     }
   },
@@ -3474,8 +3188,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gratulieren",
         "pron": "",
-        "lit": "Ich gratuliere dir!",
-        "verify": false
+        "lit": "Ich gratuliere dir!"
       }
     }
   },
@@ -3486,8 +3199,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "grillen",
         "pron": "",
-        "lit": "Heute grillen wir im Garten.",
-        "verify": false
+        "lit": "Heute grillen wir im Garten."
       }
     }
   },
@@ -3498,8 +3210,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "groß",
         "pron": "",
-        "lit": "Mein Bruder und ich sind gleich groß. Frankfurt ist eine große Stadt.",
-        "verify": false
+        "lit": "Mein Bruder und ich sind gleich groß. Frankfurt ist eine große Stadt."
       }
     }
   },
@@ -3510,8 +3221,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Größe",
         "pron": "",
-        "lit": "Haben Sie das auch in Größe 40?",
-        "verify": false
+        "lit": "Haben Sie das auch in Größe 40?"
       }
     }
   },
@@ -3522,8 +3232,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Großeltern (pl.)",
         "pron": "",
-        "lit": "Meine Großeltern leben in Japan.",
-        "verify": false
+        "lit": "Meine Großeltern leben in Japan."
       }
     }
   },
@@ -3534,8 +3243,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Großmutter",
         "pron": "",
-        "lit": "Meine Großmutter heißt Eva.",
-        "verify": false
+        "lit": "Meine Großmutter heißt Eva."
       }
     }
   },
@@ -3546,8 +3254,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Großvater",
         "pron": "",
-        "lit": "Mein Großvater ist schon 80.",
-        "verify": false
+        "lit": "Mein Großvater ist schon 80."
       }
     }
   },
@@ -3558,8 +3265,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Gruppe, -n",
         "pron": "",
-        "lit": "Die erste Gruppe beginnt um 16 Uhr.",
-        "verify": false
+        "lit": "Die erste Gruppe beginnt um 16 Uhr."
       }
     }
   },
@@ -3570,8 +3276,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Gruß, -ü, e",
         "pron": "",
-        "lit": "Viele Grüße an Ihre Frau. Mit freundlichen Grüßen",
-        "verify": false
+        "lit": "Viele Grüße an Ihre Frau. Mit freundlichen Grüßen"
       }
     }
   },
@@ -3582,8 +3287,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gültig",
         "pron": "",
-        "lit": "Der Pass ist nicht mehr gültig.",
-        "verify": false
+        "lit": "Der Pass ist nicht mehr gültig."
       }
     }
   },
@@ -3594,8 +3298,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "günstig",
         "pron": "",
-        "lit": "Dort gibt es günstige Angebote.",
-        "verify": false
+        "lit": "Dort gibt es günstige Angebote."
       }
     }
   },
@@ -3606,8 +3309,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gut",
         "pron": "",
-        "lit": "Das finde ich gut. Ich komme um 13 Uhr. – Gut! Guten Morgen! Ein gutes neues Jahr! Guten Appetit!",
-        "verify": false
+        "lit": "Das finde ich gut. Ich komme um 13 Uhr. – Gut! Guten Morgen! Ein gutes neues Jahr! Guten Appetit!"
       }
     }
   },
@@ -3618,8 +3320,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Haar, -e",
         "pron": "",
-        "lit": "Sie hat lange Haare.",
-        "verify": false
+        "lit": "Sie hat lange Haare."
       }
     }
   },
@@ -3630,8 +3331,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "haben",
         "pron": "",
-        "lit": "Ich habe ein neues Auto.",
-        "verify": false
+        "lit": "Ich habe ein neues Auto."
       }
     }
   },
@@ -3642,8 +3342,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Hähnchen, -",
         "pron": "",
-        "lit": "Ein Hähnchen mit Pommes bitte!",
-        "verify": false
+        "lit": "Ein Hähnchen mit Pommes bitte!"
       }
     }
   },
@@ -3654,8 +3353,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Halbpension",
         "pron": "",
-        "lit": "Möchten Sie Vollpension oder Halbpension?",
-        "verify": false
+        "lit": "Möchten Sie Vollpension oder Halbpension?"
       }
     }
   },
@@ -3666,8 +3364,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Halle",
         "pron": "",
-        "lit": "Wir treffen uns in Halle B",
-        "verify": false
+        "lit": "Wir treffen uns in Halle B"
       }
     }
   },
@@ -3678,8 +3375,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hallo",
         "pron": "",
-        "lit": "Hallo Inge! Wie geht’s?",
-        "verify": false
+        "lit": "Hallo Inge! Wie geht’s?"
       }
     }
   },
@@ -3690,8 +3386,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "halten",
         "pron": "",
-        "lit": "Dieser Zug hält nicht in Rüdesheim.",
-        "verify": false
+        "lit": "Dieser Zug hält nicht in Rüdesheim."
       }
     }
   },
@@ -3702,8 +3397,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Haltestelle",
         "pron": "",
-        "lit": "An der nächsten Haltestelle müssen Sie aussteigen.",
-        "verify": false
+        "lit": "An der nächsten Haltestelle müssen Sie aussteigen."
       }
     }
   },
@@ -3714,8 +3408,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Hand, -ä, e",
         "pron": "",
-        "lit": "Er gibt mir die Hand.",
-        "verify": false
+        "lit": "Er gibt mir die Hand."
       }
     }
   },
@@ -3726,8 +3419,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Handy, -s",
         "pron": "",
-        "lit": "In der Schule bitte die Handys ausmachen!",
-        "verify": false
+        "lit": "In der Schule bitte die Handys ausmachen!"
       }
     }
   },
@@ -3738,8 +3430,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Haus, -ä, er",
         "pron": "",
-        "lit": "In welchem Haus wohnst du? Ich gehe jetzt nach Hause. Paul ist nicht zu Hause.",
-        "verify": false
+        "lit": "In welchem Haus wohnst du? Ich gehe jetzt nach Hause. Paul ist nicht zu Hause."
       }
     }
   },
@@ -3750,8 +3441,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Hausaufgabe,-n",
         "pron": "",
-        "lit": "Kannst du mir bei den Hausaufgaben helfen?",
-        "verify": false
+        "lit": "Kannst du mir bei den Hausaufgaben helfen?"
       }
     }
   },
@@ -3762,8 +3452,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Hausfrau, -en/",
         "pron": "",
-        "lit": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein.",
-        "verify": false
+        "lit": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
       }
     }
   },
@@ -3774,8 +3463,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Hausmann",
         "pron": "",
-        "lit": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein.",
-        "verify": false
+        "lit": "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
       }
     }
   },
@@ -3786,8 +3474,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Heimat",
         "pron": "",
-        "lit": "Ich komme aus der Schweiz. Das ist meine Heimat.",
-        "verify": false
+        "lit": "Ich komme aus der Schweiz. Das ist meine Heimat."
       }
     }
   },
@@ -3798,8 +3485,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "heiraten",
         "pron": "",
-        "lit": "Meine Schwester heiratet einen Japaner.",
-        "verify": false
+        "lit": "Meine Schwester heiratet einen Japaner."
       }
     }
   },
@@ -3810,8 +3496,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "heißen",
         "pron": "",
-        "lit": "Ich heiße Charlotte Meier. Wie heißt das auf Deutsch?",
-        "verify": false
+        "lit": "Ich heiße Charlotte Meier. Wie heißt das auf Deutsch?"
       }
     }
   },
@@ -3822,8 +3507,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "helfen",
         "pron": "",
-        "lit": "Können Sie mir helfen, bitte?",
-        "verify": false
+        "lit": "Können Sie mir helfen, bitte?"
       }
     }
   },
@@ -3834,8 +3518,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hell",
         "pron": "",
-        "lit": "Im Sommer ist es bis 21 Uhr hell.",
-        "verify": false
+        "lit": "Im Sommer ist es bis 21 Uhr hell."
       }
     }
   },
@@ -3846,8 +3529,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Herd",
         "pron": "",
-        "lit": "In der neuen Küche fehlt noch der Herd.",
-        "verify": false
+        "lit": "In der neuen Küche fehlt noch der Herd."
       }
     }
   },
@@ -3858,8 +3540,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Herr, -en",
         "pron": "",
-        "lit": "Guten Tag, Herr Sommer!",
-        "verify": false
+        "lit": "Guten Tag, Herr Sommer!"
       }
     }
   },
@@ -3870,8 +3551,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "herzlich",
         "pron": "",
-        "lit": "Herzlichen Glückwunsch!",
-        "verify": false
+        "lit": "Herzlichen Glückwunsch!"
       }
     }
   },
@@ -3882,8 +3562,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "heute",
         "pron": "",
-        "lit": "Heute ist ein schöner Tag.",
-        "verify": false
+        "lit": "Heute ist ein schöner Tag."
       }
     }
   },
@@ -3894,8 +3573,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hier",
         "pron": "",
-        "lit": "Hier ist 06131-553221, Pamela Linke. Hier wohne ich.",
-        "verify": false
+        "lit": "Hier ist 06131-553221, Pamela Linke. Hier wohne ich."
       }
     }
   },
@@ -3906,8 +3584,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Hilfe",
         "pron": "",
-        "lit": "Hilfe! Bitte helfen Sie mir! Brauchen Sie meine Hilfe?",
-        "verify": false
+        "lit": "Hilfe! Bitte helfen Sie mir! Brauchen Sie meine Hilfe?"
       }
     }
   },
@@ -3918,8 +3595,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hinten",
         "pron": "",
-        "lit": "Die Tür zum Aussteigen ist hinten.",
-        "verify": false
+        "lit": "Die Tür zum Aussteigen ist hinten."
       }
     }
   },
@@ -3930,8 +3606,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Hobby, -s",
         "pron": "",
-        "lit": "Meine Hobbys sind Wandern und Schwimmen.",
-        "verify": false
+        "lit": "Meine Hobbys sind Wandern und Schwimmen."
       }
     }
   },
@@ -3942,8 +3617,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hoch",
         "pron": "",
-        "lit": "Der Mount Everest ist 8.880 Meter hoch.",
-        "verify": false
+        "lit": "Der Mount Everest ist 8.880 Meter hoch."
       }
     }
   },
@@ -3954,8 +3628,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Hochzeit",
         "pron": "",
-        "lit": "Zur dieser Hochzeit kommen mehr als fünfzig Gäste.",
-        "verify": false
+        "lit": "Zur dieser Hochzeit kommen mehr als fünfzig Gäste."
       }
     }
   },
@@ -3966,8 +3639,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "holen",
         "pron": "",
-        "lit": "Ich hole zwei Flaschen Wasser aus der Küche.",
-        "verify": false
+        "lit": "Ich hole zwei Flaschen Wasser aus der Küche."
       }
     }
   },
@@ -3978,8 +3650,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "hören",
         "pron": "",
-        "lit": "Hör mal! Was ist das? Ich habe das Lied schon mal gehört.",
-        "verify": false
+        "lit": "Hör mal! Was ist das? Ich habe das Lied schon mal gehört."
       }
     }
   },
@@ -3990,8 +3661,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Hotel, -s",
         "pron": "",
-        "lit": "Im Urlaub sind wir in einem Hotel am Meer.",
-        "verify": false
+        "lit": "Im Urlaub sind wir in einem Hotel am Meer."
       }
     }
   },
@@ -4002,8 +3672,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Hund, -e",
         "pron": "",
-        "lit": "Der Hund ist noch jung.",
-        "verify": false
+        "lit": "Der Hund ist noch jung."
       }
     }
   },
@@ -4014,8 +3683,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Hunger",
         "pron": "",
-        "lit": "Ich habe Hunger! Wann ist das Essen fertig?",
-        "verify": false
+        "lit": "Ich habe Hunger! Wann ist das Essen fertig?"
       }
     }
   },
@@ -4026,8 +3694,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ich",
         "pron": "",
-        "lit": "Ich heiße Veronika.",
-        "verify": false
+        "lit": "Ich heiße Veronika."
       }
     }
   },
@@ -4038,8 +3705,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ihr/ihm/ihn",
         "pron": "",
-        "lit": "Gib ihr/ihm bitte das Buch. Ruf ihn bitte an.",
-        "verify": false
+        "lit": "Gib ihr/ihm bitte das Buch. Ruf ihn bitte an."
       }
     }
   },
@@ -4050,8 +3716,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "immer",
         "pron": "",
-        "lit": "Frau Bast kommt immer zu spät.",
-        "verify": false
+        "lit": "Frau Bast kommt immer zu spät."
       }
     }
   },
@@ -4062,8 +3727,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "in",
         "pron": "",
-        "lit": "Ich wohne in Wiesbaden. Der Zug kommt in fünf Minuten. Frau Rausch arbeitet in einem Geschäft. Komm, wir gehen ins Kino.",
-        "verify": false
+        "lit": "Ich wohne in Wiesbaden. Der Zug kommt in fünf Minuten. Frau Rausch arbeitet in einem Geschäft. Komm, wir gehen ins Kino."
       }
     }
   },
@@ -4074,8 +3738,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Information, -en",
         "pron": "",
-        "lit": "Wenn Sie Fragen haben, gehen Sie zur Information. Wir haben hier wichtige Informationen für Sie.",
-        "verify": false
+        "lit": "Wenn Sie Fragen haben, gehen Sie zur Information. Wir haben hier wichtige Informationen für Sie."
       }
     }
   },
@@ -4086,8 +3749,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "international",
         "pron": "",
-        "lit": "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ...",
-        "verify": false
+        "lit": "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ..."
       }
     }
   },
@@ -4098,8 +3760,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Internet",
         "pron": "",
-        "lit": "Das findest du im Internet.",
-        "verify": false
+        "lit": "Das findest du im Internet."
       }
     }
   },
@@ -4110,8 +3771,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ja",
         "pron": "",
-        "lit": "Sind Sie Herr Watanabe? – Ja.",
-        "verify": false
+        "lit": "Sind Sie Herr Watanabe? – Ja."
       }
     }
   },
@@ -4122,8 +3782,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Jacke, -n",
         "pron": "",
-        "lit": "Zieh dir eine Jacke an. Es ist kalt.",
-        "verify": false
+        "lit": "Zieh dir eine Jacke an. Es ist kalt."
       }
     }
   },
@@ -4134,8 +3793,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "jeder",
         "pron": "",
-        "lit": "Blumen kannst du in jedem Bahnhof kaufen.",
-        "verify": false
+        "lit": "Blumen kannst du in jedem Bahnhof kaufen."
       }
     }
   },
@@ -4146,8 +3804,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "jetzt",
         "pron": "",
-        "lit": "Jetzt machen wir eine Pause.",
-        "verify": false
+        "lit": "Jetzt machen wir eine Pause."
       }
     }
   },
@@ -4158,8 +3815,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Job, -s",
         "pron": "",
-        "lit": "Jenny hat einen neuen Job bei der Post.",
-        "verify": false
+        "lit": "Jenny hat einen neuen Job bei der Post."
       }
     }
   },
@@ -4170,8 +3826,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Jugendliche, -n",
         "pron": "",
-        "lit": "Viele Jugendliche kaufen gern ein.",
-        "verify": false
+        "lit": "Viele Jugendliche kaufen gern ein."
       }
     }
   },
@@ -4182,8 +3837,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "jung",
         "pron": "",
-        "lit": "Claudia ist 21. – Was? Noch so jung?",
-        "verify": false
+        "lit": "Claudia ist 21. – Was? Noch so jung?"
       }
     }
   },
@@ -4194,8 +3848,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Junge, -n",
         "pron": "",
-        "lit": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen.",
-        "verify": false
+        "lit": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen."
       }
     }
   },
@@ -4206,8 +3859,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kaffee",
         "pron": "",
-        "lit": "Zum Frühstück trinke ich immer Kaffee.",
-        "verify": false
+        "lit": "Zum Frühstück trinke ich immer Kaffee."
       }
     }
   },
@@ -4218,8 +3870,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kaputt",
         "pron": "",
-        "lit": "Das Glas war teuer. Es geht sehr leicht kaputt.",
-        "verify": false
+        "lit": "Das Glas war teuer. Es geht sehr leicht kaputt."
       }
     }
   },
@@ -4230,8 +3881,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Karte, -n",
         "pron": "",
-        "lit": "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub. Wollen wir Karten spielen? Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte.",
-        "verify": false
+        "lit": "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub. Wollen wir Karten spielen? Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte."
       }
     }
   },
@@ -4242,8 +3892,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(Kredit)-Karte, -n",
         "pron": "",
-        "lit": "Kann ich auch mit Karte (be-) zahlen?",
-        "verify": false
+        "lit": "Kann ich auch mit Karte (be-) zahlen?"
       }
     }
   },
@@ -4254,8 +3903,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Kartoffel, -n",
         "pron": "",
-        "lit": "Für Pommes frites braucht man Kartoffeln.",
-        "verify": false
+        "lit": "Für Pommes frites braucht man Kartoffeln."
       }
     }
   },
@@ -4266,8 +3914,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Kasse",
         "pron": "",
-        "lit": "Zahlen Sie bitte an der Kasse.",
-        "verify": false
+        "lit": "Zahlen Sie bitte an der Kasse."
       }
     }
   },
@@ -4278,8 +3925,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kaufen",
         "pron": "",
-        "lit": "Tim kauft sich ein neues Auto.",
-        "verify": false
+        "lit": "Tim kauft sich ein neues Auto."
       }
     }
   },
@@ -4290,8 +3936,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kein",
         "pron": "",
-        "lit": "Es gibt keine Eintrittskarten mehr.",
-        "verify": false
+        "lit": "Es gibt keine Eintrittskarten mehr."
       }
     }
   },
@@ -4302,8 +3947,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kennen",
         "pron": "",
-        "lit": "Kennen Sie diese Frau? – Nein, leider nicht.",
-        "verify": false
+        "lit": "Kennen Sie diese Frau? – Nein, leider nicht."
       }
     }
   },
@@ -4314,8 +3958,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kennenlernen",
         "pron": "",
-        "lit": "Wir sind neu hier. Wir möchten Sie kennenlernen.",
-        "verify": false
+        "lit": "Wir sind neu hier. Wir möchten Sie kennenlernen."
       }
     }
   },
@@ -4326,8 +3969,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Kind, -er",
         "pron": "",
-        "lit": "Wie viele Kinder haben Sie?",
-        "verify": false
+        "lit": "Wie viele Kinder haben Sie?"
       }
     }
   },
@@ -4338,8 +3980,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kindergarten",
         "pron": "",
-        "lit": "Die kleine Laura geht schon in den Kindergarten.",
-        "verify": false
+        "lit": "Die kleine Laura geht schon in den Kindergarten."
       }
     }
   },
@@ -4350,8 +3991,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Kino, -s",
         "pron": "",
-        "lit": "Wir sehen heute Abend im Kino einen schönen Film.",
-        "verify": false
+        "lit": "Wir sehen heute Abend im Kino einen schönen Film."
       }
     }
   },
@@ -4362,8 +4002,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kiosk",
         "pron": "",
-        "lit": "Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen.",
-        "verify": false
+        "lit": "Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen."
       }
     }
   },
@@ -4374,8 +4013,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "klar",
         "pron": "",
-        "lit": "Kommst du mit? – Klar!",
-        "verify": false
+        "lit": "Kommst du mit? – Klar!"
       }
     }
   },
@@ -4386,8 +4024,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Klasse",
         "pron": "",
-        "lit": "In unserer Klasse sind fünfundzwanzig Schüler. Im Zug fahre ich immer 2. Klasse.",
-        "verify": false
+        "lit": "In unserer Klasse sind fünfundzwanzig Schüler. Im Zug fahre ich immer 2. Klasse."
       }
     }
   },
@@ -4398,8 +4035,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Kleidung",
         "pron": "",
-        "lit": "Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock.",
-        "verify": false
+        "lit": "Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock."
       }
     }
   },
@@ -4410,8 +4046,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "klein",
         "pron": "",
-        "lit": "Eltville ist eine kleine Stadt am Rhein.",
-        "verify": false
+        "lit": "Eltville ist eine kleine Stadt am Rhein."
       }
     }
   },
@@ -4422,8 +4057,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kochen",
         "pron": "",
-        "lit": "Herr Georgi kann gut kochen.",
-        "verify": false
+        "lit": "Herr Georgi kann gut kochen."
       }
     }
   },
@@ -4434,8 +4068,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Koffer, –",
         "pron": "",
-        "lit": "Ist das Ihr Koffer?",
-        "verify": false
+        "lit": "Ist das Ihr Koffer?"
       }
     }
   },
@@ -4446,8 +4079,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kollege, -n",
         "pron": "",
-        "lit": "Wie heißt die neue Kollegin?",
-        "verify": false
+        "lit": "Wie heißt die neue Kollegin?"
       }
     }
   },
@@ -4458,8 +4090,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kommen",
         "pron": "",
-        "lit": "Woher kommen Sie? – Aus Frankreich. Kommst du mit ins Schwimmbad?",
-        "verify": false
+        "lit": "Woher kommen Sie? – Aus Frankreich. Kommst du mit ins Schwimmbad?"
       }
     }
   },
@@ -4470,8 +4101,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "können",
         "pron": "",
-        "lit": "Ich kann Deutsch und Russisch. Können Sie mir helfen?",
-        "verify": false
+        "lit": "Ich kann Deutsch und Russisch. Können Sie mir helfen?"
       }
     }
   },
@@ -4482,8 +4112,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Konto",
         "pron": "",
-        "lit": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
-        "verify": false
+        "lit": "Das Geld überweisen wir am ersten März auf Ihr Konto."
       }
     }
   },
@@ -4494,8 +4123,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kopf",
         "pron": "",
-        "lit": "Mein Kopf tut weh!",
-        "verify": false
+        "lit": "Mein Kopf tut weh!"
       }
     }
   },
@@ -4506,8 +4134,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kosten",
         "pron": "",
-        "lit": "Wie viel kostet das? – 10 Euro.",
-        "verify": false
+        "lit": "Wie viel kostet das? – 10 Euro."
       }
     }
   },
@@ -4518,8 +4145,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "krank",
         "pron": "",
-        "lit": "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett.",
-        "verify": false
+        "lit": "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett."
       }
     }
   },
@@ -4530,8 +4156,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kriegen",
         "pron": "",
-        "lit": "Ich kriege 15 Euro in der Stunde für meine Arbeit.",
-        "verify": false
+        "lit": "Ich kriege 15 Euro in der Stunde für meine Arbeit."
       }
     }
   },
@@ -4542,8 +4167,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Küche",
         "pron": "",
-        "lit": "Der neue Herd kommt in die Küche.",
-        "verify": false
+        "lit": "Der neue Herd kommt in die Küche."
       }
     }
   },
@@ -4554,8 +4178,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kuchen",
         "pron": "",
-        "lit": "Ich nehme ein Stück Kuchen.",
-        "verify": false
+        "lit": "Ich nehme ein Stück Kuchen."
       }
     }
   },
@@ -4566,8 +4189,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kugelschreiber",
         "pron": "",
-        "lit": "Hast du einen Kugelschreiber für mich?",
-        "verify": false
+        "lit": "Hast du einen Kugelschreiber für mich?"
       }
     }
   },
@@ -4578,8 +4200,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kühlschrank",
         "pron": "",
-        "lit": "Haben wir noch Milch? – Ja, im Kühlschrank.",
-        "verify": false
+        "lit": "Haben wir noch Milch? – Ja, im Kühlschrank."
       }
     }
   },
@@ -4590,8 +4211,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kulturell",
         "pron": "",
-        "lit": "Ich bin kulturell interessiert. Ich gehe oft ins Museum.",
-        "verify": false
+        "lit": "Ich bin kulturell interessiert. Ich gehe oft ins Museum."
       }
     }
   },
@@ -4602,8 +4222,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sich kümmern",
         "pron": "",
-        "lit": "Jede Mutter kümmert sich um ihre kleinen Kinder.",
-        "verify": false
+        "lit": "Jede Mutter kümmert sich um ihre kleinen Kinder."
       }
     }
   },
@@ -4614,8 +4233,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kunde, -n",
         "pron": "",
-        "lit": "Einen Moment, bitte. Ich habe eine Kundin.",
-        "verify": false
+        "lit": "Einen Moment, bitte. Ich habe eine Kundin."
       }
     }
   },
@@ -4626,8 +4244,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kurs, -e",
         "pron": "",
-        "lit": "Der Deutschkurs geht bis zum Sommer.",
-        "verify": false
+        "lit": "Der Deutschkurs geht bis zum Sommer."
       }
     }
   },
@@ -4638,8 +4255,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "kurz",
         "pron": "",
-        "lit": "Ricardo hat kurzes Haar.",
-        "verify": false
+        "lit": "Ricardo hat kurzes Haar."
       }
     }
   },
@@ -4650,8 +4266,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lachen",
         "pron": "",
-        "lit": "Die Kinder lachen viel.",
-        "verify": false
+        "lit": "Die Kinder lachen viel."
       }
     }
   },
@@ -4662,8 +4277,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Laden, -ä",
         "pron": "",
-        "lit": "Im Buchladen können Sie Bücher kaufen.",
-        "verify": false
+        "lit": "Im Buchladen können Sie Bücher kaufen."
       }
     }
   },
@@ -4674,8 +4288,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Land, -ä, er",
         "pron": "",
-        "lit": "Italien ist ein schönes Land.",
-        "verify": false
+        "lit": "Italien ist ein schönes Land."
       }
     }
   },
@@ -4686,8 +4299,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lang",
         "pron": "",
-        "lit": "Die Jeans ist zu lang.",
-        "verify": false
+        "lit": "Die Jeans ist zu lang."
       }
     }
   },
@@ -4698,8 +4310,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lange",
         "pron": "",
-        "lit": "Wie lange fährt der Zug von Hamburg nach Berlin?",
-        "verify": false
+        "lit": "Wie lange fährt der Zug von Hamburg nach Berlin?"
       }
     }
   },
@@ -4710,8 +4321,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "langsam",
         "pron": "",
-        "lit": "Könnten Sie bitte etwas langsamer sprechen?",
-        "verify": false
+        "lit": "Könnten Sie bitte etwas langsamer sprechen?"
       }
     }
   },
@@ -4722,8 +4332,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "laufen",
         "pron": "",
-        "lit": "Ich möchte nicht Auto fahren, ich möchte laufen.",
-        "verify": false
+        "lit": "Ich möchte nicht Auto fahren, ich möchte laufen."
       }
     }
   },
@@ -4734,8 +4343,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "laut",
         "pron": "",
-        "lit": "Nicht so laut! Das Baby schläft.",
-        "verify": false
+        "lit": "Nicht so laut! Das Baby schläft."
       }
     }
   },
@@ -4746,8 +4354,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "leben",
         "pron": "",
-        "lit": "Sie lebt bei ihrer Schwester. Ihre Eltern leben nicht mehr.",
-        "verify": false
+        "lit": "Sie lebt bei ihrer Schwester. Ihre Eltern leben nicht mehr."
       }
     }
   },
@@ -4758,8 +4365,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Leben",
         "pron": "",
-        "lit": "Das Leben in diesem Land ist teuer.",
-        "verify": false
+        "lit": "Das Leben in diesem Land ist teuer."
       }
     }
   },
@@ -4770,8 +4376,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Lebensmittel (pl.)",
         "pron": "",
-        "lit": "Lebensmittel bekommen Sie im Supermarkt.",
-        "verify": false
+        "lit": "Lebensmittel bekommen Sie im Supermarkt."
       }
     }
   },
@@ -4782,8 +4387,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ledig",
         "pron": "",
-        "lit": "Sind Sie verheiratet? – Nein. Ledig.",
-        "verify": false
+        "lit": "Sind Sie verheiratet? – Nein. Ledig."
       }
     }
   },
@@ -4794,8 +4398,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "legen",
         "pron": "",
-        "lit": "Legen Sie das Buch auf den Tisch.",
-        "verify": false
+        "lit": "Legen Sie das Buch auf den Tisch."
       }
     }
   },
@@ -4806,8 +4409,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Lehrer, –",
         "pron": "",
-        "lit": "Unsere Deutschlehrerin heißt Frau Müller.",
-        "verify": false
+        "lit": "Unsere Deutschlehrerin heißt Frau Müller."
       }
     }
   },
@@ -4818,8 +4420,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "leicht",
         "pron": "",
-        "lit": "Der Koffer ist leicht. Deutsch ist nicht leicht.",
-        "verify": false
+        "lit": "Der Koffer ist leicht. Deutsch ist nicht leicht."
       }
     }
   },
@@ -4830,8 +4431,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "leider",
         "pron": "",
-        "lit": "Leider kann ich nicht kommen. Ich muss zum Arzt.",
-        "verify": false
+        "lit": "Leider kann ich nicht kommen. Ich muss zum Arzt."
       }
     }
   },
@@ -4842,8 +4442,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "leise",
         "pron": "",
-        "lit": "Seid leise. Die anderen schlafen schon.",
-        "verify": false
+        "lit": "Seid leise. Die anderen schlafen schon."
       }
     }
   },
@@ -4854,8 +4453,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lernen",
         "pron": "",
-        "lit": "Wie lange lernen Sie schon Deutsch?",
-        "verify": false
+        "lit": "Wie lange lernen Sie schon Deutsch?"
       }
     }
   },
@@ -4866,8 +4464,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lesen",
         "pron": "",
-        "lit": "Ich lese ein Buch von García Márquez.",
-        "verify": false
+        "lit": "Ich lese ein Buch von García Márquez."
       }
     }
   },
@@ -4878,8 +4475,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "letzte",
         "pron": "",
-        "lit": "Morgen ist der letzte Kurstag.",
-        "verify": false
+        "lit": "Morgen ist der letzte Kurstag."
       }
     }
   },
@@ -4890,8 +4486,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Leute (pl.)",
         "pron": "",
-        "lit": "In der Disko sind viele Leute.",
-        "verify": false
+        "lit": "In der Disko sind viele Leute."
       }
     }
   },
@@ -4902,8 +4497,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Licht",
         "pron": "",
-        "lit": "Wo macht man hier das Licht an?",
-        "verify": false
+        "lit": "Wo macht man hier das Licht an?"
       }
     }
   },
@@ -4914,8 +4508,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lieb",
         "pron": "",
-        "lit": "Liebe Susanne, lieber Hans,",
-        "verify": false
+        "lit": "Liebe Susanne, lieber Hans,"
       }
     }
   },
@@ -4926,8 +4519,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lieben",
         "pron": "",
-        "lit": "Ich liebe dich!",
-        "verify": false
+        "lit": "Ich liebe dich!"
       }
     }
   },
@@ -4938,8 +4530,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lieber",
         "pron": "",
-        "lit": "Sie fährt lieber mit der Bahn.",
-        "verify": false
+        "lit": "Sie fährt lieber mit der Bahn."
       }
     }
   },
@@ -4950,8 +4541,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Lieblingsfilm",
         "pron": "",
-        "lit": "Mein Lieblingsfilm ist „Schwarze Augen“.",
-        "verify": false
+        "lit": "Mein Lieblingsfilm ist „Schwarze Augen“."
       }
     }
   },
@@ -4962,8 +4552,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Lied, -er",
         "pron": "",
-        "lit": "Welches ist dein Lieblingslied?",
-        "verify": false
+        "lit": "Welches ist dein Lieblingslied?"
       }
     }
   },
@@ -4974,8 +4563,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "liegen",
         "pron": "",
-        "lit": "Um neun Uhr liegt Judith noch im Bett. Frankfurt liegt am Main.",
-        "verify": false
+        "lit": "Um neun Uhr liegt Judith noch im Bett. Frankfurt liegt am Main."
       }
     }
   },
@@ -4986,8 +4574,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "links",
         "pron": "",
-        "lit": "Gehen Sie die nächste Straße links.",
-        "verify": false
+        "lit": "Gehen Sie die nächste Straße links."
       }
     }
   },
@@ -4998,8 +4585,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Lkw, -s",
         "pron": "",
-        "lit": "Dieser Lastkraftwagen ist sehr groß.",
-        "verify": false
+        "lit": "Dieser Lastkraftwagen ist sehr groß."
       }
     }
   },
@@ -5010,8 +4596,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Lokal",
         "pron": "",
-        "lit": "In unserer Straße gibt es ein neues Lokal.",
-        "verify": false
+        "lit": "In unserer Straße gibt es ein neues Lokal."
       }
     }
   },
@@ -5022,8 +4607,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Lösung, -en",
         "pron": "",
-        "lit": "Die Lösung ist ganz einfach.",
-        "verify": false
+        "lit": "Die Lösung ist ganz einfach."
       }
     }
   },
@@ -5034,8 +4618,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "lustig",
         "pron": "",
-        "lit": "Frau Mertens ist lustig. Sie lacht immer.",
-        "verify": false
+        "lit": "Frau Mertens ist lustig. Sie lacht immer."
       }
     }
   },
@@ -5046,8 +4629,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "machen",
         "pron": "",
-        "lit": "Was machst du heute Abend? Ich muss jetzt das Essen machen. Das macht 5 Euro 95. Das macht nichts.",
-        "verify": false
+        "lit": "Was machst du heute Abend? Ich muss jetzt das Essen machen. Das macht 5 Euro 95. Das macht nichts."
       }
     }
   },
@@ -5058,8 +4640,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Mädchen, –",
         "pron": "",
-        "lit": "Familie Kurz bekommt ein Baby. – Junge oder Mädchen?",
-        "verify": false
+        "lit": "Familie Kurz bekommt ein Baby. – Junge oder Mädchen?"
       }
     }
   },
@@ -5070,8 +4651,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "man",
         "pron": "",
-        "lit": "Hier darf man nicht rauchen.",
-        "verify": false
+        "lit": "Hier darf man nicht rauchen."
       }
     }
   },
@@ -5082,8 +4662,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mann, -ä, er",
         "pron": "",
-        "lit": "Mein Mann arbeitet bei der Polizei.",
-        "verify": false
+        "lit": "Mein Mann arbeitet bei der Polizei."
       }
     }
   },
@@ -5094,8 +4673,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "männlich",
         "pron": "",
-        "lit": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“.",
-        "verify": false
+        "lit": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
       }
     }
   },
@@ -5106,8 +4684,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Maschine, -n",
         "pron": "",
-        "lit": "Die Waschmaschine ist günstig.",
-        "verify": false
+        "lit": "Die Waschmaschine ist günstig."
       }
     }
   },
@@ -5118,8 +4695,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Meer",
         "pron": "",
-        "lit": "Wir machen Urlaub am Meer.",
-        "verify": false
+        "lit": "Wir machen Urlaub am Meer."
       }
     }
   },
@@ -5130,8 +4706,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mehr",
         "pron": "",
-        "lit": "Dieses Auto kostet 1.000 Euro mehr als das andere.",
-        "verify": false
+        "lit": "Dieses Auto kostet 1.000 Euro mehr als das andere."
       }
     }
   },
@@ -5142,8 +4717,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mein",
         "pron": "",
-        "lit": "Mein Vater ist Arzt.",
-        "verify": false
+        "lit": "Mein Vater ist Arzt."
       }
     }
   },
@@ -5154,8 +4728,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die meisten",
         "pron": "",
-        "lit": "Die meisten Norddeutschen sind sehr groß.",
-        "verify": false
+        "lit": "Die meisten Norddeutschen sind sehr groß."
       }
     }
   },
@@ -5166,8 +4739,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mensch, -en",
         "pron": "",
-        "lit": "Die Menschen sind hier anders als bei uns.",
-        "verify": false
+        "lit": "Die Menschen sind hier anders als bei uns."
       }
     }
   },
@@ -5178,8 +4750,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mieten",
         "pron": "",
-        "lit": "Ich möchte ein Auto mieten.",
-        "verify": false
+        "lit": "Ich möchte ein Auto mieten."
       }
     }
   },
@@ -5190,8 +4761,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Miete",
         "pron": "",
-        "lit": "Die Miete für diese Wohnung ist 600 Euro.",
-        "verify": false
+        "lit": "Die Miete für diese Wohnung ist 600 Euro."
       }
     }
   },
@@ -5202,8 +4772,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Milch",
         "pron": "",
-        "lit": "Die Milch steht im Kühlschrank.",
-        "verify": false
+        "lit": "Die Milch steht im Kühlschrank."
       }
     }
   },
@@ -5214,8 +4783,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mit",
         "pron": "",
-        "lit": "Trinken Sie den Kaffee mit Milch?",
-        "verify": false
+        "lit": "Trinken Sie den Kaffee mit Milch?"
       }
     }
   },
@@ -5226,8 +4794,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mitbringen",
         "pron": "",
-        "lit": "Ich gehe einkaufen. Soll ich dir was mitbringen?",
-        "verify": false
+        "lit": "Ich gehe einkaufen. Soll ich dir was mitbringen?"
       }
     }
   },
@@ -5238,8 +4805,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mitkommen",
         "pron": "",
-        "lit": "Ich gehe ins Kino. Kommst du mit?",
-        "verify": false
+        "lit": "Ich gehe ins Kino. Kommst du mit?"
       }
     }
   },
@@ -5250,8 +4816,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mitmachen",
         "pron": "",
-        "lit": "Warum macht ihr nicht mit?",
-        "verify": false
+        "lit": "Warum macht ihr nicht mit?"
       }
     }
   },
@@ -5262,8 +4827,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mitnehmen",
         "pron": "",
-        "lit": "Nehmen wir meine Schwester ins Kino mit?",
-        "verify": false
+        "lit": "Nehmen wir meine Schwester ins Kino mit?"
       }
     }
   },
@@ -5274,8 +4838,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Mitte",
         "pron": "",
-        "lit": "Der Lehrer steht in der Mitte des Klassenzimmers.",
-        "verify": false
+        "lit": "Der Lehrer steht in der Mitte des Klassenzimmers."
       }
     }
   },
@@ -5286,8 +4849,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Möbel (pl.)",
         "pron": "",
-        "lit": "Sind die Möbel neu?",
-        "verify": false
+        "lit": "Sind die Möbel neu?"
       }
     }
   },
@@ -5298,8 +4860,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "möchten",
         "pron": "",
-        "lit": "Was möchten Sie trinken?",
-        "verify": false
+        "lit": "Was möchten Sie trinken?"
       }
     }
   },
@@ -5310,8 +4871,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "mögen",
         "pron": "",
-        "lit": "Magst du Kaffee oder Tee?",
-        "verify": false
+        "lit": "Magst du Kaffee oder Tee?"
       }
     }
   },
@@ -5322,8 +4882,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "möglich",
         "pron": "",
-        "lit": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich.",
-        "verify": false
+        "lit": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich."
       }
     }
   },
@@ -5334,8 +4893,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Moment",
         "pron": "",
-        "lit": "Moment mal bitte! Einen Moment bitte.",
-        "verify": false
+        "lit": "Moment mal bitte! Einen Moment bitte."
       }
     }
   },
@@ -5346,8 +4904,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "morgen",
         "pron": "",
-        "lit": "Morgen beginnt die Schule um 10 Uhr.",
-        "verify": false
+        "lit": "Morgen beginnt die Schule um 10 Uhr."
       }
     }
   },
@@ -5358,8 +4915,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "müde",
         "pron": "",
-        "lit": "Ich bin müde. Ich gehe schlafen.",
-        "verify": false
+        "lit": "Ich bin müde. Ich gehe schlafen."
       }
     }
   },
@@ -5370,8 +4926,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mund",
         "pron": "",
-        "lit": "Öffnen Sie den Mund.",
-        "verify": false
+        "lit": "Öffnen Sie den Mund."
       }
     }
   },
@@ -5382,8 +4937,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "müssen",
         "pron": "",
-        "lit": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
-        "verify": false
+        "lit": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten."
       }
     }
   },
@@ -5394,8 +4948,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Mutter, -ü",
         "pron": "",
-        "lit": "Frau Berghäuser ist die Mutter von Michaela.",
-        "verify": false
+        "lit": "Frau Berghäuser ist die Mutter von Michaela."
       }
     }
   },
@@ -5406,8 +4959,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nach",
         "pron": "",
-        "lit": "Ich gehe jetzt nach Hause. Ich fliege nach München. Es ist schon 5 nach 12.",
-        "verify": false
+        "lit": "Ich gehe jetzt nach Hause. Ich fliege nach München. Es ist schon 5 nach 12."
       }
     }
   },
@@ -5418,8 +4970,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nächste",
         "pron": "",
-        "lit": "Sehen wir uns nächste Woche?",
-        "verify": false
+        "lit": "Sehen wir uns nächste Woche?"
       }
     }
   },
@@ -5430,8 +4981,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Name, -n",
         "pron": "",
-        "lit": "Mein Name ist Thomas Schmidt. Mein Vorname ist Thomas; Schmidt ist der Familienname.",
-        "verify": false
+        "lit": "Mein Name ist Thomas Schmidt. Mein Vorname ist Thomas; Schmidt ist der Familienname."
       }
     }
   },
@@ -5442,8 +4992,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nehmen",
         "pron": "",
-        "lit": "Heute gibt es Hähnchen. Das nehme ich. Ich nehme den Bus.",
-        "verify": false
+        "lit": "Heute gibt es Hähnchen. Das nehme ich. Ich nehme den Bus."
       }
     }
   },
@@ -5454,8 +5003,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nein",
         "pron": "",
-        "lit": "Fährst du auch nach München? – Nein, ich habe keine Zeit.",
-        "verify": false
+        "lit": "Fährst du auch nach München? – Nein, ich habe keine Zeit."
       }
     }
   },
@@ -5466,8 +5014,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "neu",
         "pron": "",
-        "lit": "Ich bin der neue Kollege. Wir haben eine neue Wohnung.",
-        "verify": false
+        "lit": "Ich bin der neue Kollege. Wir haben eine neue Wohnung."
       }
     }
   },
@@ -5478,8 +5025,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nicht",
         "pron": "",
-        "lit": "Das stimmt nicht. Das ist doch schön, nicht?",
-        "verify": false
+        "lit": "Das stimmt nicht. Das ist doch schön, nicht?"
       }
     }
   },
@@ -5490,8 +5036,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nichts",
         "pron": "",
-        "lit": "Das macht nichts. Hier kaufe ich nichts. Der Laden gefällt mir nicht.",
-        "verify": false
+        "lit": "Das macht nichts. Hier kaufe ich nichts. Der Laden gefällt mir nicht."
       }
     }
   },
@@ -5502,8 +5047,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nie",
         "pron": "",
-        "lit": "Er kommt nie pünktlich.",
-        "verify": false
+        "lit": "Er kommt nie pünktlich."
       }
     }
   },
@@ -5514,8 +5058,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "noch",
         "pron": "",
-        "lit": "Vielleicht kommt er noch. Wir warten noch fünf Minuten. Ich habe noch 20 Euro.",
-        "verify": false
+        "lit": "Vielleicht kommt er noch. Wir warten noch fünf Minuten. Ich habe noch 20 Euro."
       }
     }
   },
@@ -5526,8 +5069,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "normal",
         "pron": "",
-        "lit": "75 kg. Sein Gewicht ist normal.",
-        "verify": false
+        "lit": "75 kg. Sein Gewicht ist normal."
       }
     }
   },
@@ -5538,8 +5080,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Nummer, -n",
         "pron": "",
-        "lit": "Sie haben Zimmer Nummer zwölf. Welche Hausnummer haben Sie? Können Sie mir Ihre Nummer geben?",
-        "verify": false
+        "lit": "Sie haben Zimmer Nummer zwölf. Welche Hausnummer haben Sie? Können Sie mir Ihre Nummer geben?"
       }
     }
   },
@@ -5550,8 +5091,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nur",
         "pron": "",
-        "lit": "Ich möchte nur ein Glas Wasser.",
-        "verify": false
+        "lit": "Ich möchte nur ein Glas Wasser."
       }
     }
   },
@@ -5562,8 +5102,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "oben",
         "pron": "",
-        "lit": "Ich wohne oben.",
-        "verify": false
+        "lit": "Ich wohne oben."
       }
     }
   },
@@ -5574,8 +5113,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Obst",
         "pron": "",
-        "lit": "Im Sommer ist das Obst billig.",
-        "verify": false
+        "lit": "Im Sommer ist das Obst billig."
       }
     }
   },
@@ -5586,8 +5124,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "oder",
         "pron": "",
-        "lit": "Wann können Sie kommen – heute oder morgen?",
-        "verify": false
+        "lit": "Wann können Sie kommen – heute oder morgen?"
       }
     }
   },
@@ -5598,8 +5135,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "öffnen",
         "pron": "",
-        "lit": "Ich öffne die Tür.",
-        "verify": false
+        "lit": "Ich öffne die Tür."
       }
     }
   },
@@ -5610,8 +5146,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "geöffnet",
         "pron": "",
-        "lit": "Der Laden ist samstags bis 16.00 Uhr geöffnet.",
-        "verify": false
+        "lit": "Der Laden ist samstags bis 16.00 Uhr geöffnet."
       }
     }
   },
@@ -5622,8 +5157,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "oft",
         "pron": "",
-        "lit": "Petra treffe ich oft.",
-        "verify": false
+        "lit": "Petra treffe ich oft."
       }
     }
   },
@@ -5634,8 +5168,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ohne",
         "pron": "",
-        "lit": "Ohne Geld kann er nichts kaufen.",
-        "verify": false
+        "lit": "Ohne Geld kann er nichts kaufen."
       }
     }
   },
@@ -5646,8 +5179,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Öl",
         "pron": "",
-        "lit": "Den Salat machen wir ohne Öl.",
-        "verify": false
+        "lit": "Den Salat machen wir ohne Öl."
       }
     }
   },
@@ -5658,8 +5190,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Oma, -s",
         "pron": "",
-        "lit": "Meine Oma ist schon tot.",
-        "verify": false
+        "lit": "Meine Oma ist schon tot."
       }
     }
   },
@@ -5670,8 +5201,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Opa, -s",
         "pron": "",
-        "lit": "Mein Opa heißt Hans.",
-        "verify": false
+        "lit": "Mein Opa heißt Hans."
       }
     }
   },
@@ -5682,8 +5212,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Ordnung",
         "pron": "",
-        "lit": "Das ist in Ordnung.",
-        "verify": false
+        "lit": "Das ist in Ordnung."
       }
     }
   },
@@ -5694,8 +5223,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Ort, -e",
         "pron": "",
-        "lit": "Der Ort liegt am Meer.",
-        "verify": false
+        "lit": "Der Ort liegt am Meer."
       }
     }
   },
@@ -5706,8 +5234,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Papier",
         "pron": "",
-        "lit": "Hier sind Papier und Bleistift.",
-        "verify": false
+        "lit": "Hier sind Papier und Bleistift."
       }
     }
   },
@@ -5718,8 +5245,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Papiere (pl.)",
         "pron": "",
-        "lit": "Haben Sie Ihre Papiere dabei?",
-        "verify": false
+        "lit": "Haben Sie Ihre Papiere dabei?"
       }
     }
   },
@@ -5730,8 +5256,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Partner, -/",
         "pron": "",
-        "lit": "Sie ist meine Partnerin.",
-        "verify": false
+        "lit": "Sie ist meine Partnerin."
       }
     }
   },
@@ -5742,8 +5267,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Partnerin, -nen",
         "pron": "",
-        "lit": "Sie ist meine Partnerin.",
-        "verify": false
+        "lit": "Sie ist meine Partnerin."
       }
     }
   },
@@ -5754,8 +5278,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Party",
         "pron": "",
-        "lit": "Heute Abend machen wir eine Party.",
-        "verify": false
+        "lit": "Heute Abend machen wir eine Party."
       }
     }
   },
@@ -5766,8 +5289,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Pass, -ä, e",
         "pron": "",
-        "lit": "Im Hotel brauchst du deinen Pass.",
-        "verify": false
+        "lit": "Im Hotel brauchst du deinen Pass."
       }
     }
   },
@@ -5778,8 +5300,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Pause, -n",
         "pron": "",
-        "lit": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
-        "verify": false
+        "lit": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause."
       }
     }
   },
@@ -5790,8 +5311,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Plan, -ä, e",
         "pron": "",
-        "lit": "Ich kaufe mir einen Stadtplan.",
-        "verify": false
+        "lit": "Ich kaufe mir einen Stadtplan."
       }
     }
   },
@@ -5802,8 +5322,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Platz, -ä, e",
         "pron": "",
-        "lit": "Tut mir leid, der Platz ist besetzt. Bitte nehmen Sie Platz! Ich wohne Messeplatz 5.",
-        "verify": false
+        "lit": "Tut mir leid, der Platz ist besetzt. Bitte nehmen Sie Platz! Ich wohne Messeplatz 5."
       }
     }
   },
@@ -5814,8 +5333,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Polizei",
         "pron": "",
-        "lit": "Holen Sie die Polizei!",
-        "verify": false
+        "lit": "Holen Sie die Polizei!"
       }
     }
   },
@@ -5826,8 +5344,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Pommes frites (pl.)",
         "pron": "",
-        "lit": "Die Kinder essen Hähnchen mit Pommes frites.",
-        "verify": false
+        "lit": "Die Kinder essen Hähnchen mit Pommes frites."
       }
     }
   },
@@ -5838,8 +5355,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Post",
         "pron": "",
-        "lit": "Wo ist die Post, bitte? Ist Post da?",
-        "verify": false
+        "lit": "Wo ist die Post, bitte? Ist Post da?"
       }
     }
   },
@@ -5850,8 +5366,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Postleitzahl",
         "pron": "",
-        "lit": "Wie ist Ihre Postleitzahl?",
-        "verify": false
+        "lit": "Wie ist Ihre Postleitzahl?"
       }
     }
   },
@@ -5862,8 +5377,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Praktikum",
         "pron": "",
-        "lit": "Ich mache ein Praktikum bei Siemens.",
-        "verify": false
+        "lit": "Ich mache ein Praktikum bei Siemens."
       }
     }
   },
@@ -5874,8 +5388,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Praxis",
         "pron": "",
-        "lit": "Die Praxis ist ab acht Uhr geöffnet.",
-        "verify": false
+        "lit": "Die Praxis ist ab acht Uhr geöffnet."
       }
     }
   },
@@ -5886,8 +5399,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Preis, -e",
         "pron": "",
-        "lit": "Die Preise sind hoch.",
-        "verify": false
+        "lit": "Die Preise sind hoch."
       }
     }
   },
@@ -5898,8 +5410,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Problem, -e",
         "pron": "",
-        "lit": "Mein Problem ist die Sprache.",
-        "verify": false
+        "lit": "Mein Problem ist die Sprache."
       }
     }
   },
@@ -5910,8 +5421,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Prospekt, -e",
         "pron": "",
-        "lit": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
-        "verify": false
+        "lit": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel."
       }
     }
   },
@@ -5922,8 +5432,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Prüfung",
         "pron": "",
-        "lit": "Die Prüfung ist am Montag um 8.00 Uhr.",
-        "verify": false
+        "lit": "Die Prüfung ist am Montag um 8.00 Uhr."
       }
     }
   },
@@ -5934,8 +5443,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "pünktlich",
         "pron": "",
-        "lit": "Der Bus fährt pünktlich um acht Uhr. Herr Müller ist immer pünktlich.",
-        "verify": false
+        "lit": "Der Bus fährt pünktlich um acht Uhr. Herr Müller ist immer pünktlich."
       }
     }
   },
@@ -5946,8 +5454,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Rad fahren",
         "pron": "",
-        "lit": "Das Kind kann schon Rad fahren.",
-        "verify": false
+        "lit": "Das Kind kann schon Rad fahren."
       }
     }
   },
@@ -5958,8 +5465,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "rauchen",
         "pron": "",
-        "lit": "Ich rauche nicht.",
-        "verify": false
+        "lit": "Ich rauche nicht."
       }
     }
   },
@@ -5970,8 +5476,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Raum, -ä, e",
         "pron": "",
-        "lit": "Der Unterricht ist in Raum 332.",
-        "verify": false
+        "lit": "Der Unterricht ist in Raum 332."
       }
     }
   },
@@ -5982,8 +5487,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Rechnung, -en",
         "pron": "",
-        "lit": "Die Rechnung, bitte.",
-        "verify": false
+        "lit": "Die Rechnung, bitte."
       }
     }
   },
@@ -5994,8 +5498,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "rechts",
         "pron": "",
-        "lit": "Die Schillerstraße ist hier rechts.",
-        "verify": false
+        "lit": "Die Schillerstraße ist hier rechts."
       }
     }
   },
@@ -6006,8 +5509,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "regnen",
         "pron": "",
-        "lit": "Heute regnet es.",
-        "verify": false
+        "lit": "Heute regnet es."
       }
     }
   },
@@ -6018,8 +5520,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Regen",
         "pron": "",
-        "lit": "Bei diesem Regen gehe ich nicht raus.",
-        "verify": false
+        "lit": "Bei diesem Regen gehe ich nicht raus."
       }
     }
   },
@@ -6030,8 +5531,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Reis",
         "pron": "",
-        "lit": "Ich esse gern Reis.",
-        "verify": false
+        "lit": "Ich esse gern Reis."
       }
     }
   },
@@ -6042,8 +5542,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "reisen",
         "pron": "",
-        "lit": "Ich reise gern.",
-        "verify": false
+        "lit": "Ich reise gern."
       }
     }
   },
@@ -6054,8 +5553,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Reise",
         "pron": "",
-        "lit": "Wir machen eine Reise nach Österreich.",
-        "verify": false
+        "lit": "Wir machen eine Reise nach Österreich."
       }
     }
   },
@@ -6066,8 +5564,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Reisebüro, -s",
         "pron": "",
-        "lit": "Mein Mann arbeitet im Reisebüro.",
-        "verify": false
+        "lit": "Mein Mann arbeitet im Reisebüro."
       }
     }
   },
@@ -6078,8 +5575,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Reiseführer",
         "pron": "",
-        "lit": "Ich kaufe mir einen Reiseführer von Berlin. Unser Reiseführer heißt Peter.",
-        "verify": false
+        "lit": "Ich kaufe mir einen Reiseführer von Berlin. Unser Reiseführer heißt Peter."
       }
     }
   },
@@ -6090,8 +5586,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "reparieren",
         "pron": "",
-        "lit": "Er hat das Fahrrad repariert.",
-        "verify": false
+        "lit": "Er hat das Fahrrad repariert."
       }
     }
   },
@@ -6102,8 +5597,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Reparatur",
         "pron": "",
-        "lit": "Die Reparatur ist sehr teuer.",
-        "verify": false
+        "lit": "Die Reparatur ist sehr teuer."
       }
     }
   },
@@ -6114,8 +5608,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Restaurant, -s",
         "pron": "",
-        "lit": "Wir essen heute in einem Restaurant.",
-        "verify": false
+        "lit": "Wir essen heute in einem Restaurant."
       }
     }
   },
@@ -6126,8 +5619,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Rezeption",
         "pron": "",
-        "lit": "Fragen Sie bitte im Hotel an der Rezeption.",
-        "verify": false
+        "lit": "Fragen Sie bitte im Hotel an der Rezeption."
       }
     }
   },
@@ -6138,8 +5630,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "richtig",
         "pron": "",
-        "lit": "Habe ich das richtig verstanden? Das ist richtig.",
-        "verify": false
+        "lit": "Habe ich das richtig verstanden? Das ist richtig."
       }
     }
   },
@@ -6150,8 +5641,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "riechen",
         "pron": "",
-        "lit": "Dieser Wein riecht gut.",
-        "verify": false
+        "lit": "Dieser Wein riecht gut."
       }
     }
   },
@@ -6162,8 +5652,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ruhig",
         "pron": "",
-        "lit": "Ich möchte ein ruhiges Zimmer.",
-        "verify": false
+        "lit": "Ich möchte ein ruhiges Zimmer."
       }
     }
   },
@@ -6174,8 +5663,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Saft",
         "pron": "",
-        "lit": "Möchtest du einen Apfelsaft?",
-        "verify": false
+        "lit": "Möchtest du einen Apfelsaft?"
       }
     }
   },
@@ -6186,8 +5674,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sagen",
         "pron": "",
-        "lit": "Sag mal, wie geht es dir denn?",
-        "verify": false
+        "lit": "Sag mal, wie geht es dir denn?"
       }
     }
   },
@@ -6198,8 +5685,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Salat",
         "pron": "",
-        "lit": "Wie schmeckt dir der Salat?",
-        "verify": false
+        "lit": "Wie schmeckt dir der Salat?"
       }
     }
   },
@@ -6210,8 +5696,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Salz",
         "pron": "",
-        "lit": "Herr Ober, kann ich bitte Salz haben?",
-        "verify": false
+        "lit": "Herr Ober, kann ich bitte Salz haben?"
       }
     }
   },
@@ -6222,8 +5707,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Satz, -ä, e",
         "pron": "",
-        "lit": "Dieser Satz ist sehr einfach.",
-        "verify": false
+        "lit": "Dieser Satz ist sehr einfach."
       }
     }
   },
@@ -6234,8 +5718,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die S-Bahn",
         "pron": "",
-        "lit": "Ich nehme lieber die S-Bahn.",
-        "verify": false
+        "lit": "Ich nehme lieber die S-Bahn."
       }
     }
   },
@@ -6246,8 +5729,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schalter",
         "pron": "",
-        "lit": "Gehen Sie bitte zum Schalter drei!",
-        "verify": false
+        "lit": "Gehen Sie bitte zum Schalter drei!"
       }
     }
   },
@@ -6258,8 +5740,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "scheinen",
         "pron": "",
-        "lit": "Die Sonne scheint.",
-        "verify": false
+        "lit": "Die Sonne scheint."
       }
     }
   },
@@ -6270,8 +5751,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schicken",
         "pron": "",
-        "lit": "Bitte schicken Sie mir eine E-Mail.",
-        "verify": false
+        "lit": "Bitte schicken Sie mir eine E-Mail."
       }
     }
   },
@@ -6282,8 +5762,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Schild, -er",
         "pron": "",
-        "lit": "Haben Sie nicht das Schild gesehen?",
-        "verify": false
+        "lit": "Haben Sie nicht das Schild gesehen?"
       }
     }
   },
@@ -6294,8 +5773,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schinken, –",
         "pron": "",
-        "lit": "Ich möchte gern ein Schinkenbrot.",
-        "verify": false
+        "lit": "Ich möchte gern ein Schinkenbrot."
       }
     }
   },
@@ -6306,8 +5784,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schlafen",
         "pron": "",
-        "lit": "Ich schlafe meistens acht Stunden.",
-        "verify": false
+        "lit": "Ich schlafe meistens acht Stunden."
       }
     }
   },
@@ -6318,8 +5795,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schlecht",
         "pron": "",
-        "lit": "Mir ist schlecht! Sie sehen schlecht aus. Wir haben schlechtes Wetter.",
-        "verify": false
+        "lit": "Mir ist schlecht! Sie sehen schlecht aus. Wir haben schlechtes Wetter."
       }
     }
   },
@@ -6330,8 +5806,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schließen",
         "pron": "",
-        "lit": "Bitte, schließen Sie die Tür.",
-        "verify": false
+        "lit": "Bitte, schließen Sie die Tür."
       }
     }
   },
@@ -6342,8 +5817,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "geschlossen",
         "pron": "",
-        "lit": "Die Bank hat am Samstag geschlossen.",
-        "verify": false
+        "lit": "Die Bank hat am Samstag geschlossen."
       }
     }
   },
@@ -6354,8 +5828,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schluss",
         "pron": "",
-        "lit": "Ich muss jetzt Schluss machen. Zum Schluss gibt er uns allen die Hand.",
-        "verify": false
+        "lit": "Ich muss jetzt Schluss machen. Zum Schluss gibt er uns allen die Hand."
       }
     }
   },
@@ -6366,8 +5839,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schlüssel, –",
         "pron": "",
-        "lit": "Ich gebe Ihnen noch den Zimmerschlüssel.",
-        "verify": false
+        "lit": "Ich gebe Ihnen noch den Zimmerschlüssel."
       }
     }
   },
@@ -6378,8 +5850,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schmecken",
         "pron": "",
-        "lit": "Schmeckt das gut?",
-        "verify": false
+        "lit": "Schmeckt das gut?"
       }
     }
   },
@@ -6390,8 +5861,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schnell",
         "pron": "",
-        "lit": "Er fährt schnell.",
-        "verify": false
+        "lit": "Er fährt schnell."
       }
     }
   },
@@ -6402,8 +5872,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schon",
         "pron": "",
-        "lit": "Ist das Essen schon fertig?",
-        "verify": false
+        "lit": "Ist das Essen schon fertig?"
       }
     }
   },
@@ -6414,8 +5883,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schön",
         "pron": "",
-        "lit": "Schönen Urlaub! Das ist sehr schön.",
-        "verify": false
+        "lit": "Schönen Urlaub! Das ist sehr schön."
       }
     }
   },
@@ -6426,8 +5894,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schrank, -ä, e",
         "pron": "",
-        "lit": "Die Gläser stehen im Schrank.",
-        "verify": false
+        "lit": "Die Gläser stehen im Schrank."
       }
     }
   },
@@ -6438,8 +5905,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schreiben",
         "pron": "",
-        "lit": "Er schreibt jeden Tag fünfzig E-Mails.",
-        "verify": false
+        "lit": "Er schreibt jeden Tag fünfzig E-Mails."
       }
     }
   },
@@ -6450,8 +5916,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schuh, -e",
         "pron": "",
-        "lit": "Zieh die Schuhe aus!",
-        "verify": false
+        "lit": "Zieh die Schuhe aus!"
       }
     }
   },
@@ -6462,8 +5927,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Schule",
         "pron": "",
-        "lit": "Meine Tochter geht schon in die Schule. Die Schule ist gleich hier um die Ecke.",
-        "verify": false
+        "lit": "Meine Tochter geht schon in die Schule. Die Schule ist gleich hier um die Ecke."
       }
     }
   },
@@ -6474,8 +5938,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Schüler, –",
         "pron": "",
-        "lit": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
-        "verify": false
+        "lit": "In meinem Kurs sind acht Schülerinnen und fünf Schüler."
       }
     }
   },
@@ -6486,8 +5949,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schwer",
         "pron": "",
-        "lit": "Ist Ihr Gepäck sehr schwer? Das ist eine schwere Arbeit.",
-        "verify": false
+        "lit": "Ist Ihr Gepäck sehr schwer? Das ist eine schwere Arbeit."
       }
     }
   },
@@ -6498,8 +5960,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Schwester, -n",
         "pron": "",
-        "lit": "Meine Schwester kommt am Dienstag.",
-        "verify": false
+        "lit": "Meine Schwester kommt am Dienstag."
       }
     }
   },
@@ -6510,8 +5971,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schwimmen",
         "pron": "",
-        "lit": "Ich schwimme jeden Tag einen Kilometer.",
-        "verify": false
+        "lit": "Ich schwimme jeden Tag einen Kilometer."
       }
     }
   },
@@ -6522,8 +5982,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Schwimmbad",
         "pron": "",
-        "lit": "Kommst du mit ins Schwimmbad?",
-        "verify": false
+        "lit": "Kommst du mit ins Schwimmbad?"
       }
     }
   },
@@ -6534,8 +5993,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der See",
         "pron": "",
-        "lit": "Komm, wir fahren zum Starnberger See.",
-        "verify": false
+        "lit": "Komm, wir fahren zum Starnberger See."
       }
     }
   },
@@ -6546,8 +6004,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sehen",
         "pron": "",
-        "lit": "Ich kann dich nicht sehen. Ich habe diesen Jungen schon einmal gesehen.",
-        "verify": false
+        "lit": "Ich kann dich nicht sehen. Ich habe diesen Jungen schon einmal gesehen."
       }
     }
   },
@@ -6558,8 +6015,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Sehenswürdigkeit,",
         "pron": "",
-        "lit": "-en Welche Sehenswürdigkeiten gibt es in Frankfurt?",
-        "verify": false
+        "lit": "-en Welche Sehenswürdigkeiten gibt es in Frankfurt?"
       }
     }
   },
@@ -6570,8 +6026,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sehr",
         "pron": "",
-        "lit": "Danke sehr! Das ist sehr schwer.",
-        "verify": false
+        "lit": "Danke sehr! Das ist sehr schwer."
       }
     }
   },
@@ -6582,8 +6037,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sein",
         "pron": "",
-        "lit": "Herr Müller ist in seinem Zimmer. Mir ist kalt. Ich bin dreiundzwanzig.",
-        "verify": false
+        "lit": "Herr Müller ist in seinem Zimmer. Mir ist kalt. Ich bin dreiundzwanzig."
       }
     }
   },
@@ -6594,8 +6048,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weg sein",
         "pron": "",
-        "lit": "Herr Meier ist schon weg.",
-        "verify": false
+        "lit": "Herr Meier ist schon weg."
       }
     }
   },
@@ -6606,8 +6059,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zu sein",
         "pron": "",
-        "lit": "Die Tür ist zu.",
-        "verify": false
+        "lit": "Die Tür ist zu."
       }
     }
   },
@@ -6618,8 +6070,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "seit",
         "pron": "",
-        "lit": "Ich wohne seit drei Jahren in Köln.",
-        "verify": false
+        "lit": "Ich wohne seit drei Jahren in Köln."
       }
     }
   },
@@ -6630,8 +6081,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "selbstständig",
         "pron": "",
-        "lit": "Er ist selbstständig.",
-        "verify": false
+        "lit": "Er ist selbstständig."
       }
     }
   },
@@ -6642,8 +6092,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sich",
         "pron": "",
-        "lit": "Sie müssen sich erst anmelden.",
-        "verify": false
+        "lit": "Sie müssen sich erst anmelden."
       }
     }
   },
@@ -6654,8 +6103,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sie",
         "pron": "",
-        "lit": "Wie heißt sie?",
-        "verify": false
+        "lit": "Wie heißt sie?"
       }
     }
   },
@@ -6666,8 +6114,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Sie",
         "pron": "",
-        "lit": "Wie heißen Sie, bitte?",
-        "verify": false
+        "lit": "Wie heißen Sie, bitte?"
       }
     }
   },
@@ -6678,8 +6125,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sitzen",
         "pron": "",
-        "lit": "Wo sitzen Sie?",
-        "verify": false
+        "lit": "Wo sitzen Sie?"
       }
     }
   },
@@ -6690,8 +6136,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "so",
         "pron": "",
-        "lit": "Sie müssen das so machen! Fahren Sie bitte nicht so schnell! Meine Frau ist so groß wie ich. So, das war‘s/wär‘s!",
-        "verify": false
+        "lit": "Sie müssen das so machen! Fahren Sie bitte nicht so schnell! Meine Frau ist so groß wie ich. So, das war‘s/wär‘s!"
       }
     }
   },
@@ -6702,8 +6147,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Sofa",
         "pron": "",
-        "lit": "Das Sofa ist neu.",
-        "verify": false
+        "lit": "Das Sofa ist neu."
       }
     }
   },
@@ -6714,8 +6158,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sofort",
         "pron": "",
-        "lit": "Bitte antworten Sie sofort.",
-        "verify": false
+        "lit": "Bitte antworten Sie sofort."
       }
     }
   },
@@ -6726,8 +6169,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Sohn, -ö, e",
         "pron": "",
-        "lit": "Das ist Hans, mein Sohn.",
-        "verify": false
+        "lit": "Das ist Hans, mein Sohn."
       }
     }
   },
@@ -6738,8 +6180,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sollen",
         "pron": "",
-        "lit": "Soll ich kommen? Was soll ich mitbringen?",
-        "verify": false
+        "lit": "Soll ich kommen? Was soll ich mitbringen?"
       }
     }
   },
@@ -6750,8 +6191,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Sonne",
         "pron": "",
-        "lit": "Die Sonne scheint.",
-        "verify": false
+        "lit": "Die Sonne scheint."
       }
     }
   },
@@ -6762,8 +6202,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "spät",
         "pron": "",
-        "lit": "Es ist schon spät, ich muss gehen.",
-        "verify": false
+        "lit": "Es ist schon spät, ich muss gehen."
       }
     }
   },
@@ -6774,8 +6213,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "später",
         "pron": "",
-        "lit": "Das können wir später machen.",
-        "verify": false
+        "lit": "Das können wir später machen."
       }
     }
   },
@@ -6786,8 +6224,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Speisekarte",
         "pron": "",
-        "lit": "Bringen Sie mir die Speisekarte, bitte.",
-        "verify": false
+        "lit": "Bringen Sie mir die Speisekarte, bitte."
       }
     }
   },
@@ -6798,8 +6235,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "spielen",
         "pron": "",
-        "lit": "Die Kinder spielen draußen. Spielen Sie Karten?",
-        "verify": false
+        "lit": "Die Kinder spielen draußen. Spielen Sie Karten?"
       }
     }
   },
@@ -6810,8 +6246,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Sport",
         "pron": "",
-        "lit": "Ich mache viel Sport.",
-        "verify": false
+        "lit": "Ich mache viel Sport."
       }
     }
   },
@@ -6822,8 +6257,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Sprache, -n",
         "pron": "",
-        "lit": "Welche Sprachen sprichst du?",
-        "verify": false
+        "lit": "Welche Sprachen sprichst du?"
       }
     }
   },
@@ -6834,8 +6268,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sprechen",
         "pron": "",
-        "lit": "Kann ich (mit) Herrn Klein sprechen?",
-        "verify": false
+        "lit": "Kann ich (mit) Herrn Klein sprechen?"
       }
     }
   },
@@ -6846,8 +6279,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Stadt, -ä, e",
         "pron": "",
-        "lit": "Heidelberg ist eine alte Stadt.",
-        "verify": false
+        "lit": "Heidelberg ist eine alte Stadt."
       }
     }
   },
@@ -6858,8 +6290,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "stehen",
         "pron": "",
-        "lit": "Ich glaube es nicht, aber es steht in der Zeitung. Der Bus steht schon an der Haltestelle.",
-        "verify": false
+        "lit": "Ich glaube es nicht, aber es steht in der Zeitung. Der Bus steht schon an der Haltestelle."
       }
     }
   },
@@ -6870,8 +6301,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Stelle, -n",
         "pron": "",
-        "lit": "Ich habe eine neue Stelle.",
-        "verify": false
+        "lit": "Ich habe eine neue Stelle."
       }
     }
   },
@@ -6882,8 +6312,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "stellen",
         "pron": "",
-        "lit": "Stell die Tasche rechts in die Ecke!",
-        "verify": false
+        "lit": "Stell die Tasche rechts in die Ecke!"
       }
     }
   },
@@ -6894,8 +6323,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Stock",
         "pron": "",
-        "lit": "Unsere Wohnung liegt im ersten Stock.",
-        "verify": false
+        "lit": "Unsere Wohnung liegt im ersten Stock."
       }
     }
   },
@@ -6906,8 +6334,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Straße, -n",
         "pron": "",
-        "lit": "In welcher Straße wohnen Sie?",
-        "verify": false
+        "lit": "In welcher Straße wohnen Sie?"
       }
     }
   },
@@ -6918,8 +6345,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Straßenbahn",
         "pron": "",
-        "lit": "Wo fährt die Straßenbahn ab?",
-        "verify": false
+        "lit": "Wo fährt die Straßenbahn ab?"
       }
     }
   },
@@ -6930,8 +6356,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "studieren",
         "pron": "",
-        "lit": "Ich studiere in Mainz.",
-        "verify": false
+        "lit": "Ich studiere in Mainz."
       }
     }
   },
@@ -6942,8 +6367,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Studium",
         "pron": "",
-        "lit": "Das Studium beginnt im Oktober.",
-        "verify": false
+        "lit": "Das Studium beginnt im Oktober."
       }
     }
   },
@@ -6954,8 +6378,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Student, -en",
         "pron": "",
-        "lit": "Ich bin Studentin.",
-        "verify": false
+        "lit": "Ich bin Studentin."
       }
     }
   },
@@ -6966,8 +6389,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Stunde, -n",
         "pron": "",
-        "lit": "Ich bin in einer Stunde zurück.",
-        "verify": false
+        "lit": "Ich bin in einer Stunde zurück."
       }
     }
   },
@@ -6978,8 +6400,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "suchen",
         "pron": "",
-        "lit": "Suchst du etwas?",
-        "verify": false
+        "lit": "Suchst du etwas?"
       }
     }
   },
@@ -6990,8 +6411,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "tanzen",
         "pron": "",
-        "lit": "Tanzen Sie gern?",
-        "verify": false
+        "lit": "Tanzen Sie gern?"
       }
     }
   },
@@ -7002,8 +6422,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Tasche, -n",
         "pron": "",
-        "lit": "Ich habe die Schlüssel in der Tasche.",
-        "verify": false
+        "lit": "Ich habe die Schlüssel in der Tasche."
       }
     }
   },
@@ -7014,8 +6433,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Taxi, -s",
         "pron": "",
-        "lit": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.",
-        "verify": false
+        "lit": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi."
       }
     }
   },
@@ -7026,8 +6444,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Tee",
         "pron": "",
-        "lit": "Ich trinke morgens immer Tee.",
-        "verify": false
+        "lit": "Ich trinke morgens immer Tee."
       }
     }
   },
@@ -7038,8 +6455,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Teil, -e",
         "pron": "",
-        "lit": "Lies bitte auch den zweiten Teil.",
-        "verify": false
+        "lit": "Lies bitte auch den zweiten Teil."
       }
     }
   },
@@ -7050,8 +6466,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "telefonieren",
         "pron": "",
-        "lit": "Darf ich mal telefonieren?",
-        "verify": false
+        "lit": "Darf ich mal telefonieren?"
       }
     }
   },
@@ -7062,8 +6477,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Telefon",
         "pron": "",
-        "lit": "Haben Sie Telefon?",
-        "verify": false
+        "lit": "Haben Sie Telefon?"
       }
     }
   },
@@ -7074,8 +6488,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Termin, -e",
         "pron": "",
-        "lit": "Am besten machen wir sofort einen Termin.",
-        "verify": false
+        "lit": "Am besten machen wir sofort einen Termin."
       }
     }
   },
@@ -7086,8 +6499,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Test",
         "pron": "",
-        "lit": "Der Test war einfach.",
-        "verify": false
+        "lit": "Der Test war einfach."
       }
     }
   },
@@ -7098,8 +6510,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "teuer",
         "pron": "",
-        "lit": "Das ist mir zu teuer.",
-        "verify": false
+        "lit": "Das ist mir zu teuer."
       }
     }
   },
@@ -7110,8 +6521,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Text, -e",
         "pron": "",
-        "lit": "Lesen Sie bitte diesen Text.",
-        "verify": false
+        "lit": "Lesen Sie bitte diesen Text."
       }
     }
   },
@@ -7122,8 +6532,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Thema",
         "pron": "",
-        "lit": "Wir sprechen heute über das Thema „Essen und Trinken“.",
-        "verify": false
+        "lit": "Wir sprechen heute über das Thema „Essen und Trinken“."
       }
     }
   },
@@ -7134,8 +6543,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Ticket, -s",
         "pron": "",
-        "lit": "Wie viel kostet das Ticket?",
-        "verify": false
+        "lit": "Wie viel kostet das Ticket?"
       }
     }
   },
@@ -7146,8 +6554,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Tisch, -e",
         "pron": "",
-        "lit": "Die Fotos liegen auf dem Tisch.",
-        "verify": false
+        "lit": "Die Fotos liegen auf dem Tisch."
       }
     }
   },
@@ -7158,8 +6565,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Tochter, -ö",
         "pron": "",
-        "lit": "Das ist meine Tochter Katharina.",
-        "verify": false
+        "lit": "Das ist meine Tochter Katharina."
       }
     }
   },
@@ -7170,8 +6576,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Toilette, -en",
         "pron": "",
-        "lit": "Wo ist die Toilette, bitte?",
-        "verify": false
+        "lit": "Wo ist die Toilette, bitte?"
       }
     }
   },
@@ -7182,8 +6587,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Tomate, -n",
         "pron": "",
-        "lit": "Die Tomate ist noch grün.",
-        "verify": false
+        "lit": "Die Tomate ist noch grün."
       }
     }
   },
@@ -7194,8 +6598,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "tot",
         "pron": "",
-        "lit": "Sein Vater ist schon lange tot.",
-        "verify": false
+        "lit": "Sein Vater ist schon lange tot."
       }
     }
   },
@@ -7206,8 +6609,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) treffen",
         "pron": "",
-        "lit": "Ich treffe in der Stadt einen Kollegen. Wir treffen uns immer freitags.",
-        "verify": false
+        "lit": "Ich treffe in der Stadt einen Kollegen. Wir treffen uns immer freitags."
       }
     }
   },
@@ -7218,8 +6620,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Treppe, -n",
         "pron": "",
-        "lit": "Die Toilette? Die Treppe hoch und dann links.",
-        "verify": false
+        "lit": "Die Toilette? Die Treppe hoch und dann links."
       }
     }
   },
@@ -7230,8 +6631,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "trinken",
         "pron": "",
-        "lit": "Möchtest du etwas trinken?",
-        "verify": false
+        "lit": "Möchtest du etwas trinken?"
       }
     }
   },
@@ -7242,8 +6642,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "tschüss",
         "pron": "",
-        "lit": "Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“.",
-        "verify": false
+        "lit": "Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“."
       }
     }
   },
@@ -7254,8 +6653,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "tun",
         "pron": "",
-        "lit": "Ich habe noch etwas zu tun. Was tut Ihr Mann?",
-        "verify": false
+        "lit": "Ich habe noch etwas zu tun. Was tut Ihr Mann?"
       }
     }
   },
@@ -7266,8 +6664,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "über",
         "pron": "",
-        "lit": "Gehen Sie hier über die Straße. Er wohnt im zweiten Stock über Familie Meier. Sind Sie über 18?",
-        "verify": false
+        "lit": "Gehen Sie hier über die Straße. Er wohnt im zweiten Stock über Familie Meier. Sind Sie über 18?"
       }
     }
   },
@@ -7278,8 +6675,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "übernachten",
         "pron": "",
-        "lit": "Du kannst bei mir übernachten.",
-        "verify": false
+        "lit": "Du kannst bei mir übernachten."
       }
     }
   },
@@ -7290,8 +6686,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "überweisen",
         "pron": "",
-        "lit": "Sie können das Geld auch überweisen.",
-        "verify": false
+        "lit": "Sie können das Geld auch überweisen."
       }
     }
   },
@@ -7302,8 +6697,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Uhr",
         "pron": "",
-        "lit": "Es ist vier Uhr.",
-        "verify": false
+        "lit": "Es ist vier Uhr."
       }
     }
   },
@@ -7314,8 +6708,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "um",
         "pron": "",
-        "lit": "Er kommt um sieben Uhr. Da kommt er gerade um die Ecke.",
-        "verify": false
+        "lit": "Er kommt um sieben Uhr. Da kommt er gerade um die Ecke."
       }
     }
   },
@@ -7326,8 +6719,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "umziehen",
         "pron": "",
-        "lit": "Nächsten Monat ziehen wir um.",
-        "verify": false
+        "lit": "Nächsten Monat ziehen wir um."
       }
     }
   },
@@ -7338,8 +6730,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "und",
         "pron": "",
-        "lit": "Peter und Helmut sind meine Söhne.",
-        "verify": false
+        "lit": "Peter und Helmut sind meine Söhne."
       }
     }
   },
@@ -7350,8 +6741,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "unser",
         "pron": "",
-        "lit": "Das ist unsere Lehrerin.",
-        "verify": false
+        "lit": "Das ist unsere Lehrerin."
       }
     }
   },
@@ -7362,8 +6752,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "unten",
         "pron": "",
-        "lit": "Er wohnt ganz unten im Haus.",
-        "verify": false
+        "lit": "Er wohnt ganz unten im Haus."
       }
     }
   },
@@ -7374,8 +6763,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "unter",
         "pron": "",
-        "lit": "Unter uns wohnt eine Familie mit drei Kindern.",
-        "verify": false
+        "lit": "Unter uns wohnt eine Familie mit drei Kindern."
       }
     }
   },
@@ -7386,8 +6774,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Unterricht",
         "pron": "",
-        "lit": "Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
-        "verify": false
+        "lit": "Wir haben Unterricht von 8.00 bis 12.00 Uhr."
       }
     }
   },
@@ -7398,8 +6785,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "unterschreiben",
         "pron": "",
-        "lit": "Wo muss ich unterschreiben?",
-        "verify": false
+        "lit": "Wo muss ich unterschreiben?"
       }
     }
   },
@@ -7410,8 +6796,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Unterschrift",
         "pron": "",
-        "lit": "Hier fehlt noch Ihre Unterschrift.",
-        "verify": false
+        "lit": "Hier fehlt noch Ihre Unterschrift."
       }
     }
   },
@@ -7422,8 +6807,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Urlaub",
         "pron": "",
-        "lit": "Ich nehme im September Urlaub.",
-        "verify": false
+        "lit": "Ich nehme im September Urlaub."
       }
     }
   },
@@ -7434,8 +6818,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Vater, -ä",
         "pron": "",
-        "lit": "Mein Vater ist Arbeiter.",
-        "verify": false
+        "lit": "Mein Vater ist Arbeiter."
       }
     }
   },
@@ -7446,8 +6829,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "verboten",
         "pron": "",
-        "lit": "Hier ist Rauchen verboten.",
-        "verify": false
+        "lit": "Hier ist Rauchen verboten."
       }
     }
   },
@@ -7458,8 +6840,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "verdienen",
         "pron": "",
-        "lit": "Ich verdiene 1.500 Euro im Monat.",
-        "verify": false
+        "lit": "Ich verdiene 1.500 Euro im Monat."
       }
     }
   },
@@ -7470,8 +6851,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Verein",
         "pron": "",
-        "lit": "Es gibt einen neuen Sportverein in der Stadt.",
-        "verify": false
+        "lit": "Es gibt einen neuen Sportverein in der Stadt."
       }
     }
   },
@@ -7482,8 +6862,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "verheiratet",
         "pron": "",
-        "lit": "Ich bin verheiratet und habe drei Kinder.",
-        "verify": false
+        "lit": "Ich bin verheiratet und habe drei Kinder."
       }
     }
   },
@@ -7494,8 +6873,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "verkaufen",
         "pron": "",
-        "lit": "Er verkauft sein altes Auto.",
-        "verify": false
+        "lit": "Er verkauft sein altes Auto."
       }
     }
   },
@@ -7506,8 +6884,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Verkäufer, –",
         "pron": "",
-        "lit": "Meine Mutter ist Verkäuferin im Kaufhaus.",
-        "verify": false
+        "lit": "Meine Mutter ist Verkäuferin im Kaufhaus."
       }
     }
   },
@@ -7518,8 +6895,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vermieten",
         "pron": "",
-        "lit": "Die Wohnung ist schon vermietet.",
-        "verify": false
+        "lit": "Die Wohnung ist schon vermietet."
       }
     }
   },
@@ -7530,8 +6906,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Vermieter",
         "pron": "",
-        "lit": "Unser Vermieter heißt Huber. Er wohnt auch hier.",
-        "verify": false
+        "lit": "Unser Vermieter heißt Huber. Er wohnt auch hier."
       }
     }
   },
@@ -7542,8 +6917,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "verstehen",
         "pron": "",
-        "lit": "Können Sie mich verstehen?",
-        "verify": false
+        "lit": "Können Sie mich verstehen?"
       }
     }
   },
@@ -7554,8 +6928,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Verwandte, -n",
         "pron": "",
-        "lit": "Peter besucht seine Verwandten in Polen.",
-        "verify": false
+        "lit": "Peter besucht seine Verwandten in Polen."
       }
     }
   },
@@ -7566,8 +6939,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "viel",
         "pron": "",
-        "lit": "Hier regnet es viel.",
-        "verify": false
+        "lit": "Hier regnet es viel."
       }
     }
   },
@@ -7578,8 +6950,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vielleicht",
         "pron": "",
-        "lit": "Ich komme vielleicht mit dem Bus.",
-        "verify": false
+        "lit": "Ich komme vielleicht mit dem Bus."
       }
     }
   },
@@ -7590,8 +6961,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "von",
         "pron": "",
-        "lit": "Das Auto von Felix ist kaputt. Er kommt gerade von Köln/von zu Hause.",
-        "verify": false
+        "lit": "Das Auto von Felix ist kaputt. Er kommt gerade von Köln/von zu Hause."
       }
     }
   },
@@ -7602,8 +6972,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vor",
         "pron": "",
-        "lit": "Der Termin war vor einer Stunde. Das Auto steht vor der Tür.",
-        "verify": false
+        "lit": "Der Termin war vor einer Stunde. Das Auto steht vor der Tür."
       }
     }
   },
@@ -7614,8 +6983,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Vorname, -n",
         "pron": "",
-        "lit": "Ich heiße Müller, mein Vorname ist Eva.",
-        "verify": false
+        "lit": "Ich heiße Müller, mein Vorname ist Eva."
       }
     }
   },
@@ -7626,8 +6994,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Vorsicht",
         "pron": "",
-        "lit": "Vorsicht! Da kommt ein Auto.",
-        "verify": false
+        "lit": "Vorsicht! Da kommt ein Auto."
       }
     }
   },
@@ -7638,8 +7005,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) vorstellen",
         "pron": "",
-        "lit": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?",
-        "verify": false
+        "lit": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?"
       }
     }
   },
@@ -7650,8 +7016,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Vorwahl",
         "pron": "",
-        "lit": "Wie ist die Vorwahl von München?",
-        "verify": false
+        "lit": "Wie ist die Vorwahl von München?"
       }
     }
   },
@@ -7662,8 +7027,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wandern",
         "pron": "",
-        "lit": "Wir wandern um den Chiemsee.",
-        "verify": false
+        "lit": "Wir wandern um den Chiemsee."
       }
     }
   },
@@ -7674,8 +7038,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wann",
         "pron": "",
-        "lit": "Wann bist du fertig? Wann kann ich Sie anrufen? Wann sind Sie geboren?",
-        "verify": false
+        "lit": "Wann bist du fertig? Wann kann ich Sie anrufen? Wann sind Sie geboren?"
       }
     }
   },
@@ -7686,8 +7049,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "warten",
         "pron": "",
-        "lit": "Können Sie ein paar Minuten warten? Auf wen warten Sie?",
-        "verify": false
+        "lit": "Können Sie ein paar Minuten warten? Auf wen warten Sie?"
       }
     }
   },
@@ -7698,8 +7060,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "warum",
         "pron": "",
-        "lit": "Warum kommt er nicht?",
-        "verify": false
+        "lit": "Warum kommt er nicht?"
       }
     }
   },
@@ -7710,8 +7071,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "was",
         "pron": "",
-        "lit": "Was ist das? Was möchten Sie?",
-        "verify": false
+        "lit": "Was ist das? Was möchten Sie?"
       }
     }
   },
@@ -7722,8 +7082,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "was für ein",
         "pron": "",
-        "lit": "Was für eine Farbe möchten Sie?",
-        "verify": false
+        "lit": "Was für eine Farbe möchten Sie?"
       }
     }
   },
@@ -7734,8 +7093,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(sich) waschen",
         "pron": "",
-        "lit": "Wo kann ich mir die Hände waschen? Ich muss morgen waschen.",
-        "verify": false
+        "lit": "Wo kann ich mir die Hände waschen? Ich muss morgen waschen."
       }
     }
   },
@@ -7746,8 +7104,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wasser",
         "pron": "",
-        "lit": "Ein Glas Wasser, bitte.",
-        "verify": false
+        "lit": "Ein Glas Wasser, bitte."
       }
     }
   },
@@ -7758,8 +7115,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weh tun",
         "pron": "",
-        "lit": "Ich muss zum Arzt. Mein Bein tut weh.",
-        "verify": false
+        "lit": "Ich muss zum Arzt. Mein Bein tut weh."
       }
     }
   },
@@ -7770,8 +7126,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weiblich",
         "pron": "",
-        "lit": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“.",
-        "verify": false
+        "lit": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
       }
     }
   },
@@ -7782,8 +7137,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Wein",
         "pron": "",
-        "lit": "Nein danke, ich möchte keinen Wein.",
-        "verify": false
+        "lit": "Nein danke, ich möchte keinen Wein."
       }
     }
   },
@@ -7794,8 +7148,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weit",
         "pron": "",
-        "lit": "Zum Bahnhof ist es nicht weit.",
-        "verify": false
+        "lit": "Zum Bahnhof ist es nicht weit."
       }
     }
   },
@@ -7806,8 +7159,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weiter",
         "pron": "",
-        "lit": "Der Bus fährt nicht weiter.",
-        "verify": false
+        "lit": "Der Bus fährt nicht weiter."
       }
     }
   },
@@ -7818,8 +7170,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "welcher",
         "pron": "",
-        "lit": "Welches Buch möchtest du?",
-        "verify": false
+        "lit": "Welches Buch möchtest du?"
       }
     }
   },
@@ -7830,8 +7181,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Welt",
         "pron": "",
-        "lit": "Es gibt viele Probleme auf der Welt.",
-        "verify": false
+        "lit": "Es gibt viele Probleme auf der Welt."
       }
     }
   },
@@ -7842,8 +7192,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wenig",
         "pron": "",
-        "lit": "Ich habe leider nur wenig verstanden. Er verdient wenig.",
-        "verify": false
+        "lit": "Ich habe leider nur wenig verstanden. Er verdient wenig."
       }
     }
   },
@@ -7854,8 +7203,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wer",
         "pron": "",
-        "lit": "Wer ist das?",
-        "verify": false
+        "lit": "Wer ist das?"
       }
     }
   },
@@ -7866,8 +7214,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "werden",
         "pron": "",
-        "lit": "Mein Sohn will Arzt werden.",
-        "verify": false
+        "lit": "Mein Sohn will Arzt werden."
       }
     }
   },
@@ -7878,8 +7225,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wetter",
         "pron": "",
-        "lit": "Wir hatten schlechtes Wetter.",
-        "verify": false
+        "lit": "Wir hatten schlechtes Wetter."
       }
     }
   },
@@ -7890,8 +7236,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wichtig",
         "pron": "",
-        "lit": "Dieses Formular ist sehr wichtig.",
-        "verify": false
+        "lit": "Dieses Formular ist sehr wichtig."
       }
     }
   },
@@ -7902,8 +7247,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wie",
         "pron": "",
-        "lit": "Wie heißt du? Er schreibt wie ein Kind. Meine Frau ist so groß wie ich. Wie soll ich das machen? Wie groß ist die Wohnung? Wie bitte? Wie lange bist du schon hier?",
-        "verify": false
+        "lit": "Wie heißt du? Er schreibt wie ein Kind. Meine Frau ist so groß wie ich. Wie soll ich das machen? Wie groß ist die Wohnung? Wie bitte? Wie lange bist du schon hier?"
       }
     }
   },
@@ -7914,8 +7258,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wiederholen",
         "pron": "",
-        "lit": "Können Sie das bitte wiederholen?",
-        "verify": false
+        "lit": "Können Sie das bitte wiederholen?"
       }
     }
   },
@@ -7926,8 +7269,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wiederhören",
         "pron": "",
-        "lit": "Wir müssen jetzt Schluss machen. Also auf Wiederhören!",
-        "verify": false
+        "lit": "Wir müssen jetzt Schluss machen. Also auf Wiederhören!"
       }
     }
   },
@@ -7938,8 +7280,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wiedersehen",
         "pron": "",
-        "lit": "Auf Wiedersehen!",
-        "verify": false
+        "lit": "Auf Wiedersehen!"
       }
     }
   },
@@ -7950,8 +7291,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wie viel",
         "pron": "",
-        "lit": "Wie viel Milch nehmen Sie?",
-        "verify": false
+        "lit": "Wie viel Milch nehmen Sie?"
       }
     }
   },
@@ -7962,8 +7302,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "willkommen",
         "pron": "",
-        "lit": "Herzlich willkommen!",
-        "verify": false
+        "lit": "Herzlich willkommen!"
       }
     }
   },
@@ -7974,8 +7313,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Wind",
         "pron": "",
-        "lit": "Der Wind kommt aus Osten.",
-        "verify": false
+        "lit": "Der Wind kommt aus Osten."
       }
     }
   },
@@ -7986,8 +7324,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wir",
         "pron": "",
-        "lit": "Wir lernen Deutsch.",
-        "verify": false
+        "lit": "Wir lernen Deutsch."
       }
     }
   },
@@ -7998,8 +7335,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wissen",
         "pron": "",
-        "lit": "Weißt du, wie er heißt?",
-        "verify": false
+        "lit": "Weißt du, wie er heißt?"
       }
     }
   },
@@ -8010,8 +7346,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wo",
         "pron": "",
-        "lit": "Wo waren Sie im Urlaub? Wo ist die Post? Wo sind Sie geboren?",
-        "verify": false
+        "lit": "Wo waren Sie im Urlaub? Wo ist die Post? Wo sind Sie geboren?"
       }
     }
   },
@@ -8022,8 +7357,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "woher",
         "pron": "",
-        "lit": "Woher kommen Sie?",
-        "verify": false
+        "lit": "Woher kommen Sie?"
       }
     }
   },
@@ -8034,8 +7368,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wohin",
         "pron": "",
-        "lit": "Wohin fährt dieser Bus? Wohin wollen Sie am Wochenende?",
-        "verify": false
+        "lit": "Wohin fährt dieser Bus? Wohin wollen Sie am Wochenende?"
       }
     }
   },
@@ -8046,8 +7379,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wohnen",
         "pron": "",
-        "lit": "Ich wohne in München.",
-        "verify": false
+        "lit": "Ich wohne in München."
       }
     }
   },
@@ -8058,8 +7390,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Wohnung, -en",
         "pron": "",
-        "lit": "Seit wann haben Sie diese Wohnung?",
-        "verify": false
+        "lit": "Seit wann haben Sie diese Wohnung?"
       }
     }
   },
@@ -8070,8 +7401,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wollen",
         "pron": "",
-        "lit": "Wollen Sie einen Kaffee trinken?",
-        "verify": false
+        "lit": "Wollen Sie einen Kaffee trinken?"
       }
     }
   },
@@ -8082,8 +7412,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wort, -ö, er/-e",
         "pron": "",
-        "lit": "Ich kenne das Wort nicht.",
-        "verify": false
+        "lit": "Ich kenne das Wort nicht."
       }
     }
   },
@@ -8094,8 +7423,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wunderbar",
         "pron": "",
-        "lit": "Das Essen schmeckt wunderbar.",
-        "verify": false
+        "lit": "Das Essen schmeckt wunderbar."
       }
     }
   },
@@ -8106,8 +7434,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zahlen",
         "pron": "",
-        "lit": "Zahlen, bitte!",
-        "verify": false
+        "lit": "Zahlen, bitte!"
       }
     }
   },
@@ -8118,8 +7445,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Zeit",
         "pron": "",
-        "lit": "Ich habe heute keine Zeit.",
-        "verify": false
+        "lit": "Ich habe heute keine Zeit."
       }
     }
   },
@@ -8130,8 +7456,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zurzeit",
         "pron": "",
-        "lit": "Zurzeit habe ich sehr viel zu tun.",
-        "verify": false
+        "lit": "Zurzeit habe ich sehr viel zu tun."
       }
     }
   },
@@ -8142,8 +7467,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Zeitung, -en",
         "pron": "",
-        "lit": "Ich lese gern Zeitung.",
-        "verify": false
+        "lit": "Ich lese gern Zeitung."
       }
     }
   },
@@ -8154,8 +7478,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Zigarette, -n",
         "pron": "",
-        "lit": "Wie teuer sind die Zigaretten?",
-        "verify": false
+        "lit": "Wie teuer sind die Zigaretten?"
       }
     }
   },
@@ -8166,8 +7489,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Zimmer, –",
         "pron": "",
-        "lit": "Das Zimmer ist groß. Öffne im Schlafzimmer das Fenster, bitte! Die Wohnung hat drei Zimmer. Ich habe ein Zimmer bestellt.",
-        "verify": false
+        "lit": "Das Zimmer ist groß. Öffne im Schlafzimmer das Fenster, bitte! Die Wohnung hat drei Zimmer. Ich habe ein Zimmer bestellt."
       }
     }
   },
@@ -8178,8 +7500,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Zoll",
         "pron": "",
-        "lit": "Wir müssen noch durch den Zoll.",
-        "verify": false
+        "lit": "Wir müssen noch durch den Zoll."
       }
     }
   },
@@ -8190,8 +7511,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zu",
         "pron": "",
-        "lit": "Der Bus fährt zum Bahnhof. Ich gehe zu Fuß. Ich bin zu Hause.",
-        "verify": false
+        "lit": "Der Bus fährt zum Bahnhof. Ich gehe zu Fuß. Ich bin zu Hause."
       }
     }
   },
@@ -8202,8 +7522,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zufrieden",
         "pron": "",
-        "lit": "Ich bin mit der Wohnung zufrieden.",
-        "verify": false
+        "lit": "Ich bin mit der Wohnung zufrieden."
       }
     }
   },
@@ -8214,8 +7533,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Zug, -ü, e",
         "pron": "",
-        "lit": "Ich fahre gern mit dem Zug.",
-        "verify": false
+        "lit": "Ich fahre gern mit dem Zug."
       }
     }
   },
@@ -8226,8 +7544,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zurück",
         "pron": "",
-        "lit": "Einmal Frankfurt und zurück. Wann kommst du zurück?",
-        "verify": false
+        "lit": "Einmal Frankfurt und zurück. Wann kommst du zurück?"
       }
     }
   },
@@ -8238,8 +7555,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zusammen",
         "pron": "",
-        "lit": "Sollen wir zusammen essen gehen? Das macht zusammen 2 Euro 80.",
-        "verify": false
+        "lit": "Sollen wir zusammen essen gehen? Das macht zusammen 2 Euro 80."
       }
     }
   },
@@ -8250,8 +7566,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zwischen",
         "pron": "",
-        "lit": "Heidelberg liegt zwischen Frankfurt und Stuttgart. Zwischen 8 und 10 Uhr bin ich zu Hause.",
-        "verify": false
+        "lit": "Heidelberg liegt zwischen Frankfurt und Stuttgart. Zwischen 8 und 10 Uhr bin ich zu Hause."
       }
     }
   },
@@ -8262,8 +7577,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "eins",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8274,8 +7588,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zwei",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8286,8 +7599,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "drei",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8298,8 +7610,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vier",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8310,8 +7621,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fünf",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8322,8 +7632,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sechs",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8334,8 +7643,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sieben",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8346,8 +7654,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "acht",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8358,8 +7665,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "neun",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8370,8 +7676,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8382,8 +7687,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "elf",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8394,8 +7698,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zwölf",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8406,8 +7709,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dreizehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8418,8 +7720,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vierzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8430,8 +7731,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fünfzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8442,8 +7742,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sechzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8454,8 +7753,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "siebzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8466,8 +7764,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "achtzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8478,8 +7775,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "neunzehn",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8490,8 +7786,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zwanzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8502,8 +7797,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dreißig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8514,8 +7808,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vierzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8526,8 +7819,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "fünfzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8538,8 +7830,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sechzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8550,8 +7841,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "siebzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8562,8 +7852,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "achtzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8574,8 +7863,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "neunzig",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8586,8 +7874,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(ein)hundert",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8598,8 +7885,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "(ein)tausend",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8610,8 +7896,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "eine Million",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8622,8 +7907,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "erste",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8634,8 +7918,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zweite",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8646,8 +7929,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dritte",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8658,8 +7940,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "vierte",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8670,8 +7951,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Sonntag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8682,8 +7962,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Montag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8694,8 +7973,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Dienstag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8706,8 +7984,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mittwoch",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8718,8 +7995,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Donnerstag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8730,8 +8006,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Freitag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8742,8 +8017,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Samstag/Sonnabend",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8754,8 +8028,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wochenende",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8766,8 +8039,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Januar",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8778,8 +8050,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Februar",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8790,8 +8061,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der März",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8802,8 +8072,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der April",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8814,8 +8083,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mai",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8826,8 +8094,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Juni",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8838,8 +8105,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Juli",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8850,8 +8116,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der August",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8862,8 +8127,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der September",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8874,8 +8138,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Oktober",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8886,8 +8149,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der November",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8898,8 +8160,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Dezember",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8910,8 +8171,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Frühling/das Frühjahr",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8922,8 +8182,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Sommer",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8934,8 +8193,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Herbst",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8946,8 +8204,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Winter",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8958,8 +8215,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "schwarz",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8970,8 +8226,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "grau",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8982,8 +8237,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "blau",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -8994,8 +8248,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "grün",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9006,8 +8259,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "weiß",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9018,8 +8270,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "rot",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9030,8 +8281,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "gelb",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9042,8 +8292,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "braun",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9054,8 +8303,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Norden",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9066,8 +8314,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Süden",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9078,8 +8325,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Westen",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9090,8 +8336,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Osten",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9102,8 +8347,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Person",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9114,8 +8358,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "natürlich",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9126,8 +8369,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "voll",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9138,8 +8380,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "halb",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9150,8 +8391,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "nun",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9162,8 +8402,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wieder",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9174,8 +8413,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "darauf",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9186,8 +8424,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "zuerst",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9198,8 +8435,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "dazu",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9210,8 +8446,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "danach",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9222,8 +8457,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "wünschen",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9234,8 +8468,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "bestehen",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9246,8 +8479,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Telefonnummer",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9258,8 +8490,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Geburtsdatum",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9270,8 +8501,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Fahrgast",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9282,8 +8512,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Pullover",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9294,8 +8523,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Wörterbuch",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9306,8 +8534,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Vormittag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9318,8 +8545,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Flug",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9330,8 +8556,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "sich setzen",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9342,8 +8567,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Kellner",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9354,8 +8578,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Alltag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9366,8 +8589,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Erzählen Sie uns: Wer sind Sie?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9378,8 +8600,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Mein Name ist ...",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9390,8 +8611,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ich komme aus ...",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9402,8 +8622,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ich lebe in ...",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9414,8 +8633,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ich spreche Deutsch, ...",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9426,8 +8644,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Mein Hobby ist .../Meine Hobbys sind ...",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9438,8 +8655,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Und Sie, wer sind Sie, bitte?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9450,8 +8666,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wie ist Ihr Vorname/Familienname?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9462,8 +8677,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Können Sie das bitte buchstabieren?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9474,8 +8688,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Woher kommen Sie?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9486,8 +8699,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Haben Sie ein Telefon?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9498,8 +8710,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wie ist bitte Ihre Telefonnummer?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9510,8 +8721,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Haben Sie ein Handy?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9522,8 +8732,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wie ist Ihre Postleitzahl/Hausnummer?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9534,8 +8743,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wo kann ich einen Stadtplan bekommen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9546,8 +8754,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "An der Information im Bahnhof.",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9558,8 +8765,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wo kann ich eine Zeitung kaufen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9570,8 +8776,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wo ist die Kasse, bitte?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9582,8 +8787,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Was essen Sie normalerweise zum Frühstück?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9594,8 +8798,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Was ist Ihr Lieblingsessen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9606,8 +8809,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Was machen Sie am Sonntag?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9618,8 +8820,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Lesen Sie gern Bücher?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9630,8 +8831,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Haben Sie viele Freunde in der Schule?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9642,8 +8842,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Mögen Sie Ihren Lehrer/Ihre Lehrerin?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9654,8 +8853,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wie sind Ihre Arbeitszeiten?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9666,8 +8864,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Haben Sie nette Kollegen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9678,8 +8875,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Was ist Ihr Lieblingssport?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9690,8 +8886,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Können Sie schwimmen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9702,8 +8897,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ein Glas Wasser, bitte!",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9714,8 +8908,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ja, natürlich. Bitte.",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9726,8 +8919,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Kann ich bitte einen Stift haben?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9738,8 +8930,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Können wir uns hier hinsetzen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9750,8 +8941,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Entschuldigung, wie spät ist es bitte?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9762,8 +8952,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Kann ich bitte den Computer benutzen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9774,8 +8963,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Können Sie mir das bitte aufschreiben?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9786,8 +8974,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Ein Bier, bitte!",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9798,8 +8985,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Die Blumen sind für Sie.",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9810,8 +8996,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Haben Sie am Montag um 8 Uhr Zeit?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9822,8 +9007,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Kann ich bitte einen Apfel haben?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9834,8 +9018,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Bitte rauchen Sie hier nicht.",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9846,8 +9029,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Wo ist das Postamt, bitte?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9858,8 +9040,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Können Sie mir bitte ein Taxi rufen?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9870,8 +9051,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Die Rechnung, bitte!",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9882,8 +9062,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Kann ich bitte diese Schuhe anprobieren?",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9894,8 +9073,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Sekunde, -n",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9906,8 +9084,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Minute, -n",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9918,8 +9095,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Tag, -e",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9930,8 +9106,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Woche, -n",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9942,8 +9117,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "das Jahr, -e",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9954,8 +9128,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Morgen",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9966,8 +9139,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Mittag",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9978,8 +9150,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Nachmittag, -e",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -9990,8 +9161,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Abend, -e",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10002,8 +9172,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "die Nacht, -ä, e",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10014,8 +9183,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Meter",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10026,8 +9194,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Zentimeter",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10038,8 +9205,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Kilometer",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10050,8 +9216,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Quadratmeter",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10062,8 +9227,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Grad",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10074,8 +9238,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Prozent",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10086,8 +9249,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Liter",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10098,8 +9260,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Gramm",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10110,8 +9271,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Pfund",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10122,8 +9282,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "ein Kilo(gramm)",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10134,8 +9293,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Deutschland",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10146,8 +9304,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der/die Deutsche, -n",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10158,8 +9315,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "deutsch",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10170,8 +9326,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "Europa",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10182,8 +9337,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "der Europäer",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   },
@@ -10194,8 +9348,7 @@ window.DE_A1_SEED_ENTRIES =
       "de": {
         "text": "europäisch",
         "pron": "",
-        "lit": "",
-        "verify": false
+        "lit": ""
       }
     }
   }

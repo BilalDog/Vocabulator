@@ -7,6 +7,7 @@ const BOX_INTERVAL_DAYS = [1, 2, 7, 14, 30];
 
 const STORAGE_ENTRIES = "vocabulator_entries";
 const STORAGE_PROGRESS = "vocabulator_progress";
+const STORAGE_MARKED = "vocabulator_marked";
 const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
@@ -21,11 +22,16 @@ const LANGUAGES = [
   { code: "de", label: "German (A1)" },
 ];
 
-// entry: { id, en, cat, translations: { [langCode]: { text, pron, lit, verify } } }
+// entry: { id, en, cat, translations: { [langCode]: { text, pron, lit } } }
 let entries = [];
 // progress keyed by "<entryId>:<langCode>" since knowing a word in one
 // language says nothing about knowing it in another.
 let progress = {};
+// marked keyed the same way as progress -- a marked word is studyable both
+// under its own category and under the synthetic MARKED_CATEGORY chip, so
+// selecting either one is enough to bring it into the queue.
+let marked = {};
+const MARKED_CATEGORY = "★ Marked";
 let queue = [];
 let currentIndex = 0;
 let activeCats = new Set();
@@ -130,6 +136,9 @@ function loadState() {
 
   const storedProgress = localStorage.getItem(STORAGE_PROGRESS);
   progress = storedProgress ? JSON.parse(storedProgress) : {};
+
+  const storedMarked = localStorage.getItem(STORAGE_MARKED);
+  marked = storedMarked ? JSON.parse(storedMarked) : {};
 }
 
 function saveEntries() {
@@ -138,6 +147,10 @@ function saveEntries() {
 
 function saveProgress() {
   localStorage.setItem(STORAGE_PROGRESS, JSON.stringify(progress));
+}
+
+function saveMarked() {
+  localStorage.setItem(STORAGE_MARKED, JSON.stringify(marked));
 }
 
 function progressKey(entryId, lang) {
@@ -150,6 +163,26 @@ function getProgress(entryId, lang) {
   return progress[key];
 }
 
+function isMarked(entryId, lang) {
+  return !!marked[progressKey(entryId, lang)];
+}
+
+function toggleMarked(entryId, lang) {
+  const key = progressKey(entryId, lang);
+  if (marked[key]) delete marked[key];
+  else marked[key] = true;
+  saveMarked();
+}
+
+// A word's categories are normally just its own "cat", but a marked word
+// also belongs to MARKED_CATEGORY -- selecting either chip alone is enough
+// to bring it into the queue (union, not intersection).
+function categoriesOfEntry(entry) {
+  const cats = [entry.cat];
+  if (isMarked(entry.id, activeLanguage)) cats.push(MARKED_CATEGORY);
+  return cats;
+}
+
 function currentLanguage() {
   return LANGUAGES.find((l) => l.code === activeLanguage) || LANGUAGES[0];
 }
@@ -157,7 +190,8 @@ function currentLanguage() {
 function categoriesForActiveLanguage() {
   const cats = new Set();
   for (const e of entries) {
-    if (e.translations[activeLanguage]) cats.add(e.cat);
+    if (!e.translations[activeLanguage]) continue;
+    for (const c of categoriesOfEntry(e)) cats.add(c);
   }
   return [...cats].sort();
 }
@@ -165,7 +199,7 @@ function categoriesForActiveLanguage() {
 function getStudyQueue() {
   return entries
     .filter((e) => e.translations[activeLanguage])
-    .filter((e) => activeCats.has(e.cat))
+    .filter((e) => categoriesOfEntry(e).some((c) => activeCats.has(c)))
     .filter((e) => activeBoxFilter === null || getProgress(e.id, activeLanguage).box === activeBoxFilter)
     .sort((a, b) => {
       const pa = getProgress(a.id, activeLanguage);
@@ -296,7 +330,10 @@ function renderCurrentCard() {
   document.getElementById("cardBoxLabel").textContent = BOX_LABELS[p.box];
   document.getElementById("cardCounter").textContent = `${currentIndex + 1} / ${queue.length}`;
   document.getElementById("cardCat").textContent = entry.cat;
-  document.getElementById("cardVerify").hidden = !t.verify;
+  const markBtn = document.getElementById("markBtn");
+  const nowMarked = isMarked(entry.id, activeLanguage);
+  markBtn.textContent = nowMarked ? "★" : "☆";
+  markBtn.classList.toggle("on", nowMarked);
   document.getElementById("cardFront").textContent = promptText;
   document.getElementById("cardBack").textContent = answerText;
   document.getElementById("cardLit").textContent = t.lit || "";
@@ -315,17 +352,13 @@ function renderCurrentCard() {
 
 function renderEditForm(entry) {
   const langSections = LANGUAGES.map((l) => {
-    const t = entry.translations[l.code] || { text: "", pron: "", lit: "", verify: false };
+    const t = entry.translations[l.code] || { text: "", pron: "", lit: "" };
     return `
       <div class="edit-lang-section">
         <div class="edit-lang-label">${l.label}</div>
         <input class="edit-text" data-lang="${l.code}" type="text" placeholder="${l.label} translation" value="${escapeHtml(t.text)}" />
         <input class="edit-pron" data-lang="${l.code}" type="text" placeholder="Pronunciation (optional)" value="${escapeHtml(t.pron || "")}" />
         <input class="edit-lit" data-lang="${l.code}" type="text" placeholder="Note / example (optional)" value="${escapeHtml(t.lit || "")}" />
-        <label class="edit-verify-row">
-          <input class="edit-verify" data-lang="${l.code}" type="checkbox" ${t.verify ? "checked" : ""} />
-          Needs verification by a fluent speaker
-        </label>
       </div>`;
   }).join("");
 
@@ -450,6 +483,14 @@ document.getElementById("filtersToggleBtn").addEventListener("click", () => {
   setFiltersVisible(document.getElementById("catFilter").hidden);
 });
 
+document.getElementById("markBtn").addEventListener("click", () => {
+  const entry = queue[currentIndex];
+  if (!entry) return;
+  toggleMarked(entry.id, activeLanguage);
+  renderCatFilter();
+  renderCurrentCard();
+});
+
 document.getElementById("showAnswerBtn").addEventListener("click", () => {
   document.getElementById("cardBackWrap").hidden = false;
   document.getElementById("showAnswerBtn").hidden = true;
@@ -486,7 +527,7 @@ document.getElementById("addCardForm").addEventListener("submit", (e) => {
     id,
     en,
     cat: cats[0] || "General",
-    translations: { [activeLanguage]: { text: target, pron: "", lit: "", verify: false } },
+    translations: { [activeLanguage]: { text: target, pron: "", lit: "" } },
   });
   saveEntries();
 
@@ -530,7 +571,6 @@ document.getElementById("cardList").addEventListener("click", (e) => {
         text,
         pron: row.querySelector(`.edit-pron[data-lang="${l.code}"]`).value.trim(),
         lit: row.querySelector(`.edit-lit[data-lang="${l.code}"]`).value.trim(),
-        verify: row.querySelector(`.edit-verify[data-lang="${l.code}"]`).checked,
       };
     }
     saveEntries();
