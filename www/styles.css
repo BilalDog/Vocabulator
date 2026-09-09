@@ -142,6 +142,18 @@ main {
 .view { display: none; }
 .view.active { display: block; }
 
+.filters-toggle {
+  display: block;
+  margin: 0 auto 12px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
 .cats {
   display: flex;
   flex-wrap: wrap;
@@ -194,10 +206,10 @@ main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 8px;
-  margin-bottom: 20px;
 }
 
 .box-tile {
+  position: relative;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -211,6 +223,21 @@ main {
 .box-tile.active {
   border-color: var(--accent);
   background: var(--accent-soft, #f1ece3);
+}
+
+.box-reminder {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--danger);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
 }
 
 .box-tile .box-count {

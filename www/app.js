@@ -9,6 +9,7 @@ const STORAGE_ENTRIES = "vocabulator_entries";
 const STORAGE_PROGRESS = "vocabulator_progress";
 const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
+const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
 const SEED_VERSION = 2; // bump when seed data files change, to merge/resync entries
 
@@ -33,6 +34,7 @@ let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-target"; // "en-t
 let activeLanguage = localStorage.getItem(STORAGE_ACTIVE_LANGUAGE) || "rw";
 let editingId = null;
 let currentView = "study";
+let filtersVisible = localStorage.getItem(STORAGE_FILTERS_VISIBLE) !== "false";
 
 function todayStr() {
   return new Date().toISOString().slice(0, 10);
@@ -165,18 +167,30 @@ function switchLanguage(code) {
 
 function renderBoxesOverview() {
   const counts = [0, 0, 0, 0, 0];
+  const dueSoon = [false, false, false, false, false];
+  const today = todayStr();
   for (const e of entries) {
     if (!e.translations[activeLanguage]) continue;
-    counts[getProgress(e.id, activeLanguage).box]++;
+    const p = getProgress(e.id, activeLanguage);
+    counts[p.box]++;
+    if (p.due <= today) dueSoon[p.box] = true;
   }
   const el = document.getElementById("boxesOverview");
   el.innerHTML = BOX_LABELS.map(
     (label, i) => `
       <button class="box-tile${activeBoxFilter === i ? " active" : ""}" data-box="${i}" type="button">
+        ${dueSoon[i] ? '<span class="box-reminder" title="Ready to review">!</span>' : ""}
         <div class="box-count">${counts[i]}</div>
         <div class="box-name">${label}</div>
       </button>`
   ).join("");
+}
+
+function setFiltersVisible(visible) {
+  filtersVisible = visible;
+  localStorage.setItem(STORAGE_FILTERS_VISIBLE, String(visible));
+  document.getElementById("catFilter").hidden = !visible;
+  document.getElementById("filtersToggleBtn").textContent = visible ? "Hide filters ▲" : "Show filters ▼";
 }
 
 function renderCatFilter() {
@@ -381,6 +395,12 @@ document.getElementById("boxesOverview").addEventListener("click", (e) => {
   const boxIndex = Number(tile.dataset.box);
   activeBoxFilter = activeBoxFilter === boxIndex ? null : boxIndex;
   renderStudy();
+  switchView("study");
+  document.getElementById("menuPanel").hidden = true;
+});
+
+document.getElementById("filtersToggleBtn").addEventListener("click", () => {
+  setFiltersVisible(document.getElementById("catFilter").hidden);
 });
 
 document.getElementById("showAnswerBtn").addEventListener("click", () => {
@@ -484,5 +504,6 @@ activeCats = new Set(categoriesForActiveLanguage());
 renderSubtitle();
 renderLanguageMenu();
 renderCatFilter();
+setFiltersVisible(filtersVisible);
 renderDirectionToggle();
 renderStudy();
