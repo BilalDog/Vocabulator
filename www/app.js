@@ -35,7 +35,12 @@ const MARKED_CATEGORY = "★ Markiert";
 let queue = [];
 let currentIndex = 0;
 let activeCats = new Set();
-let activeBoxFilter = null; // null = all boxes, else 0-4
+let activeBoxFilter = null; // the box tile the user explicitly tapped, else null
+// Which box the current queue actually came from -- either activeBoxFilter,
+// or, when that's null, whichever box getStudyQueue() auto-picked (see
+// below). Used to word the "no cards" message and to know whether other
+// boxes still have cards waiting once this one is finished.
+let effectiveBoxFilter = null;
 let direction = localStorage.getItem(STORAGE_DIRECTION) || "en-target"; // "en-target" or "target-en"
 let activeLanguage = localStorage.getItem(STORAGE_ACTIVE_LANGUAGE) || "rw";
 let editingId = null;
@@ -198,14 +203,29 @@ function categoriesForActiveLanguage() {
 }
 
 function getStudyQueue() {
-  return entries
+  const candidates = entries
     .filter((e) => e.translations[activeLanguage])
-    .filter((e) => categoriesOfEntry(e).some((c) => activeCats.has(c)))
-    .filter((e) => activeBoxFilter === null || getProgress(e.id, activeLanguage).box === activeBoxFilter)
+    .filter((e) => categoriesOfEntry(e).some((c) => activeCats.has(c)));
+
+  // Without an explicit box tile tapped, study one box at a time instead
+  // of silently blending every box into one continuous session -- default
+  // to the lowest (most due) box that actually has cards. Moving on to a
+  // later box is then a deliberate tap on its tile, not something that
+  // just happens mid-session once the current one runs out.
+  effectiveBoxFilter = activeBoxFilter;
+  if (effectiveBoxFilter === null) {
+    for (const e of candidates) {
+      const box = getProgress(e.id, activeLanguage).box;
+      if (effectiveBoxFilter === null || box < effectiveBoxFilter) effectiveBoxFilter = box;
+    }
+  }
+
+  return candidates
+    .filter((e) => effectiveBoxFilter === null || getProgress(e.id, activeLanguage).box === effectiveBoxFilter)
     .sort((a, b) => {
       const pa = getProgress(a.id, activeLanguage);
       const pb = getProgress(b.id, activeLanguage);
-      return pa.box - pb.box || (pa.due < pb.due ? -1 : 1);
+      return pa.due < pb.due ? -1 : pa.due > pb.due ? 1 : 0;
     });
 }
 
@@ -344,9 +364,19 @@ function renderCurrentCard() {
   if (currentIndex >= queue.length) {
     noCardsEl.hidden = false;
     cardEl.hidden = true;
-    document.getElementById("noCardsText").textContent =
-      activeBoxFilter !== null
-        ? `No cards in "${BOX_LABELS[activeBoxFilter]}" right now.`
+    const moreElsewhere =
+      activeBoxFilter === null &&
+      effectiveBoxFilter !== null &&
+      entries.some(
+        (e) =>
+          e.translations[activeLanguage] &&
+          categoriesOfEntry(e).some((c) => activeCats.has(c)) &&
+          getProgress(e.id, activeLanguage).box !== effectiveBoxFilter
+      );
+    document.getElementById("noCardsText").textContent = activeBoxFilter !== null
+      ? `No cards in "${BOX_LABELS[activeBoxFilter]}" right now.`
+      : moreElsewhere
+        ? `Done with "${BOX_LABELS[effectiveBoxFilter]}" for now — pick another box from the ☰ menu to keep studying.`
         : "No cards match the current filters. Add more cards, or adjust the category filter.";
     return;
   }

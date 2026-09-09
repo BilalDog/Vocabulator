@@ -81,9 +81,15 @@ language you're studying; "Hide filters" tucks the chips away if you don't
 need them). The box/progress overview lives in the ☰ menu — tap any of the
 5 tiles (Daily / 2 Days / 1 Week / 2 Weeks / 1 Month) to narrow the queue
 to just the cards currently sitting in that box; tap it again to go back
-to studying everything. A tile shows a small **!** badge when at least one
-card in it is due for review (its last interval has elapsed) — this is
-just a reminder, not a lock, since every card stays studyable regardless.
+to the default. A tile shows a small **!** badge when at least one card in
+it is due for review (its last interval has elapsed) — this is just a
+reminder, not a lock, since every card stays studyable regardless.
+
+Without tapping a tile, the default queue only pulls from your lowest
+(most due) box with cards in it — finishing it doesn't quietly roll on
+into the next box's cards mid-session; moving on to a later box is always
+a deliberate tap on its tile, not something that just happens once the
+current one runs out.
 
 Progress is stored on-device (`localStorage` inside the app's WebView), so
 it persists between launches.
