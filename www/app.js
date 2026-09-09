@@ -10,7 +10,7 @@ const STORAGE_PROGRESS = "vocabulator_progress";
 const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 1; // bump when seed data files change, to merge in new entries
+const SEED_VERSION = 2; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -59,10 +59,16 @@ function loadState() {
 
   const seedVersion = Number(localStorage.getItem(SEED_VERSION_KEY) || 0);
   if (seedVersion < SEED_VERSION) {
-    const existingKeys = new Set(entries.map(seedKey));
+    const byKey = new Map(entries.map((e) => [seedKey(e), e]));
     const seedEntries = [].concat(window.RW_SEED_ENTRIES || [], window.DE_A1_SEED_ENTRIES || []);
     for (const seed of seedEntries) {
-      if (!existingKeys.has(seedKey(seed))) {
+      const existing = byKey.get(seedKey(seed));
+      if (existing) {
+        // Seed data owns the category for entries it created (e.g. a
+        // reclassification into new tiers) -- resync it even if already
+        // merged before, so a data-only content update takes effect.
+        existing.cat = seed.cat;
+      } else {
         entries.push({ id: uid(), ...seed });
       }
     }

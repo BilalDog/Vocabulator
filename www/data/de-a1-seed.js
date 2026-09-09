@@ -1,14 +1,16 @@
 // German (A1) vocabulary, extracted from the official Goethe-Zertifikat A1
 // "Start Deutsch 1" Wortliste (the certification word list). The bulk of
 // entries come from the document's alphabetical word list (each with the
-// official example sentence kept as a usage note); a smaller set of
-// standard items (numbers, weekdays, months, seasons, colors, compass
-// directions) comes from its supplementary word-group list.
+// official example sentence kept as a usage note), split into three
+// frequency tiers (1 = essential, 2 = common, 3 = extended/specific) as a
+// study on-ramp instead of one 685-word bucket. A smaller set of standard
+// items (numbers, weekdays, months, seasons, colors, compass directions)
+// comes from its supplementary word-group list and keeps its own category.
 window.DE_A1_SEED_ENTRIES = 
 [
   {
     "en": "from; starting from",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ab",
@@ -20,7 +22,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "but",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "aber",
@@ -32,7 +34,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to depart",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "abfahren",
@@ -44,7 +46,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the departure",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Abfahrt",
@@ -56,7 +58,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hand in; to drop off",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "abgeben",
@@ -68,7 +70,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pick up; to collect",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "abholen",
@@ -80,7 +82,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sender",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Absender",
@@ -92,7 +94,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "attention!; watch out!",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "Achtung",
@@ -104,7 +106,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the address",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Adresse,-en",
@@ -116,7 +118,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "all (stem: alles, alle, aller)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "all-",
@@ -128,7 +130,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "alone",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "allein",
@@ -140,7 +142,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "so; thus",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "also",
@@ -152,7 +154,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "old",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "alt",
@@ -164,7 +166,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the age",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Alter",
@@ -176,7 +178,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at; on",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "an",
@@ -188,7 +190,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to offer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "anbieten",
@@ -200,7 +202,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the offer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Angebot, -e",
@@ -212,7 +214,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "other (stem: andere, anderer)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ander-",
@@ -224,7 +226,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to begin; to start",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "anfangen",
@@ -236,7 +238,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the beginning",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Anfang",
@@ -248,7 +250,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to click (on)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "anklicken",
@@ -260,7 +262,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to arrive",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ankommen",
@@ -272,7 +274,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the arrival",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Ankunft",
@@ -284,7 +286,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to mark with a cross/tick",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "ankreuzen",
@@ -296,7 +298,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to turn on",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "anmachen",
@@ -308,7 +310,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to register; to sign up",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) anmelden",
@@ -320,7 +322,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the registration",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Anmeldung",
@@ -332,7 +334,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the form of address; salutation",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Anrede",
@@ -344,7 +346,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to call (phone)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "anrufen",
@@ -356,7 +358,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the phone call",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Anruf, -e",
@@ -368,7 +370,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the answering machine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Anrufbeantworter",
@@ -380,7 +382,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the announcement",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Ansage, -n",
@@ -392,7 +394,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the connection",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Anschluss",
@@ -404,7 +406,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be on (light/device)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "an sein",
@@ -416,7 +418,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to answer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "antworten",
@@ -428,7 +430,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the answer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Antwort, -en",
@@ -440,7 +442,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the advertisement; notice",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Anzeige, -n",
@@ -452,7 +454,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get dressed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) anziehen",
@@ -464,7 +466,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apartment",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Apartment, -s",
@@ -476,7 +478,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apple",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Apfel, -Ä",
@@ -488,7 +490,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the appetite",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Appetit",
@@ -500,7 +502,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to work",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "arbeiten",
@@ -512,7 +514,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the work; job",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Arbeit, -en",
@@ -524,7 +526,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "unemployed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "arbeitslos",
@@ -536,7 +538,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the workplace",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Arbeitsplatz, -ä, e",
@@ -548,7 +550,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the arm",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Arm, -e",
@@ -560,7 +562,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the doctor",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Arzt, -Ä, e",
@@ -572,7 +574,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "also; too",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "auch",
@@ -584,7 +586,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "on; onto",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "auf",
@@ -596,7 +598,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the task; assignment",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Aufgabe, -n",
@@ -608,7 +610,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stop",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "aufhören",
@@ -620,7 +622,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be open",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "auf sein",
@@ -632,7 +634,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get up; to stand up",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "aufstehen",
@@ -644,7 +646,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the elevator; lift",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Aufzug, -ü, e",
@@ -656,7 +658,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the eye",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Auge, -n",
@@ -668,7 +670,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "from; out of",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "aus",
@@ -680,7 +682,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the excursion; trip",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Ausflug",
@@ -692,7 +694,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fill out",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "ausfüllen",
@@ -704,7 +706,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the exit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Ausgang",
@@ -716,7 +718,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the information",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Auskunft, -ü, e",
@@ -728,7 +730,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "abroad; foreign countries",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Ausland",
@@ -740,7 +742,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the foreigner",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Ausländer, -",
@@ -752,7 +754,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "foreign",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "ausländisch",
@@ -764,7 +766,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to turn off",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "ausmachen",
@@ -776,7 +778,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the statement",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Aussage, -n",
@@ -788,7 +790,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to look; to appear",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "aussehen",
@@ -800,7 +802,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be off; to be over",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "aus sein",
@@ -812,7 +814,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get off/out (vehicle)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "aussteigen",
@@ -824,7 +826,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ID card",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Ausweis",
@@ -836,7 +838,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get undressed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) ausziehen",
@@ -848,7 +850,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the car",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Auto, -s",
@@ -860,7 +862,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the highway; motorway",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Autobahn, -en",
@@ -872,7 +874,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vending machine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Automat",
@@ -884,7 +886,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "automatic",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "automatisch",
@@ -896,7 +898,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the baby",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Baby, -s",
@@ -908,7 +910,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bakery",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Bäckerei",
@@ -920,7 +922,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bathroom; bath",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Bad",
@@ -932,7 +934,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bathe",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "baden",
@@ -944,7 +946,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train; railway",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Bahn",
@@ -956,7 +958,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train station",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Bahnhof",
@@ -968,7 +970,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the platform",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Bahnsteig",
@@ -980,7 +982,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "soon",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bald",
@@ -992,7 +994,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the balcony",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Balkon",
@@ -1004,7 +1006,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the banana",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Banane, -n",
@@ -1016,7 +1018,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bank; the bench",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Bank",
@@ -1028,7 +1030,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "in cash",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bar",
@@ -1040,7 +1042,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the belly; stomach",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Bauch",
@@ -1052,7 +1054,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tree",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Baum, -ä, e",
@@ -1064,7 +1066,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the official; civil servant",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Beamte, -n",
@@ -1076,7 +1078,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to mean",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bedeuten",
@@ -1088,7 +1090,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to begin",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "beginnen",
@@ -1100,7 +1102,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at; near; with",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bei",
@@ -1112,7 +1114,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "both",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "beide",
@@ -1124,7 +1126,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the leg",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Bein, -e",
@@ -1136,7 +1138,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the example",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Beispiel, -e",
@@ -1148,7 +1150,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for example",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zum Beispiel/z. B.",
@@ -1160,7 +1162,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "known; well-known",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bekannt",
@@ -1172,7 +1174,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the acquaintance",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der/die Bekannte, -n",
@@ -1184,7 +1186,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get; to receive",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bekommen",
@@ -1196,7 +1198,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to use",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "benutzen",
@@ -1208,7 +1210,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the profession; job",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Beruf, -e",
@@ -1220,7 +1222,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "occupied; busy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "besetzt",
@@ -1232,7 +1234,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to visit; to view",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "besichtigen",
@@ -1244,7 +1246,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "better",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "besser",
@@ -1256,7 +1258,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "best (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "best-",
@@ -1268,7 +1270,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to order",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bestellen",
@@ -1280,7 +1282,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to visit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "besuchen",
@@ -1292,7 +1294,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Bett, -en",
@@ -1304,7 +1306,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pay",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bezahlen",
@@ -1316,7 +1318,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the beer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Bier",
@@ -1328,7 +1330,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the picture",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Bild, -er",
@@ -1340,7 +1342,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "cheap",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "billig",
@@ -1352,7 +1354,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the pear",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Birne, -n",
@@ -1364,7 +1366,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "until",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bis",
@@ -1376,7 +1378,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "a little; a bit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bisschen",
@@ -1388,7 +1390,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "please",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bitte",
@@ -1400,7 +1402,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the request",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Bitte, -n",
@@ -1412,7 +1414,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ask; to request",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "bitten",
@@ -1424,7 +1426,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bitter",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "bitter",
@@ -1436,7 +1438,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stay; to remain",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bleiben",
@@ -1448,7 +1450,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the pencil",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Bleistift, -e",
@@ -1460,7 +1462,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the view; glance",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Blick",
@@ -1472,7 +1474,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the flower",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Blume, -n",
@@ -1484,7 +1486,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sheet (of paper); arch",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Bogen",
@@ -1496,7 +1498,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "angry; bad",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "böse",
@@ -1508,7 +1510,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to need",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "brauchen",
@@ -1520,7 +1522,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wide",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "breit",
@@ -1532,7 +1534,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the letter",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Brief, -e",
@@ -1544,7 +1546,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stamp",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Briefmarke, -n",
@@ -1556,7 +1558,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bring",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "bringen",
@@ -1568,7 +1570,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bread",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Brot, -e",
@@ -1580,7 +1582,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bread roll",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Brötchen, –",
@@ -1592,7 +1594,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the brother",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Bruder, -ü",
@@ -1604,7 +1606,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the book",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Buch, -ü, er",
@@ -1616,7 +1618,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the letter (alphabet)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Buchstabe, -n",
@@ -1628,7 +1630,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to spell",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "buchstabieren",
@@ -1640,7 +1642,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bus",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Bus, -se",
@@ -1652,7 +1654,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the butter",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Butter",
@@ -1664,7 +1666,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the café",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Café, -s",
@@ -1676,7 +1678,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the CD",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die CD, -s",
@@ -1688,7 +1690,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the boss",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Chef",
@@ -1700,7 +1702,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "approximately; about",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "circa/ca.",
@@ -1712,7 +1714,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the computer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Computer, –",
@@ -1724,7 +1726,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "there; since",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "da",
@@ -1736,7 +1738,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lady",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Dame, -n",
@@ -1748,7 +1750,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "next to it; beside it",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "daneben",
@@ -1760,7 +1762,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to thank",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "danken",
@@ -1772,7 +1774,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "thanks; gratitude",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Dank",
@@ -1784,7 +1786,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "thank you",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "danke",
@@ -1796,7 +1798,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "then",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dann",
@@ -1808,7 +1810,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the date",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Datum",
@@ -1820,7 +1822,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to last; to take (time)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "dauern",
@@ -1832,7 +1834,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "your (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dein-",
@@ -1844,7 +1846,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "because; for",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "denn",
@@ -1856,7 +1858,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (definite article)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der, die, das",
@@ -1868,7 +1870,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (accusative)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dich",
@@ -1880,7 +1882,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "this (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dies-",
@@ -1892,7 +1894,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (dative)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dir",
@@ -1904,7 +1906,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the disco",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Disco",
@@ -1916,7 +1918,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the doctor",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Doktor",
@@ -1928,7 +1930,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the double room",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Doppelzimmer",
@@ -1940,7 +1942,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the village",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Dorf, -ö, er",
@@ -1952,7 +1954,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "there; from there; to there",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dort, -her, -hin",
@@ -1964,7 +1966,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "outside",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "draußen",
@@ -1976,7 +1978,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to print",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "drucken",
@@ -1988,7 +1990,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the printer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Drucker, –",
@@ -2000,7 +2002,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to press; to push",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "drücken",
@@ -2012,7 +2014,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "through",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "durch",
@@ -2024,7 +2026,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the announcement",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Durchsage, -n",
@@ -2036,7 +2038,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be allowed to; may",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "dürfen",
@@ -2048,7 +2050,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the thirst",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Durst",
@@ -2060,7 +2062,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to shower",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) duschen",
@@ -2072,7 +2074,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shower",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Dusche",
@@ -2084,7 +2086,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the corner",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Ecke, -n",
@@ -2096,7 +2098,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wife",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Ehefrau, -en/",
@@ -2108,7 +2110,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the husband",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Ehemann, ä, er",
@@ -2120,7 +2122,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the egg",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Ei, -er",
@@ -2132,7 +2134,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "hurried; urgent",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "eilig",
@@ -2144,7 +2146,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "one; a (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ein-",
@@ -2156,7 +2158,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "simple; easy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "einfach",
@@ -2168,7 +2170,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the entrance",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Eingang",
@@ -2180,7 +2182,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to shop; to buy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "einkaufen",
@@ -2192,7 +2194,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to invite",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "einladen",
@@ -2204,7 +2206,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the invitation",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Einladung",
@@ -2216,7 +2218,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "once",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "einmal",
@@ -2228,7 +2230,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get on/in (vehicle)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "einsteigen",
@@ -2240,7 +2242,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the entry; admission",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Eintritt",
@@ -2252,7 +2254,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the single room",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Einzelzimmer",
@@ -2264,7 +2266,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the parents",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Eltern (pl.)",
@@ -2276,7 +2278,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the email",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die E-Mail, -s",
@@ -2288,7 +2290,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the recipient",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Empfänger, –",
@@ -2300,7 +2302,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to recommend",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "empfehlen",
@@ -2312,7 +2314,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to end",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "enden",
@@ -2324,7 +2326,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the end",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Ende",
@@ -2336,7 +2338,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to excuse; to forgive",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "entschuldigen",
@@ -2348,7 +2350,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apology; excuse me",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Entschuldigung",
@@ -2360,7 +2362,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "he",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "er",
@@ -2372,7 +2374,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the result",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Ergebnis, -se",
@@ -2384,7 +2386,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to explain",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "erklären",
@@ -2396,7 +2398,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to allow; to permit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "erlauben",
@@ -2408,7 +2410,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the adult",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Erwachsene, -n",
@@ -2420,7 +2422,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to tell; to narrate",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "erzählen",
@@ -2432,7 +2434,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "it",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "es",
@@ -2444,7 +2446,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to eat",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "essen",
@@ -2456,7 +2458,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the food; meal",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Essen",
@@ -2468,7 +2470,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "your (plural)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "euer",
@@ -2480,7 +2482,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to drive; to go (by vehicle)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "fahren",
@@ -2492,7 +2494,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the driver",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Fahrer",
@@ -2504,7 +2506,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (travel) ticket",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Fahrkarte, -n",
@@ -2516,7 +2518,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bicycle",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Fahrrad, -ä, er",
@@ -2528,7 +2530,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wrong; false",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "falsch",
@@ -2540,7 +2542,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the family",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Familie, -n",
@@ -2552,7 +2554,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the surname; last name",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Familienname",
@@ -2564,7 +2566,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the marital status",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Familienstand",
@@ -2576,7 +2578,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the color",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Farbe, -n",
@@ -2588,7 +2590,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fax",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Fax, -e",
@@ -2600,7 +2602,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "celebration (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "Feier-",
@@ -2612,7 +2614,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to celebrate",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "feiern",
@@ -2624,7 +2626,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be missing; to be lacking",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "fehlen",
@@ -2636,7 +2638,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mistake",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Fehler, –",
@@ -2648,7 +2650,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to watch TV",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "fernsehen",
@@ -2660,7 +2662,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "finished; ready",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "fertig",
@@ -2672,7 +2674,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fire",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Feuer",
@@ -2684,7 +2686,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fever",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Fieber",
@@ -2696,7 +2698,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the film; movie",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Film, -e",
@@ -2708,7 +2710,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to find",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "finden",
@@ -2720,7 +2722,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the company; firm",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Firma",
@@ -2732,7 +2734,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fish",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Fisch, -e",
@@ -2744,7 +2746,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bottle",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Flasche, -n",
@@ -2756,7 +2758,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the meat",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Fleisch",
@@ -2768,7 +2770,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fly",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "fliegen",
@@ -2780,7 +2782,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to depart (by plane)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "abfliegen",
@@ -2792,7 +2794,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the departure (flight)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Abflug",
@@ -2804,7 +2806,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the airport",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Flughafen",
@@ -2816,7 +2818,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the airplane",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Flugzeug",
@@ -2828,7 +2830,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the form (document)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Formular, -e",
@@ -2840,7 +2842,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the photo",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Foto, -s",
@@ -2852,7 +2854,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ask",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "fragen",
@@ -2864,7 +2866,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the question",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Frage, -n",
@@ -2876,7 +2878,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the woman; Mrs.",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Frau, -en",
@@ -2888,7 +2890,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "free",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "frei",
@@ -2900,7 +2902,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the free time; leisure",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Freizeit",
@@ -2912,7 +2914,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "foreign; strange",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "fremd",
@@ -2924,7 +2926,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be happy; glad",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) freuen",
@@ -2936,7 +2938,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the friend",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Freund, -e",
@@ -2948,7 +2950,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "earlier; formerly",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "früher",
@@ -2960,7 +2962,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to have breakfast",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "frühstücken",
@@ -2972,7 +2974,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the breakfast",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Frühstück",
@@ -2984,7 +2986,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the guided tour",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Führung",
@@ -2996,7 +2998,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "für",
@@ -3008,7 +3010,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the foot",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Fuß, -ü, e",
@@ -3020,7 +3022,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "football; soccer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Fußball",
@@ -3032,7 +3034,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the garden",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Garten",
@@ -3044,7 +3046,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the guest",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Gast, -ä, e",
@@ -3056,7 +3058,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to give",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "geben",
@@ -3068,7 +3070,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "born",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "geboren",
@@ -3080,7 +3082,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birth year",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Geburtsjahr",
@@ -3092,7 +3094,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birthplace",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Geburtsort",
@@ -3104,7 +3106,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the birthday",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Geburtstag",
@@ -3116,7 +3118,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to please; to like",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "gefallen",
@@ -3128,7 +3130,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "against; around (time)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "gegen",
@@ -3140,7 +3142,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to go; to walk",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gehen",
@@ -3152,7 +3154,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to belong to",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "gehören",
@@ -3164,7 +3166,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the money",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Geld",
@@ -3176,7 +3178,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vegetables",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Gemüse",
@@ -3188,7 +3190,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the luggage",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Gepäck",
@@ -3200,7 +3202,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "just; straight",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gerade",
@@ -3212,7 +3214,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "straight ahead",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "geradeaus",
@@ -3224,7 +3226,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "gladly; willingly",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gern(e)",
@@ -3236,7 +3238,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shop; business",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Geschäft, -e",
@@ -3248,7 +3250,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the gift; present",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Geschenk, -e",
@@ -3260,7 +3262,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the siblings",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Geschwister (pl.)",
@@ -3272,7 +3274,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the conversation",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Gespräch, -e",
@@ -3284,7 +3286,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "yesterday",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gestern",
@@ -3296,7 +3298,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "died",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "gestorben",
@@ -3308,7 +3310,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the drink; beverage",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Getränk, -e",
@@ -3320,7 +3322,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the weight",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Gewicht",
@@ -3332,7 +3334,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to win",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "gewinnen",
@@ -3344,7 +3346,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the glass",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Glas, -ä, er",
@@ -3356,7 +3358,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to believe; to think",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "glauben",
@@ -3368,7 +3370,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "same; right away",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gleich",
@@ -3380,7 +3382,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (railway) track; platform",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Gleis, -e",
@@ -3392,7 +3394,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "luck; happiness",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Glück",
@@ -3404,7 +3406,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "happy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "glücklich",
@@ -3416,7 +3418,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "congratulations",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Glückwunsch",
@@ -3428,7 +3430,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "degree(s) (Celsius)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "Grad (Celsius)",
@@ -3440,7 +3442,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to congratulate",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "gratulieren",
@@ -3452,7 +3454,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to grill; to barbecue",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "grillen",
@@ -3464,7 +3466,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "big; tall",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "groß",
@@ -3476,7 +3478,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the size",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Größe",
@@ -3488,7 +3490,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandparents",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Großeltern (pl.)",
@@ -3500,7 +3502,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandmother",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Großmutter",
@@ -3512,7 +3514,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandfather",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Großvater",
@@ -3524,7 +3526,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the group",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Gruppe, -n",
@@ -3536,7 +3538,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the greeting",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Gruß, -ü, e",
@@ -3548,7 +3550,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "valid",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "gültig",
@@ -3560,7 +3562,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "affordable; favorable",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "günstig",
@@ -3572,7 +3574,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "good",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "gut",
@@ -3584,7 +3586,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hair",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Haar, -e",
@@ -3596,7 +3598,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to have",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "haben",
@@ -3608,7 +3610,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the chicken",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Hähnchen, -",
@@ -3620,7 +3622,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "half board (hotel meal plan)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Halbpension",
@@ -3632,7 +3634,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hall",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Halle",
@@ -3644,7 +3646,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "hello",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "hallo",
@@ -3656,7 +3658,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hold; to stop",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "halten",
@@ -3668,7 +3670,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (bus/tram) stop",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Haltestelle",
@@ -3680,7 +3682,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hand",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Hand, -ä, e",
@@ -3692,7 +3694,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mobile phone",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Handy, -s",
@@ -3704,7 +3706,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the house",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Haus, -ä, er",
@@ -3716,7 +3718,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the homework",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Hausaufgabe,-n",
@@ -3728,7 +3730,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the housewife",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Hausfrau, -en/",
@@ -3740,7 +3742,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the house-husband",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Hausmann",
@@ -3752,7 +3754,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the home(land)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Heimat",
@@ -3764,7 +3766,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to marry",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "heiraten",
@@ -3776,7 +3778,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be called; named",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "heißen",
@@ -3788,7 +3790,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to help",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "helfen",
@@ -3800,7 +3802,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bright; light",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "hell",
@@ -3812,7 +3814,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stove",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Herd",
@@ -3824,7 +3826,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the gentleman; Mr.",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Herr, -en",
@@ -3836,7 +3838,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "warm; cordial",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "herzlich",
@@ -3848,7 +3850,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "today",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "heute",
@@ -3860,7 +3862,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "here",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "hier",
@@ -3872,7 +3874,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the help",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Hilfe",
@@ -3884,7 +3886,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "at the back; behind",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "hinten",
@@ -3896,7 +3898,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hobby",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Hobby, -s",
@@ -3908,7 +3910,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "high; tall",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "hoch",
@@ -3920,7 +3922,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wedding",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Hochzeit",
@@ -3932,7 +3934,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to fetch; to get",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "holen",
@@ -3944,7 +3946,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hear; to listen",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "hören",
@@ -3956,7 +3958,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hotel",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Hotel, -s",
@@ -3968,7 +3970,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the dog",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Hund, -e",
@@ -3980,7 +3982,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hunger",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Hunger",
@@ -3992,7 +3994,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "I",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ich",
@@ -4004,7 +4006,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "her; him",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ihr/ihm/ihn",
@@ -4016,7 +4018,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "always",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "immer",
@@ -4028,7 +4030,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "in",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "in",
@@ -4040,7 +4042,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the information",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Information, -en",
@@ -4052,7 +4054,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "international",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "international",
@@ -4064,7 +4066,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the internet",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Internet",
@@ -4076,7 +4078,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "yes",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ja",
@@ -4088,7 +4090,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the jacket",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Jacke, -n",
@@ -4100,7 +4102,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "each; every (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "jed-",
@@ -4112,7 +4114,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "now",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "jetzt",
@@ -4124,7 +4126,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the job",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Job, -s",
@@ -4136,7 +4138,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the young person; teenager",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Jugendliche, -n",
@@ -4148,7 +4150,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "young",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "jung",
@@ -4160,7 +4162,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the boy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Junge, -n",
@@ -4172,7 +4174,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the coffee",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Kaffee",
@@ -4184,7 +4186,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "broken",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "kaputt",
@@ -4196,7 +4198,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the card; ticket; map",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Karte, -n",
@@ -4208,7 +4210,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "(credit) card",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(Kredit)-Karte, -n",
@@ -4220,7 +4222,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the potato",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Kartoffel, -n",
@@ -4232,7 +4234,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cash register; checkout",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Kasse",
@@ -4244,7 +4246,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to buy",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kaufen",
@@ -4256,7 +4258,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "no; not any",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kein",
@@ -4268,7 +4270,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to know (a person/thing)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kennen",
@@ -4280,7 +4282,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get to know; to meet",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "kennenlernen",
@@ -4292,7 +4294,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the child",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Kind, -er",
@@ -4304,7 +4306,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kindergarten",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kindergarten",
@@ -4316,7 +4318,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cinema",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Kino, -s",
@@ -4328,7 +4330,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kiosk",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Kiosk",
@@ -4340,7 +4342,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "clear; of course",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "klar",
@@ -4352,7 +4354,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the class",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Klasse",
@@ -4364,7 +4366,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the clothing",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Kleidung",
@@ -4376,7 +4378,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "small",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "klein",
@@ -4388,7 +4390,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to cook",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kochen",
@@ -4400,7 +4402,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the suitcase",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Koffer, –",
@@ -4412,7 +4414,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the colleague",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kollege, -n",
@@ -4424,7 +4426,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to come",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kommen",
@@ -4436,7 +4438,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be able to; can",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "können",
@@ -4448,7 +4450,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (bank) account",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Konto",
@@ -4460,7 +4462,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the head",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kopf",
@@ -4472,7 +4474,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to cost",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kosten",
@@ -4484,7 +4486,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "sick; ill",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "krank",
@@ -4496,7 +4498,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to get; to receive (informal)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "kriegen",
@@ -4508,7 +4510,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the kitchen",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Küche",
@@ -4520,7 +4522,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cake",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kuchen",
@@ -4532,7 +4534,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ballpoint pen",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Kugelschreiber",
@@ -4544,7 +4546,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the refrigerator",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kühlschrank",
@@ -4556,7 +4558,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "cultural",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "kulturell",
@@ -4568,7 +4570,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take care of; to look after",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "sich kümmern",
@@ -4580,7 +4582,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the customer",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kunde, -n",
@@ -4592,7 +4594,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the course",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Kurs, -e",
@@ -4604,7 +4606,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "short",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "kurz",
@@ -4616,7 +4618,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to laugh",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "lachen",
@@ -4628,7 +4630,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shop; store",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Laden, -ä",
@@ -4640,7 +4642,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the country",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Land, -ä, er",
@@ -4652,7 +4654,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "long",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lang",
@@ -4664,7 +4666,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "for a long time",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lange",
@@ -4676,7 +4678,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "slowly",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "langsam",
@@ -4688,7 +4690,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to run; to walk",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "laufen",
@@ -4700,7 +4702,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "loud",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "laut",
@@ -4712,7 +4714,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to live",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "leben",
@@ -4724,7 +4726,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the life",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Leben",
@@ -4736,7 +4738,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the groceries; food",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Lebensmittel (pl.)",
@@ -4748,7 +4750,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "single; unmarried",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "ledig",
@@ -4760,7 +4762,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to lay; to put down",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "legen",
@@ -4772,7 +4774,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the teacher",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Lehrer, –",
@@ -4784,7 +4786,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "easy; light",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "leicht",
@@ -4796,7 +4798,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "unfortunately",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "leider",
@@ -4808,7 +4810,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "quiet; soft",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "leise",
@@ -4820,7 +4822,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to learn",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lernen",
@@ -4832,7 +4834,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to read",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lesen",
@@ -4844,7 +4846,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "last (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "letzt-",
@@ -4856,7 +4858,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the people",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Leute (pl.)",
@@ -4868,7 +4870,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the light",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Licht",
@@ -4880,7 +4882,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "dear; nice (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "lieb-",
@@ -4892,7 +4894,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to love",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lieben",
@@ -4904,7 +4906,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "rather; preferably",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "lieber",
@@ -4916,7 +4918,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "favorite (prefix)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "Lieblings-",
@@ -4928,7 +4930,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the song",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Lied, -er",
@@ -4940,7 +4942,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to lie; to be located",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "liegen",
@@ -4952,7 +4954,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "left",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "links",
@@ -4964,7 +4966,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the truck",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Lkw, -s",
@@ -4976,7 +4978,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the restaurant; pub",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Lokal",
@@ -4988,7 +4990,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the solution",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Lösung, -en",
@@ -5000,7 +5002,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "funny",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "lustig",
@@ -5012,7 +5014,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to do; to make",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "machen",
@@ -5024,7 +5026,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the girl",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Mädchen, –",
@@ -5036,7 +5038,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "one; you (impersonal)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "man",
@@ -5048,7 +5050,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the man",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Mann, -ä, er",
@@ -5060,7 +5062,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "male",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "männlich",
@@ -5072,7 +5074,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the machine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Maschine, -n",
@@ -5084,7 +5086,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sea",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Meer",
@@ -5096,7 +5098,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "more",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "mehr",
@@ -5108,7 +5110,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "my",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "mein",
@@ -5120,7 +5122,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "most (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "meist-",
@@ -5132,7 +5134,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the person; human",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Mensch, -en",
@@ -5144,7 +5146,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rent",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "mieten",
@@ -5156,7 +5158,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rent",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Miete",
@@ -5168,7 +5170,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the milk",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Milch",
@@ -5180,7 +5182,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "with",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "mit",
@@ -5192,7 +5194,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to bring along",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "mitbringen",
@@ -5204,7 +5206,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to come along",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "mitkommen",
@@ -5216,7 +5218,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take part; to join in",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "mitmachen",
@@ -5228,7 +5230,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take along",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "mitnehmen",
@@ -5240,7 +5242,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the middle",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Mitte",
@@ -5252,7 +5254,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the furniture",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Möbel (pl.)",
@@ -5264,7 +5266,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "would like",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "möchten",
@@ -5276,7 +5278,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to like",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "mögen",
@@ -5288,7 +5290,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "possible",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "möglich",
@@ -5300,7 +5302,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the moment",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Moment",
@@ -5312,7 +5314,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "tomorrow",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "morgen",
@@ -5324,7 +5326,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "tired",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "müde",
@@ -5336,7 +5338,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mouth",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Mund",
@@ -5348,7 +5350,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "must; to have to",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "müssen",
@@ -5360,7 +5362,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the mother",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Mutter, -ü",
@@ -5372,7 +5374,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "after; to (a place)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nach",
@@ -5384,7 +5386,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "next (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nächst-",
@@ -5396,7 +5398,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the name",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Name, -n",
@@ -5408,7 +5410,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to take",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nehmen",
@@ -5420,7 +5422,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "no",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nein",
@@ -5432,7 +5434,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "new",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "neu",
@@ -5444,7 +5446,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "not",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nicht",
@@ -5456,7 +5458,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "nothing",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nichts",
@@ -5468,7 +5470,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "never",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nie",
@@ -5480,7 +5482,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "still; yet",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "noch",
@@ -5492,7 +5494,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "normal",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "normal",
@@ -5504,7 +5506,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the number",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Nummer, -n",
@@ -5516,7 +5518,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "only",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "nur",
@@ -5528,7 +5530,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "above; upstairs",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "oben",
@@ -5540,7 +5542,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the fruit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Obst",
@@ -5552,7 +5554,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "or",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "oder",
@@ -5564,7 +5566,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to open",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "öffnen",
@@ -5576,7 +5578,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "open(ed)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "geöffnet",
@@ -5588,7 +5590,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "often",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "oft",
@@ -5600,7 +5602,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "without",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "ohne",
@@ -5612,7 +5614,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the oil",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Öl",
@@ -5624,7 +5626,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandma",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Oma, -s",
@@ -5636,7 +5638,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the grandpa",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Opa, -s",
@@ -5648,7 +5650,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "order",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Ordnung",
@@ -5660,7 +5662,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; location",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Ort, -e",
@@ -5672,7 +5674,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the paper",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Papier",
@@ -5684,7 +5686,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the papers; documents",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Papiere (pl.)",
@@ -5696,7 +5698,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the partner (male)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Partner, -/",
@@ -5708,7 +5710,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the partner (female)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Partnerin, -nen",
@@ -5720,7 +5722,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the party",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Party",
@@ -5732,7 +5734,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the passport",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Pass, -ä, e",
@@ -5744,7 +5746,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the break; pause",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Pause, -n",
@@ -5756,7 +5758,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the plan",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Plan, -ä, e",
@@ -5768,7 +5770,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; seat; square",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Platz, -ä, e",
@@ -5780,7 +5782,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the police",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Polizei",
@@ -5792,7 +5794,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the French fries",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Pommes frites (pl.)",
@@ -5804,7 +5806,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the post office; mail",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Post",
@@ -5816,7 +5818,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the postal code; zip code",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Postleitzahl",
@@ -5828,7 +5830,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the internship",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Praktikum",
@@ -5840,7 +5842,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (doctor's) practice",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Praxis",
@@ -5852,7 +5854,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the price",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Preis, -e",
@@ -5864,7 +5866,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the problem",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Problem, -e",
@@ -5876,7 +5878,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the brochure",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Prospekt, -e",
@@ -5888,7 +5890,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the exam; test",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Prüfung",
@@ -5900,7 +5902,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "punctual; on time",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "pünktlich",
@@ -5912,7 +5914,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to ride a bike",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "Rad fahren",
@@ -5924,7 +5926,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to smoke",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "rauchen",
@@ -5936,7 +5938,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the room; space",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Raum, -ä, e",
@@ -5948,7 +5950,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the invoice; bill",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Rechnung, -en",
@@ -5960,7 +5962,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "right",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "rechts",
@@ -5972,7 +5974,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rain",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "regnen",
@@ -5984,7 +5986,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rain",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Regen",
@@ -5996,7 +5998,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the rice",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Reis",
@@ -6008,7 +6010,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to travel",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "reisen",
@@ -6020,7 +6022,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the trip; journey",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Reise",
@@ -6032,7 +6034,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the travel agency",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Reisebüro, -s",
@@ -6044,7 +6046,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the travel guide",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Reiseführer",
@@ -6056,7 +6058,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to repair",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "reparieren",
@@ -6068,7 +6070,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the repair",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Reparatur",
@@ -6080,7 +6082,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the restaurant",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Restaurant, -s",
@@ -6092,7 +6094,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the reception (desk)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Rezeption",
@@ -6104,7 +6106,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "correct; right",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "richtig",
@@ -6116,7 +6118,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to smell",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "riechen",
@@ -6128,7 +6130,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "quiet; calm",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "ruhig",
@@ -6140,7 +6142,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the juice",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Saft",
@@ -6152,7 +6154,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to say",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sagen",
@@ -6164,7 +6166,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salad",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Salat",
@@ -6176,7 +6178,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salt",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Salz",
@@ -6188,7 +6190,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sentence",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "Satz, -ä, e",
@@ -6200,7 +6202,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (suburban) train",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die S-Bahn",
@@ -6212,7 +6214,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the counter; switch",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Schalter",
@@ -6224,7 +6226,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to seem; to shine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "scheinen",
@@ -6236,7 +6238,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to send",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "schicken",
@@ -6248,7 +6250,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sign",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Schild, -er",
@@ -6260,7 +6262,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ham",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Schinken, –",
@@ -6272,7 +6274,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sleep",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schlafen",
@@ -6284,7 +6286,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bad",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schlecht",
@@ -6296,7 +6298,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to close",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "schließen",
@@ -6308,7 +6310,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "closed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "geschlossen",
@@ -6320,7 +6322,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the end",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Schluss",
@@ -6332,7 +6334,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the key",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Schlüssel, –",
@@ -6344,7 +6346,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to taste",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "schmecken",
@@ -6356,7 +6358,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "fast; quick",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schnell",
@@ -6368,7 +6370,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "already",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schon",
@@ -6380,7 +6382,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "beautiful; nice",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schön",
@@ -6392,7 +6394,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cupboard; wardrobe",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Schrank, -ä, e",
@@ -6404,7 +6406,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to write",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "schreiben",
@@ -6416,7 +6418,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the shoe",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Schuh, -e",
@@ -6428,7 +6430,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the school",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Schule",
@@ -6440,7 +6442,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (school) student; pupil",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Schüler, –",
@@ -6452,7 +6454,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "heavy; difficult",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "schwer",
@@ -6464,7 +6466,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sister",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Schwester, -n",
@@ -6476,7 +6478,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to swim",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "schwimmen",
@@ -6488,7 +6490,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the swimming pool",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Schwimmbad",
@@ -6500,7 +6502,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lake",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der See",
@@ -6512,7 +6514,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to see",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sehen",
@@ -6524,7 +6526,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sight; tourist attraction",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Sehenswürdigkeit,",
@@ -6536,7 +6538,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "very",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sehr",
@@ -6548,7 +6550,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sein",
@@ -6560,7 +6562,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be gone; away",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "weg sein",
@@ -6572,7 +6574,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to be closed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "zu sein",
@@ -6584,7 +6586,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "since (time)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "seit",
@@ -6596,7 +6598,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "independent; self-employed",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "selbstständig",
@@ -6608,7 +6610,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "oneself",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sich",
@@ -6620,7 +6622,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "she; they",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sie",
@@ -6632,7 +6634,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "you (formal)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "Sie",
@@ -6644,7 +6646,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sit",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "sitzen",
@@ -6656,7 +6658,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "so; like this",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "so",
@@ -6668,7 +6670,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sofa",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Sofa",
@@ -6680,7 +6682,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "immediately",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "sofort",
@@ -6692,7 +6694,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the son",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Sohn, -ö, e",
@@ -6704,7 +6706,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "should; to be supposed to",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sollen",
@@ -6716,7 +6718,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the sun",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Sonne",
@@ -6728,7 +6730,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "late",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "spät",
@@ -6740,7 +6742,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "later",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "später",
@@ -6752,7 +6754,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the menu",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Speisekarte",
@@ -6764,7 +6766,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to play",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "spielen",
@@ -6776,7 +6778,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "sports",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Sport",
@@ -6788,7 +6790,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the language",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Sprache, -n",
@@ -6800,7 +6802,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to speak",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "sprechen",
@@ -6812,7 +6814,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the city",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Stadt, -ä, e",
@@ -6824,7 +6826,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stand",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "stehen",
@@ -6836,7 +6838,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the place; position; job",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Stelle, -n",
@@ -6848,7 +6850,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to put; to place",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "stellen",
@@ -6860,7 +6862,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the floor; story (of a building)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Stock",
@@ -6872,7 +6874,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the street",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Straße, -n",
@@ -6884,7 +6886,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tram",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Straßenbahn",
@@ -6896,7 +6898,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to study (university)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "studieren",
@@ -6908,7 +6910,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (university) studies",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "das Studium",
@@ -6920,7 +6922,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the (university) student",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Student, -en",
@@ -6932,7 +6934,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the hour",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Stunde, -n",
@@ -6944,7 +6946,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to look for; to search",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "suchen",
@@ -6956,7 +6958,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to dance",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "tanzen",
@@ -6968,7 +6970,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the bag; pocket",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Tasche, -n",
@@ -6980,7 +6982,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the taxi",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Taxi, -s",
@@ -6992,7 +6994,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tea",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Tee",
@@ -7004,7 +7006,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the part",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Teil, -e",
@@ -7016,7 +7018,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to phone; to call",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "telefonieren",
@@ -7028,7 +7030,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the telephone",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Telefon",
@@ -7040,7 +7042,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the appointment",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Termin, -e",
@@ -7052,7 +7054,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the test",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Test",
@@ -7064,7 +7066,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "expensive",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "teuer",
@@ -7076,7 +7078,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the text",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Text, -e",
@@ -7088,7 +7090,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the topic; theme",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Thema",
@@ -7100,7 +7102,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the ticket",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Ticket, -s",
@@ -7112,7 +7114,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the table",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Tisch, -e",
@@ -7124,7 +7126,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the daughter",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Tochter, -ö",
@@ -7136,7 +7138,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the toilet",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Toilette, -en",
@@ -7148,7 +7150,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the tomato",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Tomate, -n",
@@ -7160,7 +7162,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "dead",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "tot",
@@ -7172,7 +7174,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to meet",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "(sich) treffen",
@@ -7184,7 +7186,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the stairs",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Treppe, -n",
@@ -7196,7 +7198,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to drink",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "trinken",
@@ -7208,7 +7210,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "bye",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "tschüss",
@@ -7220,7 +7222,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to do",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "tun",
@@ -7232,7 +7234,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "over; about",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "über",
@@ -7244,7 +7246,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to stay overnight",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "übernachten",
@@ -7256,7 +7258,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to transfer (money)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "überweisen",
@@ -7268,7 +7270,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the clock; watch; o'clock",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Uhr",
@@ -7280,7 +7282,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "around; at (time)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "um",
@@ -7292,7 +7294,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to move (house)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "umziehen",
@@ -7304,7 +7306,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "and",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "und",
@@ -7316,7 +7318,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "our (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "unser-",
@@ -7328,7 +7330,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "below; downstairs",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "unten",
@@ -7340,7 +7342,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "under",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "unter",
@@ -7352,7 +7354,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the lesson; class",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Unterricht",
@@ -7364,7 +7366,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sign",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "unterschreiben",
@@ -7376,7 +7378,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the signature",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Unterschrift",
@@ -7388,7 +7390,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the vacation; holiday",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Urlaub",
@@ -7400,7 +7402,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the father",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Vater, -ä",
@@ -7412,7 +7414,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "forbidden",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "verboten",
@@ -7424,7 +7426,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to earn",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "verdienen",
@@ -7436,7 +7438,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the club; association",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Verein",
@@ -7448,7 +7450,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "married",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "verheiratet",
@@ -7460,7 +7462,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to sell",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "verkaufen",
@@ -7472,7 +7474,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the salesperson",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Verkäufer, –",
@@ -7484,7 +7486,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to rent out",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "vermieten",
@@ -7496,7 +7498,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the landlord",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Vermieter",
@@ -7508,7 +7510,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to understand",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "verstehen",
@@ -7520,7 +7522,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the relative",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Verwandte, -n",
@@ -7532,7 +7534,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "much; a lot",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "viel",
@@ -7544,7 +7546,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "maybe; perhaps",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "vielleicht",
@@ -7556,7 +7558,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "from; of",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "von",
@@ -7568,7 +7570,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "before; in front of",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "vor",
@@ -7580,7 +7582,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the first name",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Vorname, -n",
@@ -7592,7 +7594,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "caution",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Vorsicht",
@@ -7604,7 +7606,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to introduce (oneself); to imagine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) vorstellen",
@@ -7616,7 +7618,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the area code",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Vorwahl",
@@ -7628,7 +7630,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hike",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "wandern",
@@ -7640,7 +7642,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "when",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wann",
@@ -7652,7 +7654,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to wait",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "warten",
@@ -7664,7 +7666,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "why",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "warum",
@@ -7676,7 +7678,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "what",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "was",
@@ -7688,7 +7690,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "what kind of",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "was für ein",
@@ -7700,7 +7702,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to wash (oneself)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "(sich) waschen",
@@ -7712,7 +7714,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the water",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Wasser",
@@ -7724,7 +7726,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to hurt",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "weh tun",
@@ -7736,7 +7738,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "female",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "weiblich",
@@ -7748,7 +7750,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wine",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "der Wein",
@@ -7760,7 +7762,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "far",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "weit",
@@ -7772,7 +7774,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "further; continue",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "weiter",
@@ -7784,7 +7786,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "which (stem)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "welch-",
@@ -7796,7 +7798,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the world",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Welt",
@@ -7808,7 +7810,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "little; few",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wenig",
@@ -7820,7 +7822,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "who",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wer",
@@ -7832,7 +7834,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to become",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "werden",
@@ -7844,7 +7846,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the weather",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Wetter",
@@ -7856,7 +7858,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "important",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wichtig",
@@ -7868,7 +7870,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "how",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wie",
@@ -7880,7 +7882,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to repeat",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wiederholen",
@@ -7892,7 +7894,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "goodbye (on the phone)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Wiederhören",
@@ -7904,7 +7906,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "goodbye",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Wiedersehen",
@@ -7916,7 +7918,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "how much",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wie viel",
@@ -7928,7 +7930,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "welcome",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "willkommen",
@@ -7940,7 +7942,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the wind",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Wind",
@@ -7952,7 +7954,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "we",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wir",
@@ -7964,7 +7966,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to know (a fact)",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wissen",
@@ -7976,7 +7978,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wo",
@@ -7988,7 +7990,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where from",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "woher",
@@ -8000,7 +8002,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "where to",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wohin",
@@ -8012,7 +8014,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to live; to reside",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wohnen",
@@ -8024,7 +8026,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the apartment; flat",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Wohnung, -en",
@@ -8036,7 +8038,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to want",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "wollen",
@@ -8048,7 +8050,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the word",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "das Wort, -ö, er/-e",
@@ -8060,7 +8062,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "wonderful",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "wunderbar",
@@ -8072,7 +8074,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to pay",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zahlen",
@@ -8084,7 +8086,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the time",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "die Zeit",
@@ -8096,7 +8098,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "currently; at the moment",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "zurzeit",
@@ -8108,7 +8110,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the newspaper",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "die Zeitung, -en",
@@ -8120,7 +8122,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the cigarette",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "die Zigarette, -n",
@@ -8132,7 +8134,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the room",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "das Zimmer, –",
@@ -8144,7 +8146,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "customs",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 3 (Extended)",
     "translations": {
       "de": {
         "text": "der Zoll",
@@ -8156,7 +8158,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "to; too",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zu",
@@ -8168,7 +8170,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "satisfied",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 2 (Common)",
     "translations": {
       "de": {
         "text": "zufrieden",
@@ -8180,7 +8182,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "the train",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "der Zug, -ü, e",
@@ -8192,7 +8194,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "back",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zurück",
@@ -8204,7 +8206,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "together",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zusammen",
@@ -8216,7 +8218,7 @@ window.DE_A1_SEED_ENTRIES =
   },
   {
     "en": "between",
-    "cat": "Grundwortschatz A–Z",
+    "cat": "Tier 1 (Essential)",
     "translations": {
       "de": {
         "text": "zwischen",
