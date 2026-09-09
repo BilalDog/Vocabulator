@@ -101,14 +101,19 @@ it persists between launches.
 
 ## Managing cards
 
-Open **Manage Cards** from the ☰ menu to add, edit, or delete entries. The
-list shows every entry (regardless of which language you're currently
-studying) with a badge for each language it already has a translation for.
-Tapping the edit (✎) icon on a row shows one section per language — fill
-in a section that's empty to add that language's translation to an
-existing entry, which is the way to backfill entries when a new language
-is added later. Adding a new card via the form at the top adds it for
-whichever language is currently active.
+Open **Manage Cards** from the ☰ menu to add, edit, or delete entries. By
+default the list shows every entry across every language, each with a
+badge for the languages it already has a translation for; a **search**
+box filters by English or any translation's text, and its own **language**
+and **category** filter chips narrow the list further — independent of
+whatever you're actively studying. Picking a specific language chip also
+switches each row to show that language's own text (with the English
+gloss underneath) instead of always leading with English. Tapping the
+edit (✎) icon on a row opens one section per language — fill in a section
+that's empty to add that language's translation to an existing entry,
+which is the way to backfill entries when a new language is added later.
+"+ Add card" opens that same per-language form for a new entry, with its
+category chosen from a dropdown of existing categories.
 
 ## Get the Android APK
 

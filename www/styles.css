@@ -396,6 +396,16 @@ main {
 .btn.success { background: var(--success); color: white; }
 .btn.danger { background: var(--danger); color: white; }
 
+.manage-search {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
 .add-card-btn {
   display: block;
   width: 100%;

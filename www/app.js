@@ -48,6 +48,15 @@ const NEW_ENTRY_ID = "__new__";
 let currentView = "study";
 let filtersVisible = localStorage.getItem(STORAGE_FILTERS_VISIBLE) !== "false";
 
+// Manage Cards has its own independent filter state -- unlike Study, it
+// shows every entry across every language by default (so you can backfill
+// a translation that's missing), but an optional language filter narrows
+// it down to just that language's entries and switches the list to show
+// their actual text instead of the English gloss.
+let manageLangFilter = null; // null = all languages, else a LANGUAGES code
+let manageCats = new Set();
+let manageSearch = "";
+
 function todayStr() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -489,18 +498,62 @@ function renderEditForm(entry) {
     </div>`;
 }
 
-function renderManage() {
+function categoriesForManage() {
+  const cats = new Set();
+  for (const e of entries) {
+    if (manageLangFilter && !e.translations[manageLangFilter]) continue;
+    cats.add(e.cat);
+  }
+  return [...cats].sort();
+}
+
+function manageFilteredEntries() {
+  const q = manageSearch.trim().toLowerCase();
+  return entries.filter((e) => {
+    if (manageLangFilter && !e.translations[manageLangFilter]) return false;
+    if (!manageCats.has(e.cat)) return false;
+    if (!q) return true;
+    if (e.en.toLowerCase().includes(q)) return true;
+    return LANGUAGES.some((l) => {
+      const t = e.translations[l.code];
+      return t && t.text.toLowerCase().includes(q);
+    });
+  });
+}
+
+function renderManageLangFilter() {
+  const el = document.getElementById("manageLangFilter");
+  const allChip = `<button class="chip${manageLangFilter === null ? " on" : ""}" data-lang="">All languages</button>`;
+  const langChips = LANGUAGES.map(
+    (l) => `<button class="chip${manageLangFilter === l.code ? " on" : ""}" data-lang="${l.code}">${escapeHtml(l.label)}</button>`
+  ).join("");
+  el.innerHTML = allChip + langChips;
+}
+
+function renderManageCatFilter() {
+  const cats = categoriesForManage();
+  const el = document.getElementById("manageCatFilter");
+  el.innerHTML = cats
+    .map((c) => `<button class="chip${manageCats.has(c) ? " on" : ""}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}</button>`)
+    .join("");
+}
+
+function renderManageList() {
   const listEl = document.getElementById("cardList");
-  const rows = entries.map((entry) => {
+  const rows = manageFilteredEntries().map((entry) => {
     if (entry.id === editingId) return renderEditForm(entry);
     const langBadges = LANGUAGES.filter((l) => entry.translations[l.code])
       .map((l) => `<span class="lang-badge">${l.code.toUpperCase()}</span>`)
       .join("");
+    // With a language filter active, lead with that language's own text
+    // (what you're actually there to manage) instead of the English gloss.
+    const frontText = manageLangFilter ? entry.translations[manageLangFilter].text : entry.en;
+    const backText = manageLangFilter ? `${entry.en} · ${entry.cat}` : entry.cat;
     return `
       <div class="card-row" data-id="${entry.id}">
         <div class="row-text">
-          <div class="row-front">${escapeHtml(entry.en)}</div>
-          <div class="row-back">${escapeHtml(entry.cat)}</div>
+          <div class="row-front">${escapeHtml(frontText)}</div>
+          <div class="row-back">${escapeHtml(backText)}</div>
         </div>
         <div class="row-langs">${langBadges}</div>
         <div class="row-actions">
@@ -511,6 +564,12 @@ function renderManage() {
   });
   if (editingId === NEW_ENTRY_ID) rows.unshift(renderEditForm(null));
   listEl.innerHTML = rows.join("");
+}
+
+function renderManage() {
+  renderManageLangFilter();
+  renderManageCatFilter();
+  renderManageList();
 }
 
 function escapeHtml(str) {
@@ -629,6 +688,32 @@ document.getElementById("addCardBtn").addEventListener("click", () => {
   renderManage();
 });
 
+document.getElementById("manageLangFilter").addEventListener("click", (e) => {
+  if (e.target.tagName !== "BUTTON") return;
+  manageLangFilter = e.target.dataset.lang || null;
+  manageCats = new Set(categoriesForManage());
+  renderManageLangFilter();
+  renderManageCatFilter();
+  renderManageList();
+});
+
+document.getElementById("manageCatFilter").addEventListener("click", (e) => {
+  const key = e.target.dataset.cat;
+  if (!key) return;
+  if (manageCats.has(key)) {
+    if (manageCats.size > 1) manageCats.delete(key);
+  } else {
+    manageCats.add(key);
+  }
+  renderManageCatFilter();
+  renderManageList();
+});
+
+document.getElementById("manageSearchInput").addEventListener("input", (e) => {
+  manageSearch = e.target.value;
+  renderManageList();
+});
+
 document.getElementById("cardList").addEventListener("click", (e) => {
   const row = e.target.closest(".card-row");
   if (!row) return;
@@ -686,6 +771,7 @@ if ("serviceWorker" in navigator && !window.Capacitor) {
 // --- Init ---
 loadState();
 activeCats = new Set(categoriesForActiveLanguage());
+manageCats = new Set(categoriesForManage());
 renderSubtitle();
 renderLanguageMenu();
 renderCatFilter();
