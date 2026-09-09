@@ -1,4 +1,4 @@
-const CACHE_NAME = "vocabulator-v3";
+const CACHE_NAME = "vocabulator-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const ASSETS = [
   "./manifest.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
+  "./icons/icon-512-maskable.png",
 ];
 
 self.addEventListener("install", (event) => {

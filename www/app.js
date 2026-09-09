@@ -803,7 +803,28 @@ document.getElementById("cardList").addEventListener("click", (e) => {
 
 if ("serviceWorker" in navigator && !window.Capacitor) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+    navigator.serviceWorker.register("sw.js").then((reg) => {
+      // The browser's own background update check can lag many hours
+      // behind, and simply switching back to an installed PWA (as
+      // opposed to fully closing and relaunching it) never triggers a
+      // fresh navigation on its own -- so ask explicitly every time the
+      // app comes back to the foreground.
+      reg.update();
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") reg.update();
+      });
+    }).catch(() => {});
+  });
+
+  // sw.js calls skipWaiting()/clients.claim() itself, so a new service
+  // worker takes control as soon as it's installed -- but the page
+  // that's already open keeps running whatever JS/HTML it already
+  // loaded until something reloads it. Do that once here.
+  let swRefreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (swRefreshing) return;
+    swRefreshing = true;
+    window.location.reload();
   });
 }
 
