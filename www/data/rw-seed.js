@@ -8,9 +8,20 @@
 // "text"/"pron"/"lit" fields, pointing at a file under www/audio/rw/ --
 // until such a file exists for it, the speak button for that word simply
 // stays hidden. None of the entries below have one yet.
+//
+// Every entry has a permanent `"seedId"` (rw-0001, rw-0002, ...) that
+// loadState() uses to match it against whatever's already installed --
+// unlike matching on text+English, this survives the user editing an
+// entry's wording. IMPORTANT: a seedId, once assigned, must never be
+// reused or reassigned to a different entry, even if that entry is later
+// edited or removed from this file -- existing installs still carry it.
+// New entries always get a fresh id continuing the sequence (currently
+// up to rw-0056); reordering existing entries in this file is fine, but
+// their seedId must move with them.
 window.RW_SEED_ENTRIES = 
 [
   {
+    "seedId": "rw-0001",
     "en": "Hello / Good day",
     "cat": "Greetings",
     "translations": {
@@ -22,6 +33,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0002",
     "en": "Good morning",
     "cat": "Greetings",
     "translations": {
@@ -33,6 +45,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0003",
     "en": "Good evening",
     "cat": "Greetings",
     "translations": {
@@ -44,6 +57,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0004",
     "en": "How are you?",
     "cat": "Greetings",
     "translations": {
@@ -55,6 +69,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0005",
     "en": "I'm fine / It's good",
     "cat": "Greetings",
     "translations": {
@@ -66,6 +81,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0006",
     "en": "Thank you",
     "cat": "Greetings",
     "translations": {
@@ -77,6 +93,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0007",
     "en": "Thank you very much",
     "cat": "Greetings",
     "translations": {
@@ -88,6 +105,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0008",
     "en": "Please",
     "cat": "Greetings",
     "translations": {
@@ -99,6 +117,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0009",
     "en": "Yes",
     "cat": "Greetings",
     "translations": {
@@ -110,6 +129,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0010",
     "en": "No",
     "cat": "Greetings",
     "translations": {
@@ -121,6 +141,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0011",
     "en": "Excuse me / Sorry",
     "cat": "Greetings",
     "translations": {
@@ -132,6 +153,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0012",
     "en": "Goodbye",
     "cat": "Greetings",
     "translations": {
@@ -143,6 +165,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0013",
     "en": "See you later",
     "cat": "Greetings",
     "translations": {
@@ -154,6 +177,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0014",
     "en": "What is your name?",
     "cat": "Greetings",
     "translations": {
@@ -165,6 +189,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0015",
     "en": "My name is ___",
     "cat": "Greetings",
     "translations": {
@@ -176,6 +201,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0016",
     "en": "I don't understand",
     "cat": "Greetings",
     "translations": {
@@ -187,6 +213,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0017",
     "en": "Do you speak English?",
     "cat": "Greetings",
     "translations": {
@@ -198,6 +225,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0018",
     "en": "I speak a little Kinyarwanda",
     "cat": "Greetings",
     "translations": {
@@ -209,6 +237,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0019",
     "en": "No problem / It's okay",
     "cat": "Greetings",
     "translations": {
@@ -220,6 +249,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0020",
     "en": "Where is ___?",
     "cat": "Directions",
     "translations": {
@@ -231,6 +261,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0021",
     "en": "Where is the toilet?",
     "cat": "Directions",
     "translations": {
@@ -242,6 +273,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0022",
     "en": "Where is the market?",
     "cat": "Directions",
     "translations": {
@@ -253,6 +285,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0023",
     "en": "How much does it cost to go to ___?",
     "cat": "Directions",
     "translations": {
@@ -264,6 +297,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0024",
     "en": "I want to go to ___",
     "cat": "Directions",
     "translations": {
@@ -275,6 +309,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0025",
     "en": "Stop here, please",
     "cat": "Directions",
     "translations": {
@@ -286,6 +321,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0026",
     "en": "Left",
     "cat": "Directions",
     "translations": {
@@ -297,6 +333,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0027",
     "en": "Right",
     "cat": "Directions",
     "translations": {
@@ -308,6 +345,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0028",
     "en": "Straight ahead",
     "cat": "Directions",
     "translations": {
@@ -319,6 +357,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0029",
     "en": "Here",
     "cat": "Directions",
     "translations": {
@@ -330,6 +369,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0030",
     "en": "There",
     "cat": "Directions",
     "translations": {
@@ -341,6 +381,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0031",
     "en": "Is it far?",
     "cat": "Directions",
     "translations": {
@@ -352,6 +393,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0032",
     "en": "It's near",
     "cat": "Directions",
     "translations": {
@@ -363,6 +405,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0033",
     "en": "I'm hungry",
     "cat": "Food",
     "translations": {
@@ -374,6 +417,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0034",
     "en": "I'm thirsty",
     "cat": "Food",
     "translations": {
@@ -385,6 +429,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0035",
     "en": "Water, please",
     "cat": "Food",
     "translations": {
@@ -396,6 +441,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0036",
     "en": "I would like ___",
     "cat": "Food",
     "translations": {
@@ -407,6 +453,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0037",
     "en": "The bill, please",
     "cat": "Food",
     "translations": {
@@ -418,6 +465,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0038",
     "en": "It's delicious",
     "cat": "Food",
     "translations": {
@@ -429,6 +477,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0039",
     "en": "I'm full / I'm satisfied",
     "cat": "Food",
     "translations": {
@@ -440,6 +489,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0040",
     "en": "Tea",
     "cat": "Food",
     "translations": {
@@ -451,6 +501,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0041",
     "en": "Coffee",
     "cat": "Food",
     "translations": {
@@ -462,6 +513,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0042",
     "en": "Milk",
     "cat": "Food",
     "translations": {
@@ -473,6 +525,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0043",
     "en": "Bread",
     "cat": "Food",
     "translations": {
@@ -484,6 +537,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0044",
     "en": "Meat",
     "cat": "Food",
     "translations": {
@@ -495,6 +549,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0045",
     "en": "I don't eat meat",
     "cat": "Food",
     "translations": {
@@ -506,6 +561,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0046",
     "en": "How much is it?",
     "cat": "Shopping",
     "translations": {
@@ -517,6 +573,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0047",
     "en": "That's expensive",
     "cat": "Shopping",
     "translations": {
@@ -528,6 +585,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0048",
     "en": "Reduce the price a little",
     "cat": "Shopping",
     "translations": {
@@ -539,6 +597,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0049",
     "en": "I want to buy this",
     "cat": "Shopping",
     "translations": {
@@ -550,6 +609,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0050",
     "en": "I don't want it",
     "cat": "Shopping",
     "translations": {
@@ -561,6 +621,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0051",
     "en": "Do you have ___?",
     "cat": "Shopping",
     "translations": {
@@ -572,6 +633,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0052",
     "en": "Money",
     "cat": "Shopping",
     "translations": {
@@ -583,6 +645,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0053",
     "en": "Give me change, please",
     "cat": "Shopping",
     "translations": {
@@ -594,6 +657,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0054",
     "en": "One",
     "cat": "Shopping",
     "translations": {
@@ -605,6 +669,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0055",
     "en": "Two",
     "cat": "Shopping",
     "translations": {
@@ -616,6 +681,7 @@ window.RW_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "rw-0056",
     "en": "Three",
     "cat": "Shopping",
     "translations": {

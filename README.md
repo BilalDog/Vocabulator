@@ -115,6 +115,12 @@ which is the way to backfill entries when a new language is added later.
 "+ Add card" opens that same per-language form for a new entry, with its
 category chosen from a dropdown of existing categories.
 
+Editing or deleting one of the built-in words sticks permanently, even
+across future word-list updates: an edited entry is never touched by a
+later update again (a fresh word list can't overwrite your correction),
+and a deleted one is never brought back. Only newly-added words from a
+future update show up alongside your changes.
+
 ## Get the Android APK
 
 The web app (in `www/`) is bundled directly into a native Android app with

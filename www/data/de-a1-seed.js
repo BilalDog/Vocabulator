@@ -40,9 +40,20 @@
 // card. Sentences with no listener-directed pronoun (e.g. "Mein Name
 // ist ...", "Ein Glas Wasser, bitte!") have no "du" field, since there's
 // no Sie/du distinction to make.
+//
+// Every entry has a permanent `"seedId"` (de-0001, de-0002, ...) that
+// loadState() uses to match it against whatever's already installed --
+// unlike matching on text+English, this survives the user editing an
+// entry's wording. IMPORTANT: a seedId, once assigned, must never be
+// reused or reassigned to a different entry, even if that entry is later
+// edited or removed from this file -- existing installs still carry it.
+// New entries always get a fresh id continuing the sequence (currently
+// up to de-0847); reordering existing entries in this file is fine, but
+// their seedId must move with them.
 window.DE_A1_SEED_ENTRIES = 
 [
   {
+    "seedId": "de-0001",
     "en": "from; starting from",
     "cat": "Level 1",
     "translations": {
@@ -54,6 +65,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0002",
     "en": "but",
     "cat": "Level 1",
     "translations": {
@@ -65,6 +77,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0003",
     "en": "to depart",
     "cat": "Level 2",
     "translations": {
@@ -76,6 +89,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0004",
     "en": "the departure",
     "cat": "Level 2",
     "translations": {
@@ -87,6 +101,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0005",
     "en": "to hand in; to drop off",
     "cat": "Level 2",
     "translations": {
@@ -98,6 +113,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0006",
     "en": "to pick up; to collect",
     "cat": "Level 2",
     "translations": {
@@ -109,6 +125,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0007",
     "en": "the sender",
     "cat": "Level 3",
     "translations": {
@@ -120,6 +137,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0008",
     "en": "attention!; watch out!",
     "cat": "Level 2",
     "translations": {
@@ -131,6 +149,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0009",
     "en": "the address",
     "cat": "Level 2",
     "translations": {
@@ -142,6 +161,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0010",
     "en": "all",
     "cat": "Level 1",
     "translations": {
@@ -153,6 +173,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0011",
     "en": "alone",
     "cat": "Level 2",
     "translations": {
@@ -164,6 +185,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0012",
     "en": "so; thus",
     "cat": "Level 1",
     "translations": {
@@ -175,6 +197,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0013",
     "en": "old",
     "cat": "Level 1",
     "translations": {
@@ -186,6 +209,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0014",
     "en": "the age",
     "cat": "Level 2",
     "translations": {
@@ -197,6 +221,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0015",
     "en": "at; on",
     "cat": "Level 1",
     "translations": {
@@ -208,6 +233,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0016",
     "en": "to offer",
     "cat": "Level 2",
     "translations": {
@@ -219,6 +245,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0017",
     "en": "the offer",
     "cat": "Level 2",
     "translations": {
@@ -230,6 +257,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0018",
     "en": "other",
     "cat": "Level 1",
     "translations": {
@@ -241,6 +269,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0019",
     "en": "to begin; to start",
     "cat": "Level 1",
     "translations": {
@@ -252,6 +281,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0020",
     "en": "the beginning",
     "cat": "Level 2",
     "translations": {
@@ -263,6 +293,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0021",
     "en": "to click (on)",
     "cat": "Level 3",
     "translations": {
@@ -274,6 +305,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0022",
     "en": "to arrive",
     "cat": "Level 1",
     "translations": {
@@ -285,6 +317,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0023",
     "en": "the arrival",
     "cat": "Level 2",
     "translations": {
@@ -296,6 +329,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0024",
     "en": "to mark with a cross/tick",
     "cat": "Level 3",
     "translations": {
@@ -307,6 +341,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0025",
     "en": "to turn on",
     "cat": "Level 2",
     "translations": {
@@ -318,6 +353,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0026",
     "en": "to register; to sign up",
     "cat": "Level 2",
     "translations": {
@@ -329,6 +365,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0027",
     "en": "the registration",
     "cat": "Level 2",
     "translations": {
@@ -340,6 +377,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0028",
     "en": "the form of address; salutation",
     "cat": "Level 3",
     "translations": {
@@ -351,6 +389,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0029",
     "en": "to call (phone)",
     "cat": "Level 1",
     "translations": {
@@ -362,6 +401,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0030",
     "en": "the phone call",
     "cat": "Level 2",
     "translations": {
@@ -373,6 +413,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0031",
     "en": "the answering machine",
     "cat": "Level 3",
     "translations": {
@@ -384,6 +425,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0032",
     "en": "the announcement",
     "cat": "Level 3",
     "translations": {
@@ -395,6 +437,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0033",
     "en": "the connection",
     "cat": "Level 3",
     "translations": {
@@ -406,6 +449,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0034",
     "en": "to be on (light/device)",
     "cat": "Level 2",
     "translations": {
@@ -417,6 +461,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0035",
     "en": "to answer",
     "cat": "Level 1",
     "translations": {
@@ -428,6 +473,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0036",
     "en": "the answer",
     "cat": "Level 1",
     "translations": {
@@ -439,6 +485,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0037",
     "en": "the advertisement; notice",
     "cat": "Level 3",
     "translations": {
@@ -450,6 +497,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0038",
     "en": "to get dressed",
     "cat": "Level 2",
     "translations": {
@@ -461,6 +509,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0039",
     "en": "the apartment",
     "cat": "Level 3",
     "translations": {
@@ -472,6 +521,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0040",
     "en": "the apple",
     "cat": "Level 2",
     "translations": {
@@ -483,6 +533,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0041",
     "en": "the appetite",
     "cat": "Level 2",
     "translations": {
@@ -494,6 +545,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0042",
     "en": "to work",
     "cat": "Level 1",
     "translations": {
@@ -505,6 +557,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0043",
     "en": "the work; job",
     "cat": "Level 1",
     "translations": {
@@ -516,6 +569,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0044",
     "en": "unemployed",
     "cat": "Level 3",
     "translations": {
@@ -527,6 +581,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0045",
     "en": "the workplace",
     "cat": "Level 2",
     "translations": {
@@ -538,6 +593,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0046",
     "en": "the arm",
     "cat": "Level 2",
     "translations": {
@@ -549,6 +605,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0047",
     "en": "the doctor",
     "cat": "Level 1",
     "translations": {
@@ -560,6 +617,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0048",
     "en": "also; too",
     "cat": "Level 1",
     "translations": {
@@ -571,6 +629,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0049",
     "en": "on; onto",
     "cat": "Level 1",
     "translations": {
@@ -582,6 +641,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0050",
     "en": "the task; assignment",
     "cat": "Level 2",
     "translations": {
@@ -593,6 +653,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0051",
     "en": "to stop",
     "cat": "Level 2",
     "translations": {
@@ -604,6 +665,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0052",
     "en": "to be open",
     "cat": "Level 2",
     "translations": {
@@ -615,6 +677,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0053",
     "en": "to get up; to stand up",
     "cat": "Level 2",
     "translations": {
@@ -626,6 +689,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0054",
     "en": "the elevator; lift",
     "cat": "Level 3",
     "translations": {
@@ -637,6 +701,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0055",
     "en": "the eye",
     "cat": "Level 2",
     "translations": {
@@ -648,6 +713,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0056",
     "en": "from; out of",
     "cat": "Level 1",
     "translations": {
@@ -659,6 +725,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0057",
     "en": "the excursion; trip",
     "cat": "Level 3",
     "translations": {
@@ -670,6 +737,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0058",
     "en": "to fill out",
     "cat": "Level 2",
     "translations": {
@@ -681,6 +749,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0059",
     "en": "the exit",
     "cat": "Level 2",
     "translations": {
@@ -692,6 +761,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0060",
     "en": "the information",
     "cat": "Level 3",
     "translations": {
@@ -703,6 +773,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0061",
     "en": "abroad; foreign countries",
     "cat": "Level 2",
     "translations": {
@@ -714,6 +785,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0062",
     "en": "the foreigner",
     "cat": "Level 2",
     "translations": {
@@ -725,6 +797,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0063",
     "en": "foreign",
     "cat": "Level 3",
     "translations": {
@@ -736,6 +809,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0064",
     "en": "to turn off",
     "cat": "Level 2",
     "translations": {
@@ -747,6 +821,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0065",
     "en": "the statement",
     "cat": "Level 3",
     "translations": {
@@ -758,6 +833,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0066",
     "en": "to look; to appear",
     "cat": "Level 2",
     "translations": {
@@ -769,6 +845,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0067",
     "en": "to be off; to be over",
     "cat": "Level 2",
     "translations": {
@@ -780,6 +857,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0068",
     "en": "to get off/out (vehicle)",
     "cat": "Level 2",
     "translations": {
@@ -791,6 +869,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0069",
     "en": "the ID card",
     "cat": "Level 2",
     "translations": {
@@ -802,6 +881,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0070",
     "en": "to get undressed",
     "cat": "Level 2",
     "translations": {
@@ -813,6 +893,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0071",
     "en": "the car",
     "cat": "Level 1",
     "translations": {
@@ -824,6 +905,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0072",
     "en": "the highway; motorway",
     "cat": "Level 3",
     "translations": {
@@ -835,6 +917,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0073",
     "en": "the vending machine",
     "cat": "Level 3",
     "translations": {
@@ -846,6 +929,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0074",
     "en": "automatic",
     "cat": "Level 3",
     "translations": {
@@ -857,6 +941,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0075",
     "en": "the baby",
     "cat": "Level 2",
     "translations": {
@@ -868,6 +953,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0076",
     "en": "the bakery",
     "cat": "Level 2",
     "translations": {
@@ -879,6 +965,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0077",
     "en": "the bathroom; bath",
     "cat": "Level 2",
     "translations": {
@@ -890,6 +977,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0078",
     "en": "to bathe",
     "cat": "Level 3",
     "translations": {
@@ -901,6 +989,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0079",
     "en": "the train; railway",
     "cat": "Level 2",
     "translations": {
@@ -912,6 +1001,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0080",
     "en": "the train station",
     "cat": "Level 1",
     "translations": {
@@ -923,6 +1013,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0081",
     "en": "the platform",
     "cat": "Level 3",
     "translations": {
@@ -934,6 +1025,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0082",
     "en": "soon",
     "cat": "Level 2",
     "translations": {
@@ -945,6 +1037,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0083",
     "en": "the balcony",
     "cat": "Level 3",
     "translations": {
@@ -956,6 +1049,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0084",
     "en": "the banana",
     "cat": "Level 3",
     "translations": {
@@ -967,6 +1061,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0085",
     "en": "the bank; the bench",
     "cat": "Level 2",
     "translations": {
@@ -978,6 +1073,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0086",
     "en": "in cash",
     "cat": "Level 2",
     "translations": {
@@ -989,6 +1085,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0087",
     "en": "the belly; stomach",
     "cat": "Level 3",
     "translations": {
@@ -1000,6 +1097,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0088",
     "en": "the tree",
     "cat": "Level 2",
     "translations": {
@@ -1011,6 +1109,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0089",
     "en": "the official; civil servant",
     "cat": "Level 3",
     "translations": {
@@ -1022,6 +1121,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0090",
     "en": "to mean",
     "cat": "Level 2",
     "translations": {
@@ -1033,6 +1133,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0091",
     "en": "to begin",
     "cat": "Level 1",
     "translations": {
@@ -1044,6 +1145,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0092",
     "en": "at; near; with",
     "cat": "Level 1",
     "translations": {
@@ -1055,6 +1157,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0093",
     "en": "both",
     "cat": "Level 2",
     "translations": {
@@ -1066,6 +1169,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0094",
     "en": "the leg",
     "cat": "Level 3",
     "translations": {
@@ -1077,6 +1181,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0095",
     "en": "the example",
     "cat": "Level 1",
     "translations": {
@@ -1088,6 +1193,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0096",
     "en": "for example",
     "cat": "Level 1",
     "translations": {
@@ -1099,6 +1205,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0097",
     "en": "known; well-known",
     "cat": "Level 2",
     "translations": {
@@ -1110,6 +1217,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0098",
     "en": "the acquaintance",
     "cat": "Level 3",
     "translations": {
@@ -1121,6 +1229,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0099",
     "en": "to get; to receive",
     "cat": "Level 1",
     "translations": {
@@ -1132,6 +1241,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0100",
     "en": "to use",
     "cat": "Level 2",
     "translations": {
@@ -1143,6 +1253,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0101",
     "en": "the profession; job",
     "cat": "Level 1",
     "translations": {
@@ -1154,6 +1265,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0102",
     "en": "occupied; busy",
     "cat": "Level 3",
     "translations": {
@@ -1165,6 +1277,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0103",
     "en": "to visit; to view",
     "cat": "Level 3",
     "translations": {
@@ -1176,6 +1289,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0104",
     "en": "better",
     "cat": "Level 1",
     "translations": {
@@ -1187,6 +1301,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0105",
     "en": "best",
     "cat": "Level 2",
     "translations": {
@@ -1198,6 +1313,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0106",
     "en": "to order",
     "cat": "Level 2",
     "translations": {
@@ -1209,6 +1325,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0107",
     "en": "to visit",
     "cat": "Level 1",
     "translations": {
@@ -1220,6 +1337,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0108",
     "en": "the bed",
     "cat": "Level 2",
     "translations": {
@@ -1231,6 +1349,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0109",
     "en": "to pay",
     "cat": "Level 1",
     "translations": {
@@ -1242,6 +1361,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0110",
     "en": "the beer",
     "cat": "Level 2",
     "translations": {
@@ -1253,6 +1373,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0111",
     "en": "the picture",
     "cat": "Level 2",
     "translations": {
@@ -1264,6 +1385,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0112",
     "en": "cheap",
     "cat": "Level 2",
     "translations": {
@@ -1275,6 +1397,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0113",
     "en": "the pear",
     "cat": "Level 3",
     "translations": {
@@ -1286,6 +1409,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0114",
     "en": "until",
     "cat": "Level 1",
     "translations": {
@@ -1297,6 +1421,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0115",
     "en": "a little; a bit",
     "cat": "Level 1",
     "translations": {
@@ -1308,6 +1433,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0116",
     "en": "please",
     "cat": "Level 1",
     "translations": {
@@ -1319,6 +1445,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0117",
     "en": "the request",
     "cat": "Level 2",
     "translations": {
@@ -1330,6 +1457,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0118",
     "en": "to ask; to request",
     "cat": "Level 2",
     "translations": {
@@ -1341,6 +1469,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0119",
     "en": "bitter",
     "cat": "Level 3",
     "translations": {
@@ -1352,6 +1481,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0120",
     "en": "to stay; to remain",
     "cat": "Level 1",
     "translations": {
@@ -1363,6 +1493,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0121",
     "en": "the pencil",
     "cat": "Level 3",
     "translations": {
@@ -1374,6 +1505,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0122",
     "en": "the view; glance",
     "cat": "Level 3",
     "translations": {
@@ -1385,6 +1517,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0123",
     "en": "the flower",
     "cat": "Level 2",
     "translations": {
@@ -1396,6 +1529,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0124",
     "en": "the sheet (of paper); arch",
     "cat": "Level 3",
     "translations": {
@@ -1407,6 +1541,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0125",
     "en": "angry; bad",
     "cat": "Level 3",
     "translations": {
@@ -1418,6 +1553,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0126",
     "en": "to need",
     "cat": "Level 1",
     "translations": {
@@ -1429,6 +1565,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0127",
     "en": "wide",
     "cat": "Level 3",
     "translations": {
@@ -1440,6 +1577,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0128",
     "en": "the letter",
     "cat": "Level 2",
     "translations": {
@@ -1451,6 +1589,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0129",
     "en": "the stamp",
     "cat": "Level 3",
     "translations": {
@@ -1462,6 +1601,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0130",
     "en": "to bring",
     "cat": "Level 1",
     "translations": {
@@ -1473,6 +1613,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0131",
     "en": "the bread",
     "cat": "Level 2",
     "translations": {
@@ -1484,6 +1625,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0132",
     "en": "the bread roll",
     "cat": "Level 2",
     "translations": {
@@ -1495,6 +1637,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0133",
     "en": "the brother",
     "cat": "Level 2",
     "translations": {
@@ -1506,6 +1649,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0134",
     "en": "the book",
     "cat": "Level 2",
     "translations": {
@@ -1517,6 +1661,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0135",
     "en": "the letter (alphabet)",
     "cat": "Level 3",
     "translations": {
@@ -1528,6 +1673,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0136",
     "en": "to spell",
     "cat": "Level 3",
     "translations": {
@@ -1539,6 +1685,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0137",
     "en": "the bus",
     "cat": "Level 1",
     "translations": {
@@ -1550,6 +1697,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0138",
     "en": "the butter",
     "cat": "Level 2",
     "translations": {
@@ -1561,6 +1709,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0139",
     "en": "the café",
     "cat": "Level 2",
     "translations": {
@@ -1572,6 +1721,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0140",
     "en": "the CD",
     "cat": "Level 3",
     "translations": {
@@ -1583,6 +1733,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0141",
     "en": "the boss",
     "cat": "Level 2",
     "translations": {
@@ -1594,6 +1745,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0142",
     "en": "approximately; about",
     "cat": "Level 2",
     "translations": {
@@ -1605,6 +1757,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0143",
     "en": "the computer",
     "cat": "Level 2",
     "translations": {
@@ -1616,6 +1769,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0144",
     "en": "there; since",
     "cat": "Level 1",
     "translations": {
@@ -1627,6 +1781,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0145",
     "en": "the lady",
     "cat": "Level 3",
     "translations": {
@@ -1638,6 +1793,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0146",
     "en": "next to it; beside it",
     "cat": "Level 3",
     "translations": {
@@ -1649,6 +1805,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0147",
     "en": "to thank",
     "cat": "Level 1",
     "translations": {
@@ -1660,6 +1817,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0148",
     "en": "thanks; gratitude",
     "cat": "Level 2",
     "translations": {
@@ -1671,6 +1829,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0149",
     "en": "thank you",
     "cat": "Level 1",
     "translations": {
@@ -1682,6 +1841,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0150",
     "en": "then",
     "cat": "Level 1",
     "translations": {
@@ -1693,6 +1853,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0151",
     "en": "the date",
     "cat": "Level 2",
     "translations": {
@@ -1704,6 +1865,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0152",
     "en": "to last; to take (time)",
     "cat": "Level 2",
     "translations": {
@@ -1715,6 +1877,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0153",
     "en": "your (informal, singular)",
     "cat": "Level 1",
     "translations": {
@@ -1726,6 +1889,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0154",
     "en": "because; for",
     "cat": "Level 1",
     "translations": {
@@ -1737,6 +1901,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0155",
     "en": "the (definite article)",
     "cat": "Level 1",
     "translations": {
@@ -1748,6 +1913,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0156",
     "en": "you (accusative)",
     "cat": "Level 1",
     "translations": {
@@ -1759,6 +1925,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0157",
     "en": "this; this one",
     "cat": "Level 1",
     "translations": {
@@ -1770,6 +1937,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0158",
     "en": "you (dative)",
     "cat": "Level 1",
     "translations": {
@@ -1781,6 +1949,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0159",
     "en": "the disco",
     "cat": "Level 2",
     "translations": {
@@ -1792,6 +1961,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0160",
     "en": "the doctor",
     "cat": "Level 2",
     "translations": {
@@ -1803,6 +1973,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0161",
     "en": "the double room",
     "cat": "Level 3",
     "translations": {
@@ -1814,6 +1985,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0162",
     "en": "the village",
     "cat": "Level 2",
     "translations": {
@@ -1825,6 +1997,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0163",
     "en": "there; from there; to there",
     "cat": "Level 1",
     "translations": {
@@ -1836,6 +2009,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0164",
     "en": "outside",
     "cat": "Level 2",
     "translations": {
@@ -1847,6 +2021,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0165",
     "en": "to print",
     "cat": "Level 3",
     "translations": {
@@ -1858,6 +2033,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0166",
     "en": "the printer",
     "cat": "Level 3",
     "translations": {
@@ -1869,6 +2045,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0167",
     "en": "to press; to push",
     "cat": "Level 3",
     "translations": {
@@ -1880,6 +2057,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0168",
     "en": "through",
     "cat": "Level 1",
     "translations": {
@@ -1891,6 +2069,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0169",
     "en": "the announcement",
     "cat": "Level 3",
     "translations": {
@@ -1902,6 +2081,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0170",
     "en": "to be allowed to; may",
     "cat": "Level 1",
     "translations": {
@@ -1913,6 +2093,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0171",
     "en": "the thirst",
     "cat": "Level 2",
     "translations": {
@@ -1924,6 +2105,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0172",
     "en": "to shower",
     "cat": "Level 2",
     "translations": {
@@ -1935,6 +2117,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0173",
     "en": "the shower",
     "cat": "Level 2",
     "translations": {
@@ -1946,6 +2129,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0174",
     "en": "the corner",
     "cat": "Level 2",
     "translations": {
@@ -1957,6 +2141,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0175",
     "en": "the wife",
     "cat": "Level 2",
     "translations": {
@@ -1968,6 +2153,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0176",
     "en": "the husband",
     "cat": "Level 2",
     "translations": {
@@ -1979,6 +2165,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0177",
     "en": "the egg",
     "cat": "Level 2",
     "translations": {
@@ -1990,6 +2177,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0178",
     "en": "hurried; urgent",
     "cat": "Level 3",
     "translations": {
@@ -2001,6 +2189,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0179",
     "en": "a; one",
     "cat": "Level 1",
     "translations": {
@@ -2012,6 +2201,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0180",
     "en": "simple; easy",
     "cat": "Level 1",
     "translations": {
@@ -2023,6 +2213,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0181",
     "en": "the entrance",
     "cat": "Level 2",
     "translations": {
@@ -2034,6 +2225,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0182",
     "en": "to shop; to buy",
     "cat": "Level 1",
     "translations": {
@@ -2045,6 +2237,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0183",
     "en": "to invite",
     "cat": "Level 2",
     "translations": {
@@ -2056,6 +2249,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0184",
     "en": "the invitation",
     "cat": "Level 2",
     "translations": {
@@ -2067,6 +2261,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0185",
     "en": "once",
     "cat": "Level 1",
     "translations": {
@@ -2078,6 +2273,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0186",
     "en": "to get on/in (vehicle)",
     "cat": "Level 2",
     "translations": {
@@ -2089,6 +2285,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0187",
     "en": "the entry; admission",
     "cat": "Level 2",
     "translations": {
@@ -2100,6 +2297,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0188",
     "en": "the single room",
     "cat": "Level 2",
     "translations": {
@@ -2111,6 +2309,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0189",
     "en": "the parents",
     "cat": "Level 1",
     "translations": {
@@ -2122,6 +2321,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0190",
     "en": "the email",
     "cat": "Level 1",
     "translations": {
@@ -2133,6 +2333,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0191",
     "en": "the recipient",
     "cat": "Level 3",
     "translations": {
@@ -2144,6 +2345,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0192",
     "en": "to recommend",
     "cat": "Level 2",
     "translations": {
@@ -2155,6 +2357,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0193",
     "en": "to end",
     "cat": "Level 2",
     "translations": {
@@ -2166,6 +2369,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0194",
     "en": "the end",
     "cat": "Level 1",
     "translations": {
@@ -2177,6 +2381,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0195",
     "en": "to excuse; to forgive",
     "cat": "Level 1",
     "translations": {
@@ -2188,6 +2393,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0196",
     "en": "the apology; excuse me",
     "cat": "Level 1",
     "translations": {
@@ -2199,6 +2405,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0197",
     "en": "he",
     "cat": "Level 1",
     "translations": {
@@ -2210,6 +2417,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0198",
     "en": "the result",
     "cat": "Level 3",
     "translations": {
@@ -2221,6 +2429,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0199",
     "en": "to explain",
     "cat": "Level 2",
     "translations": {
@@ -2232,6 +2441,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0200",
     "en": "to allow; to permit",
     "cat": "Level 3",
     "translations": {
@@ -2243,6 +2453,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0201",
     "en": "the adult",
     "cat": "Level 3",
     "translations": {
@@ -2254,6 +2465,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0202",
     "en": "to tell; to narrate",
     "cat": "Level 2",
     "translations": {
@@ -2265,6 +2477,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0203",
     "en": "it",
     "cat": "Level 1",
     "translations": {
@@ -2276,6 +2489,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0204",
     "en": "to eat",
     "cat": "Level 1",
     "translations": {
@@ -2287,6 +2501,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0205",
     "en": "the food; meal",
     "cat": "Level 1",
     "translations": {
@@ -2298,6 +2513,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0206",
     "en": "your (plural)",
     "cat": "Level 1",
     "translations": {
@@ -2309,6 +2525,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0207",
     "en": "to drive; to go (by vehicle)",
     "cat": "Level 1",
     "translations": {
@@ -2320,6 +2537,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0208",
     "en": "the driver",
     "cat": "Level 2",
     "translations": {
@@ -2331,6 +2549,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0209",
     "en": "the (travel) ticket",
     "cat": "Level 1",
     "translations": {
@@ -2342,6 +2561,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0210",
     "en": "the bicycle",
     "cat": "Level 2",
     "translations": {
@@ -2353,6 +2573,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0211",
     "en": "wrong; false",
     "cat": "Level 1",
     "translations": {
@@ -2364,6 +2585,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0212",
     "en": "the family",
     "cat": "Level 1",
     "translations": {
@@ -2375,6 +2597,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0213",
     "en": "the surname; last name",
     "cat": "Level 2",
     "translations": {
@@ -2386,6 +2609,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0214",
     "en": "the marital status",
     "cat": "Level 3",
     "translations": {
@@ -2397,6 +2621,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0215",
     "en": "the color",
     "cat": "Level 1",
     "translations": {
@@ -2408,6 +2633,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0216",
     "en": "the fax",
     "cat": "Level 3",
     "translations": {
@@ -2419,6 +2645,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0217",
     "en": "the (public) holiday",
     "cat": "Level 3",
     "translations": {
@@ -2430,6 +2657,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0218",
     "en": "to celebrate",
     "cat": "Level 2",
     "translations": {
@@ -2441,6 +2669,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0219",
     "en": "to be missing; to be lacking",
     "cat": "Level 2",
     "translations": {
@@ -2452,6 +2681,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0220",
     "en": "the mistake",
     "cat": "Level 2",
     "translations": {
@@ -2463,6 +2693,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0221",
     "en": "to watch TV",
     "cat": "Level 2",
     "translations": {
@@ -2474,6 +2705,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0222",
     "en": "finished; ready",
     "cat": "Level 1",
     "translations": {
@@ -2485,6 +2717,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0223",
     "en": "the fire",
     "cat": "Level 2",
     "translations": {
@@ -2496,6 +2729,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0224",
     "en": "the fever",
     "cat": "Level 3",
     "translations": {
@@ -2507,6 +2741,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0225",
     "en": "the film; movie",
     "cat": "Level 2",
     "translations": {
@@ -2518,6 +2753,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0226",
     "en": "to find",
     "cat": "Level 1",
     "translations": {
@@ -2529,6 +2765,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0227",
     "en": "the company; firm",
     "cat": "Level 2",
     "translations": {
@@ -2540,6 +2777,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0228",
     "en": "the fish",
     "cat": "Level 2",
     "translations": {
@@ -2551,6 +2789,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0229",
     "en": "the bottle",
     "cat": "Level 2",
     "translations": {
@@ -2562,6 +2801,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0230",
     "en": "the meat",
     "cat": "Level 2",
     "translations": {
@@ -2573,6 +2813,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0231",
     "en": "to fly",
     "cat": "Level 2",
     "translations": {
@@ -2584,6 +2825,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0232",
     "en": "to depart (by plane)",
     "cat": "Level 3",
     "translations": {
@@ -2595,6 +2837,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0233",
     "en": "the departure (flight)",
     "cat": "Level 3",
     "translations": {
@@ -2606,6 +2849,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0234",
     "en": "the airport",
     "cat": "Level 2",
     "translations": {
@@ -2617,6 +2861,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0235",
     "en": "the airplane",
     "cat": "Level 2",
     "translations": {
@@ -2628,6 +2873,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0236",
     "en": "the form (document)",
     "cat": "Level 2",
     "translations": {
@@ -2639,6 +2885,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0237",
     "en": "the photo",
     "cat": "Level 2",
     "translations": {
@@ -2650,6 +2897,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0238",
     "en": "to ask",
     "cat": "Level 1",
     "translations": {
@@ -2661,6 +2909,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0239",
     "en": "the question",
     "cat": "Level 1",
     "translations": {
@@ -2672,6 +2921,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0240",
     "en": "the woman; Mrs.",
     "cat": "Level 1",
     "translations": {
@@ -2683,6 +2933,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0241",
     "en": "free",
     "cat": "Level 1",
     "translations": {
@@ -2694,6 +2945,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0242",
     "en": "the free time; leisure",
     "cat": "Level 2",
     "translations": {
@@ -2705,6 +2957,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0243",
     "en": "foreign; strange",
     "cat": "Level 3",
     "translations": {
@@ -2716,6 +2969,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0244",
     "en": "to be happy; glad",
     "cat": "Level 2",
     "translations": {
@@ -2727,6 +2981,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0245",
     "en": "the friend",
     "cat": "Level 1",
     "translations": {
@@ -2738,6 +2993,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0246",
     "en": "earlier; formerly",
     "cat": "Level 2",
     "translations": {
@@ -2749,6 +3005,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0247",
     "en": "to have breakfast",
     "cat": "Level 2",
     "translations": {
@@ -2760,6 +3017,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0248",
     "en": "the breakfast",
     "cat": "Level 2",
     "translations": {
@@ -2771,6 +3029,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0249",
     "en": "the guided tour",
     "cat": "Level 3",
     "translations": {
@@ -2782,6 +3041,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0250",
     "en": "for",
     "cat": "Level 1",
     "translations": {
@@ -2793,6 +3053,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0251",
     "en": "the foot",
     "cat": "Level 2",
     "translations": {
@@ -2804,6 +3065,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0252",
     "en": "football; soccer",
     "cat": "Level 2",
     "translations": {
@@ -2815,6 +3077,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0253",
     "en": "the garden",
     "cat": "Level 2",
     "translations": {
@@ -2826,6 +3089,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0254",
     "en": "the guest",
     "cat": "Level 2",
     "translations": {
@@ -2837,6 +3101,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0255",
     "en": "to give",
     "cat": "Level 1",
     "translations": {
@@ -2848,6 +3113,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0256",
     "en": "born",
     "cat": "Level 2",
     "translations": {
@@ -2859,6 +3125,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0257",
     "en": "the birth year",
     "cat": "Level 3",
     "translations": {
@@ -2870,6 +3137,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0258",
     "en": "the birthplace",
     "cat": "Level 3",
     "translations": {
@@ -2881,6 +3149,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0259",
     "en": "the birthday",
     "cat": "Level 1",
     "translations": {
@@ -2892,6 +3161,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0260",
     "en": "to please; to like",
     "cat": "Level 2",
     "translations": {
@@ -2903,6 +3173,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0261",
     "en": "against; around (time)",
     "cat": "Level 2",
     "translations": {
@@ -2914,6 +3185,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0262",
     "en": "to go; to walk",
     "cat": "Level 1",
     "translations": {
@@ -2925,6 +3197,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0263",
     "en": "to belong to",
     "cat": "Level 2",
     "translations": {
@@ -2936,6 +3209,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0264",
     "en": "the money",
     "cat": "Level 1",
     "translations": {
@@ -2947,6 +3221,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0265",
     "en": "the vegetables",
     "cat": "Level 2",
     "translations": {
@@ -2958,6 +3233,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0266",
     "en": "the luggage",
     "cat": "Level 2",
     "translations": {
@@ -2969,6 +3245,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0267",
     "en": "just; straight",
     "cat": "Level 1",
     "translations": {
@@ -2980,6 +3257,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0268",
     "en": "straight ahead",
     "cat": "Level 2",
     "translations": {
@@ -2991,6 +3269,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0269",
     "en": "gladly; willingly",
     "cat": "Level 1",
     "translations": {
@@ -3002,6 +3281,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0270",
     "en": "the shop; business",
     "cat": "Level 2",
     "translations": {
@@ -3013,6 +3293,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0271",
     "en": "the gift; present",
     "cat": "Level 2",
     "translations": {
@@ -3024,6 +3305,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0272",
     "en": "the siblings",
     "cat": "Level 2",
     "translations": {
@@ -3035,6 +3317,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0273",
     "en": "the conversation",
     "cat": "Level 2",
     "translations": {
@@ -3046,6 +3329,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0274",
     "en": "yesterday",
     "cat": "Level 1",
     "translations": {
@@ -3057,6 +3341,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0275",
     "en": "died",
     "cat": "Level 3",
     "translations": {
@@ -3068,6 +3353,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0276",
     "en": "the drink; beverage",
     "cat": "Level 2",
     "translations": {
@@ -3079,6 +3365,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0277",
     "en": "the weight",
     "cat": "Level 3",
     "translations": {
@@ -3090,6 +3377,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0278",
     "en": "to win",
     "cat": "Level 3",
     "translations": {
@@ -3101,6 +3389,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0279",
     "en": "the glass",
     "cat": "Level 2",
     "translations": {
@@ -3112,6 +3401,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0280",
     "en": "to believe; to think",
     "cat": "Level 1",
     "translations": {
@@ -3123,6 +3413,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0281",
     "en": "same; right away",
     "cat": "Level 1",
     "translations": {
@@ -3134,6 +3425,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0282",
     "en": "the (railway) track; platform",
     "cat": "Level 2",
     "translations": {
@@ -3145,6 +3437,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0283",
     "en": "luck; happiness",
     "cat": "Level 2",
     "translations": {
@@ -3156,6 +3449,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0284",
     "en": "happy",
     "cat": "Level 2",
     "translations": {
@@ -3167,6 +3461,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0285",
     "en": "congratulations",
     "cat": "Level 3",
     "translations": {
@@ -3178,6 +3473,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0286",
     "en": "degree(s) (Celsius)",
     "cat": "Level 2",
     "translations": {
@@ -3189,6 +3485,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0287",
     "en": "to congratulate",
     "cat": "Level 3",
     "translations": {
@@ -3200,6 +3497,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0288",
     "en": "to grill; to barbecue",
     "cat": "Level 3",
     "translations": {
@@ -3211,6 +3509,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0289",
     "en": "big; tall",
     "cat": "Level 1",
     "translations": {
@@ -3222,6 +3521,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0290",
     "en": "the size",
     "cat": "Level 2",
     "translations": {
@@ -3233,6 +3533,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0291",
     "en": "the grandparents",
     "cat": "Level 2",
     "translations": {
@@ -3244,6 +3545,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0292",
     "en": "the grandmother",
     "cat": "Level 2",
     "translations": {
@@ -3255,6 +3557,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0293",
     "en": "the grandfather",
     "cat": "Level 2",
     "translations": {
@@ -3266,6 +3569,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0294",
     "en": "the group",
     "cat": "Level 2",
     "translations": {
@@ -3277,6 +3581,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0295",
     "en": "the greeting",
     "cat": "Level 2",
     "translations": {
@@ -3288,6 +3593,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0296",
     "en": "valid",
     "cat": "Level 3",
     "translations": {
@@ -3299,6 +3605,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0297",
     "en": "affordable; favorable",
     "cat": "Level 3",
     "translations": {
@@ -3310,6 +3617,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0298",
     "en": "good",
     "cat": "Level 1",
     "translations": {
@@ -3321,6 +3629,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0299",
     "en": "the hair",
     "cat": "Level 2",
     "translations": {
@@ -3332,6 +3641,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0300",
     "en": "to have",
     "cat": "Level 1",
     "translations": {
@@ -3343,6 +3653,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0301",
     "en": "the chicken",
     "cat": "Level 3",
     "translations": {
@@ -3354,6 +3665,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0302",
     "en": "half board (hotel meal plan)",
     "cat": "Level 3",
     "translations": {
@@ -3365,6 +3677,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0303",
     "en": "the hall",
     "cat": "Level 3",
     "translations": {
@@ -3376,6 +3689,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0304",
     "en": "hello",
     "cat": "Level 1",
     "translations": {
@@ -3387,6 +3701,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0305",
     "en": "to hold; to stop",
     "cat": "Level 2",
     "translations": {
@@ -3398,6 +3713,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0306",
     "en": "the (bus/tram) stop",
     "cat": "Level 2",
     "translations": {
@@ -3409,6 +3725,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0307",
     "en": "the hand",
     "cat": "Level 2",
     "translations": {
@@ -3420,6 +3737,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0308",
     "en": "the mobile phone",
     "cat": "Level 1",
     "translations": {
@@ -3431,6 +3749,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0309",
     "en": "the house",
     "cat": "Level 1",
     "translations": {
@@ -3442,6 +3761,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0310",
     "en": "the homework",
     "cat": "Level 2",
     "translations": {
@@ -3453,6 +3773,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0311",
     "en": "the housewife",
     "cat": "Level 3",
     "translations": {
@@ -3464,6 +3785,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0312",
     "en": "the house-husband",
     "cat": "Level 3",
     "translations": {
@@ -3475,6 +3797,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0313",
     "en": "the home(land)",
     "cat": "Level 3",
     "translations": {
@@ -3486,6 +3809,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0314",
     "en": "to marry",
     "cat": "Level 2",
     "translations": {
@@ -3497,6 +3821,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0315",
     "en": "to be called; named",
     "cat": "Level 1",
     "translations": {
@@ -3508,6 +3833,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0316",
     "en": "to help",
     "cat": "Level 1",
     "translations": {
@@ -3519,6 +3845,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0317",
     "en": "bright; light",
     "cat": "Level 2",
     "translations": {
@@ -3530,6 +3857,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0318",
     "en": "the stove",
     "cat": "Level 3",
     "translations": {
@@ -3541,6 +3869,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0319",
     "en": "the gentleman; Mr.",
     "cat": "Level 1",
     "translations": {
@@ -3552,6 +3881,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0320",
     "en": "warm; cordial",
     "cat": "Level 2",
     "translations": {
@@ -3563,6 +3893,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0321",
     "en": "today",
     "cat": "Level 1",
     "translations": {
@@ -3574,6 +3905,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0322",
     "en": "here",
     "cat": "Level 1",
     "translations": {
@@ -3585,6 +3917,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0323",
     "en": "the help",
     "cat": "Level 2",
     "translations": {
@@ -3596,6 +3929,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0324",
     "en": "at the back; behind",
     "cat": "Level 2",
     "translations": {
@@ -3607,6 +3941,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0325",
     "en": "the hobby",
     "cat": "Level 2",
     "translations": {
@@ -3618,6 +3953,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0326",
     "en": "high; tall",
     "cat": "Level 2",
     "translations": {
@@ -3629,6 +3965,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0327",
     "en": "the wedding",
     "cat": "Level 2",
     "translations": {
@@ -3640,6 +3977,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0328",
     "en": "to fetch; to get",
     "cat": "Level 2",
     "translations": {
@@ -3651,6 +3989,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0329",
     "en": "to hear; to listen",
     "cat": "Level 1",
     "translations": {
@@ -3662,6 +4001,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0330",
     "en": "the hotel",
     "cat": "Level 1",
     "translations": {
@@ -3673,6 +4013,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0331",
     "en": "the dog",
     "cat": "Level 2",
     "translations": {
@@ -3684,6 +4025,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0332",
     "en": "the hunger",
     "cat": "Level 2",
     "translations": {
@@ -3695,6 +4037,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0333",
     "en": "I",
     "cat": "Level 1",
     "translations": {
@@ -3706,6 +4049,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0334",
     "en": "her; him",
     "cat": "Level 1",
     "translations": {
@@ -3717,6 +4061,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0335",
     "en": "always",
     "cat": "Level 1",
     "translations": {
@@ -3728,6 +4073,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0336",
     "en": "in",
     "cat": "Level 1",
     "translations": {
@@ -3739,6 +4085,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0337",
     "en": "the information",
     "cat": "Level 2",
     "translations": {
@@ -3750,6 +4097,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0338",
     "en": "international",
     "cat": "Level 3",
     "translations": {
@@ -3761,6 +4109,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0339",
     "en": "the internet",
     "cat": "Level 1",
     "translations": {
@@ -3772,6 +4121,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0340",
     "en": "yes",
     "cat": "Level 1",
     "translations": {
@@ -3783,6 +4133,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0341",
     "en": "the jacket",
     "cat": "Level 2",
     "translations": {
@@ -3794,6 +4145,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0342",
     "en": "each; every",
     "cat": "Level 1",
     "translations": {
@@ -3805,6 +4157,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0343",
     "en": "now",
     "cat": "Level 1",
     "translations": {
@@ -3816,6 +4169,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0344",
     "en": "the job",
     "cat": "Level 2",
     "translations": {
@@ -3827,6 +4181,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0345",
     "en": "the young person; teenager",
     "cat": "Level 3",
     "translations": {
@@ -3838,6 +4193,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0346",
     "en": "young",
     "cat": "Level 2",
     "translations": {
@@ -3849,6 +4205,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0347",
     "en": "the boy",
     "cat": "Level 2",
     "translations": {
@@ -3860,6 +4217,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0348",
     "en": "the coffee",
     "cat": "Level 1",
     "translations": {
@@ -3871,6 +4229,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0349",
     "en": "broken",
     "cat": "Level 2",
     "translations": {
@@ -3882,6 +4241,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0350",
     "en": "the card; ticket; map",
     "cat": "Level 1",
     "translations": {
@@ -3893,6 +4253,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0351",
     "en": "(credit) card",
     "cat": "Level 2",
     "translations": {
@@ -3904,6 +4265,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0352",
     "en": "the potato",
     "cat": "Level 2",
     "translations": {
@@ -3915,6 +4277,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0353",
     "en": "the cash register; checkout",
     "cat": "Level 2",
     "translations": {
@@ -3926,6 +4289,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0354",
     "en": "to buy",
     "cat": "Level 1",
     "translations": {
@@ -3937,6 +4301,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0355",
     "en": "no; not any",
     "cat": "Level 1",
     "translations": {
@@ -3948,6 +4313,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0356",
     "en": "to know (a person/thing)",
     "cat": "Level 1",
     "translations": {
@@ -3959,6 +4325,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0357",
     "en": "to get to know; to meet",
     "cat": "Level 2",
     "translations": {
@@ -3970,6 +4337,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0358",
     "en": "the child",
     "cat": "Level 1",
     "translations": {
@@ -3981,6 +4349,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0359",
     "en": "the kindergarten",
     "cat": "Level 2",
     "translations": {
@@ -3992,6 +4361,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0360",
     "en": "the cinema",
     "cat": "Level 2",
     "translations": {
@@ -4003,6 +4373,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0361",
     "en": "the kiosk",
     "cat": "Level 3",
     "translations": {
@@ -4014,6 +4385,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0362",
     "en": "clear; of course",
     "cat": "Level 1",
     "translations": {
@@ -4025,6 +4397,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0363",
     "en": "the class",
     "cat": "Level 2",
     "translations": {
@@ -4036,6 +4409,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0364",
     "en": "the clothing",
     "cat": "Level 2",
     "translations": {
@@ -4047,6 +4421,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0365",
     "en": "small",
     "cat": "Level 1",
     "translations": {
@@ -4058,6 +4433,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0366",
     "en": "to cook",
     "cat": "Level 1",
     "translations": {
@@ -4069,6 +4445,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0367",
     "en": "the suitcase",
     "cat": "Level 2",
     "translations": {
@@ -4080,6 +4457,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0368",
     "en": "the colleague",
     "cat": "Level 2",
     "translations": {
@@ -4091,6 +4469,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0369",
     "en": "to come",
     "cat": "Level 1",
     "translations": {
@@ -4102,6 +4481,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0370",
     "en": "to be able to; can",
     "cat": "Level 1",
     "translations": {
@@ -4113,6 +4493,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0371",
     "en": "the (bank) account",
     "cat": "Level 2",
     "translations": {
@@ -4124,6 +4505,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0372",
     "en": "the head",
     "cat": "Level 2",
     "translations": {
@@ -4135,6 +4517,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0373",
     "en": "to cost",
     "cat": "Level 1",
     "translations": {
@@ -4146,6 +4529,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0374",
     "en": "sick; ill",
     "cat": "Level 1",
     "translations": {
@@ -4157,6 +4541,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0375",
     "en": "to get; to receive (informal)",
     "cat": "Level 2",
     "translations": {
@@ -4168,6 +4553,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0376",
     "en": "the kitchen",
     "cat": "Level 2",
     "translations": {
@@ -4179,6 +4565,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0377",
     "en": "the cake",
     "cat": "Level 2",
     "translations": {
@@ -4190,6 +4577,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0378",
     "en": "the ballpoint pen",
     "cat": "Level 3",
     "translations": {
@@ -4201,6 +4589,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0379",
     "en": "the refrigerator",
     "cat": "Level 2",
     "translations": {
@@ -4212,6 +4601,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0380",
     "en": "cultural",
     "cat": "Level 3",
     "translations": {
@@ -4223,6 +4613,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0381",
     "en": "to take care of; to look after",
     "cat": "Level 3",
     "translations": {
@@ -4234,6 +4625,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0382",
     "en": "the customer",
     "cat": "Level 2",
     "translations": {
@@ -4245,6 +4637,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0383",
     "en": "the course",
     "cat": "Level 2",
     "translations": {
@@ -4256,6 +4649,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0384",
     "en": "short",
     "cat": "Level 1",
     "translations": {
@@ -4267,6 +4661,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0385",
     "en": "to laugh",
     "cat": "Level 2",
     "translations": {
@@ -4278,6 +4673,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0386",
     "en": "the shop; store",
     "cat": "Level 2",
     "translations": {
@@ -4289,6 +4685,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0387",
     "en": "the country",
     "cat": "Level 1",
     "translations": {
@@ -4300,6 +4697,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0388",
     "en": "long",
     "cat": "Level 1",
     "translations": {
@@ -4311,6 +4709,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0389",
     "en": "for a long time",
     "cat": "Level 1",
     "translations": {
@@ -4322,6 +4721,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0390",
     "en": "slowly",
     "cat": "Level 1",
     "translations": {
@@ -4333,6 +4733,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0391",
     "en": "to run; to walk",
     "cat": "Level 2",
     "translations": {
@@ -4344,6 +4745,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0392",
     "en": "loud",
     "cat": "Level 2",
     "translations": {
@@ -4355,6 +4757,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0393",
     "en": "to live",
     "cat": "Level 2",
     "translations": {
@@ -4366,6 +4769,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0394",
     "en": "the life",
     "cat": "Level 2",
     "translations": {
@@ -4377,6 +4781,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0395",
     "en": "the groceries; food",
     "cat": "Level 2",
     "translations": {
@@ -4388,6 +4793,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0396",
     "en": "single; unmarried",
     "cat": "Level 3",
     "translations": {
@@ -4399,6 +4805,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0397",
     "en": "to lay; to put down",
     "cat": "Level 2",
     "translations": {
@@ -4410,6 +4817,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0398",
     "en": "the teacher",
     "cat": "Level 1",
     "translations": {
@@ -4421,6 +4829,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0399",
     "en": "easy; light",
     "cat": "Level 2",
     "translations": {
@@ -4432,6 +4841,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0400",
     "en": "unfortunately",
     "cat": "Level 1",
     "translations": {
@@ -4443,6 +4853,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0401",
     "en": "quiet; soft",
     "cat": "Level 2",
     "translations": {
@@ -4454,6 +4865,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0402",
     "en": "to learn",
     "cat": "Level 1",
     "translations": {
@@ -4465,6 +4877,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0403",
     "en": "to read",
     "cat": "Level 1",
     "translations": {
@@ -4476,6 +4889,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0404",
     "en": "last",
     "cat": "Level 3",
     "translations": {
@@ -4487,6 +4901,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0405",
     "en": "the people",
     "cat": "Level 1",
     "translations": {
@@ -4498,6 +4913,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0406",
     "en": "the light",
     "cat": "Level 2",
     "translations": {
@@ -4509,6 +4925,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0407",
     "en": "dear; nice",
     "cat": "Level 2",
     "translations": {
@@ -4520,6 +4937,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0408",
     "en": "to love",
     "cat": "Level 1",
     "translations": {
@@ -4531,6 +4949,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0409",
     "en": "rather; preferably",
     "cat": "Level 1",
     "translations": {
@@ -4542,6 +4961,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0410",
     "en": "(the) favorite movie",
     "cat": "Level 2",
     "translations": {
@@ -4553,6 +4973,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0411",
     "en": "the song",
     "cat": "Level 2",
     "translations": {
@@ -4564,6 +4985,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0412",
     "en": "to lie; to be located",
     "cat": "Level 1",
     "translations": {
@@ -4575,6 +4997,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0413",
     "en": "left",
     "cat": "Level 1",
     "translations": {
@@ -4586,6 +5009,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0414",
     "en": "the truck",
     "cat": "Level 3",
     "translations": {
@@ -4597,6 +5021,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0415",
     "en": "the restaurant; pub",
     "cat": "Level 3",
     "translations": {
@@ -4608,6 +5033,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0416",
     "en": "the solution",
     "cat": "Level 2",
     "translations": {
@@ -4619,6 +5045,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0417",
     "en": "funny",
     "cat": "Level 2",
     "translations": {
@@ -4630,6 +5057,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0418",
     "en": "to do; to make",
     "cat": "Level 1",
     "translations": {
@@ -4641,6 +5069,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0419",
     "en": "the girl",
     "cat": "Level 2",
     "translations": {
@@ -4652,6 +5081,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0420",
     "en": "one; you (impersonal)",
     "cat": "Level 1",
     "translations": {
@@ -4663,6 +5093,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0421",
     "en": "the man",
     "cat": "Level 1",
     "translations": {
@@ -4674,6 +5105,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0422",
     "en": "male",
     "cat": "Level 3",
     "translations": {
@@ -4685,6 +5117,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0423",
     "en": "the machine",
     "cat": "Level 2",
     "translations": {
@@ -4696,6 +5129,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0424",
     "en": "the sea",
     "cat": "Level 2",
     "translations": {
@@ -4707,6 +5141,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0425",
     "en": "more",
     "cat": "Level 1",
     "translations": {
@@ -4718,6 +5153,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0426",
     "en": "my",
     "cat": "Level 1",
     "translations": {
@@ -4729,6 +5165,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0427",
     "en": "most (of them/people)",
     "cat": "Level 2",
     "translations": {
@@ -4740,6 +5177,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0428",
     "en": "the person; human",
     "cat": "Level 2",
     "translations": {
@@ -4751,6 +5189,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0429",
     "en": "to rent",
     "cat": "Level 2",
     "translations": {
@@ -4762,6 +5201,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0430",
     "en": "the rent",
     "cat": "Level 2",
     "translations": {
@@ -4773,6 +5213,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0431",
     "en": "the milk",
     "cat": "Level 2",
     "translations": {
@@ -4784,6 +5225,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0432",
     "en": "with",
     "cat": "Level 1",
     "translations": {
@@ -4795,6 +5237,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0433",
     "en": "to bring along",
     "cat": "Level 2",
     "translations": {
@@ -4806,6 +5249,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0434",
     "en": "to come along",
     "cat": "Level 2",
     "translations": {
@@ -4817,6 +5261,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0435",
     "en": "to take part; to join in",
     "cat": "Level 2",
     "translations": {
@@ -4828,6 +5273,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0436",
     "en": "to take along",
     "cat": "Level 2",
     "translations": {
@@ -4839,6 +5285,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0437",
     "en": "the middle",
     "cat": "Level 2",
     "translations": {
@@ -4850,6 +5297,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0438",
     "en": "the furniture",
     "cat": "Level 3",
     "translations": {
@@ -4861,6 +5309,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0439",
     "en": "would like",
     "cat": "Level 1",
     "translations": {
@@ -4872,6 +5321,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0440",
     "en": "to like",
     "cat": "Level 1",
     "translations": {
@@ -4883,6 +5333,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0441",
     "en": "possible",
     "cat": "Level 1",
     "translations": {
@@ -4894,6 +5345,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0442",
     "en": "the moment",
     "cat": "Level 1",
     "translations": {
@@ -4905,6 +5357,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0443",
     "en": "tomorrow",
     "cat": "Level 1",
     "translations": {
@@ -4916,6 +5369,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0444",
     "en": "tired",
     "cat": "Level 2",
     "translations": {
@@ -4927,6 +5381,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0445",
     "en": "the mouth",
     "cat": "Level 3",
     "translations": {
@@ -4938,6 +5393,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0446",
     "en": "must; to have to",
     "cat": "Level 1",
     "translations": {
@@ -4949,6 +5405,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0447",
     "en": "the mother",
     "cat": "Level 1",
     "translations": {
@@ -4960,6 +5417,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0448",
     "en": "after; to (a place)",
     "cat": "Level 1",
     "translations": {
@@ -4971,6 +5429,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0449",
     "en": "next",
     "cat": "Level 1",
     "translations": {
@@ -4982,6 +5441,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0450",
     "en": "the name",
     "cat": "Level 1",
     "translations": {
@@ -4993,6 +5453,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0451",
     "en": "to take",
     "cat": "Level 1",
     "translations": {
@@ -5004,6 +5465,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0452",
     "en": "no",
     "cat": "Level 1",
     "translations": {
@@ -5015,6 +5477,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0453",
     "en": "new",
     "cat": "Level 1",
     "translations": {
@@ -5026,6 +5489,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0454",
     "en": "not",
     "cat": "Level 1",
     "translations": {
@@ -5037,6 +5501,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0455",
     "en": "nothing",
     "cat": "Level 1",
     "translations": {
@@ -5048,6 +5513,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0456",
     "en": "never",
     "cat": "Level 1",
     "translations": {
@@ -5059,6 +5525,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0457",
     "en": "still; yet",
     "cat": "Level 1",
     "translations": {
@@ -5070,6 +5537,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0458",
     "en": "normal",
     "cat": "Level 2",
     "translations": {
@@ -5081,6 +5549,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0459",
     "en": "the number",
     "cat": "Level 1",
     "translations": {
@@ -5092,6 +5561,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0460",
     "en": "only",
     "cat": "Level 1",
     "translations": {
@@ -5103,6 +5573,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0461",
     "en": "above; upstairs",
     "cat": "Level 2",
     "translations": {
@@ -5114,6 +5585,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0462",
     "en": "the fruit",
     "cat": "Level 2",
     "translations": {
@@ -5125,6 +5597,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0463",
     "en": "or",
     "cat": "Level 1",
     "translations": {
@@ -5136,6 +5609,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0464",
     "en": "to open",
     "cat": "Level 1",
     "translations": {
@@ -5147,6 +5621,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0465",
     "en": "open(ed)",
     "cat": "Level 2",
     "translations": {
@@ -5158,6 +5633,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0466",
     "en": "often",
     "cat": "Level 1",
     "translations": {
@@ -5169,6 +5645,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0467",
     "en": "without",
     "cat": "Level 1",
     "translations": {
@@ -5180,6 +5657,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0468",
     "en": "the oil",
     "cat": "Level 3",
     "translations": {
@@ -5191,6 +5669,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0469",
     "en": "the grandma",
     "cat": "Level 2",
     "translations": {
@@ -5202,6 +5681,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0470",
     "en": "the grandpa",
     "cat": "Level 2",
     "translations": {
@@ -5213,6 +5693,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0471",
     "en": "order",
     "cat": "Level 3",
     "translations": {
@@ -5224,6 +5705,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0472",
     "en": "the place; location",
     "cat": "Level 2",
     "translations": {
@@ -5235,6 +5717,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0473",
     "en": "the paper",
     "cat": "Level 2",
     "translations": {
@@ -5246,6 +5729,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0474",
     "en": "the papers; documents",
     "cat": "Level 2",
     "translations": {
@@ -5257,6 +5741,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0475",
     "en": "the partner (male)",
     "cat": "Level 2",
     "translations": {
@@ -5268,6 +5753,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0476",
     "en": "the partner (female)",
     "cat": "Level 2",
     "translations": {
@@ -5279,6 +5765,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0477",
     "en": "the party",
     "cat": "Level 2",
     "translations": {
@@ -5290,6 +5777,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0478",
     "en": "the passport",
     "cat": "Level 2",
     "translations": {
@@ -5301,6 +5789,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0479",
     "en": "the break; pause",
     "cat": "Level 2",
     "translations": {
@@ -5312,6 +5801,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0480",
     "en": "the plan",
     "cat": "Level 2",
     "translations": {
@@ -5323,6 +5813,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0481",
     "en": "the place; seat; square",
     "cat": "Level 2",
     "translations": {
@@ -5334,6 +5825,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0482",
     "en": "the police",
     "cat": "Level 2",
     "translations": {
@@ -5345,6 +5837,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0483",
     "en": "the French fries",
     "cat": "Level 3",
     "translations": {
@@ -5356,6 +5849,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0484",
     "en": "the post office; mail",
     "cat": "Level 2",
     "translations": {
@@ -5367,6 +5861,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0485",
     "en": "the postal code; zip code",
     "cat": "Level 3",
     "translations": {
@@ -5378,6 +5873,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0486",
     "en": "the internship",
     "cat": "Level 3",
     "translations": {
@@ -5389,6 +5885,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0487",
     "en": "the (doctor's) practice",
     "cat": "Level 3",
     "translations": {
@@ -5400,6 +5897,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0488",
     "en": "the price",
     "cat": "Level 2",
     "translations": {
@@ -5411,6 +5909,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0489",
     "en": "the problem",
     "cat": "Level 1",
     "translations": {
@@ -5422,6 +5921,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0490",
     "en": "the brochure",
     "cat": "Level 3",
     "translations": {
@@ -5433,6 +5933,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0491",
     "en": "the exam; test",
     "cat": "Level 2",
     "translations": {
@@ -5444,6 +5945,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0492",
     "en": "punctual; on time",
     "cat": "Level 2",
     "translations": {
@@ -5455,6 +5957,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0493",
     "en": "to ride a bike",
     "cat": "Level 3",
     "translations": {
@@ -5466,6 +5969,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0494",
     "en": "to smoke",
     "cat": "Level 2",
     "translations": {
@@ -5477,6 +5981,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0495",
     "en": "the room; space",
     "cat": "Level 2",
     "translations": {
@@ -5488,6 +5993,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0496",
     "en": "the invoice; bill",
     "cat": "Level 2",
     "translations": {
@@ -5499,6 +6005,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0497",
     "en": "right",
     "cat": "Level 1",
     "translations": {
@@ -5510,6 +6017,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0498",
     "en": "to rain",
     "cat": "Level 2",
     "translations": {
@@ -5521,6 +6029,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0499",
     "en": "the rain",
     "cat": "Level 2",
     "translations": {
@@ -5532,6 +6041,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0500",
     "en": "the rice",
     "cat": "Level 3",
     "translations": {
@@ -5543,6 +6053,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0501",
     "en": "to travel",
     "cat": "Level 2",
     "translations": {
@@ -5554,6 +6065,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0502",
     "en": "the trip; journey",
     "cat": "Level 2",
     "translations": {
@@ -5565,6 +6077,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0503",
     "en": "the travel agency",
     "cat": "Level 3",
     "translations": {
@@ -5576,6 +6089,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0504",
     "en": "the travel guide",
     "cat": "Level 3",
     "translations": {
@@ -5587,6 +6101,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0505",
     "en": "to repair",
     "cat": "Level 3",
     "translations": {
@@ -5598,6 +6113,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0506",
     "en": "the repair",
     "cat": "Level 3",
     "translations": {
@@ -5609,6 +6125,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0507",
     "en": "the restaurant",
     "cat": "Level 1",
     "translations": {
@@ -5620,6 +6137,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0508",
     "en": "the reception (desk)",
     "cat": "Level 3",
     "translations": {
@@ -5631,6 +6149,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0509",
     "en": "correct; right",
     "cat": "Level 1",
     "translations": {
@@ -5642,6 +6161,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0510",
     "en": "to smell",
     "cat": "Level 3",
     "translations": {
@@ -5653,6 +6173,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0511",
     "en": "quiet; calm",
     "cat": "Level 2",
     "translations": {
@@ -5664,6 +6185,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0512",
     "en": "the juice",
     "cat": "Level 3",
     "translations": {
@@ -5675,6 +6197,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0513",
     "en": "to say",
     "cat": "Level 1",
     "translations": {
@@ -5686,6 +6209,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0514",
     "en": "the salad",
     "cat": "Level 2",
     "translations": {
@@ -5697,6 +6221,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0515",
     "en": "the salt",
     "cat": "Level 2",
     "translations": {
@@ -5708,6 +6233,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0516",
     "en": "the sentence",
     "cat": "Level 2",
     "translations": {
@@ -5719,6 +6245,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0517",
     "en": "the (suburban) train",
     "cat": "Level 3",
     "translations": {
@@ -5730,6 +6257,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0518",
     "en": "the counter; switch",
     "cat": "Level 3",
     "translations": {
@@ -5741,6 +6269,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0519",
     "en": "to seem; to shine",
     "cat": "Level 3",
     "translations": {
@@ -5752,6 +6281,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0520",
     "en": "to send",
     "cat": "Level 2",
     "translations": {
@@ -5763,6 +6293,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0521",
     "en": "the sign",
     "cat": "Level 3",
     "translations": {
@@ -5774,6 +6305,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0522",
     "en": "the ham",
     "cat": "Level 3",
     "translations": {
@@ -5785,6 +6317,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0523",
     "en": "to sleep",
     "cat": "Level 1",
     "translations": {
@@ -5796,6 +6329,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0524",
     "en": "bad",
     "cat": "Level 1",
     "translations": {
@@ -5807,6 +6341,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0525",
     "en": "to close",
     "cat": "Level 2",
     "translations": {
@@ -5818,6 +6353,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0526",
     "en": "closed",
     "cat": "Level 2",
     "translations": {
@@ -5829,6 +6365,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0527",
     "en": "the end",
     "cat": "Level 3",
     "translations": {
@@ -5840,6 +6377,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0528",
     "en": "the key",
     "cat": "Level 2",
     "translations": {
@@ -5851,6 +6389,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0529",
     "en": "to taste",
     "cat": "Level 2",
     "translations": {
@@ -5862,6 +6401,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0530",
     "en": "fast; quick",
     "cat": "Level 1",
     "translations": {
@@ -5873,6 +6413,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0531",
     "en": "already",
     "cat": "Level 1",
     "translations": {
@@ -5884,6 +6425,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0532",
     "en": "beautiful; nice",
     "cat": "Level 1",
     "translations": {
@@ -5895,6 +6437,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0533",
     "en": "the cupboard; wardrobe",
     "cat": "Level 2",
     "translations": {
@@ -5906,6 +6449,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0534",
     "en": "to write",
     "cat": "Level 1",
     "translations": {
@@ -5917,6 +6461,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0535",
     "en": "the shoe",
     "cat": "Level 2",
     "translations": {
@@ -5928,6 +6473,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0536",
     "en": "the school",
     "cat": "Level 1",
     "translations": {
@@ -5939,6 +6485,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0537",
     "en": "the (school) student; pupil",
     "cat": "Level 2",
     "translations": {
@@ -5950,6 +6497,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0538",
     "en": "heavy; difficult",
     "cat": "Level 2",
     "translations": {
@@ -5961,6 +6509,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0539",
     "en": "the sister",
     "cat": "Level 2",
     "translations": {
@@ -5972,6 +6521,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0540",
     "en": "to swim",
     "cat": "Level 2",
     "translations": {
@@ -5983,6 +6533,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0541",
     "en": "the swimming pool",
     "cat": "Level 3",
     "translations": {
@@ -5994,6 +6545,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0542",
     "en": "the lake",
     "cat": "Level 3",
     "translations": {
@@ -6005,6 +6557,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0543",
     "en": "to see",
     "cat": "Level 1",
     "translations": {
@@ -6016,6 +6569,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0544",
     "en": "the sight; tourist attraction",
     "cat": "Level 3",
     "translations": {
@@ -6027,6 +6581,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0545",
     "en": "very",
     "cat": "Level 1",
     "translations": {
@@ -6038,6 +6593,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0546",
     "en": "to be",
     "cat": "Level 1",
     "translations": {
@@ -6049,6 +6605,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0547",
     "en": "to be gone; away",
     "cat": "Level 3",
     "translations": {
@@ -6060,6 +6617,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0548",
     "en": "to be closed",
     "cat": "Level 2",
     "translations": {
@@ -6071,6 +6629,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0549",
     "en": "since (time)",
     "cat": "Level 1",
     "translations": {
@@ -6082,6 +6641,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0550",
     "en": "independent; self-employed",
     "cat": "Level 3",
     "translations": {
@@ -6093,6 +6653,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0551",
     "en": "oneself",
     "cat": "Level 1",
     "translations": {
@@ -6104,6 +6665,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0552",
     "en": "she; they",
     "cat": "Level 1",
     "translations": {
@@ -6115,6 +6677,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0553",
     "en": "you (formal)",
     "cat": "Level 1",
     "translations": {
@@ -6126,6 +6689,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0554",
     "en": "to sit",
     "cat": "Level 2",
     "translations": {
@@ -6137,6 +6701,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0555",
     "en": "so; like this",
     "cat": "Level 1",
     "translations": {
@@ -6148,6 +6713,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0556",
     "en": "the sofa",
     "cat": "Level 3",
     "translations": {
@@ -6159,6 +6725,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0557",
     "en": "immediately",
     "cat": "Level 2",
     "translations": {
@@ -6170,6 +6737,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0558",
     "en": "the son",
     "cat": "Level 2",
     "translations": {
@@ -6181,6 +6749,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0559",
     "en": "should; to be supposed to",
     "cat": "Level 1",
     "translations": {
@@ -6192,6 +6761,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0560",
     "en": "the sun",
     "cat": "Level 2",
     "translations": {
@@ -6203,6 +6773,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0561",
     "en": "late",
     "cat": "Level 1",
     "translations": {
@@ -6214,6 +6785,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0562",
     "en": "later",
     "cat": "Level 1",
     "translations": {
@@ -6225,6 +6797,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0563",
     "en": "the menu",
     "cat": "Level 3",
     "translations": {
@@ -6236,6 +6809,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0564",
     "en": "to play",
     "cat": "Level 1",
     "translations": {
@@ -6247,6 +6821,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0565",
     "en": "sports",
     "cat": "Level 2",
     "translations": {
@@ -6258,6 +6833,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0566",
     "en": "the language",
     "cat": "Level 2",
     "translations": {
@@ -6269,6 +6845,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0567",
     "en": "to speak",
     "cat": "Level 1",
     "translations": {
@@ -6280,6 +6857,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0568",
     "en": "the city",
     "cat": "Level 1",
     "translations": {
@@ -6291,6 +6869,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0569",
     "en": "to stand",
     "cat": "Level 1",
     "translations": {
@@ -6302,6 +6881,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0570",
     "en": "the place; position; job",
     "cat": "Level 2",
     "translations": {
@@ -6313,6 +6893,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0571",
     "en": "to put; to place",
     "cat": "Level 2",
     "translations": {
@@ -6324,6 +6905,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0572",
     "en": "the floor; story (of a building)",
     "cat": "Level 3",
     "translations": {
@@ -6335,6 +6917,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0573",
     "en": "the street",
     "cat": "Level 1",
     "translations": {
@@ -6346,6 +6929,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0574",
     "en": "the tram",
     "cat": "Level 3",
     "translations": {
@@ -6357,6 +6941,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0575",
     "en": "to study (university)",
     "cat": "Level 2",
     "translations": {
@@ -6368,6 +6953,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0576",
     "en": "the (university) studies",
     "cat": "Level 3",
     "translations": {
@@ -6379,6 +6965,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0577",
     "en": "the (university) student",
     "cat": "Level 2",
     "translations": {
@@ -6390,6 +6977,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0578",
     "en": "the hour",
     "cat": "Zeit",
     "translations": {
@@ -6401,6 +6989,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0579",
     "en": "to look for; to search",
     "cat": "Level 1",
     "translations": {
@@ -6412,6 +7001,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0580",
     "en": "to dance",
     "cat": "Level 2",
     "translations": {
@@ -6423,6 +7013,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0581",
     "en": "the bag; pocket",
     "cat": "Level 2",
     "translations": {
@@ -6434,6 +7025,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0582",
     "en": "the taxi",
     "cat": "Level 1",
     "translations": {
@@ -6445,6 +7037,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0583",
     "en": "the tea",
     "cat": "Level 2",
     "translations": {
@@ -6456,6 +7049,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0584",
     "en": "the part",
     "cat": "Level 2",
     "translations": {
@@ -6467,6 +7061,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0585",
     "en": "to phone; to call",
     "cat": "Level 1",
     "translations": {
@@ -6478,6 +7073,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0586",
     "en": "the telephone",
     "cat": "Level 1",
     "translations": {
@@ -6489,6 +7085,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0587",
     "en": "the appointment",
     "cat": "Level 2",
     "translations": {
@@ -6500,6 +7097,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0588",
     "en": "the test",
     "cat": "Level 3",
     "translations": {
@@ -6511,6 +7109,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0589",
     "en": "expensive",
     "cat": "Level 1",
     "translations": {
@@ -6522,6 +7121,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0590",
     "en": "the text",
     "cat": "Level 2",
     "translations": {
@@ -6533,6 +7133,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0591",
     "en": "the topic; theme",
     "cat": "Level 2",
     "translations": {
@@ -6544,6 +7145,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0592",
     "en": "the ticket",
     "cat": "Level 2",
     "translations": {
@@ -6555,6 +7157,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0593",
     "en": "the table",
     "cat": "Level 2",
     "translations": {
@@ -6566,6 +7169,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0594",
     "en": "the daughter",
     "cat": "Level 2",
     "translations": {
@@ -6577,6 +7181,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0595",
     "en": "the toilet",
     "cat": "Level 1",
     "translations": {
@@ -6588,6 +7193,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0596",
     "en": "the tomato",
     "cat": "Level 2",
     "translations": {
@@ -6599,6 +7205,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0597",
     "en": "dead",
     "cat": "Level 3",
     "translations": {
@@ -6610,6 +7217,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0598",
     "en": "to meet",
     "cat": "Level 1",
     "translations": {
@@ -6621,6 +7229,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0599",
     "en": "the stairs",
     "cat": "Level 2",
     "translations": {
@@ -6632,6 +7241,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0600",
     "en": "to drink",
     "cat": "Level 1",
     "translations": {
@@ -6643,6 +7253,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0601",
     "en": "bye",
     "cat": "Level 1",
     "translations": {
@@ -6654,6 +7265,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0602",
     "en": "to do",
     "cat": "Level 1",
     "translations": {
@@ -6665,6 +7277,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0603",
     "en": "over; about",
     "cat": "Level 1",
     "translations": {
@@ -6676,6 +7289,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0604",
     "en": "to stay overnight",
     "cat": "Level 2",
     "translations": {
@@ -6687,6 +7301,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0605",
     "en": "to transfer (money)",
     "cat": "Level 3",
     "translations": {
@@ -6698,6 +7313,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0606",
     "en": "the clock; watch; o'clock",
     "cat": "Level 1",
     "translations": {
@@ -6709,6 +7325,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0607",
     "en": "around; at (time)",
     "cat": "Level 1",
     "translations": {
@@ -6720,6 +7337,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0608",
     "en": "to move (house)",
     "cat": "Level 3",
     "translations": {
@@ -6731,6 +7349,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0609",
     "en": "and",
     "cat": "Level 2",
     "translations": {
@@ -6742,6 +7361,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0610",
     "en": "our",
     "cat": "Level 1",
     "translations": {
@@ -6753,6 +7373,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0611",
     "en": "below; downstairs",
     "cat": "Level 2",
     "translations": {
@@ -6764,6 +7385,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0612",
     "en": "under",
     "cat": "Level 1",
     "translations": {
@@ -6775,6 +7397,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0613",
     "en": "the lesson; class",
     "cat": "Level 2",
     "translations": {
@@ -6786,6 +7409,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0614",
     "en": "to sign",
     "cat": "Level 3",
     "translations": {
@@ -6797,6 +7421,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0615",
     "en": "the signature",
     "cat": "Level 3",
     "translations": {
@@ -6808,6 +7433,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0616",
     "en": "the vacation; holiday",
     "cat": "Level 1",
     "translations": {
@@ -6819,6 +7445,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0617",
     "en": "the father",
     "cat": "Level 1",
     "translations": {
@@ -6830,6 +7457,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0618",
     "en": "forbidden",
     "cat": "Level 2",
     "translations": {
@@ -6841,6 +7469,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0619",
     "en": "to earn",
     "cat": "Level 3",
     "translations": {
@@ -6852,6 +7481,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0620",
     "en": "the club; association",
     "cat": "Level 3",
     "translations": {
@@ -6863,6 +7493,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0621",
     "en": "married",
     "cat": "Level 2",
     "translations": {
@@ -6874,6 +7505,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0622",
     "en": "to sell",
     "cat": "Level 2",
     "translations": {
@@ -6885,6 +7517,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0623",
     "en": "the salesperson",
     "cat": "Level 2",
     "translations": {
@@ -6896,6 +7529,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0624",
     "en": "to rent out",
     "cat": "Level 3",
     "translations": {
@@ -6907,6 +7541,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0625",
     "en": "the landlord",
     "cat": "Level 3",
     "translations": {
@@ -6918,6 +7553,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0626",
     "en": "to understand",
     "cat": "Level 1",
     "translations": {
@@ -6929,6 +7565,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0627",
     "en": "the relative",
     "cat": "Level 3",
     "translations": {
@@ -6940,6 +7577,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0628",
     "en": "much; a lot",
     "cat": "Level 1",
     "translations": {
@@ -6951,6 +7589,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0629",
     "en": "maybe; perhaps",
     "cat": "Level 1",
     "translations": {
@@ -6962,6 +7601,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0630",
     "en": "from; of",
     "cat": "Level 1",
     "translations": {
@@ -6973,6 +7613,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0631",
     "en": "before; in front of",
     "cat": "Level 1",
     "translations": {
@@ -6984,6 +7625,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0632",
     "en": "the first name",
     "cat": "Level 2",
     "translations": {
@@ -6995,6 +7637,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0633",
     "en": "caution",
     "cat": "Level 2",
     "translations": {
@@ -7006,6 +7649,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0634",
     "en": "to introduce (oneself); to imagine",
     "cat": "Level 2",
     "translations": {
@@ -7017,6 +7661,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0635",
     "en": "the area code",
     "cat": "Level 3",
     "translations": {
@@ -7028,6 +7673,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0636",
     "en": "to hike",
     "cat": "Level 3",
     "translations": {
@@ -7039,6 +7685,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0637",
     "en": "when",
     "cat": "Level 1",
     "translations": {
@@ -7050,6 +7697,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0638",
     "en": "to wait",
     "cat": "Level 1",
     "translations": {
@@ -7061,6 +7709,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0639",
     "en": "why",
     "cat": "Level 1",
     "translations": {
@@ -7072,6 +7721,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0640",
     "en": "what",
     "cat": "Level 1",
     "translations": {
@@ -7083,6 +7733,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0641",
     "en": "what kind of",
     "cat": "Level 2",
     "translations": {
@@ -7094,6 +7745,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0642",
     "en": "to wash (oneself)",
     "cat": "Level 2",
     "translations": {
@@ -7105,6 +7757,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0643",
     "en": "the water",
     "cat": "Level 1",
     "translations": {
@@ -7116,6 +7769,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0644",
     "en": "to hurt",
     "cat": "Level 2",
     "translations": {
@@ -7127,6 +7781,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0645",
     "en": "female",
     "cat": "Level 3",
     "translations": {
@@ -7138,6 +7793,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0646",
     "en": "the wine",
     "cat": "Level 2",
     "translations": {
@@ -7149,6 +7805,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0647",
     "en": "far",
     "cat": "Level 2",
     "translations": {
@@ -7160,6 +7817,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0648",
     "en": "further; continue",
     "cat": "Level 1",
     "translations": {
@@ -7171,6 +7829,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0649",
     "en": "which",
     "cat": "Level 1",
     "translations": {
@@ -7182,6 +7841,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0650",
     "en": "the world",
     "cat": "Level 1",
     "translations": {
@@ -7193,6 +7853,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0651",
     "en": "little; few",
     "cat": "Level 1",
     "translations": {
@@ -7204,6 +7865,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0652",
     "en": "who",
     "cat": "Level 1",
     "translations": {
@@ -7215,6 +7877,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0653",
     "en": "to become",
     "cat": "Level 1",
     "translations": {
@@ -7226,6 +7889,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0654",
     "en": "the weather",
     "cat": "Level 1",
     "translations": {
@@ -7237,6 +7901,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0655",
     "en": "important",
     "cat": "Level 1",
     "translations": {
@@ -7248,6 +7913,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0656",
     "en": "how",
     "cat": "Level 1",
     "translations": {
@@ -7259,6 +7925,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0657",
     "en": "to repeat",
     "cat": "Level 1",
     "translations": {
@@ -7270,6 +7937,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0658",
     "en": "goodbye (on the phone)",
     "cat": "Level 2",
     "translations": {
@@ -7281,6 +7949,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0659",
     "en": "goodbye",
     "cat": "Level 1",
     "translations": {
@@ -7292,6 +7961,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0660",
     "en": "how much",
     "cat": "Level 1",
     "translations": {
@@ -7303,6 +7973,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0661",
     "en": "welcome",
     "cat": "Level 2",
     "translations": {
@@ -7314,6 +7985,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0662",
     "en": "the wind",
     "cat": "Level 3",
     "translations": {
@@ -7325,6 +7997,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0663",
     "en": "we",
     "cat": "Level 1",
     "translations": {
@@ -7336,6 +8009,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0664",
     "en": "to know (a fact)",
     "cat": "Level 1",
     "translations": {
@@ -7347,6 +8021,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0665",
     "en": "where",
     "cat": "Level 1",
     "translations": {
@@ -7358,6 +8033,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0666",
     "en": "where from",
     "cat": "Level 1",
     "translations": {
@@ -7369,6 +8045,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0667",
     "en": "where to",
     "cat": "Level 1",
     "translations": {
@@ -7380,6 +8057,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0668",
     "en": "to live; to reside",
     "cat": "Level 1",
     "translations": {
@@ -7391,6 +8069,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0669",
     "en": "the apartment; flat",
     "cat": "Level 1",
     "translations": {
@@ -7402,6 +8081,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0670",
     "en": "to want",
     "cat": "Level 1",
     "translations": {
@@ -7413,6 +8093,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0671",
     "en": "the word",
     "cat": "Level 2",
     "translations": {
@@ -7424,6 +8105,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0672",
     "en": "wonderful",
     "cat": "Level 2",
     "translations": {
@@ -7435,6 +8117,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0673",
     "en": "to pay",
     "cat": "Level 1",
     "translations": {
@@ -7446,6 +8129,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0674",
     "en": "the time",
     "cat": "Level 1",
     "translations": {
@@ -7457,6 +8141,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0675",
     "en": "currently; at the moment",
     "cat": "Level 3",
     "translations": {
@@ -7468,6 +8153,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0676",
     "en": "the newspaper",
     "cat": "Level 2",
     "translations": {
@@ -7479,6 +8165,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0677",
     "en": "the cigarette",
     "cat": "Level 3",
     "translations": {
@@ -7490,6 +8177,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0678",
     "en": "the room",
     "cat": "Level 1",
     "translations": {
@@ -7501,6 +8189,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0679",
     "en": "customs",
     "cat": "Level 3",
     "translations": {
@@ -7512,6 +8201,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0680",
     "en": "to; too",
     "cat": "Level 1",
     "translations": {
@@ -7523,6 +8213,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0681",
     "en": "satisfied",
     "cat": "Level 2",
     "translations": {
@@ -7534,6 +8225,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0682",
     "en": "the train",
     "cat": "Level 1",
     "translations": {
@@ -7545,6 +8237,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0683",
     "en": "back",
     "cat": "Level 1",
     "translations": {
@@ -7556,6 +8249,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0684",
     "en": "together",
     "cat": "Level 1",
     "translations": {
@@ -7567,6 +8261,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0685",
     "en": "between",
     "cat": "Level 1",
     "translations": {
@@ -7578,6 +8273,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0686",
     "en": "one",
     "cat": "Zahlen",
     "translations": {
@@ -7589,6 +8285,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0687",
     "en": "two",
     "cat": "Zahlen",
     "translations": {
@@ -7600,6 +8297,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0688",
     "en": "three",
     "cat": "Zahlen",
     "translations": {
@@ -7611,6 +8309,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0689",
     "en": "four",
     "cat": "Zahlen",
     "translations": {
@@ -7622,6 +8321,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0690",
     "en": "five",
     "cat": "Zahlen",
     "translations": {
@@ -7633,6 +8333,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0691",
     "en": "six",
     "cat": "Zahlen",
     "translations": {
@@ -7644,6 +8345,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0692",
     "en": "seven",
     "cat": "Zahlen",
     "translations": {
@@ -7655,6 +8357,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0693",
     "en": "eight",
     "cat": "Zahlen",
     "translations": {
@@ -7666,6 +8369,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0694",
     "en": "nine",
     "cat": "Zahlen",
     "translations": {
@@ -7677,6 +8381,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0695",
     "en": "ten",
     "cat": "Zahlen",
     "translations": {
@@ -7688,6 +8393,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0696",
     "en": "eleven",
     "cat": "Zahlen",
     "translations": {
@@ -7699,6 +8405,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0697",
     "en": "twelve",
     "cat": "Zahlen",
     "translations": {
@@ -7710,6 +8417,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0698",
     "en": "thirteen",
     "cat": "Zahlen",
     "translations": {
@@ -7721,6 +8429,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0699",
     "en": "fourteen",
     "cat": "Zahlen",
     "translations": {
@@ -7732,6 +8441,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0700",
     "en": "fifteen",
     "cat": "Zahlen",
     "translations": {
@@ -7743,6 +8453,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0701",
     "en": "sixteen",
     "cat": "Zahlen",
     "translations": {
@@ -7754,6 +8465,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0702",
     "en": "seventeen",
     "cat": "Zahlen",
     "translations": {
@@ -7765,6 +8477,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0703",
     "en": "eighteen",
     "cat": "Zahlen",
     "translations": {
@@ -7776,6 +8489,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0704",
     "en": "nineteen",
     "cat": "Zahlen",
     "translations": {
@@ -7787,6 +8501,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0705",
     "en": "twenty",
     "cat": "Zahlen",
     "translations": {
@@ -7798,6 +8513,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0706",
     "en": "thirty",
     "cat": "Zahlen",
     "translations": {
@@ -7809,6 +8525,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0707",
     "en": "forty",
     "cat": "Zahlen",
     "translations": {
@@ -7820,6 +8537,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0708",
     "en": "fifty",
     "cat": "Zahlen",
     "translations": {
@@ -7831,6 +8549,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0709",
     "en": "sixty",
     "cat": "Zahlen",
     "translations": {
@@ -7842,6 +8561,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0710",
     "en": "seventy",
     "cat": "Zahlen",
     "translations": {
@@ -7853,6 +8573,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0711",
     "en": "eighty",
     "cat": "Zahlen",
     "translations": {
@@ -7864,6 +8585,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0712",
     "en": "ninety",
     "cat": "Zahlen",
     "translations": {
@@ -7875,6 +8597,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0713",
     "en": "(one) hundred",
     "cat": "Zahlen",
     "translations": {
@@ -7886,6 +8609,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0714",
     "en": "(one) thousand",
     "cat": "Zahlen",
     "translations": {
@@ -7897,6 +8621,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0715",
     "en": "a million",
     "cat": "Zahlen",
     "translations": {
@@ -7908,6 +8633,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0716",
     "en": "first",
     "cat": "Zahlen",
     "translations": {
@@ -7919,6 +8645,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0717",
     "en": "second",
     "cat": "Zahlen",
     "translations": {
@@ -7930,6 +8657,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0718",
     "en": "third",
     "cat": "Zahlen",
     "translations": {
@@ -7941,6 +8669,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0719",
     "en": "fourth",
     "cat": "Zahlen",
     "translations": {
@@ -7952,6 +8681,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0720",
     "en": "Sunday",
     "cat": "Zeit",
     "translations": {
@@ -7963,6 +8693,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0721",
     "en": "Monday",
     "cat": "Zeit",
     "translations": {
@@ -7974,6 +8705,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0722",
     "en": "Tuesday",
     "cat": "Zeit",
     "translations": {
@@ -7985,6 +8717,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0723",
     "en": "Wednesday",
     "cat": "Zeit",
     "translations": {
@@ -7996,6 +8729,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0724",
     "en": "Thursday",
     "cat": "Zeit",
     "translations": {
@@ -8007,6 +8741,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0725",
     "en": "Friday",
     "cat": "Zeit",
     "translations": {
@@ -8018,6 +8753,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0726",
     "en": "Saturday",
     "cat": "Zeit",
     "translations": {
@@ -8029,6 +8765,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0727",
     "en": "the weekend",
     "cat": "Zeit",
     "translations": {
@@ -8040,6 +8777,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0728",
     "en": "January",
     "cat": "Zeit",
     "translations": {
@@ -8051,6 +8789,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0729",
     "en": "February",
     "cat": "Zeit",
     "translations": {
@@ -8062,6 +8801,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0730",
     "en": "March",
     "cat": "Zeit",
     "translations": {
@@ -8073,6 +8813,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0731",
     "en": "April",
     "cat": "Zeit",
     "translations": {
@@ -8084,6 +8825,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0732",
     "en": "May",
     "cat": "Zeit",
     "translations": {
@@ -8095,6 +8837,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0733",
     "en": "June",
     "cat": "Zeit",
     "translations": {
@@ -8106,6 +8849,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0734",
     "en": "July",
     "cat": "Zeit",
     "translations": {
@@ -8117,6 +8861,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0735",
     "en": "August",
     "cat": "Zeit",
     "translations": {
@@ -8128,6 +8873,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0736",
     "en": "September",
     "cat": "Zeit",
     "translations": {
@@ -8139,6 +8885,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0737",
     "en": "October",
     "cat": "Zeit",
     "translations": {
@@ -8150,6 +8897,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0738",
     "en": "November",
     "cat": "Zeit",
     "translations": {
@@ -8161,6 +8909,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0739",
     "en": "December",
     "cat": "Zeit",
     "translations": {
@@ -8172,6 +8921,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0740",
     "en": "spring",
     "cat": "Zeit",
     "translations": {
@@ -8183,6 +8933,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0741",
     "en": "summer",
     "cat": "Zeit",
     "translations": {
@@ -8194,6 +8945,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0742",
     "en": "autumn; fall",
     "cat": "Zeit",
     "translations": {
@@ -8205,6 +8957,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0743",
     "en": "winter",
     "cat": "Zeit",
     "translations": {
@@ -8216,6 +8969,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0744",
     "en": "black",
     "cat": "Farben",
     "translations": {
@@ -8227,6 +8981,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0745",
     "en": "gray",
     "cat": "Farben",
     "translations": {
@@ -8238,6 +8993,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0746",
     "en": "blue",
     "cat": "Farben",
     "translations": {
@@ -8249,6 +9005,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0747",
     "en": "green",
     "cat": "Farben",
     "translations": {
@@ -8260,6 +9017,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0748",
     "en": "white",
     "cat": "Farben",
     "translations": {
@@ -8271,6 +9029,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0749",
     "en": "red",
     "cat": "Farben",
     "translations": {
@@ -8282,6 +9041,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0750",
     "en": "yellow",
     "cat": "Farben",
     "translations": {
@@ -8293,6 +9053,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0751",
     "en": "brown",
     "cat": "Farben",
     "translations": {
@@ -8304,6 +9065,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0752",
     "en": "the north",
     "cat": "Himmelsrichtungen",
     "translations": {
@@ -8315,6 +9077,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0753",
     "en": "the south",
     "cat": "Himmelsrichtungen",
     "translations": {
@@ -8326,6 +9089,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0754",
     "en": "the west",
     "cat": "Himmelsrichtungen",
     "translations": {
@@ -8337,6 +9101,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0755",
     "en": "the east",
     "cat": "Himmelsrichtungen",
     "translations": {
@@ -8348,6 +9113,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0756",
     "en": "a person",
     "cat": "Level 1",
     "translations": {
@@ -8359,6 +9125,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0757",
     "en": "of course; naturally",
     "cat": "Level 1",
     "translations": {
@@ -8370,6 +9137,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0758",
     "en": "full",
     "cat": "Level 1",
     "translations": {
@@ -8381,6 +9149,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0759",
     "en": "half",
     "cat": "Level 1",
     "translations": {
@@ -8392,6 +9161,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0760",
     "en": "now",
     "cat": "Level 1",
     "translations": {
@@ -8403,6 +9173,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0761",
     "en": "again",
     "cat": "Level 1",
     "translations": {
@@ -8414,6 +9185,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0762",
     "en": "thereupon; on it",
     "cat": "Level 1",
     "translations": {
@@ -8425,6 +9197,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0763",
     "en": "first; at first",
     "cat": "Level 1",
     "translations": {
@@ -8436,6 +9209,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0764",
     "en": "to that; in addition",
     "cat": "Level 1",
     "translations": {
@@ -8447,6 +9221,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0765",
     "en": "after that; afterward",
     "cat": "Level 1",
     "translations": {
@@ -8458,6 +9233,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0766",
     "en": "to wish",
     "cat": "Level 1",
     "translations": {
@@ -8469,6 +9245,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0767",
     "en": "to pass (an exam); to consist of",
     "cat": "Level 1",
     "translations": {
@@ -8480,6 +9257,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0768",
     "en": "the phone number",
     "cat": "Level 2",
     "translations": {
@@ -8491,6 +9269,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0769",
     "en": "the date of birth",
     "cat": "Level 2",
     "translations": {
@@ -8502,6 +9281,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0770",
     "en": "the passenger",
     "cat": "Level 2",
     "translations": {
@@ -8513,6 +9293,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0771",
     "en": "the sweater",
     "cat": "Level 2",
     "translations": {
@@ -8524,6 +9305,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0772",
     "en": "the dictionary",
     "cat": "Level 2",
     "translations": {
@@ -8535,6 +9317,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0773",
     "en": "the morning; forenoon",
     "cat": "Zeit",
     "translations": {
@@ -8546,6 +9329,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0774",
     "en": "the flight",
     "cat": "Level 2",
     "translations": {
@@ -8557,6 +9341,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0775",
     "en": "to sit down",
     "cat": "Level 2",
     "translations": {
@@ -8568,6 +9353,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0776",
     "en": "the waiter",
     "cat": "Level 2",
     "translations": {
@@ -8579,6 +9365,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0777",
     "en": "everyday life",
     "cat": "Level 2",
     "translations": {
@@ -8590,6 +9377,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0778",
     "en": "Who are you? Tell us.",
     "cat": "Sätze",
     "translations": {
@@ -8602,6 +9390,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0779",
     "en": "My name is ...",
     "cat": "Sätze",
     "translations": {
@@ -8613,6 +9402,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0780",
     "en": "I come from ...",
     "cat": "Sätze",
     "translations": {
@@ -8624,6 +9414,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0781",
     "en": "I live in ...",
     "cat": "Sätze",
     "translations": {
@@ -8635,6 +9426,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0782",
     "en": "I speak German, ...",
     "cat": "Sätze",
     "translations": {
@@ -8646,6 +9438,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0783",
     "en": "My hobby is .../My hobbies are ...",
     "cat": "Sätze",
     "translations": {
@@ -8657,6 +9450,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0784",
     "en": "And you, who are you, please?",
     "cat": "Sätze",
     "translations": {
@@ -8669,6 +9463,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0785",
     "en": "What is your first name/last name?",
     "cat": "Sätze",
     "translations": {
@@ -8681,6 +9476,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0786",
     "en": "Can you spell that, please?",
     "cat": "Sätze",
     "translations": {
@@ -8693,6 +9489,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0787",
     "en": "Where are you from?",
     "cat": "Sätze",
     "translations": {
@@ -8705,6 +9502,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0788",
     "en": "Do you have a phone?",
     "cat": "Sätze",
     "translations": {
@@ -8717,6 +9515,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0789",
     "en": "What is your phone number, please?",
     "cat": "Sätze",
     "translations": {
@@ -8729,6 +9528,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0790",
     "en": "Do you have a mobile phone?",
     "cat": "Sätze",
     "translations": {
@@ -8741,6 +9541,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0791",
     "en": "What is your postal code/house number?",
     "cat": "Sätze",
     "translations": {
@@ -8753,6 +9554,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0792",
     "en": "Where can I get a city map?",
     "cat": "Sätze",
     "translations": {
@@ -8764,6 +9566,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0793",
     "en": "At the information desk in the station.",
     "cat": "Sätze",
     "translations": {
@@ -8775,6 +9578,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0794",
     "en": "Where can I buy a newspaper?",
     "cat": "Sätze",
     "translations": {
@@ -8786,6 +9590,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0795",
     "en": "Where is the checkout, please?",
     "cat": "Sätze",
     "translations": {
@@ -8797,6 +9602,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0796",
     "en": "What do you usually eat for breakfast?",
     "cat": "Sätze",
     "translations": {
@@ -8809,6 +9615,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0797",
     "en": "What is your favorite food?",
     "cat": "Sätze",
     "translations": {
@@ -8821,6 +9628,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0798",
     "en": "What do you do on Sunday?",
     "cat": "Sätze",
     "translations": {
@@ -8833,6 +9641,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0799",
     "en": "Do you like to read books?",
     "cat": "Sätze",
     "translations": {
@@ -8845,6 +9654,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0800",
     "en": "Do you have many friends at school?",
     "cat": "Sätze",
     "translations": {
@@ -8857,6 +9667,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0801",
     "en": "Do you like your teacher?",
     "cat": "Sätze",
     "translations": {
@@ -8869,6 +9680,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0802",
     "en": "What are your working hours?",
     "cat": "Sätze",
     "translations": {
@@ -8881,6 +9693,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0803",
     "en": "Do you have nice colleagues?",
     "cat": "Sätze",
     "translations": {
@@ -8893,6 +9706,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0804",
     "en": "What is your favorite sport?",
     "cat": "Sätze",
     "translations": {
@@ -8905,6 +9719,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0805",
     "en": "Can you swim?",
     "cat": "Sätze",
     "translations": {
@@ -8917,6 +9732,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0806",
     "en": "A glass of water, please!",
     "cat": "Sätze",
     "translations": {
@@ -8928,6 +9744,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0807",
     "en": "Yes, of course. Here you are.",
     "cat": "Sätze",
     "translations": {
@@ -8939,6 +9756,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0808",
     "en": "Can I have a pencil, please?",
     "cat": "Sätze",
     "translations": {
@@ -8950,6 +9768,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0809",
     "en": "Can we sit down here?",
     "cat": "Sätze",
     "translations": {
@@ -8961,6 +9780,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0810",
     "en": "Excuse me, what time is it, please?",
     "cat": "Sätze",
     "translations": {
@@ -8972,6 +9792,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0811",
     "en": "Can I use the computer, please?",
     "cat": "Sätze",
     "translations": {
@@ -8983,6 +9804,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0812",
     "en": "Can you write that down for me, please?",
     "cat": "Sätze",
     "translations": {
@@ -8995,6 +9817,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0813",
     "en": "A beer, please!",
     "cat": "Sätze",
     "translations": {
@@ -9006,6 +9829,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0814",
     "en": "These flowers are for you.",
     "cat": "Sätze",
     "translations": {
@@ -9018,6 +9842,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0815",
     "en": "Do you have time on Monday at 8 o'clock?",
     "cat": "Sätze",
     "translations": {
@@ -9030,6 +9855,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0816",
     "en": "Can I have an apple, please?",
     "cat": "Sätze",
     "translations": {
@@ -9041,6 +9867,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0817",
     "en": "Please don't smoke here.",
     "cat": "Sätze",
     "translations": {
@@ -9053,6 +9880,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0818",
     "en": "Where is the post office, please?",
     "cat": "Sätze",
     "translations": {
@@ -9064,6 +9892,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0819",
     "en": "Can you call a taxi for me, please?",
     "cat": "Sätze",
     "translations": {
@@ -9076,6 +9905,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0820",
     "en": "The bill, please!",
     "cat": "Sätze",
     "translations": {
@@ -9087,6 +9917,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0821",
     "en": "Can I try on these shoes, please?",
     "cat": "Sätze",
     "translations": {
@@ -9098,6 +9929,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0822",
     "en": "the second",
     "cat": "Zeit",
     "translations": {
@@ -9109,6 +9941,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0823",
     "en": "the minute",
     "cat": "Zeit",
     "translations": {
@@ -9120,6 +9953,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0824",
     "en": "the day",
     "cat": "Zeit",
     "translations": {
@@ -9131,6 +9965,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0825",
     "en": "the week",
     "cat": "Zeit",
     "translations": {
@@ -9142,6 +9977,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0826",
     "en": "the year",
     "cat": "Zeit",
     "translations": {
@@ -9153,6 +9989,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0827",
     "en": "the morning",
     "cat": "Zeit",
     "translations": {
@@ -9164,6 +10001,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0828",
     "en": "noon; midday",
     "cat": "Zeit",
     "translations": {
@@ -9175,6 +10013,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0829",
     "en": "the afternoon",
     "cat": "Zeit",
     "translations": {
@@ -9186,6 +10025,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0830",
     "en": "the evening",
     "cat": "Zeit",
     "translations": {
@@ -9197,6 +10037,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0831",
     "en": "the night",
     "cat": "Zeit",
     "translations": {
@@ -9208,6 +10049,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0832",
     "en": "a meter",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9219,6 +10061,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0833",
     "en": "a centimeter",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9230,6 +10073,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0834",
     "en": "a kilometer",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9241,6 +10085,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0835",
     "en": "a square meter",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9252,6 +10097,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0836",
     "en": "a degree",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9263,6 +10109,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0837",
     "en": "a percent",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9274,6 +10121,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0838",
     "en": "a liter",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9285,6 +10133,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0839",
     "en": "a gram",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9296,6 +10145,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0840",
     "en": "a pound (500g)",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9307,6 +10157,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0841",
     "en": "a kilo(gram)",
     "cat": "Maße & Gewichte",
     "translations": {
@@ -9318,6 +10169,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0842",
     "en": "Germany",
     "cat": "Land",
     "translations": {
@@ -9329,6 +10181,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0843",
     "en": "the German (person)",
     "cat": "Land",
     "translations": {
@@ -9340,6 +10193,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0844",
     "en": "German (adjective)",
     "cat": "Land",
     "translations": {
@@ -9351,6 +10205,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0845",
     "en": "Europe",
     "cat": "Land",
     "translations": {
@@ -9362,6 +10217,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0846",
     "en": "the European (person)",
     "cat": "Land",
     "translations": {
@@ -9373,6 +10229,7 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
+    "seedId": "de-0847",
     "en": "European (adjective)",
     "cat": "Land",
     "translations": {

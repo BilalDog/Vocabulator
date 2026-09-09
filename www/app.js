@@ -8,11 +8,12 @@ const BOX_INTERVAL_DAYS = [1, 2, 7, 14, 30];
 const STORAGE_ENTRIES = "vocabulator_entries";
 const STORAGE_PROGRESS = "vocabulator_progress";
 const STORAGE_MARKED = "vocabulator_marked";
+const STORAGE_DELETED_SEED_IDS = "vocabulator_deleted_seed_ids";
 const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 9; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 10; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -22,11 +23,18 @@ const LANGUAGES = [
   { code: "de", label: "German (A1)" },
 ];
 
-// entry: { id, en, cat, translations: { [langCode]: { text, pron, lit } } }
+// entry: { id, seedId?, en, cat, translations: { [langCode]: { text, pron, lit } }, edited? }
+// seedId is the permanent identity of a seed-sourced entry (absent on a
+// user-created one); edited marks that the user has hand-changed a
+// seed-sourced entry, so future seed updates leave it alone entirely
+// instead of resyncing its content over top of that edit.
 let entries = [];
 // progress keyed by "<entryId>:<langCode>" since knowing a word in one
 // language says nothing about knowing it in another.
 let progress = {};
+// seedIds the user has deliberately deleted -- checked during the merge
+// so a future seed update doesn't resurrect them.
+let deletedSeedIds = new Set();
 // marked keyed the same way as progress -- a marked word is studyable both
 // under its own category and under the synthetic MARKED_CATEGORY chip, so
 // selecting either one is enough to bring it into the queue.
@@ -105,6 +113,9 @@ function loadState() {
   const storedEntries = localStorage.getItem(STORAGE_ENTRIES);
   entries = storedEntries ? JSON.parse(storedEntries) : [];
 
+  const storedDeleted = localStorage.getItem(STORAGE_DELETED_SEED_IDS);
+  deletedSeedIds = new Set(storedDeleted ? JSON.parse(storedDeleted) : []);
+
   for (const e of entries) {
     const t = e.translations.de;
     const fix = t && LEGACY_DE_FIXES[t.text];
@@ -132,18 +143,32 @@ function loadState() {
         return validSaetzeKeys.has(seedKey(e));
       });
     }
-    const byKey = new Map(entries.map((e) => [seedKey(e), e]));
+
     const seedEntries = [].concat(window.RW_SEED_ENTRIES || [], window.DE_A1_SEED_ENTRIES || []);
+
+    // Bridge entries saved before seedId existed onto their stable id, by
+    // matching the old text+English key one last time. From here on,
+    // seedId (not editable text) is what identifies "the same word"
+    // across updates -- a no-op once every install has been through this.
+    const seedIdByOldKey = new Map(seedEntries.map((s) => [seedKey(s), s.seedId]));
+    for (const e of entries) {
+      if (!e.seedId) {
+        const bridgedId = seedIdByOldKey.get(seedKey(e));
+        if (bridgedId) e.seedId = bridgedId;
+      }
+    }
+
+    const bySeedId = new Map(entries.filter((e) => e.seedId).map((e) => [e.seedId, e]));
     for (const seed of seedEntries) {
-      const existing = byKey.get(seedKey(seed));
+      if (deletedSeedIds.has(seed.seedId)) continue; // the user deleted this word -- stays gone
+      const existing = bySeedId.get(seed.seedId);
       if (existing) {
-        // Seed data owns the category for entries it created (e.g. a
-        // reclassification into new tiers) -- resync it even if already
-        // merged before, so a data-only content update takes effect.
+        // Once the user has hand-edited a seed-sourced entry, it's
+        // theirs -- seed updates (reclassification, wording tweaks, a
+        // new "du" form) stop touching it entirely rather than
+        // half-overwriting whatever they changed.
+        if (existing.edited) continue;
         existing.cat = seed.cat;
-        // Same for an added/changed "du" (informal) phrasing -- the
-        // seedKey (text+en) is untouched by adding this field, so a
-        // matched entry otherwise wouldn't pick it up at all.
         const seedLang = Object.keys(seed.translations)[0];
         const seedDu = seed.translations[seedLang].du;
         if (seedDu && existing.translations[seedLang]) {
@@ -166,6 +191,10 @@ function loadState() {
 
 function saveEntries() {
   localStorage.setItem(STORAGE_ENTRIES, JSON.stringify(entries));
+}
+
+function saveDeletedSeedIds() {
+  localStorage.setItem(STORAGE_DELETED_SEED_IDS, JSON.stringify([...deletedSeedIds]));
 }
 
 function saveProgress() {
@@ -720,6 +749,12 @@ document.getElementById("cardList").addEventListener("click", (e) => {
   const id = row.dataset.id;
 
   if (e.target.classList.contains("row-delete")) {
+    const deleted = entries.find((x) => x.id === id);
+    if (deleted && deleted.seedId) {
+      // Record it so a future seed update doesn't bring it back.
+      deletedSeedIds.add(deleted.seedId);
+      saveDeletedSeedIds();
+    }
     entries = entries.filter((x) => x.id !== id);
     for (const key of Object.keys(progress)) {
       if (key.startsWith(id + ":")) delete progress[key];
@@ -755,6 +790,10 @@ document.getElementById("cardList").addEventListener("click", (e) => {
     if (isNew) {
       if (Object.keys(entry.translations).length === 0) return;
       entries.push(entry);
+    } else if (entry.seedId) {
+      // A hand-edited seed-sourced entry is now the user's -- future seed
+      // updates leave its content alone instead of resyncing over it.
+      entry.edited = true;
     }
     saveEntries();
     editingId = null;
