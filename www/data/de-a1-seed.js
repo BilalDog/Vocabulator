@@ -16,10 +16,17 @@
 // two Übungssätze) and finding a handful of common, general-purpose words
 // that weren't yet covered (e.g. die Person, natürlich, die Telefonnummer).
 //
-// The "Sätze" category is a further ~44 complete, natural sentences
-// (not single words) drawn directly from those same three exam papers --
-// their dialogue transcripts, phone messages, and personal letters -- so
-// they're realistic, exam-grounded things to actually say or write.
+// The "Sätze" category is a further ~44 short, simple sentences for the
+// exam's Sprechen (speaking) part -- Teil 1 (Sich vorstellen: the
+// examiner's actual self-introduction/interview script), Teil 2 (Um
+// Informationen bitten und geben: the one verbatim example plus sample
+// questions built on the real topic cue cards -- Einkaufen, Essen &
+// Trinken, Wochenende, Schule, Beruf, Sport), and Teil 3 (Bitten
+// formulieren und darauf reagieren: the one verbatim example plus
+// requests modeled on the pictured cue cards -- glass of water, pencil,
+// computer, post office, taxi, restaurant bill, and more), all sourced
+// from the Kandidatenblätter/Prüferblätter pages of those same three
+// exam papers.
 window.DE_A1_SEED_ENTRIES = 
 [
   {
@@ -9347,11 +9354,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "How do I get to the second floor from here?",
+    "en": "Who are you? Tell us.",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wie komme ich denn hier in den zweiten Stock?",
+        "text": "Erzählen Sie uns: Wer sind Sie?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9359,11 +9366,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Go around the corner to the right here and take the elevator.",
+    "en": "My name is ...",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Gehen Sie hier rechts um die Ecke und nehmen Sie den Aufzug.",
+        "text": "Mein Name ist ...",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9371,11 +9378,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I still have a lot to do.",
+    "en": "I come from ...",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich habe noch viel zu tun.",
+        "text": "Ich komme aus ...",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9383,11 +9390,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Where are you going, then?",
+    "en": "I live in ...",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wohin fahren Sie denn?",
+        "text": "Ich lebe in ...",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9395,11 +9402,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please call me on my cell phone.",
+    "en": "I speak German, ...",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Rufen Sie mich bitte auf dem Handy an.",
+        "text": "Ich spreche Deutsch, ...",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9407,11 +9414,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Can you come over quickly?",
+    "en": "My hobby is .../My hobbies are ...",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Kannst du schnell mal rüberkommen?",
+        "text": "Mein Hobby ist .../Meine Hobbys sind ...",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9419,11 +9426,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "My computer has a problem.",
+    "en": "And you, who are you, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Mein Computer hat einen Fehler.",
+        "text": "Und Sie, wer sind Sie, bitte?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9431,11 +9438,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I can't print anything.",
+    "en": "What is your first name/last name?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich kann nichts drucken.",
+        "text": "Wie ist Ihr Vorname/Familienname?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9443,11 +9450,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please get in touch as soon as you get home.",
+    "en": "Can you spell that, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Melde dich bitte gleich, wenn du nach Hause kommst.",
+        "text": "Können Sie das bitte buchstabieren?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9455,11 +9462,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Unfortunately, we can't come to you on Saturday.",
+    "en": "Where are you from?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wir können am Samstag leider nicht zu Ihnen kommen.",
+        "text": "Woher kommen Sie?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9467,11 +9474,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "But we have time on Sunday.",
+    "en": "Do you have a phone?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Am Sonntag haben wir aber Zeit.",
+        "text": "Haben Sie ein Telefon?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9479,11 +9486,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please call us back to say if that works for you.",
+    "en": "What is your phone number, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Rufen Sie uns bitte zurück, ob Ihnen das passt.",
+        "text": "Wie ist bitte Ihre Telefonnummer?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9491,11 +9498,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I'm still on the train.",
+    "en": "Do you have a mobile phone?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich bin noch im Zug.",
+        "text": "Haben Sie ein Handy?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9503,11 +9510,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "You're picking me up from the station, right?",
+    "en": "What is your postal code/house number?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Du holst mich doch vom Bahnhof ab?",
+        "text": "Wie ist Ihre Postleitzahl/Hausnummer?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9515,11 +9522,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I'll wait for you at the information desk.",
+    "en": "Where can I get a city map?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich warte an der Information auf dich.",
+        "text": "Wo kann ich einen Stadtplan bekommen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9527,11 +9534,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I've already been waiting for you for over 20 minutes.",
+    "en": "At the information desk in the station.",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich warte schon über 20 Minuten auf dich.",
+        "text": "An der Information im Bahnhof.",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9539,11 +9546,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Then I'll take a taxi.",
+    "en": "Where can I buy a newspaper?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Dann nehme ich ein Taxi.",
+        "text": "Wo kann ich eine Zeitung kaufen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9551,11 +9558,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "How much does this sweater cost now?",
+    "en": "Where is the checkout, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Was kostet dieser Pullover jetzt?",
+        "text": "Wo ist die Kasse, bitte?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9563,11 +9570,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I'll take it.",
+    "en": "What do you usually eat for breakfast?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Den nehme ich.",
+        "text": "Was essen Sie normalerweise zum Frühstück?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9575,11 +9582,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "What time is it, please?",
+    "en": "What is your favorite food?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wie spät ist es bitte?",
+        "text": "Was ist Ihr Lieblingsessen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9587,11 +9594,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "What would you like?",
+    "en": "What do you do on Sunday?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Was wünschen Sie bitte?",
+        "text": "Was machen Sie am Sonntag?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9599,11 +9606,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I would like the salad plate.",
+    "en": "Do you like to read books?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich hätte gern die Salatplatte.",
+        "text": "Lesen Sie gern Bücher?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9611,11 +9618,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I don't eat meat.",
+    "en": "Do you have many friends at school?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich esse kein Fleisch.",
+        "text": "Haben Sie viele Freunde in der Schule?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9623,11 +9630,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Is there something without meat?",
+    "en": "Do you like your teacher?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Gibt es etwas ohne Fleisch?",
+        "text": "Mögen Sie Ihren Lehrer/Ihre Lehrerin?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9635,11 +9642,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Where do I find Mr. Schneider?",
+    "en": "What are your working hours?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wo finde ich Herrn Schneider?",
+        "text": "Wie sind Ihre Arbeitszeiten?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9647,11 +9654,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Wait a moment.",
+    "en": "Do you have nice colleagues?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Warten Sie mal.",
+        "text": "Haben Sie nette Kollegen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9659,11 +9666,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Thanks for your email.",
+    "en": "What is your favorite sport?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Danke für deine Mail.",
+        "text": "Was ist Ihr Lieblingssport?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9671,11 +9678,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I'll wait for you in front of the information desk.",
+    "en": "Can you swim?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich warte auf dich vor der Auskunft.",
+        "text": "Können Sie schwimmen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9683,11 +9690,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "You can reach me on my cell phone all morning.",
+    "en": "A glass of water, please!",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Du kannst mich den ganzen Vormittag auf meinem Handy erreichen.",
+        "text": "Ein Glas Wasser, bitte!",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9695,11 +9702,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I would like to celebrate with you.",
+    "en": "Yes, of course. Here you are.",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich möchte gerne mit dir feiern.",
+        "text": "Ja, natürlich. Bitte.",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9707,11 +9714,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Could you maybe bring a salad?",
+    "en": "Can I have a pencil, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Kannst du vielleicht einen Salat mitbringen?",
+        "text": "Kann ich bitte einen Stift haben?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9719,11 +9726,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please don't forget a sweater or a jacket!",
+    "en": "Can we sit down here?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Vergiss bitte nicht einen Pullover oder eine Jacke!",
+        "text": "Können wir uns hier hinsetzen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9731,11 +9738,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "I'm really looking forward to seeing you!",
+    "en": "Excuse me, what time is it, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ich freue mich sehr auf dich!",
+        "text": "Entschuldigung, wie spät ist es bitte?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9743,11 +9750,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Do you know where to find children's clothing here?",
+    "en": "Can I use the computer, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Weißt du, wo es hier Kleidung für Kinder gibt?",
+        "text": "Kann ich bitte den Computer benutzen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9755,11 +9762,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "The museum closes in half an hour.",
+    "en": "Can you write that down for me, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Das Museum schließt in einer halben Stunde.",
+        "text": "Können Sie mir das bitte aufschreiben?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9767,11 +9774,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "My doctor says I should exercise more.",
+    "en": "A beer, please!",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Mein Arzt sagt, ich soll mehr Sport machen.",
+        "text": "Ein Bier, bitte!",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9779,11 +9786,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Are you going on vacation at the seaside again this year?",
+    "en": "These flowers are for you.",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Machen Sie dieses Jahr wieder Urlaub am Meer?",
+        "text": "Die Blumen sind für Sie.",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9791,11 +9798,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please don't get off!",
+    "en": "Do you have time on Monday at 8 o'clock?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Bitte steigen Sie nicht aus!",
+        "text": "Haben Sie am Montag um 8 Uhr Zeit?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9803,11 +9810,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "We'll continue in a moment.",
+    "en": "Can I have an apple, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wir fahren gleich weiter.",
+        "text": "Kann ich bitte einen Apfel haben?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9815,11 +9822,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please come to the bus on time.",
+    "en": "Please don't smoke here.",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Bitte kommen Sie pünktlich zum Bus.",
+        "text": "Bitte rauchen Sie hier nicht.",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9827,11 +9834,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Is my dictionary maybe at your place?",
+    "en": "Where is the post office, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Ist mein Wörterbuch vielleicht bei dir?",
+        "text": "Wo ist das Postamt, bitte?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9839,11 +9846,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please bring it to class right away.",
+    "en": "Can you call a taxi for me, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Bring es bitte gleich in den Kurs mit.",
+        "text": "Können Sie mir bitte ein Taxi rufen?",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9851,11 +9858,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Shall we meet at 1 pm?",
+    "en": "The bill, please!",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Wollen wir uns um 13 Uhr treffen?",
+        "text": "Die Rechnung, bitte!",
         "pron": "",
         "lit": "",
         "verify": false
@@ -9863,11 +9870,11 @@ window.DE_A1_SEED_ENTRIES =
     }
   },
   {
-    "en": "Please call me back by 6 pm.",
+    "en": "Can I try on these shoes, please?",
     "cat": "Sätze",
     "translations": {
       "de": {
-        "text": "Rufen Sie mich bitte bis 18 Uhr zurück.",
+        "text": "Kann ich bitte diese Schuhe anprobieren?",
         "pron": "",
         "lit": "",
         "verify": false

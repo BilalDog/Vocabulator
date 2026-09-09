@@ -11,7 +11,7 @@ const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 6; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 7; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -95,6 +95,22 @@ function loadState() {
 
   const seedVersion = Number(localStorage.getItem(SEED_VERSION_KEY) || 0);
   if (seedVersion < SEED_VERSION) {
+    if (seedVersion < 7) {
+      // The "Sätze" category was fully replaced in version 7 (complex
+      // Hören/Schreiben dialogue sentences swapped for short, simple
+      // Sprechen-exam material) -- drop the old sentences so they don't
+      // linger alongside the new ones. A plain seedKey merge below only
+      // adds and resyncs, it never removes.
+      const validSaetzeKeys = new Set(
+        (window.DE_A1_SEED_ENTRIES || [])
+          .filter((e) => e.cat === "Sätze")
+          .map((e) => seedKey(e))
+      );
+      entries = entries.filter((e) => {
+        if (e.cat !== "Sätze" || !e.translations.de) return true;
+        return validSaetzeKeys.has(seedKey(e));
+      });
+    }
     const byKey = new Map(entries.map((e) => [seedKey(e), e]));
     const seedEntries = [].concat(window.RW_SEED_ENTRIES || [], window.DE_A1_SEED_ENTRIES || []);
     for (const seed of seedEntries) {
