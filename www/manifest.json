@@ -4,9 +4,9 @@
   "description": "Learn Kinyarwanda or German (A1) vocabulary with the 5-box Leitner spaced-repetition system.",
   "start_url": "./index.html",
   "scope": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#f6f5f2",
-  "theme_color": "#3f7d5a",
+  "theme_color": "#c2571c",
   "orientation": "portrait",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
