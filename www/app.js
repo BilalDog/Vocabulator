@@ -12,7 +12,7 @@ const STORAGE_DIRECTION = "vocabulator_direction";
 const STORAGE_ACTIVE_LANGUAGE = "vocabulator_active_language";
 const STORAGE_FILTERS_VISIBLE = "vocabulator_filters_visible";
 const SEED_VERSION_KEY = "vocabulator_seed_version";
-const SEED_VERSION = 8; // bump when seed data files change, to merge/resync entries
+const SEED_VERSION = 9; // bump when seed data files change, to merge/resync entries
 
 // English is always the fixed known language. Adding a new target language
 // later just means adding a LANGUAGES entry + a seed data file -- entries
@@ -132,6 +132,14 @@ function loadState() {
         // reclassification into new tiers) -- resync it even if already
         // merged before, so a data-only content update takes effect.
         existing.cat = seed.cat;
+        // Same for an added/changed "du" (informal) phrasing -- the
+        // seedKey (text+en) is untouched by adding this field, so a
+        // matched entry otherwise wouldn't pick it up at all.
+        const seedLang = Object.keys(seed.translations)[0];
+        const seedDu = seed.translations[seedLang].du;
+        if (seedDu && existing.translations[seedLang]) {
+          existing.translations[seedLang].du = seedDu;
+        }
       } else {
         entries.push({ id: uid(), ...seed });
       }
@@ -425,6 +433,14 @@ function renderCurrentCard() {
   document.getElementById("cardFrontPron").textContent = targetIsPrompt ? pronText : "";
   document.getElementById("cardFrontPron").hidden = !targetIsPrompt;
   document.getElementById("cardPron").textContent = targetIsPrompt ? "" : pronText;
+
+  // The informal "du" phrasing belongs to the target-language text just
+  // like the pronunciation guide -- same side, same reveal rules.
+  const duText = t.du ? `Informal: ${t.du}` : "";
+  document.getElementById("cardFrontDu").textContent = targetIsPrompt ? duText : "";
+  document.getElementById("cardFrontDu").hidden = !targetIsPrompt || !t.du;
+  document.getElementById("cardDu").textContent = targetIsPrompt ? "" : duText;
+  document.getElementById("cardDu").hidden = targetIsPrompt || !t.du;
 
   document.getElementById("cardBackWrap").hidden = true;
   document.getElementById("showAnswerBtn").hidden = false;

@@ -32,7 +32,14 @@
 // requests modeled on the pictured cue cards -- glass of water, pencil,
 // computer, post office, taxi, restaurant bill, and more), all sourced
 // from the Kandidatenblätter/Prüferblätter pages of those same three
-// exam papers.
+// exam papers. Since the exam itself is always conducted with "Sie" (the
+// formal you), every one of those 44 sentences is phrased that way -- but
+// about half of them also address the listener directly (Sie/Ihr/Ihre),
+// so those get a second, informal phrasing in an optional
+// `"du": "..."` field alongside `"text"`, shown together on the same
+// card. Sentences with no listener-directed pronoun (e.g. "Mein Name
+// ist ...", "Ein Glas Wasser, bitte!") have no "du" field, since there's
+// no Sie/du distinction to make.
 window.DE_A1_SEED_ENTRIES = 
 [
   {
@@ -8588,6 +8595,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Erzählen Sie uns: Wer sind Sie?",
+        "du": "Erzähl mir: Wer bist du?",
         "pron": "",
         "lit": ""
       }
@@ -8654,6 +8662,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Und Sie, wer sind Sie, bitte?",
+        "du": "Und du, wer bist du?",
         "pron": "",
         "lit": ""
       }
@@ -8665,6 +8674,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Wie ist Ihr Vorname/Familienname?",
+        "du": "Wie ist dein Vorname/Familienname?",
         "pron": "",
         "lit": ""
       }
@@ -8676,6 +8686,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Können Sie das bitte buchstabieren?",
+        "du": "Kannst du das bitte buchstabieren?",
         "pron": "",
         "lit": ""
       }
@@ -8687,6 +8698,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Woher kommen Sie?",
+        "du": "Woher kommst du?",
         "pron": "",
         "lit": ""
       }
@@ -8698,6 +8710,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Haben Sie ein Telefon?",
+        "du": "Hast du ein Telefon?",
         "pron": "",
         "lit": ""
       }
@@ -8709,6 +8722,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Wie ist bitte Ihre Telefonnummer?",
+        "du": "Wie ist bitte deine Telefonnummer?",
         "pron": "",
         "lit": ""
       }
@@ -8720,6 +8734,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Haben Sie ein Handy?",
+        "du": "Hast du ein Handy?",
         "pron": "",
         "lit": ""
       }
@@ -8731,6 +8746,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Wie ist Ihre Postleitzahl/Hausnummer?",
+        "du": "Wie ist deine Postleitzahl/Hausnummer?",
         "pron": "",
         "lit": ""
       }
@@ -8786,6 +8802,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Was essen Sie normalerweise zum Frühstück?",
+        "du": "Was isst du normalerweise zum Frühstück?",
         "pron": "",
         "lit": ""
       }
@@ -8797,6 +8814,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Was ist Ihr Lieblingsessen?",
+        "du": "Was ist dein Lieblingsessen?",
         "pron": "",
         "lit": ""
       }
@@ -8808,6 +8826,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Was machen Sie am Sonntag?",
+        "du": "Was machst du am Sonntag?",
         "pron": "",
         "lit": ""
       }
@@ -8819,6 +8838,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Lesen Sie gern Bücher?",
+        "du": "Liest du gern Bücher?",
         "pron": "",
         "lit": ""
       }
@@ -8830,6 +8850,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Haben Sie viele Freunde in der Schule?",
+        "du": "Hast du viele Freunde in der Schule?",
         "pron": "",
         "lit": ""
       }
@@ -8841,6 +8862,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Mögen Sie Ihren Lehrer/Ihre Lehrerin?",
+        "du": "Magst du deinen Lehrer/deine Lehrerin?",
         "pron": "",
         "lit": ""
       }
@@ -8852,6 +8874,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Wie sind Ihre Arbeitszeiten?",
+        "du": "Wie sind deine Arbeitszeiten?",
         "pron": "",
         "lit": ""
       }
@@ -8863,6 +8886,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Haben Sie nette Kollegen?",
+        "du": "Hast du nette Kollegen?",
         "pron": "",
         "lit": ""
       }
@@ -8874,6 +8898,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Was ist Ihr Lieblingssport?",
+        "du": "Was ist dein Lieblingssport?",
         "pron": "",
         "lit": ""
       }
@@ -8885,6 +8910,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Können Sie schwimmen?",
+        "du": "Kannst du schwimmen?",
         "pron": "",
         "lit": ""
       }
@@ -8962,6 +8988,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Können Sie mir das bitte aufschreiben?",
+        "du": "Kannst du mir das bitte aufschreiben?",
         "pron": "",
         "lit": ""
       }
@@ -8984,6 +9011,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Die Blumen sind für Sie.",
+        "du": "Die Blumen sind für dich.",
         "pron": "",
         "lit": ""
       }
@@ -8995,6 +9023,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Haben Sie am Montag um 8 Uhr Zeit?",
+        "du": "Hast du am Montag um 8 Uhr Zeit?",
         "pron": "",
         "lit": ""
       }
@@ -9017,6 +9046,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Bitte rauchen Sie hier nicht.",
+        "du": "Bitte rauch hier nicht.",
         "pron": "",
         "lit": ""
       }
@@ -9039,6 +9069,7 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "Können Sie mir bitte ein Taxi rufen?",
+        "du": "Kannst du mir bitte ein Taxi rufen?",
         "pron": "",
         "lit": ""
       }

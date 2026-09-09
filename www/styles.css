@@ -355,6 +355,12 @@ main {
   margin-top: 14px !important;
 }
 
+.du-form {
+  color: var(--accent-dark) !important;
+  font-size: 0.95rem !important;
+  margin-top: 6px !important;
+}
+
 .card-actions {
   margin-top: 24px;
 }

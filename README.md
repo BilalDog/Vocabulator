@@ -62,8 +62,13 @@ and plays it out loud when that side's language can actually be spoken —
 English and German use the device's built-in text-to-speech voices;
 Kinyarwanda has no reliable TTS voice on any platform, so it only plays
 from a real recording bundled with an entry (`translations.rw.audio`) and
-the button stays hidden until one exists for that word. You judge
-yourself:
+the button stays hidden until one exists for that word. Since the German
+**Sätze** are all phrased with the formal "Sie" (that's how the actual
+exam is conducted), about half of them also show an informal "du"
+alternative right underneath once revealed, for sentences that actually
+address the listener (e.g. "Können Sie...?" also shows "Informal: Kannst
+du...?") — sentences with no listener-directed pronoun don't get one,
+since there's no Sie/du distinction to make there. You judge yourself:
 
 - **✓ Knew it** — the card advances to the next box.
 - **✗ Didn't know it** — the card goes back to Box 1.
