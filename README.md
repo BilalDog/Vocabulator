@@ -13,18 +13,23 @@ menu in the top right:
   shopping), curated by hand.
 - **German (A1)** — the official [Goethe-Zertifikat A1 "Start Deutsch
   1"](https://www.goethe.de/) Wortliste (the certification word list),
-  ~800 entries, extracted directly from the source document with each
+  ~975 entries, extracted directly from the source document with each
   official example sentence kept as a usage note, plus a couple dozen
   common words found missing after cross-checking three real exam papers
-  (the Modellsatz and two Übungssätze). Its general-vocab entries are
+  (the Modellsatz and two Übungssätze), and a further 129 words added
+  after cross-checking the related "Fit in Deutsch 1" (youth A1) Wortliste.
+  Its general-vocab entries are
   split into three category chips — **Level 1**, **Level 2**, **Level 3**
   — by everyday frequency, so you're not facing the whole list at once;
   work through Level 1 first, then expand. **Zahlen**, **Farben**, and
   **Himmelsrichtungen** are the document's own small supplementary word
   groups; **Zeit** collects that same list's other time-related words —
-  weekdays, months, seasons, seconds/minutes/days/weeks/years, and parts
-  of the day; **Maße & Gewichte** and **Land** cover its measurement units
-  and country/nationality words. A **Sätze** category holds ~44 short,
+  weekdays, months, seasons, seconds/minutes/days/weeks/years, parts
+  of the day, and holidays; **Maße & Gewichte** and **Land** cover its
+  measurement units and country/nationality words. **Anglizismen**,
+  **Berufe**, and **Schulfächer** are three more topic categories (English
+  loanwords, professions, and school types/subjects) from the "Fit in
+  Deutsch 1" word-group list. A **Sätze** category holds ~44 short,
   simple sentences for the
   exam's **Sprechen** (speaking) part — self-introduction lines, sample
   information questions, and polite requests — modeled on the actual

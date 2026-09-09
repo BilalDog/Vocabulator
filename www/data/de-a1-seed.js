@@ -22,6 +22,15 @@
 // two Übungssätze) and finding a handful of common, general-purpose words
 // that weren't yet covered (e.g. die Person, natürlich, die Telefonnummer).
 //
+// A further 129 entries were added after cross-checking against the
+// related Goethe "Fit in Deutsch 1" (youth A1) Wortliste: 81 common,
+// basic words that Start Deutsch 1 coverage had missed (added to the
+// Level 1/2/3 tiers), a few holidays folded into "Zeit" and two more
+// countries folded into "Land", plus three brand-new topic categories
+// from that list's Wortgruppenliste -- "Anglizismen" (English loanwords
+// like Laptop, chatten, online), "Berufe" (professions), and
+// "Schulfächer" (school types and subjects).
+//
 // The "Sätze" category is a further ~44 short, simple sentences for the
 // exam's Sprechen (speaking) part -- Teil 1 (Sich vorstellen: the
 // examiner's actual self-introduction/interview script), Teil 2 (Um
@@ -48,7 +57,7 @@
 // reused or reassigned to a different entry, even if that entry is later
 // edited or removed from this file -- existing installs still carry it.
 // New entries always get a fresh id continuing the sequence (currently
-// up to de-0847); reordering existing entries in this file is fine, but
+// up to de-0976); reordering existing entries in this file is fine, but
 // their seedId must move with them.
 window.DE_A1_SEED_ENTRIES = 
 [
@@ -10237,6 +10246,1555 @@ window.DE_A1_SEED_ENTRIES =
         "text": "europäisch",
         "pron": "",
         "lit": ""
+      }
+    }
+  }
+,
+  {
+    "seedId": "de-0848",
+    "en": "to think",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "denken",
+        "pron": "",
+        "lit": "Ich denke oft an dich."
+      }
+    }
+  },
+  {
+    "seedId": "de-0849",
+    "en": "fat; thick",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "dick",
+        "pron": "",
+        "lit": "Das Buch ist sehr dick."
+      }
+    }
+  },
+  {
+    "seedId": "de-0850",
+    "en": "dumb; stupid",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "dumm",
+        "pron": "",
+        "lit": "Das war eine dumme Frage."
+      }
+    }
+  },
+  {
+    "seedId": "de-0851",
+    "en": "glad; happy",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "froh",
+        "pron": "",
+        "lit": "Ich bin froh, dass du da bist."
+      }
+    }
+  },
+  {
+    "seedId": "de-0852",
+    "en": "enough",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "genug",
+        "pron": "",
+        "lit": "Wir haben genug Zeit."
+      }
+    }
+  },
+  {
+    "seedId": "de-0853",
+    "en": "the notebook",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Heft, -e",
+        "pron": "",
+        "lit": "Schreib die Vokabeln in dein Heft."
+      }
+    }
+  },
+  {
+    "seedId": "de-0854",
+    "en": "to hope",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "hoffen",
+        "pron": "",
+        "lit": "Ich hoffe, dass es morgen nicht regnet."
+      }
+    }
+  },
+  {
+    "seedId": "de-0855",
+    "en": "the camera",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Kamera, -s",
+        "pron": "",
+        "lit": "Ich fotografiere gern mit meiner Kamera."
+      }
+    }
+  },
+  {
+    "seedId": "de-0856",
+    "en": "the cat",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Katze, -n",
+        "pron": "",
+        "lit": "Meine Katze schläft den ganzen Tag."
+      }
+    }
+  },
+  {
+    "seedId": "de-0857",
+    "en": "the dress",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Kleid, -er",
+        "pron": "",
+        "lit": "Das Kleid gefällt mir sehr."
+      }
+    }
+  },
+  {
+    "seedId": "de-0858",
+    "en": "the lamp",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Lampe, -n",
+        "pron": "",
+        "lit": "Mach bitte die Lampe an."
+      }
+    }
+  },
+  {
+    "seedId": "de-0859",
+    "en": "boring",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "langweilig",
+        "pron": "",
+        "lit": "Der Film war ziemlich langweilig."
+      }
+    }
+  },
+  {
+    "seedId": "de-0860",
+    "en": "the time; occasion",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Mal, -e",
+        "pron": "",
+        "lit": "Das ist das erste Mal, dass ich hier bin."
+      }
+    }
+  },
+  {
+    "seedId": "de-0861",
+    "en": "sometimes",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "manchmal",
+        "pron": "",
+        "lit": "Ich koche manchmal für meine Familie."
+      }
+    }
+  },
+  {
+    "seedId": "de-0862",
+    "en": "the grade; note",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Note, -n",
+        "pron": "",
+        "lit": "Ich habe eine gute Note in Mathe bekommen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0863",
+    "en": "the package",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Paket, -e",
+        "pron": "",
+        "lit": "Ich muss noch ein Paket abholen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0864",
+    "en": "the park",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "der Park, -s",
+        "pron": "",
+        "lit": "Wir gehen im Park spazieren."
+      }
+    }
+  },
+  {
+    "seedId": "de-0865",
+    "en": "the horse",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Pferd, -e",
+        "pron": "",
+        "lit": "Auf dem Bauernhof gibt es viele Pferde."
+      }
+    }
+  },
+  {
+    "seedId": "de-0866",
+    "en": "the pizza",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Pizza, -s",
+        "pron": "",
+        "lit": "Wir bestellen heute Abend Pizza."
+      }
+    }
+  },
+  {
+    "seedId": "de-0867",
+    "en": "the radio",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Radio, -s",
+        "pron": "",
+        "lit": "Ich höre morgens immer Radio."
+      }
+    }
+  },
+  {
+    "seedId": "de-0868",
+    "en": "the ring",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "der Ring, -e",
+        "pron": "",
+        "lit": "Er hat ihr einen Ring geschenkt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0869",
+    "en": "the thing; matter",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Sache, -n",
+        "pron": "",
+        "lit": "Das ist eine wichtige Sache."
+      }
+    }
+  },
+  {
+    "seedId": "de-0870",
+    "en": "a pity",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "schade",
+        "pron": "",
+        "lit": "Schade, dass du nicht kommen kannst."
+      }
+    }
+  },
+  {
+    "seedId": "de-0871",
+    "en": "to give as a gift",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "schenken",
+        "pron": "",
+        "lit": "Was schenkst du ihr zum Geburtstag?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0872",
+    "en": "the page; side",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Seite, -n",
+        "pron": "",
+        "lit": "Schlag das Buch auf Seite zehn auf."
+      }
+    }
+  },
+  {
+    "seedId": "de-0873",
+    "en": "the piece",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Stück, -e",
+        "pron": "",
+        "lit": "Möchtest du noch ein Stück Kuchen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0874",
+    "en": "the soup",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "die Suppe, -n",
+        "pron": "",
+        "lit": "Die Suppe schmeckt sehr gut."
+      }
+    }
+  },
+  {
+    "seedId": "de-0875",
+    "en": "sweet",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "süß",
+        "pron": "",
+        "lit": "Der Kuchen ist mir zu süß."
+      }
+    }
+  },
+  {
+    "seedId": "de-0876",
+    "en": "the theater",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Theater, -",
+        "pron": "",
+        "lit": "Wir gehen heute Abend ins Theater."
+      }
+    }
+  },
+  {
+    "seedId": "de-0877",
+    "en": "the animal",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Tier, -e",
+        "pron": "",
+        "lit": "Ich mag alle Tiere."
+      }
+    }
+  },
+  {
+    "seedId": "de-0878",
+    "en": "great; awesome",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "toll",
+        "pron": "",
+        "lit": "Das Konzert war wirklich toll."
+      }
+    }
+  },
+  {
+    "seedId": "de-0879",
+    "en": "to wear; to carry",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "tragen",
+        "pron": "",
+        "lit": "Er trägt heute einen Anzug."
+      }
+    }
+  },
+  {
+    "seedId": "de-0880",
+    "en": "sad",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "traurig",
+        "pron": "",
+        "lit": "Warum bist du so traurig?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0881",
+    "en": "the T-shirt",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das T-Shirt, -s",
+        "pron": "",
+        "lit": "Ich kaufe mir ein neues T-Shirt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0882",
+    "en": "everywhere",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "überall",
+        "pron": "",
+        "lit": "Ich habe dich überall gesucht."
+      }
+    }
+  },
+  {
+    "seedId": "de-0883",
+    "en": "to forget",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "vergessen",
+        "pron": "",
+        "lit": "Ich habe meinen Regenschirm vergessen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0884",
+    "en": "true",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "wahr",
+        "pron": "",
+        "lit": "Ist das wirklich wahr?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0885",
+    "en": "warm",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "warm",
+        "pron": "",
+        "lit": "Heute ist es sehr warm."
+      }
+    }
+  },
+  {
+    "seedId": "de-0886",
+    "en": "really",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "wirklich",
+        "pron": "",
+        "lit": "Das ist wirklich schön."
+      }
+    }
+  },
+  {
+    "seedId": "de-0887",
+    "en": "the living room",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "das Wohnzimmer, -",
+        "pron": "",
+        "lit": "Wir sitzen abends im Wohnzimmer."
+      }
+    }
+  },
+  {
+    "seedId": "de-0888",
+    "en": "to show",
+    "cat": "Level 1",
+    "translations": {
+      "de": {
+        "text": "zeigen",
+        "pron": "",
+        "lit": "Kannst du mir den Weg zeigen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0889",
+    "en": "the pharmacy",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Apotheke, -n",
+        "pron": "",
+        "lit": "Die Apotheke ist gleich um die Ecke."
+      }
+    }
+  },
+  {
+    "seedId": "de-0890",
+    "en": "the article",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "der Artikel, -",
+        "pron": "",
+        "lit": "Hast du den Artikel in der Zeitung gelesen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0891",
+    "en": "to open",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "aufmachen",
+        "pron": "",
+        "lit": "Kannst du bitte die Tür aufmachen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0892",
+    "en": "to pay attention; to watch out",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "aufpassen",
+        "pron": "",
+        "lit": "Pass auf, das Auto kommt!"
+      }
+    }
+  },
+  {
+    "seedId": "de-0893",
+    "en": "to tidy up",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "aufräumen",
+        "pron": "",
+        "lit": "Ich muss noch mein Zimmer aufräumen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0894",
+    "en": "to do crafts",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "basteln",
+        "pron": "",
+        "lit": "Die Kinder basteln gern mit Papier."
+      }
+    }
+  },
+  {
+    "seedId": "de-0895",
+    "en": "especially",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "besonders",
+        "pron": "",
+        "lit": "Das Essen war besonders lecker."
+      }
+    }
+  },
+  {
+    "seedId": "de-0896",
+    "en": "the library",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Bibliothek, -en",
+        "pron": "",
+        "lit": "Ich lerne oft in der Bibliothek."
+      }
+    }
+  },
+  {
+    "seedId": "de-0897",
+    "en": "the blouse",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Bluse, -n",
+        "pron": "",
+        "lit": "Sie trägt eine weiße Bluse."
+      }
+    }
+  },
+  {
+    "seedId": "de-0898",
+    "en": "the adult",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "der/die Erwachsene, -n",
+        "pron": "",
+        "lit": "Der Eintritt kostet für Erwachsene zehn Euro."
+      }
+    }
+  },
+  {
+    "seedId": "de-0899",
+    "en": "the camera",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "der Fotoapparat, -e",
+        "pron": "",
+        "lit": "Ich habe meinen Fotoapparat vergessen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0900",
+    "en": "cozy",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "gemütlich",
+        "pron": "",
+        "lit": "Das Café ist sehr gemütlich."
+      }
+    }
+  },
+  {
+    "seedId": "de-0901",
+    "en": "the story; history",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Geschichte, -n",
+        "pron": "",
+        "lit": "Erzähl mir eine Geschichte!"
+      }
+    }
+  },
+  {
+    "seedId": "de-0902",
+    "en": "hopefully",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "hoffentlich",
+        "pron": "",
+        "lit": "Hoffentlich kommt der Bus pünktlich."
+      }
+    }
+  },
+  {
+    "seedId": "de-0903",
+    "en": "pretty",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "hübsch",
+        "pron": "",
+        "lit": "Das ist ein hübsches Kleid."
+      }
+    }
+  },
+  {
+    "seedId": "de-0904",
+    "en": "interesting",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "interessant",
+        "pron": "",
+        "lit": "Das Buch ist sehr interessant."
+      }
+    }
+  },
+  {
+    "seedId": "de-0905",
+    "en": "the teenager",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "der/die Jugendliche, -n",
+        "pron": "",
+        "lit": "Viele Jugendliche treffen sich im Park."
+      }
+    }
+  },
+  {
+    "seedId": "de-0906",
+    "en": "the class test",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Klassenarbeit, -en",
+        "pron": "",
+        "lit": "Morgen schreiben wir eine Klassenarbeit."
+      }
+    }
+  },
+  {
+    "seedId": "de-0907",
+    "en": "the piano",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "das Klavier, -e",
+        "pron": "",
+        "lit": "Sie spielt sehr gut Klavier."
+      }
+    }
+  },
+  {
+    "seedId": "de-0908",
+    "en": "the message; news",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Nachricht, -en",
+        "pron": "",
+        "lit": "Ich habe dir eine Nachricht geschickt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0909",
+    "en": "nobody",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "niemand",
+        "pron": "",
+        "lit": "Niemand war zu Hause."
+      }
+    }
+  },
+  {
+    "seedId": "de-0910",
+    "en": "the earring",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "der Ohrring, -e",
+        "pron": "",
+        "lit": "Sie trägt goldene Ohrringe."
+      }
+    }
+  },
+  {
+    "seedId": "de-0911",
+    "en": "to happen",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "passieren",
+        "pron": "",
+        "lit": "Was ist passiert?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0912",
+    "en": "the postcard",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die Postkarte, -n",
+        "pron": "",
+        "lit": "Ich schicke dir eine Postkarte aus dem Urlaub."
+      }
+    }
+  },
+  {
+    "seedId": "de-0913",
+    "en": "to ride (a horse)",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "reiten",
+        "pron": "",
+        "lit": "Sie reitet jeden Samstag."
+      }
+    }
+  },
+  {
+    "seedId": "de-0914",
+    "en": "the ship",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "das Schiff, -e",
+        "pron": "",
+        "lit": "Das Schiff fährt nach Italien."
+      }
+    }
+  },
+  {
+    "seedId": "de-0915",
+    "en": "likeable",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "sympathisch",
+        "pron": "",
+        "lit": "Dein neuer Kollege ist sehr sympathisch."
+      }
+    }
+  },
+  {
+    "seedId": "de-0916",
+    "en": "the subway",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "die U-Bahn, -en",
+        "pron": "",
+        "lit": "Ich fahre mit der U-Bahn zur Arbeit."
+      }
+    }
+  },
+  {
+    "seedId": "de-0917",
+    "en": "to practice",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "üben",
+        "pron": "",
+        "lit": "Wir müssen die Vokabeln noch üben."
+      }
+    }
+  },
+  {
+    "seedId": "de-0918",
+    "en": "crazy",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "verrückt",
+        "pron": "",
+        "lit": "Das ist eine verrückte Idee."
+      }
+    }
+  },
+  {
+    "seedId": "de-0919",
+    "en": "to wake (someone) up",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "wecken",
+        "pron": "",
+        "lit": "Kannst du mich morgen um sieben wecken?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0920",
+    "en": "to close",
+    "cat": "Level 2",
+    "translations": {
+      "de": {
+        "text": "zumachen",
+        "pron": "",
+        "lit": "Bitte mach das Fenster zu."
+      }
+    }
+  },
+  {
+    "seedId": "de-0921",
+    "en": "the idea; clue",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "die Ahnung, -en",
+        "pron": "",
+        "lit": "Ich habe keine Ahnung, wo mein Schlüssel ist."
+      }
+    }
+  },
+  {
+    "seedId": "de-0922",
+    "en": "stupid; silly",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "blöd",
+        "pron": "",
+        "lit": "Das war wirklich blöd von mir."
+      }
+    }
+  },
+  {
+    "seedId": "de-0923",
+    "en": "the island",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "die Insel, -n",
+        "pron": "",
+        "lit": "Wir machen Urlaub auf einer Insel."
+      }
+    }
+  },
+  {
+    "seedId": "de-0924",
+    "en": "the jam",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "die Marmelade, -n",
+        "pron": "",
+        "lit": "Zum Frühstück esse ich Brot mit Marmelade."
+      }
+    }
+  },
+  {
+    "seedId": "de-0925",
+    "en": "at least",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "mindestens",
+        "pron": "",
+        "lit": "Du brauchst mindestens zwei Stunden dafür."
+      }
+    }
+  },
+  {
+    "seedId": "de-0926",
+    "en": "the eraser",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "der Radiergummi, -s",
+        "pron": "",
+        "lit": "Kannst du mir deinen Radiergummi leihen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0927",
+    "en": "the puzzle; riddle",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "das Rätsel, -",
+        "pron": "",
+        "lit": "Die Kinder lösen gern Rätsel."
+      }
+    }
+  },
+  {
+    "seedId": "de-0928",
+    "en": "the pain",
+    "cat": "Level 3",
+    "translations": {
+      "de": {
+        "text": "der Schmerz, -en",
+        "pron": "",
+        "lit": "Ich habe Schmerzen im Rücken."
+      }
+    }
+  },
+  {
+    "seedId": "de-0929",
+    "en": "Easter",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "Ostern",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0930",
+    "en": "Christmas",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "Weihnachten",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0931",
+    "en": "carnival",
+    "cat": "Zeit",
+    "translations": {
+      "de": {
+        "text": "der Karneval",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0932",
+    "en": "Italy",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "Italien",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0933",
+    "en": "the Italian (person)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "der Italiener",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0934",
+    "en": "Italian (adjective)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "italienisch",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0935",
+    "en": "England",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "England",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0936",
+    "en": "the Englishman (person)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "der Engländer",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0937",
+    "en": "English (adjective)",
+    "cat": "Land",
+    "translations": {
+      "de": {
+        "text": "englisch",
+        "pron": "",
+        "lit": ""
+      }
+    }
+  },
+  {
+    "seedId": "de-0938",
+    "en": "the blog",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "der Blog, -s",
+        "pron": "",
+        "lit": "Sie schreibt einen Blog über Reisen."
+      }
+    }
+  },
+  {
+    "seedId": "de-0939",
+    "en": "the CD player",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "der CD-Player, -",
+        "pron": "",
+        "lit": "Der CD-Player ist kaputt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0940",
+    "en": "to chat (online)",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "chatten",
+        "pron": "",
+        "lit": "Ich chatte oft mit meinen Freunden."
+      }
+    }
+  },
+  {
+    "seedId": "de-0941",
+    "en": "the chat",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "der Chat, -s",
+        "pron": "",
+        "lit": "Wir treffen uns im Chat."
+      }
+    }
+  },
+  {
+    "seedId": "de-0942",
+    "en": "the cola",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "die Cola, -s",
+        "pron": "",
+        "lit": "Ich trinke gern Cola."
+      }
+    }
+  },
+  {
+    "seedId": "de-0943",
+    "en": "the comic book",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "der Comic, -s",
+        "pron": "",
+        "lit": "Mein Bruder liest gern Comics."
+      }
+    }
+  },
+  {
+    "seedId": "de-0944",
+    "en": "cool",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "cool",
+        "pron": "",
+        "lit": "Das ist ein cooles T-Shirt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0945",
+    "en": "the DVD",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "die DVD, -s",
+        "pron": "",
+        "lit": "Wir schauen heute eine DVD."
+      }
+    }
+  },
+  {
+    "seedId": "de-0946",
+    "en": "to fax",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "faxen",
+        "pron": "",
+        "lit": "Können Sie mir das Formular faxen?"
+      }
+    }
+  },
+  {
+    "seedId": "de-0947",
+    "en": "to google",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "googeln",
+        "pron": "",
+        "lit": "Ich habe die Adresse gegoogelt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0948",
+    "en": "the homepage",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "die Homepage, -s",
+        "pron": "",
+        "lit": "Die Homepage der Schule ist neu."
+      }
+    }
+  },
+  {
+    "seedId": "de-0949",
+    "en": "the laptop",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "der Laptop, -s",
+        "pron": "",
+        "lit": "Ich arbeite mit meinem Laptop."
+      }
+    }
+  },
+  {
+    "seedId": "de-0950",
+    "en": "to email",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "mailen",
+        "pron": "",
+        "lit": "Ich maile dir die Fotos."
+      }
+    }
+  },
+  {
+    "seedId": "de-0951",
+    "en": "the mailbox; voicemail",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "die Mailbox, -en",
+        "pron": "",
+        "lit": "Sprich bitte auf die Mailbox."
+      }
+    }
+  },
+  {
+    "seedId": "de-0952",
+    "en": "online",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "online",
+        "pron": "",
+        "lit": "Ich kaufe die Bücher online."
+      }
+    }
+  },
+  {
+    "seedId": "de-0953",
+    "en": "the poster",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "das Poster, -",
+        "pron": "",
+        "lit": "An der Wand hängt ein Poster."
+      }
+    }
+  },
+  {
+    "seedId": "de-0954",
+    "en": "the smartphone",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "das Smartphone, -s",
+        "pron": "",
+        "lit": "Mein Smartphone ist neu."
+      }
+    }
+  },
+  {
+    "seedId": "de-0955",
+    "en": "to surf (the internet)",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "surfen",
+        "pron": "",
+        "lit": "Er surft gern im Internet."
+      }
+    }
+  },
+  {
+    "seedId": "de-0956",
+    "en": "the band (music group)",
+    "cat": "Anglizismen",
+    "translations": {
+      "de": {
+        "text": "die Band, -s",
+        "pron": "",
+        "lit": "Die Band spielt heute Abend live."
+      }
+    }
+  },
+  {
+    "seedId": "de-0957",
+    "en": "the architect",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Architekt, -en",
+        "pron": "",
+        "lit": "Mein Onkel ist Architekt."
+      }
+    }
+  },
+  {
+    "seedId": "de-0958",
+    "en": "the doctor (female)",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "die Ärztin, -nen",
+        "pron": "",
+        "lit": "Meine Schwester ist Ärztin."
+      }
+    }
+  },
+  {
+    "seedId": "de-0959",
+    "en": "the technician",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Techniker, -",
+        "pron": "",
+        "lit": "Der Techniker repariert den Computer."
+      }
+    }
+  },
+  {
+    "seedId": "de-0960",
+    "en": "the employee",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der/die Angestellte, -n",
+        "pron": "",
+        "lit": "Sie ist Angestellte bei einer Bank."
+      }
+    }
+  },
+  {
+    "seedId": "de-0961",
+    "en": "the artist",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Künstler, -",
+        "pron": "",
+        "lit": "Er ist ein bekannter Künstler."
+      }
+    }
+  },
+  {
+    "seedId": "de-0962",
+    "en": "the engineer",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Ingenieur, -e",
+        "pron": "",
+        "lit": "Mein Vater arbeitet als Ingenieur."
+      }
+    }
+  },
+  {
+    "seedId": "de-0963",
+    "en": "the businessman",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Kaufmann, Kaufleute",
+        "pron": "",
+        "lit": "Er hat eine Ausbildung zum Kaufmann gemacht."
+      }
+    }
+  },
+  {
+    "seedId": "de-0964",
+    "en": "the businesswoman",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "die Kauffrau, -en",
+        "pron": "",
+        "lit": "Sie arbeitet als Kauffrau im Büro."
+      }
+    }
+  },
+  {
+    "seedId": "de-0965",
+    "en": "the actor",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Schauspieler, -",
+        "pron": "",
+        "lit": "Er möchte Schauspieler werden."
+      }
+    }
+  },
+  {
+    "seedId": "de-0966",
+    "en": "the secretary",
+    "cat": "Berufe",
+    "translations": {
+      "de": {
+        "text": "der Sekretär, -e",
+        "pron": "",
+        "lit": "Der Sekretär beantwortet die Anrufe."
+      }
+    }
+  },
+  {
+    "seedId": "de-0967",
+    "en": "the primary school",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Grundschule, -n",
+        "pron": "",
+        "lit": "Meine Tochter geht in die Grundschule."
+      }
+    }
+  },
+  {
+    "seedId": "de-0968",
+    "en": "the secondary modern school",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Hauptschule, -n",
+        "pron": "",
+        "lit": "Er geht auf die Hauptschule."
+      }
+    }
+  },
+  {
+    "seedId": "de-0969",
+    "en": "the grammar school",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "das Gymnasium, Gymnasien",
+        "pron": "",
+        "lit": "Sie besucht das Gymnasium."
+      }
+    }
+  },
+  {
+    "seedId": "de-0970",
+    "en": "the language school",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Sprachschule, -n",
+        "pron": "",
+        "lit": "Ich lerne Deutsch in einer Sprachschule."
+      }
+    }
+  },
+  {
+    "seedId": "de-0971",
+    "en": "mathematics",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Mathematik",
+        "pron": "",
+        "lit": "Mathematik ist mein Lieblingsfach."
+      }
+    }
+  },
+  {
+    "seedId": "de-0972",
+    "en": "geography",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Geografie",
+        "pron": "",
+        "lit": "In Geografie lernen wir über Länder."
+      }
+    }
+  },
+  {
+    "seedId": "de-0973",
+    "en": "art",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Kunst, Künste",
+        "pron": "",
+        "lit": "Kunst macht mir viel Spaß."
+      }
+    }
+  },
+  {
+    "seedId": "de-0974",
+    "en": "social studies",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Sozialkunde",
+        "pron": "",
+        "lit": "In Sozialkunde sprechen wir über Politik."
+      }
+    }
+  },
+  {
+    "seedId": "de-0975",
+    "en": "physics",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Physik",
+        "pron": "",
+        "lit": "Physik finde ich schwierig."
+      }
+    }
+  },
+  {
+    "seedId": "de-0976",
+    "en": "chemistry",
+    "cat": "Schulfächer",
+    "translations": {
+      "de": {
+        "text": "die Chemie",
+        "pron": "",
+        "lit": "Wir machen heute ein Experiment in Chemie."
       }
     }
   }
