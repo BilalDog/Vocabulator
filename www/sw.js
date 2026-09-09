@@ -1,4 +1,4 @@
-const CACHE_NAME = "vocabulator-v4";
+const CACHE_NAME = "vocabulator-v5";
 const ASSETS = [
   "./",
   "./index.html",
