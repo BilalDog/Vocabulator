@@ -15,6 +15,11 @@
 // against three real Goethe "Start Deutsch 1" exam papers (Modellsatz +
 // two Übungssätze) and finding a handful of common, general-purpose words
 // that weren't yet covered (e.g. die Person, natürlich, die Telefonnummer).
+//
+// The "Sentences" category is a further ~44 complete, natural sentences
+// (not single words) drawn directly from those same three exam papers --
+// their dialogue transcripts, phone messages, and personal letters -- so
+// they're realistic, exam-grounded things to actually say or write.
 window.DE_A1_SEED_ENTRIES = 
 [
   {
@@ -9335,6 +9340,534 @@ window.DE_A1_SEED_ENTRIES =
     "translations": {
       "de": {
         "text": "der Alltag",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "How do I get to the second floor from here?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wie komme ich denn hier in den zweiten Stock?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Go around the corner to the right here and take the elevator.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Gehen Sie hier rechts um die Ecke und nehmen Sie den Aufzug.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I still have a lot to do.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich habe noch viel zu tun.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Where are you going, then?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wohin fahren Sie denn?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please call me on my cell phone.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Rufen Sie mich bitte auf dem Handy an.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Can you come over quickly?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Kannst du schnell mal rüberkommen?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "My computer has a problem.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Mein Computer hat einen Fehler.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I can't print anything.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich kann nichts drucken.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please get in touch as soon as you get home.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Melde dich bitte gleich, wenn du nach Hause kommst.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Unfortunately, we can't come to you on Saturday.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wir können am Samstag leider nicht zu Ihnen kommen.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "But we have time on Sunday.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Am Sonntag haben wir aber Zeit.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please call us back to say if that works for you.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Rufen Sie uns bitte zurück, ob Ihnen das passt.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I'm still on the train.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich bin noch im Zug.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "You're picking me up from the station, right?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Du holst mich doch vom Bahnhof ab?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I'll wait for you at the information desk.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich warte an der Information auf dich.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I've already been waiting for you for over 20 minutes.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich warte schon über 20 Minuten auf dich.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Then I'll take a taxi.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Dann nehme ich ein Taxi.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "How much does this sweater cost now?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Was kostet dieser Pullover jetzt?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I'll take it.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Den nehme ich.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "What time is it, please?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wie spät ist es bitte?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "What would you like?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Was wünschen Sie bitte?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I would like the salad plate.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich hätte gern die Salatplatte.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I don't eat meat.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich esse kein Fleisch.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Is there something without meat?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Gibt es etwas ohne Fleisch?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Where do I find Mr. Schneider?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wo finde ich Herrn Schneider?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Wait a moment.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Warten Sie mal.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Thanks for your email.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Danke für deine Mail.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I'll wait for you in front of the information desk.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich warte auf dich vor der Auskunft.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "You can reach me on my cell phone all morning.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Du kannst mich den ganzen Vormittag auf meinem Handy erreichen.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I would like to celebrate with you.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich möchte gerne mit dir feiern.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Could you maybe bring a salad?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Kannst du vielleicht einen Salat mitbringen?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please don't forget a sweater or a jacket!",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Vergiss bitte nicht einen Pullover oder eine Jacke!",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "I'm really looking forward to seeing you!",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ich freue mich sehr auf dich!",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Do you know where to find children's clothing here?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Weißt du, wo es hier Kleidung für Kinder gibt?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "The museum closes in half an hour.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Das Museum schließt in einer halben Stunde.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "My doctor says I should exercise more.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Mein Arzt sagt, ich soll mehr Sport machen.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Are you going on vacation at the seaside again this year?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Machen Sie dieses Jahr wieder Urlaub am Meer?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please don't get off!",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Bitte steigen Sie nicht aus!",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "We'll continue in a moment.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wir fahren gleich weiter.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please come to the bus on time.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Bitte kommen Sie pünktlich zum Bus.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Is my dictionary maybe at your place?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Ist mein Wörterbuch vielleicht bei dir?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please bring it to class right away.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Bring es bitte gleich in den Kurs mit.",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Shall we meet at 1 pm?",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Wollen wir uns um 13 Uhr treffen?",
+        "pron": "",
+        "lit": "",
+        "verify": false
+      }
+    }
+  },
+  {
+    "en": "Please call me back by 6 pm.",
+    "cat": "Sentences",
+    "translations": {
+      "de": {
+        "text": "Rufen Sie mich bitte bis 18 Uhr zurück.",
         "pron": "",
         "lit": "",
         "verify": false

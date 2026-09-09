@@ -23,7 +23,11 @@ menu in the top right:
   (Common)**, **Tier 3 (Extended)** — by everyday frequency, so you're not
   facing the whole list at once; work through Tier 1 first, then expand.
   The other categories (Zahlen, Wochentage, Monate, ...) are the
-  document's own small supplementary word groups.
+  document's own small supplementary word groups. A **Sentences** category
+  holds ~44 complete, natural sentences (not single words) pulled directly
+  from those same three exam papers' dialogues, phone messages, and
+  personal letters — realistic things to actually say or write, not just
+  vocabulary in isolation.
 
 Vocabulary is stored as one list of English entries, each optionally
 carrying a translation per language — adding a third language later is
